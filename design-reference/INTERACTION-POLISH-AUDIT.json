@@ -1,0 +1,386 @@
+[
+  {
+    "breadcrumbDelta": 0,
+    "folderCenterDelta": null,
+    "headingCardDelta": 0,
+    "overflow": false,
+    "route": "#resident?id=res-r3",
+    "theme": "light",
+    "ui": "v2",
+    "width": 1440,
+    "menu": {
+      "itemCount": 5,
+      "withinViewport": true
+    },
+    "popup": {
+      "font": "14px",
+      "line": "22px"
+    }
+  },
+  {
+    "breadcrumbDelta": 0,
+    "folderCenterDelta": 0,
+    "headingCardDelta": 0,
+    "overflow": false,
+    "route": "#facility?fid=f1",
+    "theme": "light",
+    "ui": "v2",
+    "width": 1440
+  },
+  {
+    "breadcrumbDelta": null,
+    "folderCenterDelta": null,
+    "headingCardDelta": null,
+    "overflow": false,
+    "route": "#users",
+    "theme": "light",
+    "ui": "v2",
+    "width": 1440
+  },
+  {
+    "breadcrumbDelta": null,
+    "folderCenterDelta": null,
+    "headingCardDelta": 0,
+    "overflow": false,
+    "route": "#settings",
+    "theme": "light",
+    "ui": "v2",
+    "width": 1440
+  },
+  {
+    "breadcrumbDelta": 0,
+    "folderCenterDelta": null,
+    "headingCardDelta": 0,
+    "overflow": false,
+    "route": "#resident?id=res-r3",
+    "theme": "light",
+    "ui": "v2",
+    "width": 375,
+    "menu": {
+      "itemCount": 5,
+      "withinViewport": true
+    },
+    "popup": {
+      "font": "14px",
+      "line": "22px"
+    }
+  },
+  {
+    "breadcrumbDelta": 0,
+    "folderCenterDelta": 0,
+    "headingCardDelta": 0,
+    "overflow": false,
+    "route": "#facility?fid=f1",
+    "theme": "light",
+    "ui": "v2",
+    "width": 375
+  },
+  {
+    "breadcrumbDelta": null,
+    "folderCenterDelta": null,
+    "headingCardDelta": null,
+    "overflow": false,
+    "route": "#users",
+    "theme": "light",
+    "ui": "v2",
+    "width": 375
+  },
+  {
+    "breadcrumbDelta": null,
+    "folderCenterDelta": null,
+    "headingCardDelta": 0,
+    "overflow": false,
+    "route": "#settings",
+    "theme": "light",
+    "ui": "v2",
+    "width": 375
+  },
+  {
+    "breadcrumbDelta": 0,
+    "folderCenterDelta": null,
+    "headingCardDelta": 0,
+    "overflow": false,
+    "route": "#resident?id=res-r3",
+    "theme": "dark",
+    "ui": "v2",
+    "width": 1440,
+    "menu": {
+      "itemCount": 5,
+      "withinViewport": true
+    },
+    "popup": {
+      "font": "14px",
+      "line": "22px"
+    }
+  },
+  {
+    "breadcrumbDelta": 0,
+    "folderCenterDelta": 0,
+    "headingCardDelta": 0,
+    "overflow": false,
+    "route": "#facility?fid=f1",
+    "theme": "dark",
+    "ui": "v2",
+    "width": 1440
+  },
+  {
+    "breadcrumbDelta": null,
+    "folderCenterDelta": null,
+    "headingCardDelta": null,
+    "overflow": false,
+    "route": "#users",
+    "theme": "dark",
+    "ui": "v2",
+    "width": 1440
+  },
+  {
+    "breadcrumbDelta": null,
+    "folderCenterDelta": null,
+    "headingCardDelta": 0,
+    "overflow": false,
+    "route": "#settings",
+    "theme": "dark",
+    "ui": "v2",
+    "width": 1440
+  },
+  {
+    "breadcrumbDelta": 0,
+    "folderCenterDelta": null,
+    "headingCardDelta": 0,
+    "overflow": false,
+    "route": "#resident?id=res-r3",
+    "theme": "dark",
+    "ui": "v2",
+    "width": 375,
+    "menu": {
+      "itemCount": 5,
+      "withinViewport": true
+    },
+    "popup": {
+      "font": "14px",
+      "line": "22px"
+    }
+  },
+  {
+    "breadcrumbDelta": 0,
+    "folderCenterDelta": 0,
+    "headingCardDelta": 0,
+    "overflow": false,
+    "route": "#facility?fid=f1",
+    "theme": "dark",
+    "ui": "v2",
+    "width": 375
+  },
+  {
+    "breadcrumbDelta": null,
+    "folderCenterDelta": null,
+    "headingCardDelta": null,
+    "overflow": false,
+    "route": "#users",
+    "theme": "dark",
+    "ui": "v2",
+    "width": 375
+  },
+  {
+    "breadcrumbDelta": null,
+    "folderCenterDelta": null,
+    "headingCardDelta": 0,
+    "overflow": false,
+    "route": "#settings",
+    "theme": "dark",
+    "ui": "v2",
+    "width": 375
+  },
+  {
+    "breadcrumbDelta": 0,
+    "folderCenterDelta": null,
+    "headingCardDelta": 0,
+    "overflow": false,
+    "route": "#resident?id=res-r3",
+    "theme": "light",
+    "ui": "figma",
+    "width": 1440,
+    "menu": {
+      "itemCount": 5,
+      "withinViewport": true
+    },
+    "popup": {
+      "font": "14px",
+      "line": "22px"
+    }
+  },
+  {
+    "breadcrumbDelta": 0,
+    "folderCenterDelta": 0,
+    "headingCardDelta": 0,
+    "overflow": false,
+    "route": "#facility?fid=f1",
+    "theme": "light",
+    "ui": "figma",
+    "width": 1440
+  },
+  {
+    "breadcrumbDelta": null,
+    "folderCenterDelta": null,
+    "headingCardDelta": null,
+    "overflow": false,
+    "route": "#users",
+    "theme": "light",
+    "ui": "figma",
+    "width": 1440
+  },
+  {
+    "breadcrumbDelta": null,
+    "folderCenterDelta": null,
+    "headingCardDelta": 0,
+    "overflow": false,
+    "route": "#settings",
+    "theme": "light",
+    "ui": "figma",
+    "width": 1440
+  },
+  {
+    "breadcrumbDelta": 0,
+    "folderCenterDelta": null,
+    "headingCardDelta": 0,
+    "overflow": false,
+    "route": "#resident?id=res-r3",
+    "theme": "light",
+    "ui": "figma",
+    "width": 375,
+    "menu": {
+      "itemCount": 5,
+      "withinViewport": true
+    },
+    "popup": {
+      "font": "14px",
+      "line": "22px"
+    }
+  },
+  {
+    "breadcrumbDelta": 0,
+    "folderCenterDelta": 0,
+    "headingCardDelta": 0,
+    "overflow": false,
+    "route": "#facility?fid=f1",
+    "theme": "light",
+    "ui": "figma",
+    "width": 375
+  },
+  {
+    "breadcrumbDelta": null,
+    "folderCenterDelta": null,
+    "headingCardDelta": null,
+    "overflow": false,
+    "route": "#users",
+    "theme": "light",
+    "ui": "figma",
+    "width": 375
+  },
+  {
+    "breadcrumbDelta": null,
+    "folderCenterDelta": null,
+    "headingCardDelta": 0,
+    "overflow": false,
+    "route": "#settings",
+    "theme": "light",
+    "ui": "figma",
+    "width": 375
+  },
+  {
+    "breadcrumbDelta": 0,
+    "folderCenterDelta": null,
+    "headingCardDelta": 0,
+    "overflow": false,
+    "route": "#resident?id=res-r3",
+    "theme": "dark",
+    "ui": "figma",
+    "width": 1440,
+    "menu": {
+      "itemCount": 5,
+      "withinViewport": true
+    },
+    "popup": {
+      "font": "14px",
+      "line": "22px"
+    }
+  },
+  {
+    "breadcrumbDelta": 0,
+    "folderCenterDelta": 0,
+    "headingCardDelta": 0,
+    "overflow": false,
+    "route": "#facility?fid=f1",
+    "theme": "dark",
+    "ui": "figma",
+    "width": 1440
+  },
+  {
+    "breadcrumbDelta": null,
+    "folderCenterDelta": null,
+    "headingCardDelta": null,
+    "overflow": false,
+    "route": "#users",
+    "theme": "dark",
+    "ui": "figma",
+    "width": 1440
+  },
+  {
+    "breadcrumbDelta": null,
+    "folderCenterDelta": null,
+    "headingCardDelta": 0,
+    "overflow": false,
+    "route": "#settings",
+    "theme": "dark",
+    "ui": "figma",
+    "width": 1440
+  },
+  {
+    "breadcrumbDelta": 0,
+    "folderCenterDelta": null,
+    "headingCardDelta": 0,
+    "overflow": false,
+    "route": "#resident?id=res-r3",
+    "theme": "dark",
+    "ui": "figma",
+    "width": 375,
+    "menu": {
+      "itemCount": 5,
+      "withinViewport": true
+    },
+    "popup": {
+      "font": "14px",
+      "line": "22px"
+    }
+  },
+  {
+    "breadcrumbDelta": 0,
+    "folderCenterDelta": 0,
+    "headingCardDelta": 0,
+    "overflow": false,
+    "route": "#facility?fid=f1",
+    "theme": "dark",
+    "ui": "figma",
+    "width": 375
+  },
+  {
+    "breadcrumbDelta": null,
+    "folderCenterDelta": null,
+    "headingCardDelta": null,
+    "overflow": false,
+    "route": "#users",
+    "theme": "dark",
+    "ui": "figma",
+    "width": 375
+  },
+  {
+    "breadcrumbDelta": null,
+    "folderCenterDelta": null,
+    "headingCardDelta": 0,
+    "overflow": false,
+    "route": "#settings",
+    "theme": "dark",
+    "ui": "figma",
+    "width": 375
+  }
+]

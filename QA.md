@@ -167,3 +167,123 @@ Four theme-aware SVG illustrations replace Quickstarts orbs; Recents tasks use t
 
 
 Header edition label changed from UI kit to UI V1. Clicking UI V1 or UI V2 updates the exclusive `aria-pressed` state and active border to rgb(0,0,0), verified in both Light/Dark editions. Dark active button has a light surface for visibility.
+
+
+## Consentform functionality revision — October 8, 2026 (latest)
+
+This section supersedes earlier statements that all state is in memory, Users are read-only, or resident consent functionality is absent. Clinical OCR/eligibility/DrChrono and external delivery remain mocked.
+
+| Check | Observed result |
+| --- | --- |
+| Domain tests | `node --test tests/care-domain.test.cjs`: 19 passed, 0 failed |
+| Source fixture | 4 facilities, 62 residents, initial signed counts 14 / 17 / 11 / 0; ready and booked examples |
+| Role access | Staff roster shows only assigned Sunrise residents; direct Users access restricted; Oak resident URL unavailable |
+| Account errors | locked shows Account deactivated; platform shows Not an ENT account |
+| New resident / contacts | POA record created; bounce email failed while SMS delivered; edited email and retried successfully |
+| Edition switching | Same resident route retained; public typed signature and certification retained when switching V1 to V2 |
+| Public signing | Fictional consent became Signed; receipt shown; Sunrise reached threshold and generated PCC alert |
+| File persistence | Generated fictional PDF uploaded as Face sheet; metadata and browser file remained after reload |
+| PDF preview | Popup visibly renders consent text, resident/facility, recorded typed signature and timestamp |
+| PDF payload | Actual generator output validated by pdfinfo: valid PDF 1.4, one A4 page |
+| Scheduling | Oak Terrace’s 17 signed residents assigned Oct 20; changed to booked state; threshold disabled; Change exam date available |
+| Staff Home | Announcement, feature CTA and quickstarts now point to accessible staff workflows |
+| Staff accounts | Five seeded staff accounts and role/facility labels; create dialog shows required username, facility, minimum-length password |
+| Preferences | Profile/Preferences/Password/Sessions separate from Workspace settings; shared theme/timezone dropdowns render |
+| Mobile V1 Dark | At 375px document width 375px; card width 343px; Theme dropdown x=37px, width=301px |
+| JavaScript / assets | 11 top-level JavaScript files passed node --check; cache hashes current; local static asset paths present; ZIP CRC valid |
+
+Saved images: `ent-care-facility-v2.png`, `ent-care-resident-v1.png`, `ent-care-signed-consent-v2.png`, `ent-care-settings-v1-dark-mobile.png`, `ent-care-demo-guide-v2.png`.
+
+Browser testing used only fictional data. The QA resident, uploaded generated document, signature and booked Oak Terrace clinic remain in the current browser’s mock state; a fresh browser starts with the source fixture. Reset and Restore previous demo data are available in Demo guide.
+
+Limit: the browser download event did not yield a captured local path in the in-app browser; PDF validity was checked using the actual generator output, and the preview was verified visually. Password/account state mutations, retry/cycle cases and security scope were tested in the isolated domain tests; no live credentials, patient data, Drive uploads or Railway backend were changed.
+
+## Spacing and padding revision — October 8, 2026
+
+The PDF footer previously placed the V1 Download PDF button flush against the dialog edge (0px inset). It now has a 24px inset in V1 and the established 20px inset in V2. Both editions retain a 12px gap between footer actions. PDF, staff-account and census-review dialogs were measured; PDF and account layouts were also checked in Dark/mobile.
+
+| Geometry | UI V1 | UI V2 |
+| --- | --- | --- |
+| Dialog body/footer inset | 24px | 20px |
+| Form field row gap | 24px | 20px |
+| Card internal padding | 24px | 24px |
+| Card section gap | 24px | 24px |
+| Footer action gap | 12px | 12px |
+| Page gutter, desktop / mobile | 24px / 24px | 32px / 16px |
+| Census toolbar control height | 32px | 36px |
+
+Removed field margins that doubled grid row spacing, aligned roster and activity filter controls, and unified page/card gutters within each edition. At tablet widths the census toolbar wraps intentionally; gallery tables scroll within their containers and pagination wraps. V1 tablet header search moves below the page tabs.
+
+DOM width checks covered 13 routes × 2 editions × 3 viewports (1440×1000, 900×1000, 375×812): all 78 combinations had no document-level horizontal overflow. This is a geometry sweep; visual checks focused on forms, toolbars and representative Light/Dark dialogs. No console errors were captured during this pass. Functional state was unchanged by this CSS revision.
+
+Measured evidence: `design-reference/SPACING-AUDIT.json`. Screenshots: `spacing-v1-pdf.png`, `spacing-v2-pdf.png`, `spacing-v1-pdf-dark-mobile.png`, `spacing-v2-pdf-dark-mobile.png`. These measurements supersede the earlier mobile V1 card-width entry above.
+
+### Follow-up: toolbar group alignment
+
+The Residents toolbar still vertically centered the tab group against the taller labeled filter group. The shared `.care-roster-toolbar` now aligns its groups to their bottom edge. In the Staff desktop roster all seven tabs/search/select controls share y=300px and height=36px in UI V2 Light/Dark; the UI V1 regression check shares y=202px and height=32px. Visible select labels remain above their controls.
+
+Reviewed Residents, Staff accounts, Activity log, Facilities, Facility detail, Census, Intake, Tasks, Notes and Emails at 1440×1000, 900×1000 and 375×812. All 30 UI V2 route/viewport combinations had no document-level horizontal overflow. At desktop, existing facility/census/intake toolbar inputs and actions were already aligned at 36px; multirow rosters and activity filters retain intentional wrapping when space is insufficient.
+
+Evidence: `design-reference/TOOLBAR-ALIGNMENT-AUDIT.json`; screenshot `spacing-v2-residents-toolbar.png`. This revision changes CSS alignment only.
+
+### Follow-up: centered forms and card/field styles
+
+Fresh Figma contexts for Universal Cards 6155:20893 and Fields 4006:178 confirmed V1 card corners 10px, Light card border #E5E5EC, full-form field border #F1F1F5 and field corners 10px. Shared card tokens now cover care cards, review summary/comparison blocks, universal/task cards and panel surfaces. V1 Dark care cards use #252528; V2 uses #212122. V2 Kanban cards now match the 16px general card geometry; upload panels retain their 20px variant. Actual paper/PDF previews remain document surfaces.
+
+The 860px standalone form column, headings and Settings tabs are centered in both editions. Activity dates now use compact padding/borders/radius as well as the previously fixed compact height and baseline. Removed the duplicated detail-card/field spacing in Census review.
+
+Measured 60 route/state/edition/viewport combinations and 24 additional header/form alignments: no document-level overflow, no constrained form off-center, no visible inspected general card with the wrong edition radius. Representative Light/Dark settings and review blocks, source comparison blocks, upload panels and both galleries were checked. V2 actual Kanban was checked at 1440px/375px: all ten cards have 16px corners and no document overflow. No form or decision was submitted.
+
+See `design-reference/UI-UX-CARD-REVIEW.md` for the independent skill assessments and source distinctions; measured evidence is `design-reference/CARD-FIELD-LAYOUT-AUDIT.json`. Screenshots use the `card-*` prefix.
+
+## Interaction and visual polish — 8 October 2026
+
+Applied the user's explicit refinements to the shared care components with the distill and polish skills.
+
+- Account controls are anchored menus in both editions, including the V2 mobile navigation drawer. Profile & settings navigates, Switch demo role opens the role guide, and Sign out remains available.
+- Resident Consent presents its main action followed by More actions. The existing copy, open, reminder, replace-link and contact-preference functions remain accessible; signed residents keep the PDF action. Staff accounts show Edit followed by a menu for reset-password and activation actions.
+- Menu focus supports Arrow Up/Down, Home/End and Escape; Tab and outside click dismiss the menu; Escape returns focus to the trigger. Selecting an action closes its menu before opening the confirmation dialog.
+- Thirty-two measured states: Resident, Facility, Staff accounts and Settings × V1/V2 × light/dark × 1440×1000 / 375×812. No document overflow, breadcrumb/title/card misalignment or Drive-folder label/button center mismatch. Eight consent dropdowns fit the viewport and retain five actions for a sent request; all eight contact-preference popups use 14px / 22px body text.
+- Confirmation dialogs were canceled; no contact preferences, signing links, messages, account status or credentials were changed during these checks.
+- V2 login loads the exact 1024×1536 WebP embedded in the engineer's HTML. V1 retains its existing login artwork.
+- Both V2 home banners omit decorative artwork and redundant workflow lists. Staff banner-to-library spacing is 24px; all four Quickstart illustrations and their links remain. Admin census/intake banner tabs remain functional.
+- Initial avatars now have a visible surface and contrasting text, with actual name initials. Semantic task-status colors remain unchanged.
+- Fixed an initialization-order error introduced during the profile update: V2 shell guards care helpers until care.js loads. Reload and edition switching were then verified on the resident route.
+
+Evidence: `design-reference/INTERACTION-POLISH-AUDIT.json` and `screenshots/polish-*.png`.
+
+## Compact filter row — 8 October, 12:10 request
+
+Search and toolbar select controls explicitly share the edition's compact height (32px V1, 36px V2). The search/select group stays on one line on desktop; date controls move together to another row only when available width is insufficient. Date field margins are removed, and their 152px width keeps the native date text/calendar readable. Tablet/mobile groups wrap without document overflow. V1 decorative header avatars and the theme caption yield space at tablet widths.
+
+Checked Activity, Residents, Facilities and Census × V1/V2 × 1440, 1264, 1024, 820 and 375px (40 states). Search/select heights agree in every state; the desktop controls occupy one row. Tablet overflow found in the V1 header on Residents and Census was corrected and rechecked at 820px and 761px. Selecting Channels → SMS returned only SMS rows; Reset filters restored the unfiltered activity list. Evidence: `design-reference/FILTER-ROW-AUDIT.json`, `screenshots/filter-row-v1.png`, `screenshots/filter-row-v2.png`.
+
+## V1 underline navigation — 8 October, 12:22 request
+
+V1 shared pill tab groups now follow the existing All Mails / Unread / Archive navigation: 46px button height, 14px text, transparent background, no rounded pill border, and a 3px active underline. This covers Residents, Staff accounts, Census, Intake, account Settings and the Draw/Type signature selector. Selected-state handlers and counts are preserved.
+
+Search/filter rows are below V1 navigation on Residents, Staff accounts, Census and Intake. V1 Emails search/filter follows the mailbox tabs; V1 Tasks search/filter follows the List/Kanban tabs. Notes search is below the main UI Kit navigation. Desktop header CTAs remain available.
+
+Verified eight routes at 1280px and 375px in light/dark plus the signature selector (41 recorded observations including the initial eight desktop captures). No document overflow or pill styling remained in the shared V1 groups; all measured search/filter rows follow their tabs. Needs attention, Kanban, Unread and Type signature switches were exercised without submitting forms. V2 retains 36px / 10px rounded pills without underlines; Tasks retains its original search and horizontal viewbar. All additions use V1 selectors or conditional V1 markup.
+
+The original browser tab temporarily stopped responding; verification and screenshots used a fresh local preview tab. Evidence: `design-reference/V1-UNDERLINE-TABS-AUDIT.json` and `screenshots/tabs-v1-*.png`.
+
+## Complete feedback reconciliation — 8 October 2026
+
+Earlier component sweeps did not cover every popup or staff-specific layout. Reconciled the user's screenshots in `design-reference/COMPLETE-NOTES-AUDIT.md` and fixed additional Task/Note editor inset drift, small popup descriptive text, mobile V1 Settings pills, contact metadata size, phone prefix centering, dark V2 Help/integration/reward/plan card surfaces, Share excerpt clipping, Settings row gaps, dialog naming, and action-menu focus restoration.
+
+V2 staff roster had an actual wrapping regression at 1440px; reduced its filter flex basis to fit beside tabs. The two-select staff variant and three-select admin variant are explicitly distinguished. V1 filter rows remain below underline tabs.
+
+Evidence includes 208 route geometry observations, 36 Settings category observations, 56 dialog observations, explicit staff screenshots and four final Profile geometry measurements. These are visual/geometry checks, not 300 separate end-to-end workflows. No observed document overflow or missing visible assets; no captured app warnings/errors. Existing 19 domain tests pass. New staff account and credential dialogs were opened/canceled; no live data or messages were changed.
+
+The original user browser tab did not respond to reload. The HTTP server's cwd and returned HTML match this workspace; a fresh preview tab is kept at `http://127.0.0.1:4173/?rev=feedback-20261008#residents`. Screenshot evidence uses the `reconcile-` prefix. Full scope and limits are in the reconciliation report.
+
+
+### Residents V2 — inline admin toolbar (8 Oct 2026, 13:47 feedback)
+
+Tabs, search, Facility, Consent status and Sort share one desktop row when the toolbar has at least 1090px of available width. Verified at 1440px viewport: every control y=300px, height=36px, select values unclipped, no page overflow. Smaller desktop (1280px) and mobile (375px) wrap without horizontal page overflow. V1 retains tabs above filters. Evidence: design-reference/ROSTER-INLINE-EVIDENCE.json and screenshots/v2-admin-roster-single-row.png.
+
+
+### Residents V1 — full-width search (8 Oct 2026, 13:48 feedback)
+
+Removed the 320px maximum search width for the V1 Residents filters, matching Census audit's flexible search row. Verified at 1440px: search width 676px, all search/select controls share y=249px, final select flush with the filter row's right edge, no page overflow. At 375px the page remains without horizontal overflow. Screenshot: screenshots/v1-residents-expanded-search.png. V2 scope is unchanged by this rule.

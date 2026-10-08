@@ -1,0 +1,61 @@
+{
+  "assets": [
+    {
+      "contentType": "font/woff2",
+      "id": "d27e50413cf2d51f",
+      "kind": "font",
+      "name": "Waldenburg_Bold-s.p.3x8ofswqwnzku.woff2",
+      "path": "/var/folders/7f/4dmnw0q132vgykvq33z58mrc0000gp/T/browser-use/assets/8f18b88b-4b92-417e-85b9-23888ac839da/d27e50413cf2d51f.woff2",
+      "url": "https://elevenlabs.io/app_assets/_next/static/media/Waldenburg_Bold-s.p.3x8ofswqwnzku.woff2"
+    },
+    {
+      "contentType": "font/woff2",
+      "id": "c1779f5b6b23ccaa",
+      "kind": "font",
+      "name": "Waldenburg_Bold_SemiCondensed-s.p.1xwtlv9quw8fr.woff2",
+      "path": "/var/folders/7f/4dmnw0q132vgykvq33z58mrc0000gp/T/browser-use/assets/8f18b88b-4b92-417e-85b9-23888ac839da/c1779f5b6b23ccaa.woff2",
+      "url": "https://elevenlabs.io/app_assets/_next/static/media/Waldenburg_Bold_SemiCondensed-s.p.1xwtlv9quw8fr.woff2"
+    },
+    {
+      "contentType": "font/woff2",
+      "id": "aa3ca1db1ec9e560",
+      "kind": "font",
+      "name": "Waldenburg_Regular-s.p.43r3ozarrunyz.woff2",
+      "path": "/var/folders/7f/4dmnw0q132vgykvq33z58mrc0000gp/T/browser-use/assets/8f18b88b-4b92-417e-85b9-23888ac839da/aa3ca1db1ec9e560.woff2",
+      "url": "https://elevenlabs.io/app_assets/_next/static/media/Waldenburg_Regular-s.p.43r3ozarrunyz.woff2"
+    },
+    {
+      "contentType": "font/woff2",
+      "id": "2a42fc525b22daeb",
+      "kind": "font",
+      "name": "Waldenburg_Medium-s.p.0dk8kt88f3bhr.woff2",
+      "path": "/var/folders/7f/4dmnw0q132vgykvq33z58mrc0000gp/T/browser-use/assets/8f18b88b-4b92-417e-85b9-23888ac839da/2a42fc525b22daeb.woff2",
+      "url": "https://elevenlabs.io/app_assets/_next/static/media/Waldenburg_Medium-s.p.0dk8kt88f3bhr.woff2"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "c8207f835dad5232",
+      "kind": "image",
+      "name": "bg.3hxms1sd887nc.jpg",
+      "path": "/var/folders/7f/4dmnw0q132vgykvq33z58mrc0000gp/T/browser-use/assets/8f18b88b-4b92-417e-85b9-23888ac839da/c8207f835dad5232.jpg",
+      "url": "https://elevenlabs.io/app_assets/_next/static/media/bg.3hxms1sd887nc.jpg"
+    },
+    {
+      "contentType": "image/webp",
+      "id": "a5b6bc7357fbfd77",
+      "kind": "image",
+      "name": "orb-5.webp",
+      "path": "/var/folders/7f/4dmnw0q132vgykvq33z58mrc0000gp/T/browser-use/assets/8f18b88b-4b92-417e-85b9-23888ac839da/a5b6bc7357fbfd77.webp",
+      "url": "https://elevenlabs.io/public_app_assets/image/v4-banner/orb-5.webp"
+    }
+  ],
+  "directoryPath": "/var/folders/7f/4dmnw0q132vgykvq33z58mrc0000gp/T/browser-use/assets/8f18b88b-4b92-417e-85b9-23888ac839da",
+  "failures": [],
+  "manifestPath": "/var/folders/7f/4dmnw0q132vgykvq33z58mrc0000gp/T/browser-use/assets/8f18b88b-4b92-417e-85b9-23888ac839da/manifest.json",
+  "summary": {
+    "downloadedCount": 6,
+    "elapsedMs": 353.2965410016477,
+    "failedCount": 0,
+    "requestedCount": 6
+  }
+}

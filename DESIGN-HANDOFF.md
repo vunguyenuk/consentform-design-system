@@ -65,7 +65,7 @@ Components reuse the same templates and CSS tokens across Facilities, Census, In
 
 ## Integration boundaries
 
-The sidebar combines staff and admin pages for the demo. A real integration can keep separate domains and reuse these tokens/components, with server-enforced permissions. All records are fictional and state is in memory. OCR, insurance checks and DrChrono actions are simulated.
+Consentform navigation now follows admin/staff roles; shared pages and model actions enforce the same browser demo scope. Core records persist in localStorage and documents in IndexedDB. Existing clinical and UI library sandboxes remain in memory. A real integration needs server-enforced permissions and persistence. OCR, insurance checks and DrChrono actions are simulated.
 
 Patient creation and attachment must be separate persisted states when integrating. Retry must reuse the saved Patient ID. Confirm visit-date rules, matching fields, required patient fields, insurance eligibility source and Courtesy authorization with the clinic before implementing backend workflows.
 
@@ -127,3 +127,38 @@ The user accepted the top teal/sage gradient and asked to retain the original pr
 
 
 `v2WorkflowArtwork(kind,key)` supplies four original inline SVG illustrations: census review, face sheet intake, clinic tasks and facilities. All share the clinic banner material and Light/Dark palette. SVG resource IDs derive from each route to avoid collisions. Recents task cards use the clinic/task artwork consistently and retain their item links.
+
+
+## Consentform engineer functionality — October 8
+
+`care-model.js`, `care.js` and `care.css` add the supplied engineer workflows to both editions while reusing typography, buttons, fields, custom selects, statuses, tables and modal tokens. V1 cards use the established 10px corner; V2 uses the existing 16px card corner. Public login/signing pages and account settings also inherit the selected edition and theme.
+
+The source seed replaces the old facility fixture with Sunrise Villa, Oak Terrace, Bayview and Palm Court. Core account Profile/Preferences/Password/Sessions are separate from the existing 9-section Workspace Settings sample. The sidebar Demo guide provides the supplied source screen inventory with role-specific enabled states. Header edition switching preserves core route and form drafts.
+
+See `FUNCTIONAL-COVERAGE.md` for route mapping, storage/session semantics and integration boundaries. The original engineer HTML is included unchanged for review.
+
+## Shared spacing implementation — October 8
+
+Semantic CSS tokens now cover page gutters, dialog/card insets, form row gaps, section spacing and action gaps. Shared care workflows consume these tokens instead of adding independent margins. Each edition keeps its reference geometry: V1 dialog/form spacing is 24px, V2 is 20px; both use 24px card padding/section spacing and 12px footer action gaps. V1/V2 compact census controls are 32px/36px respectively.
+
+Dialog footer padding includes the right inset for PDF actions. Tablet census filters and narrow pagination wrap; gallery tables retain internal scrolling. V1 tablet search relocates below the tabs so header actions fit. Desktop/mobile page gutters are 24px/24px in V1 and 32px/16px in V2. See `QA.md` and `design-reference/SPACING-AUDIT.json` for measured results and responsive coverage.
+
+Care roster toolbar groups align to the bottom control edge so an unlabeled tab/search group sits on the same row as labeled selects. This is shared by Residents, Staff accounts and Activity log; wrapping remains enabled for narrow viewports. Follow-up measurements are in `design-reference/TOOLBAR-ALIGNMENT-AUDIT.json`.
+
+`--card-radius`, `--card-border` and the existing `--card` surface now define general card geometry across care cards, review blocks and task/universal cards. V1 is 10px, V2 is 16px; V2 upload panels retain their 20px corner variant. Card and field borders intentionally remain separate source roles. Activity date fields consume compact control height/radius/border tokens. Standalone care forms, their headings and account-settings tabs share a centered 860px maximum column. The source comparison and checks are documented in `design-reference/UI-UX-CARD-REVIEW.md`.
+
+## User-requested interaction polish — 8 October
+
+The care layer shares anchored account/action menus across editions. Account menus use a 280px maximum width (bounded to viewport minus 16px), 14px / 20px menu text, and keyboard navigation. V1/V2 retain their own surface, border and shadow tokens. Resident consent uses a primary action and a secondary More actions trigger; staff account rows use Edit plus More actions.
+
+Body copy inside dialogs is 14px / 22px. Field labels, captions and actual PDF document typography retain their separate styles. Breadcrumb links use plain navigation spacing so breadcrumbs, page headings and card edges share one content gutter. Facility information labels align vertically with controls. Initial avatars use a visible background/border and strong contrasting text; their text derives from name initials.
+
+V2 Sign in now uses `assets/ent/engineer-sign-in.webp`, extracted byte-for-byte from the engineer reference HTML's embedded WebP, with a readable lower photo caption. The Home feature banner is a compact text/CTA card with the V2 16px card radius and no illustration. This applies to admin census/intake and staff resident-care banners; Quickstarts retains its four ENT illustrations.
+
+## V1 navigation refinement — 8 October, 12:22
+
+The user's latest instruction replaces V1 pill-style horizontal tabs with the Cliently mail navigation pattern: 46px high, 16px horizontal padding, 14px medium text, square transparent surface and a 3px underline for the active state. Search/filter controls occupy their own following row, separated by 16px. On small screens, the navigation scrolls internally while filter controls wrap below it. Counts and existing interactions remain intact. V2 keeps its existing pill navigation and control placement.
+
+### Final feedback reconciliation
+
+Review `design-reference/COMPLETE-NOTES-AUDIT.md` for the note-to-surface mapping and verification limits. The latest source adds consistent specialized dialog insets and descriptive typography, V1 mobile library Settings underline tabs, edition field-row spacing in Settings, aligned phone prefixes, V2 dark general card tokens across Help/Integrations/Plans/Rewards, accessible dialog naming and keyboard menu dismissal. V2 staff roster uses a smaller filter flex basis to keep tabs and controls on one desktop row; V1 retains filters below tabs. Source compact status/field/button variants and PDF document typography are intentional.

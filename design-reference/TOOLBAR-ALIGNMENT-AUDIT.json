@@ -1,0 +1,1220 @@
+{
+  "checkedAt": "2026-10-08",
+  "staffV2": [
+    {
+      "bottom": 336,
+      "height": 36,
+      "text": "All residents25",
+      "y": 300
+    },
+    {
+      "bottom": 336,
+      "height": 36,
+      "text": "Needs attention7",
+      "y": 300
+    },
+    {
+      "bottom": 336,
+      "height": 36,
+      "text": "Waiting3",
+      "y": 300
+    },
+    {
+      "bottom": 336,
+      "height": 36,
+      "text": "Done15",
+      "y": 300
+    },
+    {
+      "bottom": 336,
+      "height": 36,
+      "text": "Search residents or room…",
+      "y": 300
+    },
+    {
+      "bottom": 336,
+      "height": 36,
+      "text": "All statuses",
+      "y": 300
+    },
+    {
+      "bottom": 336,
+      "height": 36,
+      "text": "Name A–Z",
+      "y": 300
+    }
+  ],
+  "staffV1": [
+    {
+      "height": 32,
+      "text": "All residents25",
+      "y": 202
+    },
+    {
+      "height": 32,
+      "text": "Needs attention7",
+      "y": 202
+    },
+    {
+      "height": 32,
+      "text": "Waiting3",
+      "y": 202
+    },
+    {
+      "height": 32,
+      "text": "Done15",
+      "y": 202
+    },
+    {
+      "height": 32,
+      "text": "Search residents or room…",
+      "y": 202
+    },
+    {
+      "height": 32,
+      "text": "All statuses",
+      "y": 202
+    },
+    {
+      "height": 32,
+      "text": "Name A–Z",
+      "y": 202
+    }
+  ],
+  "adminResponsive": [
+    {
+      "route": "residents",
+      "width": 1440,
+      "pageWidth": 1425,
+      "toolbars": [
+        {
+          "align": "flex-end",
+          "class": "care-roster-toolbar",
+          "controls": [
+            {
+              "bottom": 310,
+              "height": 36,
+              "text": "All residents63",
+              "y": 274
+            },
+            {
+              "bottom": 310,
+              "height": 36,
+              "text": "Needs attention8",
+              "y": 274
+            },
+            {
+              "bottom": 310,
+              "height": 36,
+              "text": "Waiting11",
+              "y": 274
+            },
+            {
+              "bottom": 310,
+              "height": 36,
+              "text": "Done44",
+              "y": 274
+            },
+            {
+              "bottom": 388,
+              "height": 36,
+              "text": "Search residents or room…",
+              "y": 352
+            },
+            {
+              "bottom": 388,
+              "height": 36,
+              "text": "All facilities",
+              "y": 352
+            },
+            {
+              "bottom": 388,
+              "height": 36,
+              "text": "All statuses",
+              "y": 352
+            },
+            {
+              "bottom": 388,
+              "height": 36,
+              "text": "Name A–Z",
+              "y": 352
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "users",
+      "width": 1440,
+      "pageWidth": 1440,
+      "toolbars": [
+        {
+          "align": "flex-end",
+          "class": "care-roster-toolbar",
+          "controls": [
+            {
+              "bottom": 310,
+              "height": 36,
+              "text": "All accounts",
+              "y": 274
+            },
+            {
+              "bottom": 310,
+              "height": 36,
+              "text": "Active",
+              "y": 274
+            },
+            {
+              "bottom": 310,
+              "height": 36,
+              "text": "Deactivated",
+              "y": 274
+            },
+            {
+              "bottom": 310,
+              "height": 36,
+              "text": "Search staff accounts…",
+              "y": 274
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "activity",
+      "width": 1440,
+      "pageWidth": 1425,
+      "toolbars": [
+        {
+          "align": "flex-end",
+          "class": "care-roster-toolbar",
+          "controls": [
+            {
+              "bottom": 336,
+              "height": 36,
+              "text": "Search activity…",
+              "y": 300
+            },
+            {
+              "bottom": 336,
+              "height": 36,
+              "text": "All channels",
+              "y": 300
+            },
+            {
+              "bottom": 336,
+              "height": 36,
+              "text": "All purposes",
+              "y": 300
+            },
+            {
+              "bottom": 336,
+              "height": 36,
+              "text": "All results",
+              "y": 300
+            },
+            {
+              "bottom": 336,
+              "height": 36,
+              "text": "All facilities",
+              "y": 300
+            },
+            {
+              "bottom": 414,
+              "height": 36,
+              "text": "",
+              "y": 378
+            },
+            {
+              "bottom": 414,
+              "height": 36,
+              "text": "",
+              "y": 378
+            },
+            {
+              "bottom": 414,
+              "height": 36,
+              "text": "Reset filters",
+              "y": 378
+            }
+          ]
+        },
+        {
+          "align": "center",
+          "class": "sectionhead",
+          "controls": []
+        }
+      ]
+    },
+    {
+      "route": "facilities",
+      "width": 1440,
+      "pageWidth": 1440,
+      "toolbars": [
+        {
+          "align": "center",
+          "class": "sectionhead",
+          "controls": [
+            {
+              "bottom": 422,
+              "height": 36,
+              "text": "Search facilities…",
+              "y": 386
+            },
+            {
+              "bottom": 422,
+              "height": 36,
+              "text": "All facilities",
+              "y": 386
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "facility?fid=f1",
+      "width": 1440,
+      "pageWidth": 1425,
+      "toolbars": [
+        {
+          "align": "center",
+          "class": "sectionhead",
+          "controls": [
+            {
+              "bottom": 655,
+              "height": 36,
+              "text": "Search residents or room…",
+              "y": 619
+            },
+            {
+              "bottom": 655,
+              "height": 36,
+              "text": "Audit census",
+              "y": 619
+            },
+            {
+              "bottom": 655,
+              "height": 36,
+              "text": "Face sheet intake",
+              "y": 619
+            },
+            {
+              "bottom": 655,
+              "height": 36,
+              "text": "Full roster",
+              "y": 619
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "census",
+      "width": 1440,
+      "pageWidth": 1425,
+      "toolbars": [
+        {
+          "align": "center",
+          "class": "sectionhead",
+          "controls": [
+            {
+              "bottom": 426,
+              "height": 36,
+              "text": "Filter",
+              "y": 390
+            },
+            {
+              "bottom": 426,
+              "height": 36,
+              "text": "Export report",
+              "y": 390
+            }
+          ]
+        },
+        {
+          "align": "center",
+          "class": "table-controls",
+          "controls": [
+            {
+              "bottom": 482,
+              "height": 36,
+              "text": "All residents8",
+              "y": 446
+            },
+            {
+              "bottom": 482,
+              "height": 36,
+              "text": "Needs review4",
+              "y": 446
+            },
+            {
+              "bottom": 482,
+              "height": 36,
+              "text": "Follow-up due3",
+              "y": 446
+            },
+            {
+              "bottom": 482,
+              "height": 36,
+              "text": "Search name or room…",
+              "y": 446
+            },
+            {
+              "bottom": 482,
+              "height": 36,
+              "text": "All matches",
+              "y": 446
+            },
+            {
+              "bottom": 482,
+              "height": 36,
+              "text": "All insurance",
+              "y": 446
+            },
+            {
+              "bottom": 482,
+              "height": 36,
+              "text": "Check insurance",
+              "y": 446
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "intake",
+      "width": 1440,
+      "pageWidth": 1440,
+      "toolbars": [
+        {
+          "align": "center",
+          "class": "sectionhead",
+          "controls": []
+        },
+        {
+          "align": "center",
+          "class": "table-controls intake-controls",
+          "controls": [
+            {
+              "bottom": 470,
+              "height": 36,
+              "text": "All intakes5",
+              "y": 434
+            },
+            {
+              "bottom": 470,
+              "height": 36,
+              "text": "Awaiting review2",
+              "y": 434
+            },
+            {
+              "bottom": 470,
+              "height": 36,
+              "text": "Completed2",
+              "y": 434
+            },
+            {
+              "bottom": 470,
+              "height": 36,
+              "text": "Search patient or document…",
+              "y": 434
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "kit?view=tasks",
+      "width": 1440,
+      "pageWidth": 1425,
+      "toolbars": [
+        {
+          "align": "center",
+          "class": "tasks-viewbar",
+          "controls": [
+            {
+              "bottom": 337,
+              "height": 36,
+              "text": "Import/Export",
+              "y": 301
+            },
+            {
+              "bottom": 337,
+              "height": 36,
+              "text": "Filter",
+              "y": 301
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "kit?view=notes",
+      "width": 1440,
+      "pageWidth": 1425,
+      "toolbars": []
+    },
+    {
+      "route": "kit?view=emails",
+      "width": 1440,
+      "pageWidth": 1440,
+      "toolbars": []
+    },
+    {
+      "route": "residents",
+      "width": 900,
+      "pageWidth": 885,
+      "toolbars": [
+        {
+          "align": "flex-end",
+          "class": "care-roster-toolbar",
+          "controls": [
+            {
+              "bottom": 270,
+              "height": 36,
+              "text": "All residents63",
+              "y": 234
+            },
+            {
+              "bottom": 270,
+              "height": 36,
+              "text": "Needs attention8",
+              "y": 234
+            },
+            {
+              "bottom": 270,
+              "height": 36,
+              "text": "Waiting11",
+              "y": 234
+            },
+            {
+              "bottom": 270,
+              "height": 36,
+              "text": "Done44",
+              "y": 234
+            },
+            {
+              "bottom": 348,
+              "height": 36,
+              "text": "Search residents or room…",
+              "y": 312
+            },
+            {
+              "bottom": 348,
+              "height": 36,
+              "text": "All facilities",
+              "y": 312
+            },
+            {
+              "bottom": 348,
+              "height": 36,
+              "text": "All statuses",
+              "y": 312
+            },
+            {
+              "bottom": 422,
+              "height": 36,
+              "text": "Name A–Z",
+              "y": 386
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "users",
+      "width": 900,
+      "pageWidth": 885,
+      "toolbars": [
+        {
+          "align": "flex-end",
+          "class": "care-roster-toolbar",
+          "controls": [
+            {
+              "bottom": 270,
+              "height": 36,
+              "text": "All accounts",
+              "y": 234
+            },
+            {
+              "bottom": 270,
+              "height": 36,
+              "text": "Active",
+              "y": 234
+            },
+            {
+              "bottom": 270,
+              "height": 36,
+              "text": "Deactivated",
+              "y": 234
+            },
+            {
+              "bottom": 270,
+              "height": 36,
+              "text": "Search staff accounts…",
+              "y": 234
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "activity",
+      "width": 900,
+      "pageWidth": 885,
+      "toolbars": [
+        {
+          "align": "flex-end",
+          "class": "care-roster-toolbar",
+          "controls": [
+            {
+              "bottom": 296,
+              "height": 36,
+              "text": "Search activity…",
+              "y": 260
+            },
+            {
+              "bottom": 296,
+              "height": 36,
+              "text": "All channels",
+              "y": 260
+            },
+            {
+              "bottom": 296,
+              "height": 36,
+              "text": "All purposes",
+              "y": 260
+            },
+            {
+              "bottom": 370,
+              "height": 36,
+              "text": "All results",
+              "y": 334
+            },
+            {
+              "bottom": 370,
+              "height": 36,
+              "text": "All facilities",
+              "y": 334
+            },
+            {
+              "bottom": 448,
+              "height": 36,
+              "text": "",
+              "y": 412
+            },
+            {
+              "bottom": 448,
+              "height": 36,
+              "text": "",
+              "y": 412
+            },
+            {
+              "bottom": 448,
+              "height": 36,
+              "text": "Reset filters",
+              "y": 412
+            }
+          ]
+        },
+        {
+          "align": "center",
+          "class": "sectionhead",
+          "controls": []
+        }
+      ]
+    },
+    {
+      "route": "facilities",
+      "width": 900,
+      "pageWidth": 900,
+      "toolbars": [
+        {
+          "align": "center",
+          "class": "sectionhead",
+          "controls": [
+            {
+              "bottom": 382,
+              "height": 36,
+              "text": "Search facilities…",
+              "y": 346
+            },
+            {
+              "bottom": 382,
+              "height": 36,
+              "text": "All facilities",
+              "y": 346
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "facility?fid=f1",
+      "width": 900,
+      "pageWidth": 885,
+      "toolbars": [
+        {
+          "align": "center",
+          "class": "sectionhead",
+          "controls": [
+            {
+              "bottom": 898,
+              "height": 36,
+              "text": "Search residents or room…",
+              "y": 862
+            },
+            {
+              "bottom": 898,
+              "height": 36,
+              "text": "Audit census",
+              "y": 862
+            },
+            {
+              "bottom": 950,
+              "height": 36,
+              "text": "Face sheet intake",
+              "y": 914
+            },
+            {
+              "bottom": 950,
+              "height": 36,
+              "text": "Full roster",
+              "y": 914
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "census",
+      "width": 900,
+      "pageWidth": 885,
+      "toolbars": [
+        {
+          "align": "center",
+          "class": "sectionhead",
+          "controls": [
+            {
+              "bottom": 386,
+              "height": 36,
+              "text": "Filter",
+              "y": 350
+            },
+            {
+              "bottom": 386,
+              "height": 36,
+              "text": "Export report",
+              "y": 350
+            }
+          ]
+        },
+        {
+          "align": "center",
+          "class": "table-controls",
+          "controls": [
+            {
+              "bottom": 442,
+              "height": 36,
+              "text": "All residents8",
+              "y": 406
+            },
+            {
+              "bottom": 442,
+              "height": 36,
+              "text": "Needs review4",
+              "y": 406
+            },
+            {
+              "bottom": 442,
+              "height": 36,
+              "text": "Follow-up due3",
+              "y": 406
+            },
+            {
+              "bottom": 490,
+              "height": 36,
+              "text": "Search name or room…",
+              "y": 454
+            },
+            {
+              "bottom": 490,
+              "height": 36,
+              "text": "All matches",
+              "y": 454
+            },
+            {
+              "bottom": 490,
+              "height": 36,
+              "text": "All insurance",
+              "y": 454
+            },
+            {
+              "bottom": 538,
+              "height": 36,
+              "text": "Check insurance",
+              "y": 502
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "intake",
+      "width": 900,
+      "pageWidth": 900,
+      "toolbars": [
+        {
+          "align": "center",
+          "class": "sectionhead",
+          "controls": []
+        },
+        {
+          "align": "center",
+          "class": "table-controls intake-controls",
+          "controls": [
+            {
+              "bottom": 430,
+              "height": 36,
+              "text": "All intakes5",
+              "y": 394
+            },
+            {
+              "bottom": 430,
+              "height": 36,
+              "text": "Awaiting review2",
+              "y": 394
+            },
+            {
+              "bottom": 430,
+              "height": 36,
+              "text": "Completed2",
+              "y": 394
+            },
+            {
+              "bottom": 478,
+              "height": 36,
+              "text": "Search patient or document…",
+              "y": 442
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "kit?view=tasks",
+      "width": 900,
+      "pageWidth": 885,
+      "toolbars": [
+        {
+          "align": "center",
+          "class": "tasks-viewbar",
+          "controls": [
+            {
+              "bottom": 297,
+              "height": 36,
+              "text": "Import/Export",
+              "y": 261
+            },
+            {
+              "bottom": 297,
+              "height": 36,
+              "text": "Filter",
+              "y": 261
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "kit?view=notes",
+      "width": 900,
+      "pageWidth": 885,
+      "toolbars": []
+    },
+    {
+      "route": "kit?view=emails",
+      "width": 900,
+      "pageWidth": 900,
+      "toolbars": []
+    },
+    {
+      "route": "residents",
+      "width": 375,
+      "pageWidth": 375,
+      "toolbars": [
+        {
+          "align": "flex-end",
+          "class": "care-roster-toolbar",
+          "controls": [
+            {
+              "bottom": 311,
+              "height": 36,
+              "text": "All residents63",
+              "y": 275
+            },
+            {
+              "bottom": 311,
+              "height": 36,
+              "text": "Needs attention8",
+              "y": 275
+            },
+            {
+              "bottom": 355,
+              "height": 36,
+              "text": "Waiting11",
+              "y": 319
+            },
+            {
+              "bottom": 355,
+              "height": 36,
+              "text": "Done44",
+              "y": 319
+            },
+            {
+              "bottom": 433,
+              "height": 36,
+              "text": "Search residents or room…",
+              "y": 397
+            },
+            {
+              "bottom": 433,
+              "height": 36,
+              "text": "All facilities",
+              "y": 397
+            },
+            {
+              "bottom": 507,
+              "height": 36,
+              "text": "All statuses",
+              "y": 471
+            },
+            {
+              "bottom": 507,
+              "height": 36,
+              "text": "Name A–Z",
+              "y": 471
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "users",
+      "width": 375,
+      "pageWidth": 375,
+      "toolbars": [
+        {
+          "align": "flex-end",
+          "class": "care-roster-toolbar",
+          "controls": [
+            {
+              "bottom": 311,
+              "height": 36,
+              "text": "All accounts",
+              "y": 275
+            },
+            {
+              "bottom": 311,
+              "height": 36,
+              "text": "Active",
+              "y": 275
+            },
+            {
+              "bottom": 311,
+              "height": 36,
+              "text": "Deactivated",
+              "y": 275
+            },
+            {
+              "bottom": 363,
+              "height": 36,
+              "text": "Search staff accounts…",
+              "y": 327
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "activity",
+      "width": 375,
+      "pageWidth": 375,
+      "toolbars": [
+        {
+          "align": "flex-end",
+          "class": "care-roster-toolbar",
+          "controls": [
+            {
+              "bottom": 337,
+              "height": 36,
+              "text": "Search activity…",
+              "y": 301
+            },
+            {
+              "bottom": 337,
+              "height": 36,
+              "text": "All channels",
+              "y": 301
+            },
+            {
+              "bottom": 411,
+              "height": 36,
+              "text": "All purposes",
+              "y": 375
+            },
+            {
+              "bottom": 411,
+              "height": 36,
+              "text": "All results",
+              "y": 375
+            },
+            {
+              "bottom": 485,
+              "height": 36,
+              "text": "All facilities",
+              "y": 449
+            },
+            {
+              "bottom": 563,
+              "height": 36,
+              "text": "",
+              "y": 527
+            },
+            {
+              "bottom": 563,
+              "height": 36,
+              "text": "",
+              "y": 527
+            },
+            {
+              "bottom": 607,
+              "height": 36,
+              "text": "Reset filters",
+              "y": 571
+            }
+          ]
+        },
+        {
+          "align": "center",
+          "class": "sectionhead",
+          "controls": []
+        }
+      ]
+    },
+    {
+      "route": "facilities",
+      "width": 375,
+      "pageWidth": 375,
+      "toolbars": [
+        {
+          "align": "center",
+          "class": "sectionhead",
+          "controls": [
+            {
+              "bottom": 488,
+              "height": 36,
+              "text": "Search facilities…",
+              "y": 452
+            },
+            {
+              "bottom": 532,
+              "height": 36,
+              "text": "All facilities",
+              "y": 496
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "facility?fid=f1",
+      "width": 375,
+      "pageWidth": 375,
+      "toolbars": [
+        {
+          "align": "center",
+          "class": "sectionhead",
+          "controls": [
+            {
+              "bottom": 1149,
+              "height": 36,
+              "text": "Search residents or room…",
+              "y": 1113
+            },
+            {
+              "bottom": 1193,
+              "height": 36,
+              "text": "Audit census",
+              "y": 1157
+            },
+            {
+              "bottom": 1237,
+              "height": 36,
+              "text": "Face sheet intake",
+              "y": 1201
+            },
+            {
+              "bottom": 1281,
+              "height": 36,
+              "text": "Full roster",
+              "y": 1245
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "census",
+      "width": 375,
+      "pageWidth": 375,
+      "toolbars": [
+        {
+          "align": "center",
+          "class": "sectionhead",
+          "controls": [
+            {
+              "bottom": 490,
+              "height": 36,
+              "text": "Filter",
+              "y": 454
+            },
+            {
+              "bottom": 534,
+              "height": 36,
+              "text": "Export report",
+              "y": 498
+            }
+          ]
+        },
+        {
+          "align": "center",
+          "class": "table-controls",
+          "controls": [
+            {
+              "bottom": 588,
+              "height": 36,
+              "text": "All residents8",
+              "y": 552
+            },
+            {
+              "bottom": 588,
+              "height": 36,
+              "text": "Needs review4",
+              "y": 552
+            },
+            {
+              "bottom": 588,
+              "height": 36,
+              "text": "Follow-up due3",
+              "y": 552
+            },
+            {
+              "bottom": 651,
+              "height": 36,
+              "text": "Search name or room…",
+              "y": 615
+            },
+            {
+              "bottom": 651,
+              "height": 36,
+              "text": "All matches",
+              "y": 615
+            },
+            {
+              "bottom": 699,
+              "height": 36,
+              "text": "All insurance",
+              "y": 663
+            },
+            {
+              "bottom": 747,
+              "height": 36,
+              "text": "Check insurance",
+              "y": 711
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "intake",
+      "width": 375,
+      "pageWidth": 375,
+      "toolbars": [
+        {
+          "align": "center",
+          "class": "sectionhead",
+          "controls": []
+        },
+        {
+          "align": "center",
+          "class": "table-controls intake-controls",
+          "controls": [
+            {
+              "bottom": 536,
+              "height": 36,
+              "text": "All intakes5",
+              "y": 500
+            },
+            {
+              "bottom": 536,
+              "height": 36,
+              "text": "Awaiting review2",
+              "y": 500
+            },
+            {
+              "bottom": 536,
+              "height": 36,
+              "text": "Completed2",
+              "y": 500
+            },
+            {
+              "bottom": 599,
+              "height": 36,
+              "text": "Search patient or document…",
+              "y": 563
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "kit?view=tasks",
+      "width": 375,
+      "pageWidth": 375,
+      "toolbars": [
+        {
+          "align": "center",
+          "class": "tasks-viewbar",
+          "controls": [
+            {
+              "bottom": 318,
+              "height": 36,
+              "text": "Import/Export",
+              "y": 282
+            },
+            {
+              "bottom": 318,
+              "height": 36,
+              "text": "Filter",
+              "y": 282
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "kit?view=notes",
+      "width": 375,
+      "pageWidth": 375,
+      "toolbars": []
+    },
+    {
+      "route": "kit?view=emails",
+      "width": 375,
+      "pageWidth": 375,
+      "toolbars": []
+    }
+  ]
+}

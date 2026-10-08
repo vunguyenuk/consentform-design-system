@@ -1,0 +1,1424 @@
+[
+  {
+    "filterRows": [
+      {
+        "controlTop": 249,
+        "tabBottom": 211
+      }
+    ],
+    "groups": [
+      {
+        "bottom": 211,
+        "buttons": [
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "All residents63",
+            "underline": "3px"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Needs attention8",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Waiting11",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Done44",
+            "underline": "auto"
+          }
+        ]
+      }
+    ],
+    "kitSearches": [],
+    "overflow": false,
+    "route": "#residents",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 1280
+  },
+  {
+    "filterRows": [
+      {
+        "controlTop": 227,
+        "tabBottom": 211
+      }
+    ],
+    "groups": [
+      {
+        "bottom": 211,
+        "buttons": [
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "All accounts",
+            "underline": "3px"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Active",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Deactivated",
+            "underline": "auto"
+          }
+        ]
+      }
+    ],
+    "kitSearches": [],
+    "overflow": false,
+    "route": "#users",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 1280
+  },
+  {
+    "filterRows": [
+      {
+        "controlTop": 400,
+        "tabBottom": 384
+      }
+    ],
+    "groups": [
+      {
+        "bottom": 384,
+        "buttons": [
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "All residents8",
+            "underline": "3px"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Needs review4",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Follow-up due3",
+            "underline": "auto"
+          }
+        ]
+      }
+    ],
+    "kitSearches": [],
+    "overflow": false,
+    "route": "#census",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 1280
+  },
+  {
+    "filterRows": [
+      {
+        "controlTop": 391,
+        "tabBottom": 375
+      }
+    ],
+    "groups": [
+      {
+        "bottom": 375,
+        "buttons": [
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "All intakes5",
+            "underline": "3px"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Awaiting review2",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Completed2",
+            "underline": "auto"
+          }
+        ]
+      }
+    ],
+    "kitSearches": [],
+    "overflow": false,
+    "route": "#intake",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 1280
+  },
+  {
+    "filterRows": [],
+    "groups": [
+      {
+        "bottom": 210,
+        "buttons": [
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Profile",
+            "underline": "3px"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Preferences",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Password",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Sessions",
+            "underline": "auto"
+          }
+        ]
+      }
+    ],
+    "kitSearches": [],
+    "overflow": false,
+    "route": "#settings",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 1280
+  },
+  {
+    "filterRows": [],
+    "groups": [],
+    "kitSearches": [
+      {
+        "kind": "tasks",
+        "top": 168
+      }
+    ],
+    "overflow": false,
+    "route": "#kit?view=tasks",
+    "ui": "figma",
+    "underTabs": [
+      {
+        "bottom": 152
+      }
+    ],
+    "width": 1280
+  },
+  {
+    "filterRows": [],
+    "groups": [],
+    "kitSearches": [
+      {
+        "kind": "emails",
+        "top": 230
+      }
+    ],
+    "overflow": false,
+    "route": "#kit?view=emails",
+    "ui": "figma",
+    "underTabs": [
+      {
+        "bottom": 214
+      }
+    ],
+    "width": 1280
+  },
+  {
+    "filterRows": [],
+    "groups": [],
+    "kitSearches": [
+      {
+        "kind": "notes",
+        "top": 121
+      }
+    ],
+    "overflow": false,
+    "route": "#kit?view=notes",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 1280
+  },
+  {
+    "filterRows": [
+      {
+        "controlTop": 249,
+        "tabBottom": 211
+      }
+    ],
+    "groups": [
+      {
+        "bottom": 211,
+        "buttons": [
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "All residents63",
+            "underline": "3px"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Needs attention8",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Waiting11",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Done44",
+            "underline": "auto"
+          }
+        ]
+      }
+    ],
+    "kitSearches": [],
+    "overflow": false,
+    "route": "#residents",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 1280,
+    "theme": "light"
+  },
+  {
+    "filterRows": [
+      {
+        "controlTop": 227,
+        "tabBottom": 211
+      }
+    ],
+    "groups": [
+      {
+        "bottom": 211,
+        "buttons": [
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "All accounts",
+            "underline": "3px"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Active",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Deactivated",
+            "underline": "auto"
+          }
+        ]
+      }
+    ],
+    "kitSearches": [],
+    "overflow": false,
+    "route": "#users",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 1280,
+    "theme": "light"
+  },
+  {
+    "filterRows": [
+      {
+        "controlTop": 400,
+        "tabBottom": 384
+      }
+    ],
+    "groups": [
+      {
+        "bottom": 384,
+        "buttons": [
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "All residents8",
+            "underline": "3px"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Needs review4",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Follow-up due3",
+            "underline": "auto"
+          }
+        ]
+      }
+    ],
+    "kitSearches": [],
+    "overflow": false,
+    "route": "#census",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 1280,
+    "theme": "light"
+  },
+  {
+    "filterRows": [
+      {
+        "controlTop": 391,
+        "tabBottom": 375
+      }
+    ],
+    "groups": [
+      {
+        "bottom": 375,
+        "buttons": [
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "All intakes5",
+            "underline": "3px"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Awaiting review2",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Completed2",
+            "underline": "auto"
+          }
+        ]
+      }
+    ],
+    "kitSearches": [],
+    "overflow": false,
+    "route": "#intake",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 1280,
+    "theme": "light"
+  },
+  {
+    "filterRows": [],
+    "groups": [
+      {
+        "bottom": 210,
+        "buttons": [
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Profile",
+            "underline": "3px"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Preferences",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Password",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Sessions",
+            "underline": "auto"
+          }
+        ]
+      }
+    ],
+    "kitSearches": [],
+    "overflow": false,
+    "route": "#settings",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 1280,
+    "theme": "light"
+  },
+  {
+    "filterRows": [],
+    "groups": [],
+    "kitSearches": [
+      {
+        "kind": "tasks",
+        "top": 168
+      }
+    ],
+    "overflow": false,
+    "route": "#kit?view=tasks",
+    "ui": "figma",
+    "underTabs": [
+      {
+        "bottom": 152
+      }
+    ],
+    "width": 1280,
+    "theme": "light"
+  },
+  {
+    "filterRows": [],
+    "groups": [],
+    "kitSearches": [
+      {
+        "kind": "emails",
+        "top": 230
+      }
+    ],
+    "overflow": false,
+    "route": "#kit?view=emails",
+    "ui": "figma",
+    "underTabs": [
+      {
+        "bottom": 214
+      }
+    ],
+    "width": 1280,
+    "theme": "light"
+  },
+  {
+    "filterRows": [],
+    "groups": [],
+    "kitSearches": [
+      {
+        "kind": "notes",
+        "top": 121
+      }
+    ],
+    "overflow": false,
+    "route": "#kit?view=notes",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 1280,
+    "theme": "light"
+  },
+  {
+    "filterRows": [
+      {
+        "controlTop": 256,
+        "tabBottom": 240
+      }
+    ],
+    "groups": [
+      {
+        "bottom": 240,
+        "buttons": [
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "All residents63",
+            "underline": "3px"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Needs attention8",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Waiting11",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Done44",
+            "underline": "auto"
+          }
+        ]
+      }
+    ],
+    "kitSearches": [],
+    "overflow": false,
+    "route": "#residents",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 375,
+    "theme": "light"
+  },
+  {
+    "filterRows": [
+      {
+        "controlTop": 274,
+        "tabBottom": 258
+      }
+    ],
+    "groups": [
+      {
+        "bottom": 258,
+        "buttons": [
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "All accounts",
+            "underline": "3px"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Active",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Deactivated",
+            "underline": "auto"
+          }
+        ]
+      }
+    ],
+    "kitSearches": [],
+    "overflow": false,
+    "route": "#users",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 375,
+    "theme": "light"
+  },
+  {
+    "filterRows": [
+      {
+        "controlTop": 692,
+        "tabBottom": 676
+      }
+    ],
+    "groups": [
+      {
+        "bottom": 676,
+        "buttons": [
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "All residents8",
+            "underline": "3px"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Needs review4",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Follow-up due3",
+            "underline": "auto"
+          }
+        ]
+      }
+    ],
+    "kitSearches": [],
+    "overflow": false,
+    "route": "#census",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 375,
+    "theme": "light"
+  },
+  {
+    "filterRows": [
+      {
+        "controlTop": 646,
+        "tabBottom": 630
+      }
+    ],
+    "groups": [
+      {
+        "bottom": 630,
+        "buttons": [
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "All intakes5",
+            "underline": "3px"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Awaiting review2",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Completed2",
+            "underline": "auto"
+          }
+        ]
+      }
+    ],
+    "kitSearches": [],
+    "overflow": false,
+    "route": "#intake",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 375,
+    "theme": "light"
+  },
+  {
+    "filterRows": [],
+    "groups": [
+      {
+        "bottom": 221,
+        "buttons": [
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Profile",
+            "underline": "3px"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Preferences",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Password",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Sessions",
+            "underline": "auto"
+          }
+        ]
+      }
+    ],
+    "kitSearches": [],
+    "overflow": false,
+    "route": "#settings",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 375,
+    "theme": "light"
+  },
+  {
+    "filterRows": [],
+    "groups": [],
+    "kitSearches": [
+      {
+        "kind": "tasks",
+        "top": 238
+      }
+    ],
+    "overflow": false,
+    "route": "#kit?view=tasks",
+    "ui": "figma",
+    "underTabs": [
+      {
+        "bottom": 222
+      }
+    ],
+    "width": 375,
+    "theme": "light"
+  },
+  {
+    "filterRows": [],
+    "groups": [],
+    "kitSearches": [
+      {
+        "kind": "emails",
+        "top": 300
+      }
+    ],
+    "overflow": false,
+    "route": "#kit?view=emails",
+    "ui": "figma",
+    "underTabs": [
+      {
+        "bottom": 284
+      }
+    ],
+    "width": 375,
+    "theme": "light"
+  },
+  {
+    "filterRows": [],
+    "groups": [],
+    "kitSearches": [
+      {
+        "kind": "notes",
+        "top": 191
+      }
+    ],
+    "overflow": false,
+    "route": "#kit?view=notes",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 375,
+    "theme": "light"
+  },
+  {
+    "filterRows": [
+      {
+        "controlTop": 249,
+        "tabBottom": 211
+      }
+    ],
+    "groups": [
+      {
+        "bottom": 211,
+        "buttons": [
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "All residents63",
+            "underline": "3px"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Needs attention8",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Waiting11",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Done44",
+            "underline": "auto"
+          }
+        ]
+      }
+    ],
+    "kitSearches": [],
+    "overflow": false,
+    "route": "#residents",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 1280,
+    "theme": "dark"
+  },
+  {
+    "filterRows": [
+      {
+        "controlTop": 227,
+        "tabBottom": 211
+      }
+    ],
+    "groups": [
+      {
+        "bottom": 211,
+        "buttons": [
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "All accounts",
+            "underline": "3px"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Active",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Deactivated",
+            "underline": "auto"
+          }
+        ]
+      }
+    ],
+    "kitSearches": [],
+    "overflow": false,
+    "route": "#users",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 1280,
+    "theme": "dark"
+  },
+  {
+    "filterRows": [
+      {
+        "controlTop": 400,
+        "tabBottom": 384
+      }
+    ],
+    "groups": [
+      {
+        "bottom": 384,
+        "buttons": [
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "All residents8",
+            "underline": "3px"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Needs review4",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Follow-up due3",
+            "underline": "auto"
+          }
+        ]
+      }
+    ],
+    "kitSearches": [],
+    "overflow": false,
+    "route": "#census",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 1280,
+    "theme": "dark"
+  },
+  {
+    "filterRows": [
+      {
+        "controlTop": 391,
+        "tabBottom": 375
+      }
+    ],
+    "groups": [
+      {
+        "bottom": 375,
+        "buttons": [
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "All intakes5",
+            "underline": "3px"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Awaiting review2",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Completed2",
+            "underline": "auto"
+          }
+        ]
+      }
+    ],
+    "kitSearches": [],
+    "overflow": false,
+    "route": "#intake",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 1280,
+    "theme": "dark"
+  },
+  {
+    "filterRows": [],
+    "groups": [
+      {
+        "bottom": 210,
+        "buttons": [
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Profile",
+            "underline": "3px"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Preferences",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Password",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Sessions",
+            "underline": "auto"
+          }
+        ]
+      }
+    ],
+    "kitSearches": [],
+    "overflow": false,
+    "route": "#settings",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 1280,
+    "theme": "dark"
+  },
+  {
+    "filterRows": [],
+    "groups": [],
+    "kitSearches": [
+      {
+        "kind": "tasks",
+        "top": 168
+      }
+    ],
+    "overflow": false,
+    "route": "#kit?view=tasks",
+    "ui": "figma",
+    "underTabs": [
+      {
+        "bottom": 152
+      }
+    ],
+    "width": 1280,
+    "theme": "dark"
+  },
+  {
+    "filterRows": [],
+    "groups": [],
+    "kitSearches": [
+      {
+        "kind": "emails",
+        "top": 230
+      }
+    ],
+    "overflow": false,
+    "route": "#kit?view=emails",
+    "ui": "figma",
+    "underTabs": [
+      {
+        "bottom": 214
+      }
+    ],
+    "width": 1280,
+    "theme": "dark"
+  },
+  {
+    "filterRows": [],
+    "groups": [],
+    "kitSearches": [
+      {
+        "kind": "notes",
+        "top": 121
+      }
+    ],
+    "overflow": false,
+    "route": "#kit?view=notes",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 1280,
+    "theme": "dark"
+  },
+  {
+    "filterRows": [
+      {
+        "controlTop": 256,
+        "tabBottom": 240
+      }
+    ],
+    "groups": [
+      {
+        "bottom": 240,
+        "buttons": [
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "All residents63",
+            "underline": "3px"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Needs attention8",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Waiting11",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Done44",
+            "underline": "auto"
+          }
+        ]
+      }
+    ],
+    "kitSearches": [],
+    "overflow": false,
+    "route": "#residents",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 375,
+    "theme": "dark"
+  },
+  {
+    "filterRows": [
+      {
+        "controlTop": 274,
+        "tabBottom": 258
+      }
+    ],
+    "groups": [
+      {
+        "bottom": 258,
+        "buttons": [
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "All accounts",
+            "underline": "3px"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Active",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Deactivated",
+            "underline": "auto"
+          }
+        ]
+      }
+    ],
+    "kitSearches": [],
+    "overflow": false,
+    "route": "#users",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 375,
+    "theme": "dark"
+  },
+  {
+    "filterRows": [
+      {
+        "controlTop": 692,
+        "tabBottom": 676
+      }
+    ],
+    "groups": [
+      {
+        "bottom": 676,
+        "buttons": [
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "All residents8",
+            "underline": "3px"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Needs review4",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Follow-up due3",
+            "underline": "auto"
+          }
+        ]
+      }
+    ],
+    "kitSearches": [],
+    "overflow": false,
+    "route": "#census",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 375,
+    "theme": "dark"
+  },
+  {
+    "filterRows": [
+      {
+        "controlTop": 646,
+        "tabBottom": 630
+      }
+    ],
+    "groups": [
+      {
+        "bottom": 630,
+        "buttons": [
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "All intakes5",
+            "underline": "3px"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Awaiting review2",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Completed2",
+            "underline": "auto"
+          }
+        ]
+      }
+    ],
+    "kitSearches": [],
+    "overflow": false,
+    "route": "#intake",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 375,
+    "theme": "dark"
+  },
+  {
+    "filterRows": [],
+    "groups": [
+      {
+        "bottom": 221,
+        "buttons": [
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Profile",
+            "underline": "3px"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Preferences",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Password",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Sessions",
+            "underline": "auto"
+          }
+        ]
+      }
+    ],
+    "kitSearches": [],
+    "overflow": false,
+    "route": "#settings",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 375,
+    "theme": "dark"
+  },
+  {
+    "filterRows": [],
+    "groups": [],
+    "kitSearches": [
+      {
+        "kind": "tasks",
+        "top": 238
+      }
+    ],
+    "overflow": false,
+    "route": "#kit?view=tasks",
+    "ui": "figma",
+    "underTabs": [
+      {
+        "bottom": 222
+      }
+    ],
+    "width": 375,
+    "theme": "dark"
+  },
+  {
+    "filterRows": [],
+    "groups": [],
+    "kitSearches": [
+      {
+        "kind": "emails",
+        "top": 300
+      }
+    ],
+    "overflow": false,
+    "route": "#kit?view=emails",
+    "ui": "figma",
+    "underTabs": [
+      {
+        "bottom": 284
+      }
+    ],
+    "width": 375,
+    "theme": "dark"
+  },
+  {
+    "filterRows": [],
+    "groups": [],
+    "kitSearches": [
+      {
+        "kind": "notes",
+        "top": 191
+      }
+    ],
+    "overflow": false,
+    "route": "#kit?view=notes",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 375,
+    "theme": "dark"
+  },
+  {
+    "filterRows": [],
+    "groups": [
+      {
+        "bottom": 559,
+        "buttons": [
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Draw signature",
+            "underline": "auto"
+          },
+          {
+            "bg": "rgba(0, 0, 0, 0)",
+            "height": 46,
+            "radius": "0px",
+            "text": "Type signature",
+            "underline": "3px"
+          }
+        ]
+      }
+    ],
+    "kitSearches": [],
+    "overflow": false,
+    "route": "#sign?token=sign-fc0d4a0d-bde8-4b1e-8cff-beaa693b06c9",
+    "ui": "figma",
+    "underTabs": [],
+    "width": 1280
+  }
+]

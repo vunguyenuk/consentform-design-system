@@ -1,0 +1,868 @@
+[
+  {
+    "node": "6233:50954",
+    "key": "imgBuilding3",
+    "path": "assets/cliently/6233-50954-1632e.svg",
+    "width": "24",
+    "height": "24",
+    "viewBox": "0 0 24 24"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgProperty124Px",
+    "path": "assets/cliently/6233-50954-0521d.png"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgProperty124Px1",
+    "path": "assets/cliently/6233-50954-a337c.png"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgProperty124Px2",
+    "path": "assets/cliently/6233-50954-ca72e.png"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgProperty124Px3",
+    "path": "assets/cliently/6233-50954-24cc8.png"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgAvatarWoman3",
+    "path": "assets/cliently/6233-50954-6d9b2.png"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgMore",
+    "path": "assets/cliently/6233-50954-95bac.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgNotification",
+    "path": "assets/cliently/6233-50954-c6c0e.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgMessageText",
+    "path": "assets/cliently/6233-50954-7fdbf.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgNote",
+    "path": "assets/cliently/6233-50954-3a1a9.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgTaskSquare",
+    "path": "assets/cliently/6233-50954-275c0.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgVuesaxLinearMessageQuestion",
+    "path": "assets/cliently/6233-50954-3df1b.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgSetting",
+    "path": "assets/cliently/6233-50954-7bba3.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgProperty132Px",
+    "path": "assets/cliently/6233-50954-75dac.png"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgGroup1",
+    "path": "assets/cliently/6233-50954-72053.svg",
+    "width": "36.9042",
+    "height": "37.8228",
+    "viewBox": "0 0 36.9042 37.8228"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgUserOctagon",
+    "path": "assets/cliently/6233-50954-deb54.svg",
+    "width": "29.9417",
+    "height": "36.8333",
+    "viewBox": "0 0 29.9417 36.8333"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgArrowDown",
+    "path": "assets/cliently/6233-50954-749f8.svg",
+    "width": "14",
+    "height": "14",
+    "viewBox": "0 0 14 14"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgSidebarLeft",
+    "path": "assets/cliently/6233-50954-6ebdb.svg",
+    "width": "20",
+    "height": "20",
+    "viewBox": "0 0 20 20"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgCategory",
+    "path": "assets/cliently/6233-50954-4b35d.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgArrowDown1",
+    "path": "assets/cliently/6233-50954-71b71.svg",
+    "width": "14",
+    "height": "14",
+    "viewBox": "0 0 14 14"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgAdd",
+    "path": "assets/cliently/6233-50954-509d0.svg",
+    "width": "14",
+    "height": "14",
+    "viewBox": "0 0 14 14"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgFolder2",
+    "path": "assets/cliently/6233-50954-c4cc5.svg",
+    "width": "12",
+    "height": "12",
+    "viewBox": "0 0 12 12"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgSetting1",
+    "path": "assets/cliently/6233-50954-5e44d.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgPlus",
+    "path": "assets/cliently/6233-50954-3dab3.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgArrowDown2",
+    "path": "assets/cliently/6233-50954-dbb10.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgVuesaxLinearCalendar",
+    "path": "assets/cliently/6233-50954-346c1.svg",
+    "width": "20",
+    "height": "20",
+    "viewBox": "0 0 20 20"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgMore1",
+    "path": "assets/cliently/6233-50954-04859.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgChevronLeft",
+    "path": "assets/cliently/6233-50954-34d8e.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgChevronRight",
+    "path": "assets/cliently/6233-50954-617d9.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:50954",
+    "key": "imgChevronUp",
+    "path": "assets/cliently/6233-50954-07add.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgProperty124Px",
+    "path": "assets/cliently/6233-51363-24cc8.png"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgChevronLeft",
+    "path": "assets/cliently/6233-51363-4809c.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgChevronRight",
+    "path": "assets/cliently/6233-51363-eb859.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgChevronUp",
+    "path": "assets/cliently/6233-51363-d466c.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgBuilding3",
+    "path": "assets/cliently/6233-51363-1632e.svg",
+    "width": "24",
+    "height": "24",
+    "viewBox": "0 0 24 24"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgProperty124Px1",
+    "path": "assets/cliently/6233-51363-0521d.png"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgProperty124Px2",
+    "path": "assets/cliently/6233-51363-a337c.png"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgProperty124Px3",
+    "path": "assets/cliently/6233-51363-ca72e.png"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgAvatarWoman3",
+    "path": "assets/cliently/6233-51363-6d9b2.png"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgMore",
+    "path": "assets/cliently/6233-51363-95bac.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgNotification",
+    "path": "assets/cliently/6233-51363-c6c0e.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgMessageText",
+    "path": "assets/cliently/6233-51363-7fdbf.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgNote",
+    "path": "assets/cliently/6233-51363-3a1a9.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgTaskSquare",
+    "path": "assets/cliently/6233-51363-275c0.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgVuesaxLinearMessageQuestion",
+    "path": "assets/cliently/6233-51363-3df1b.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgSetting",
+    "path": "assets/cliently/6233-51363-7bba3.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgCategory",
+    "path": "assets/cliently/6233-51363-4b35d.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgProperty132Px",
+    "path": "assets/cliently/6233-51363-75dac.png"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgGroup1",
+    "path": "assets/cliently/6233-51363-72053.svg",
+    "width": "36.9042",
+    "height": "37.8228",
+    "viewBox": "0 0 36.9042 37.8228"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgUserOctagon",
+    "path": "assets/cliently/6233-51363-deb54.svg",
+    "width": "29.9417",
+    "height": "36.8333",
+    "viewBox": "0 0 29.9417 36.8333"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgArrowDown",
+    "path": "assets/cliently/6233-51363-749f8.svg",
+    "width": "14",
+    "height": "14",
+    "viewBox": "0 0 14 14"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgSidebarLeft",
+    "path": "assets/cliently/6233-51363-6ebdb.svg",
+    "width": "20",
+    "height": "20",
+    "viewBox": "0 0 20 20"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgArrowDown1",
+    "path": "assets/cliently/6233-51363-71b71.svg",
+    "width": "14",
+    "height": "14",
+    "viewBox": "0 0 14 14"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgAdd",
+    "path": "assets/cliently/6233-51363-509d0.svg",
+    "width": "14",
+    "height": "14",
+    "viewBox": "0 0 14 14"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgFolder2",
+    "path": "assets/cliently/6233-51363-c4cc5.svg",
+    "width": "12",
+    "height": "12",
+    "viewBox": "0 0 12 12"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgSetting1",
+    "path": "assets/cliently/6233-51363-5e44d.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgPlus",
+    "path": "assets/cliently/6233-51363-3dab3.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgArrowDown2",
+    "path": "assets/cliently/6233-51363-dbb10.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgVuesaxLinearCalendar",
+    "path": "assets/cliently/6233-51363-346c1.svg",
+    "width": "20",
+    "height": "20",
+    "viewBox": "0 0 20 20"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgMore1",
+    "path": "assets/cliently/6233-51363-04859.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgClose",
+    "path": "assets/cliently/6233-51363-fc18d.svg",
+    "width": "18",
+    "height": "18",
+    "viewBox": "0 0 18 18"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgGroup",
+    "path": "assets/cliently/6233-51363-1f333.svg",
+    "width": "20",
+    "height": "20",
+    "viewBox": "0 0 20 20"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgGroup2",
+    "path": "assets/cliently/6233-51363-46c8e.svg",
+    "width": "20",
+    "height": "20",
+    "viewBox": "0 0 20 20"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgBuilding4",
+    "path": "assets/cliently/6233-51363-67705.svg",
+    "width": "14",
+    "height": "14",
+    "viewBox": "0 0 14 14"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgArrowDown3",
+    "path": "assets/cliently/6233-51363-30905.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgLine",
+    "path": "assets/cliently/6233-51363-b402d.svg",
+    "width": "561",
+    "height": "1",
+    "viewBox": "0 0 561 1"
+  },
+  {
+    "node": "6233:51363",
+    "key": "imgArrowDown4",
+    "path": "assets/cliently/6233-51363-8aadf.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgProfile",
+    "path": "assets/cliently/6233-52203-a9fe9.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgWalletMinus",
+    "path": "assets/cliently/6233-52203-982d1.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgCategory",
+    "path": "assets/cliently/6233-52203-2c8ea.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgNotification",
+    "path": "assets/cliently/6233-52203-c6c0e.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgMessageText",
+    "path": "assets/cliently/6233-52203-7fdbf.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgNote",
+    "path": "assets/cliently/6233-52203-3a1a9.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgTaskSquare",
+    "path": "assets/cliently/6233-52203-275c0.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgVuesaxLinearMessageQuestion",
+    "path": "assets/cliently/6233-52203-3df1b.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgProperty132Px",
+    "path": "assets/cliently/6233-52203-75dac.png"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgGroup1",
+    "path": "assets/cliently/6233-52203-72053.svg",
+    "width": "36.9042",
+    "height": "37.8228",
+    "viewBox": "0 0 36.9042 37.8228"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgUserOctagon",
+    "path": "assets/cliently/6233-52203-deb54.svg",
+    "width": "29.9417",
+    "height": "36.8333",
+    "viewBox": "0 0 29.9417 36.8333"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgArrowDown",
+    "path": "assets/cliently/6233-52203-749f8.svg",
+    "width": "14",
+    "height": "14",
+    "viewBox": "0 0 14 14"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgSidebarLeft",
+    "path": "assets/cliently/6233-52203-6ebdb.svg",
+    "width": "20",
+    "height": "20",
+    "viewBox": "0 0 20 20"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgCategory2",
+    "path": "assets/cliently/6233-52203-5b16d.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgArrowDown1",
+    "path": "assets/cliently/6233-52203-71b71.svg",
+    "width": "14",
+    "height": "14",
+    "viewBox": "0 0 14 14"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgAdd",
+    "path": "assets/cliently/6233-52203-509d0.svg",
+    "width": "14",
+    "height": "14",
+    "viewBox": "0 0 14 14"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgFolder2",
+    "path": "assets/cliently/6233-52203-c4cc5.svg",
+    "width": "12",
+    "height": "12",
+    "viewBox": "0 0 12 12"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgSetting",
+    "path": "assets/cliently/6233-52203-cf1ab.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgVuesaxLinearCalendar",
+    "path": "assets/cliently/6233-52203-14e5d.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgStrongbox",
+    "path": "assets/cliently/6233-52203-2f18c.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgVuesaxLinearPeople",
+    "path": "assets/cliently/6233-52203-9f2f2.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgNotification1",
+    "path": "assets/cliently/6233-52203-3e198.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgBriefcase",
+    "path": "assets/cliently/6233-52203-6137f.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgProfile2User",
+    "path": "assets/cliently/6233-52203-14106.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgLine",
+    "path": "assets/cliently/6233-52203-4d540.svg",
+    "width": "820",
+    "height": "1",
+    "viewBox": "0 0 820 1"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgSearchNormal",
+    "path": "assets/cliently/6233-52203-11207.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgFilter",
+    "path": "assets/cliently/6233-52203-5e44d.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgPlus",
+    "path": "assets/cliently/6233-52203-3dab3.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:52203",
+    "key": "imgMore",
+    "path": "assets/cliently/6233-52203-04859.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:50953",
+    "key": "imgChevronLeft",
+    "path": "assets/cliently/6233-50953-32e71.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:50953",
+    "key": "imgChevronRight",
+    "path": "assets/cliently/6233-50953-c81ee.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:50953",
+    "key": "imgChevronUp",
+    "path": "assets/cliently/6233-50953-3641a.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:50953",
+    "key": "imgBuilding3",
+    "path": "assets/cliently/6233-50953-1632e.svg",
+    "width": "24",
+    "height": "24",
+    "viewBox": "0 0 24 24"
+  },
+  {
+    "node": "6233:50953",
+    "key": "imgProperty124Px",
+    "path": "assets/cliently/6233-50953-0521d.png"
+  },
+  {
+    "node": "6233:50953",
+    "key": "imgProperty124Px1",
+    "path": "assets/cliently/6233-50953-a337c.png"
+  },
+  {
+    "node": "6233:50953",
+    "key": "imgProperty124Px2",
+    "path": "assets/cliently/6233-50953-ca72e.png"
+  },
+  {
+    "node": "6233:50953",
+    "key": "imgProperty124Px3",
+    "path": "assets/cliently/6233-50953-24cc8.png"
+  },
+  {
+    "node": "6233:50953",
+    "key": "imgAvatarWoman3",
+    "path": "assets/cliently/6233-50953-6d9b2.png"
+  },
+  {
+    "node": "6233:50953",
+    "key": "imgMore",
+    "path": "assets/cliently/6233-50953-95bac.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:50953",
+    "key": "imgMobileSignal",
+    "path": "assets/cliently/6233-50953-4f5a4.svg",
+    "width": "18",
+    "height": "10",
+    "viewBox": "0 0 18 10"
+  },
+  {
+    "node": "6233:50953",
+    "key": "imgWifi",
+    "path": "assets/cliently/6233-50953-f9d7f.svg",
+    "width": "15.2724",
+    "height": "10.9652",
+    "viewBox": "0 0 15.2724 10.9652"
+  },
+  {
+    "node": "6233:50953",
+    "key": "imgBattery",
+    "path": "assets/cliently/6233-50953-8ea6f.svg",
+    "width": "26.9781",
+    "height": "13",
+    "viewBox": "0 0 26.9781 13"
+  },
+  {
+    "node": "6233:50953",
+    "key": "imgVuesaxLinearMenu",
+    "path": "assets/cliently/6233-50953-985bc.svg",
+    "width": "24",
+    "height": "24",
+    "viewBox": "0 0 24 24"
+  },
+  {
+    "node": "6233:50953",
+    "key": "imgDocumentUpload",
+    "path": "assets/cliently/6233-50953-5e44d.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:50953",
+    "key": "imgPlus",
+    "path": "assets/cliently/6233-50953-3dab3.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:50953",
+    "key": "imgArrowDown",
+    "path": "assets/cliently/6233-50953-dbb10.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  {
+    "node": "6233:50953",
+    "key": "imgVuesaxLinearCalendar",
+    "path": "assets/cliently/6233-50953-346c1.svg",
+    "width": "20",
+    "height": "20",
+    "viewBox": "0 0 20 20"
+  },
+  {
+    "node": "6233:50953",
+    "key": "imgMore1",
+    "path": "assets/cliently/6233-50953-04859.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  }
+]

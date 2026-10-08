@@ -1,0 +1,2077 @@
+[
+  {
+    "label": "Voices",
+    "controls": [
+      {
+        "height": 40,
+        "padding": "0px 12px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "INPUT",
+        "text": "Search library voices..."
+      },
+      {
+        "height": 32,
+        "padding": "0px",
+        "radius": "8px",
+        "role": null,
+        "size": "13px",
+        "tag": "BUTTON",
+        "text": "Search with audio sample"
+      },
+      {
+        "height": 40,
+        "padding": "0px 16px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "More filters"
+      },
+      {
+        "height": 40,
+        "padding": "8px 8px 8px 12px",
+        "radius": "12px",
+        "role": "combobox",
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "height": 40,
+        "padding": "0px 12px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Language"
+      },
+      {
+        "height": 28,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "13px",
+        "tag": "BUTTON",
+        "text": "Previous"
+      },
+      {
+        "height": 28,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "13px",
+        "tag": "BUTTON",
+        "text": "Next"
+      },
+      {
+        "height": 40,
+        "padding": "0px 12px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Conversational"
+      },
+      {
+        "height": 40,
+        "padding": "0px 12px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Narration"
+      },
+      {
+        "height": 40,
+        "padding": "0px 12px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Characters"
+      },
+      {
+        "height": 40,
+        "padding": "0px 12px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Social Media"
+      },
+      {
+        "height": 40,
+        "padding": "0px 12px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Educational"
+      },
+      {
+        "height": 40,
+        "padding": "0px 12px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Advertisement"
+      },
+      {
+        "height": 40,
+        "padding": "0px 12px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Entertainment"
+      },
+      {
+        "height": 86,
+        "padding": "0px",
+        "radius": "20px",
+        "role": null,
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": "Viên - Narrative, Warm and Clear -  - "
+      },
+      {
+        "height": 32,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Play"
+      }
+    ],
+    "headings": [
+      {
+        "font": "WaldenburgHF, \"WaldenburgHF Fallback\"",
+        "size": "20px",
+        "text": "Great voices for Eleven v4",
+        "weight": "700"
+      },
+      {
+        "font": "WaldenburgHF, \"WaldenburgHF Fallback\"",
+        "size": "20px",
+        "text": "Popular Tiktok voices",
+        "weight": "700"
+      },
+      {
+        "font": "WaldenburgHF, \"WaldenburgHF Fallback\"",
+        "size": "20px",
+        "text": "Studio-Quality Conversational Voices",
+        "weight": "700"
+      },
+      {
+        "font": "WaldenburgHF, \"WaldenburgHF Fallback\"",
+        "size": "20px",
+        "text": "Engaging Characters for Video Games",
+        "weight": "700"
+      },
+      {
+        "font": "WaldenburgHF, \"WaldenburgHF Fallback\"",
+        "size": "20px",
+        "text": "Bring your stories to life",
+        "weight": "700"
+      },
+      {
+        "font": "WaldenburgHF, \"WaldenburgHF Fallback\"",
+        "size": "20px",
+        "text": "Burt Reynolds Hollywood Icon",
+        "weight": "700"
+      },
+      {
+        "font": "WaldenburgHF, \"WaldenburgHF Fallback\"",
+        "size": "20px",
+        "text": "Announcers and Radio Hosts",
+        "weight": "700"
+      },
+      {
+        "font": "WaldenburgHF, \"WaldenburgHF Fallback\"",
+        "size": "20px",
+        "text": "Epic Voices",
+        "weight": "700"
+      },
+      {
+        "font": "WaldenburgHF, \"WaldenburgHF Fallback\"",
+        "size": "20px",
+        "text": "Relaxing and Meditative",
+        "weight": "700"
+      },
+      {
+        "font": "WaldenburgHF, \"WaldenburgHF Fallback\"",
+        "size": "20px",
+        "text": "Romantic Story Voices",
+        "weight": "700"
+      },
+      {
+        "font": "WaldenburgHF, \"WaldenburgHF Fallback\"",
+        "size": "20px",
+        "text": "Arabic",
+        "weight": "700"
+      },
+      {
+        "font": "WaldenburgHF, \"WaldenburgHF Fallback\"",
+        "size": "20px",
+        "text": "Bulgarian",
+        "weight": "700"
+      },
+      {
+        "font": "WaldenburgHF, \"WaldenburgHF Fallback\"",
+        "size": "20px",
+        "text": "Chinese",
+        "weight": "700"
+      },
+      {
+        "font": "WaldenburgHF, \"WaldenburgHF Fallback\"",
+        "size": "20px",
+        "text": "Czech",
+        "weight": "700"
+      }
+    ],
+    "layout": [
+      {
+        "padding": "0px 0px 32px",
+        "width": 1977
+      },
+      {
+        "padding": "0px",
+        "width": 1977
+      }
+    ],
+    "url": "/app/voice-library"
+  },
+  {
+    "label": "Studio",
+    "controls": [
+      {
+        "height": 36,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Attach file"
+      },
+      {
+        "height": 36,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Voice input"
+      },
+      {
+        "height": 36,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Create project"
+      },
+      {
+        "height": 1,
+        "padding": "0px",
+        "radius": "0px",
+        "role": null,
+        "size": "16px",
+        "tag": "INPUT",
+        "text": ""
+      },
+      {
+        "height": 45.5,
+        "padding": "4px 0px 10px",
+        "radius": "0px",
+        "role": "tab",
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "All"
+      },
+      {
+        "height": 45.5,
+        "padding": "4px 0px 10px",
+        "radius": "0px",
+        "role": "tab",
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Video"
+      },
+      {
+        "height": 45.5,
+        "padding": "4px 0px 10px",
+        "radius": "0px",
+        "role": "tab",
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Audio"
+      },
+      {
+        "height": 1,
+        "padding": "0px",
+        "radius": "0px",
+        "role": null,
+        "size": "14px",
+        "tag": "INPUT",
+        "text": ""
+      },
+      {
+        "height": 36,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "New blank project"
+      },
+      {
+        "height": 36,
+        "padding": "4px 12px 4px 32px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "INPUT",
+        "text": "Search recents..."
+      },
+      {
+        "height": 32,
+        "padding": "0px",
+        "radius": "8px",
+        "role": "tab",
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "List view"
+      },
+      {
+        "height": 32,
+        "padding": "0px",
+        "radius": "8px",
+        "role": "tab",
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Grid view"
+      }
+    ],
+    "headings": [
+      {
+        "font": "Waldenburg, \"Waldenburg Fallback\"",
+        "size": "24px",
+        "text": "What would you like to create?",
+        "weight": "400"
+      }
+    ],
+    "layout": [
+      {
+        "padding": "0px 0px 32px",
+        "width": 1152
+      }
+    ],
+    "url": "/app/studio"
+  },
+  {
+    "label": "Flows",
+    "controls": [
+      {
+        "height": 36,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Previous page"
+      },
+      {
+        "height": 36,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Next page"
+      },
+      {
+        "height": 185.5,
+        "padding": "0px",
+        "radius": "0px",
+        "role": null,
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": "Product showcase video"
+      },
+      {
+        "height": 185.5,
+        "padding": "0px",
+        "radius": "0px",
+        "role": null,
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": "Explainer video"
+      },
+      {
+        "height": 185.5,
+        "padding": "0px",
+        "radius": "0px",
+        "role": null,
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": "Compare voices"
+      },
+      {
+        "height": 185.5,
+        "padding": "0px",
+        "radius": "0px",
+        "role": null,
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": "Book cover design"
+      }
+    ],
+    "headings": [],
+    "layout": [
+      {
+        "padding": "0px 0px 32px",
+        "width": 1152
+      }
+    ],
+    "url": "/app/flows"
+  },
+  {
+    "label": "Chat",
+    "controls": [
+      {
+        "height": 36,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Add reference"
+      },
+      {
+        "height": 36,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Start dictation"
+      },
+      {
+        "height": 36,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Send"
+      },
+      {
+        "height": 94,
+        "padding": "0px",
+        "radius": "16px",
+        "role": null,
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": "Product launch voiceover"
+      },
+      {
+        "height": 94,
+        "padding": "0px",
+        "radius": "16px",
+        "role": null,
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": "Podcast intro music"
+      },
+      {
+        "height": 94,
+        "padding": "0px",
+        "radius": "16px",
+        "role": null,
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": "Images for a blog post"
+      }
+    ],
+    "headings": [
+      {
+        "font": "Waldenburg, \"Waldenburg Fallback\"",
+        "size": "28px",
+        "text": "What would you like to create?",
+        "weight": "400"
+      }
+    ],
+    "layout": [
+      {
+        "padding": "0px",
+        "width": 2032
+      }
+    ],
+    "url": "/app/creative-agent"
+  },
+  {
+    "label": "Assets",
+    "controls": [
+      {
+        "height": 40,
+        "padding": "4px 12px 4px 36px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "INPUT",
+        "text": "Start typing to search"
+      },
+      {
+        "height": 32,
+        "padding": "0px",
+        "radius": "6px",
+        "role": null,
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": "List view"
+      },
+      {
+        "height": 32,
+        "padding": "0px",
+        "radius": "6px",
+        "role": null,
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": "Grid view"
+      },
+      {
+        "height": 58,
+        "padding": "10px 12px",
+        "radius": "8px",
+        "role": null,
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": "My Avatars"
+      }
+    ],
+    "headings": [],
+    "layout": [
+      {
+        "padding": "0px 0px 32px",
+        "width": 1152
+      }
+    ],
+    "url": "/app/files"
+  },
+  {
+    "label": "Text to Speech",
+    "controls": [
+      {
+        "height": 32,
+        "padding": "0px 10px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "@keyframes pvc-orb-shimmer {\n    0% { transfo"
+      },
+      {
+        "height": 32,
+        "padding": "0px",
+        "radius": "8px",
+        "role": null,
+        "size": "13px",
+        "tag": "BUTTON",
+        "text": "Clear text"
+      },
+      {
+        "height": 32,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Add speaker"
+      },
+      {
+        "height": 32,
+        "padding": "0px 10px 0px 8px",
+        "radius": "8px",
+        "role": null,
+        "size": "13px",
+        "tag": "BUTTON",
+        "text": "Command the room"
+      },
+      {
+        "height": 32,
+        "padding": "0px 10px 0px 8px",
+        "radius": "8px",
+        "role": null,
+        "size": "13px",
+        "tag": "BUTTON",
+        "text": "Feel the betrayal"
+      },
+      {
+        "height": 32,
+        "padding": "0px 10px 0px 8px",
+        "radius": "8px",
+        "role": null,
+        "size": "13px",
+        "tag": "BUTTON",
+        "text": "Laugh uncontrollably"
+      },
+      {
+        "height": 32,
+        "padding": "0px 10px 0px 8px",
+        "radius": "8px",
+        "role": null,
+        "size": "13px",
+        "tag": "BUTTON",
+        "text": "Direct a predicament"
+      },
+      {
+        "height": 32,
+        "padding": "0px 10px 0px 8px",
+        "radius": "8px",
+        "role": null,
+        "size": "13px",
+        "tag": "BUTTON",
+        "text": "Narrate a mystery"
+      },
+      {
+        "height": 32,
+        "padding": "0px 10px 0px 8px",
+        "radius": "8px",
+        "role": null,
+        "size": "13px",
+        "tag": "BUTTON",
+        "text": "Overlap speech"
+      },
+      {
+        "height": 42,
+        "padding": "4px 0px",
+        "radius": "0px",
+        "role": "tab",
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Settings"
+      },
+      {
+        "height": 42,
+        "padding": "4px 0px",
+        "radius": "0px",
+        "role": "tab",
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "History"
+      },
+      {
+        "height": 90,
+        "padding": "0px",
+        "radius": "16px",
+        "role": null,
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": "Try Voice Design for v3"
+      },
+      {
+        "height": 32,
+        "padding": "0px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Close popup"
+      },
+      {
+        "height": 40,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Select voice - Roger - Laid-Back, Casual, Res"
+      },
+      {
+        "height": 24,
+        "padding": "0px",
+        "radius": "6px",
+        "role": null,
+        "size": "12px",
+        "tag": "BUTTON",
+        "text": "Copy voice ID"
+      },
+      {
+        "height": 38,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Select model - Eleven v4"
+      }
+    ],
+    "headings": [],
+    "layout": [
+      {
+        "padding": "0px",
+        "width": 2032
+      }
+    ],
+    "url": "/app/speech-synthesis/text-to-speech"
+  },
+  {
+    "label": "Settings",
+    "controls": [
+      {
+        "height": 36,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Update Given Name"
+      },
+      {
+        "height": 36,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Manage Sharing"
+      },
+      {
+        "height": 36,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Manage Default Sharing"
+      },
+      {
+        "height": 36,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Copy All Resources to Another Workspace"
+      },
+      {
+        "height": 36,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Add Two-Factor Authentication"
+      },
+      {
+        "height": 36,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "See Details"
+      },
+      {
+        "height": 36,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Manage"
+      },
+      {
+        "height": 36,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Request Data Export"
+      },
+      {
+        "height": 36,
+        "padding": "8px 8px 8px 12px",
+        "radius": "10px",
+        "role": "combobox",
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Application language"
+      },
+      {
+        "height": 36,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Sign out"
+      },
+      {
+        "height": 36,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Delete Account"
+      }
+    ],
+    "headings": [],
+    "layout": [
+      {
+        "padding": "0px 0px 32px",
+        "width": 1152
+      },
+      {
+        "padding": "0px",
+        "width": 1152
+      }
+    ],
+    "url": "/app/settings"
+  },
+  {
+    "label": "Voice Creation",
+    "controls": [
+      {
+        "height": 36,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Play"
+      },
+      {
+        "height": 36,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Play"
+      },
+      {
+        "height": 40,
+        "padding": "0px 16px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Create new"
+      },
+      {
+        "height": 36,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Play"
+      },
+      {
+        "height": 40,
+        "padding": "0px 16px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Create new"
+      },
+      {
+        "height": 40,
+        "padding": "0px 16px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Create new"
+      }
+    ],
+    "headings": [],
+    "layout": [
+      {
+        "padding": "0px 0px 32px",
+        "width": 1152
+      }
+    ],
+    "url": "/app/create-voice"
+  },
+  {
+    "label": "Sound Effects",
+    "controls": [
+      {
+        "height": 36,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Previous page"
+      },
+      {
+        "height": 36,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Next page"
+      },
+      {
+        "height": 40,
+        "padding": "8px 12px 8px 36px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "INPUT",
+        "text": "Search sound effects..."
+      },
+      {
+        "height": 40,
+        "padding": "8px 8px 8px 12px",
+        "radius": "12px",
+        "role": "combobox",
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Trending"
+      }
+    ],
+    "headings": [],
+    "layout": [
+      {
+        "padding": "0px 0px 32px",
+        "width": 1152
+      }
+    ],
+    "url": "/app/sound-effects"
+  },
+  {
+    "label": "Image & Video",
+    "controls": [
+      {
+        "height": 24,
+        "padding": "0px 8px",
+        "radius": "6px",
+        "role": null,
+        "size": "12px",
+        "tag": "BUTTON",
+        "text": "View all"
+      },
+      {
+        "height": 40,
+        "padding": "8px 12px 8px 36px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "INPUT",
+        "text": "Search images, videos, and lip syncs"
+      },
+      {
+        "height": 28,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "13px",
+        "tag": "BUTTON",
+        "text": "Previous"
+      },
+      {
+        "height": 28,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "13px",
+        "tag": "BUTTON",
+        "text": "Next"
+      },
+      {
+        "height": 32,
+        "padding": "0px 8px",
+        "radius": "8px",
+        "role": "radio",
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": "Image"
+      },
+      {
+        "height": 32,
+        "padding": "0px",
+        "radius": "100%",
+        "role": null,
+        "size": "16px",
+        "tag": "INPUT",
+        "text": ""
+      },
+      {
+        "height": 32,
+        "padding": "0px 8px",
+        "radius": "8px",
+        "role": "radio",
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": "Video"
+      },
+      {
+        "height": 32,
+        "padding": "0px",
+        "radius": "100%",
+        "role": null,
+        "size": "16px",
+        "tag": "INPUT",
+        "text": ""
+      },
+      {
+        "height": 32,
+        "padding": "0px 8px",
+        "radius": "8px",
+        "role": "radio",
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": "Lip sync"
+      },
+      {
+        "height": 32,
+        "padding": "0px",
+        "radius": "100%",
+        "role": null,
+        "size": "16px",
+        "tag": "INPUT",
+        "text": ""
+      },
+      {
+        "height": 32,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Hide Suggestions"
+      },
+      {
+        "height": 74,
+        "padding": "0px",
+        "radius": "12px",
+        "role": "presentation",
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": "Image refs"
+      },
+      {
+        "height": 20,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "12px",
+        "tag": "BUTTON",
+        "text": "More options"
+      },
+      {
+        "height": 32,
+        "padding": "6px 8px 6px 6px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "GPT Image 2.5 Sunburst"
+      },
+      {
+        "height": 32,
+        "padding": "6px 8px 6px 6px",
+        "radius": "10px",
+        "role": "combobox",
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Aspect ratio"
+      },
+      {
+        "height": 32,
+        "padding": "6px 8px 6px 6px",
+        "radius": "10px",
+        "role": "combobox",
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Resolution"
+      }
+    ],
+    "headings": [],
+    "layout": [
+      {
+        "padding": "0px 0px 32px",
+        "width": 1152
+      }
+    ],
+    "url": "/app/image-video"
+  },
+  {
+    "label": "Voice Isolator",
+    "controls": [
+      {
+        "height": 36,
+        "padding": "0px 10px",
+        "radius": "9999px",
+        "role": null,
+        "size": "13px",
+        "tag": "BUTTON",
+        "text": "Upload audio"
+      },
+      {
+        "height": 36,
+        "padding": "0px 10px",
+        "radius": "9999px",
+        "role": null,
+        "size": "13px",
+        "tag": "BUTTON",
+        "text": "Record audio"
+      },
+      {
+        "height": 36,
+        "padding": "0px 10px",
+        "radius": "9999px",
+        "role": null,
+        "size": "13px",
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "height": 40,
+        "padding": "8px 12px 8px 36px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "INPUT",
+        "text": "Search history"
+      }
+    ],
+    "headings": [],
+    "layout": [
+      {
+        "padding": "0px 0px 32px",
+        "width": 1152
+      }
+    ],
+    "url": "/app/voice-isolator"
+  },
+  {
+    "label": "Voice Changer",
+    "controls": [
+      {
+        "height": 36,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Record audio"
+      },
+      {
+        "height": 36,
+        "padding": "0px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Clear queue"
+      },
+      {
+        "height": 36,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Generate speech ⌘+Enter"
+      },
+      {
+        "height": 42,
+        "padding": "4px 0px",
+        "radius": "0px",
+        "role": "tab",
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Settings"
+      },
+      {
+        "height": 42,
+        "padding": "4px 0px",
+        "radius": "0px",
+        "role": "tab",
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "History"
+      },
+      {
+        "height": 90,
+        "padding": "0px",
+        "radius": "16px",
+        "role": null,
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": "Try Voice Design for v3"
+      },
+      {
+        "height": 32,
+        "padding": "0px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Close popup"
+      },
+      {
+        "height": 40,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Select voice - Roger - Laid-Back, Casual, Res"
+      },
+      {
+        "height": 24,
+        "padding": "0px",
+        "radius": "6px",
+        "role": null,
+        "size": "12px",
+        "tag": "BUTTON",
+        "text": "Copy voice ID"
+      },
+      {
+        "height": 38,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Select model - Eleven English v2"
+      }
+    ],
+    "headings": [],
+    "layout": [
+      {
+        "padding": "0px",
+        "width": 1256
+      }
+    ],
+    "url": "/app/speech-synthesis/speech-to-speech"
+  },
+  {
+    "label": "Music",
+    "controls": [
+      {
+        "height": 28,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "13px",
+        "tag": "BUTTON",
+        "text": "Previous"
+      },
+      {
+        "height": 28,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "13px",
+        "tag": "BUTTON",
+        "text": "Next"
+      },
+      {
+        "height": 32,
+        "padding": "0px 8px 0px 6px",
+        "radius": "8px",
+        "role": "radio",
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": "Generate"
+      },
+      {
+        "height": 32,
+        "padding": "0px 8px",
+        "radius": "8px",
+        "role": "radio",
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "height": 32,
+        "padding": "0px 8px",
+        "radius": "8px",
+        "role": "radio",
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "height": 32,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Hide Suggestions"
+      },
+      {
+        "height": 32,
+        "padding": "6px 8px 6px 6px",
+        "radius": "10px",
+        "role": "combobox",
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Variants"
+      },
+      {
+        "height": 32,
+        "padding": "6px 8px 6px 6px",
+        "radius": "10px",
+        "role": "combobox",
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Duration"
+      },
+      {
+        "height": 36,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Generate"
+      },
+      {
+        "height": 36,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Previous page"
+      },
+      {
+        "height": 36,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Next page"
+      },
+      {
+        "height": 40,
+        "padding": "0px 12px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Genre"
+      },
+      {
+        "height": 40,
+        "padding": "0px 12px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Instrument"
+      },
+      {
+        "height": 40,
+        "padding": "0px 12px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Mood"
+      },
+      {
+        "height": 40,
+        "padding": "8px 12px 8px 36px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "INPUT",
+        "text": "Search by title, genre or description"
+      },
+      {
+        "height": 40,
+        "padding": "0px 16px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Filters"
+      }
+    ],
+    "headings": [],
+    "layout": [
+      {
+        "padding": "0px 0px 32px",
+        "width": 1152
+      }
+    ],
+    "url": "/app/music"
+  },
+  {
+    "label": "Speech to Text",
+    "controls": [
+      {
+        "height": 90,
+        "padding": "0px",
+        "radius": "16px",
+        "role": null,
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": "Try Scribe Realtime v2"
+      },
+      {
+        "height": 36,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Try the demo"
+      },
+      {
+        "height": 40,
+        "padding": "4px 12px 4px 32px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "INPUT",
+        "text": "Search transcripts..."
+      }
+    ],
+    "headings": [],
+    "layout": [
+      {
+        "padding": "0px 0px 32px",
+        "width": 1152
+      }
+    ],
+    "url": "/app/speech-to-text"
+  },
+  {
+    "label": "Audiobooks",
+    "controls": [
+      {
+        "height": 60,
+        "padding": "10px 12px",
+        "radius": "12px",
+        "role": null,
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": "Create an AudiobookCreate high-quality audio "
+      },
+      {
+        "height": 60,
+        "padding": "10px 12px",
+        "radius": "12px",
+        "role": null,
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": "Publish to ElevenReaderUpload your eBook to E"
+      },
+      {
+        "height": 42,
+        "padding": "4px 0px",
+        "radius": "0px",
+        "role": "tab",
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Bookshelf"
+      },
+      {
+        "height": 42,
+        "padding": "4px 0px",
+        "radius": "0px",
+        "role": "tab",
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Payouts"
+      },
+      {
+        "height": 42,
+        "padding": "4px 0px",
+        "radius": "0px",
+        "role": "tab",
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Analytics"
+      },
+      {
+        "height": 42,
+        "padding": "4px 0px",
+        "radius": "0px",
+        "role": "tab",
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Resources"
+      },
+      {
+        "height": 36,
+        "padding": "0px",
+        "radius": "10px",
+        "role": "combobox",
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Select author profile"
+      },
+      {
+        "height": 36,
+        "padding": "0px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Create series"
+      },
+      {
+        "height": 40,
+        "padding": "4px 12px 4px 32px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "INPUT",
+        "text": "Search books and series..."
+      },
+      {
+        "height": 40,
+        "padding": "0px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Grid view"
+      },
+      {
+        "height": 40,
+        "padding": "0px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "List view"
+      },
+      {
+        "height": 20,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "12px",
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "height": 20,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "12px",
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "height": 20,
+        "padding": "0px",
+        "radius": "9999px",
+        "role": null,
+        "size": "12px",
+        "tag": "BUTTON",
+        "text": ""
+      },
+      {
+        "height": 32,
+        "padding": "0px 10px",
+        "radius": "8px",
+        "role": null,
+        "size": "13px",
+        "tag": "BUTTON",
+        "text": "Try now"
+      },
+      {
+        "height": 32,
+        "padding": "0px",
+        "radius": "8px",
+        "role": null,
+        "size": "13px",
+        "tag": "BUTTON",
+        "text": "Dismiss"
+      }
+    ],
+    "headings": [],
+    "layout": [
+      {
+        "padding": "0px 0px 32px",
+        "width": 1152
+      }
+    ],
+    "url": "/app/audiobooks"
+  },
+  {
+    "label": "Developers",
+    "controls": [
+      {
+        "height": 90,
+        "padding": "0px",
+        "radius": "16px",
+        "role": null,
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": "Build voice agents with Speech Engine"
+      },
+      {
+        "height": 36,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Read the docs"
+      },
+      {
+        "height": 36,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Get started"
+      },
+      {
+        "height": 28,
+        "padding": "0px",
+        "radius": "8px",
+        "role": null,
+        "size": "13px",
+        "tag": "BUTTON",
+        "text": "Copy code"
+      },
+      {
+        "height": 24,
+        "padding": "4px 4px 4px 6px",
+        "radius": "6px",
+        "role": "combobox",
+        "size": "12px",
+        "tag": "BUTTON",
+        "text": "JavaScript"
+      },
+      {
+        "height": 40,
+        "padding": "0px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "View usage"
+      },
+      {
+        "height": 40,
+        "padding": "0px 16px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Add credits"
+      },
+      {
+        "height": 40,
+        "padding": "0px 16px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Auto Top UpOff"
+      },
+      {
+        "height": 40,
+        "padding": "0px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "View invoices"
+      },
+      {
+        "height": 56,
+        "padding": "16px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Create an API Key"
+      },
+      {
+        "height": 56,
+        "padding": "16px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Browse Models"
+      },
+      {
+        "height": 56,
+        "padding": "16px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "API Reference"
+      },
+      {
+        "height": 56,
+        "padding": "16px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Libraries & SDKs"
+      },
+      {
+        "height": 56,
+        "padding": "16px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "ElevenAgents"
+      },
+      {
+        "height": 56,
+        "padding": "16px",
+        "radius": "12px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Pricing Overview"
+      }
+    ],
+    "headings": [
+      {
+        "font": "Inter, sans-serif",
+        "size": "18px",
+        "text": "Developer quickstart",
+        "weight": "600"
+      },
+      {
+        "font": "Inter, sans-serif",
+        "size": "18px",
+        "text": "Usage",
+        "weight": "600"
+      },
+      {
+        "font": "Inter, sans-serif",
+        "size": "18px",
+        "text": "Quick Links",
+        "weight": "600"
+      }
+    ],
+    "layout": [
+      {
+        "padding": "0px 0px 32px",
+        "width": 1152
+      },
+      {
+        "padding": "0px",
+        "width": 1152
+      }
+    ],
+    "url": "/app/developers"
+  },
+  {
+    "label": "Connected Apps",
+    "controls": [],
+    "headings": [],
+    "layout": [
+      {
+        "padding": "0px 0px 32px",
+        "width": 1152
+      },
+      {
+        "padding": "0px",
+        "width": 1152
+      }
+    ],
+    "url": "/app/settings/connected-apps"
+  },
+  {
+    "label": "Connected Apps loaded",
+    "controls": [],
+    "headings": [],
+    "layout": [
+      {
+        "padding": "0px 0px 32px",
+        "width": 1152
+      },
+      {
+        "padding": "0px",
+        "width": 1152
+      }
+    ],
+    "url": "/app/settings/connected-apps"
+  },
+  {
+    "label": "Workspaces",
+    "controls": [
+      {
+        "height": 36,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Create New Workspace"
+      },
+      {
+        "height": 32,
+        "padding": "0px 10px",
+        "radius": "8px",
+        "role": null,
+        "size": "13px",
+        "tag": "BUTTON",
+        "text": "Current Workspace"
+      },
+      {
+        "height": 32,
+        "padding": "0px 8px",
+        "radius": "8px",
+        "role": null,
+        "size": "13px",
+        "tag": "BUTTON",
+        "text": ""
+      }
+    ],
+    "headings": [],
+    "layout": [
+      {
+        "padding": "0px 0px 32px",
+        "width": 1152
+      },
+      {
+        "padding": "0px",
+        "width": 1152
+      }
+    ],
+    "url": "/app/settings/workspaces"
+  },
+  {
+    "label": "Subscription",
+    "controls": [
+      {
+        "height": 32,
+        "padding": "0px 10px",
+        "radius": "8px",
+        "role": null,
+        "size": "13px",
+        "tag": "BUTTON",
+        "text": "Billing"
+      },
+      {
+        "height": 32,
+        "padding": "0px 12px",
+        "radius": "8px",
+        "role": null,
+        "size": "12px",
+        "tag": "BUTTON",
+        "text": "Monthly"
+      },
+      {
+        "height": 32,
+        "padding": "0px 12px",
+        "radius": "8px",
+        "role": null,
+        "size": "12px",
+        "tag": "BUTTON",
+        "text": "Yearly (save 2 months)"
+      },
+      {
+        "height": 28,
+        "padding": "5px",
+        "radius": "39px",
+        "role": null,
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": "Scroll left"
+      },
+      {
+        "height": 28,
+        "padding": "5px",
+        "radius": "39px",
+        "role": null,
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": "Scroll right"
+      },
+      {
+        "height": 36,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Current plan"
+      },
+      {
+        "height": 36,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Upgrade"
+      },
+      {
+        "height": 36,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Upgrade"
+      },
+      {
+        "height": 36,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Upgrade"
+      },
+      {
+        "height": 36,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Upgrade"
+      },
+      {
+        "height": 36,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Upgrade"
+      },
+      {
+        "height": 36,
+        "padding": "0px 12px",
+        "radius": "10px",
+        "role": null,
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Contact sales"
+      },
+      {
+        "height": 20,
+        "padding": "3px",
+        "radius": "28px",
+        "role": null,
+        "size": "16px",
+        "tag": "BUTTON",
+        "text": "Scroll left"
+      },
+      {
+        "height": 32,
+        "padding": "0px 12px",
+        "radius": "34px",
+        "role": "tab",
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Text to Speech"
+      },
+      {
+        "height": 32,
+        "padding": "0px 12px",
+        "radius": "34px",
+        "role": "tab",
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Speech to Text"
+      },
+      {
+        "height": 32,
+        "padding": "0px 12px",
+        "radius": "34px",
+        "role": "tab",
+        "size": "14px",
+        "tag": "BUTTON",
+        "text": "Voice Changer"
+      }
+    ],
+    "headings": [
+      {
+        "font": "inter, system-ui, sans-serif",
+        "size": "16px",
+        "text": "How do text characters and credits work?",
+        "weight": "400"
+      },
+      {
+        "font": "inter, system-ui, sans-serif",
+        "size": "16px",
+        "text": "When do my credits reset, and do unused credits roll ov",
+        "weight": "400"
+      },
+      {
+        "font": "inter, system-ui, sans-serif",
+        "size": "16px",
+        "text": "Is there a limit on how many credits I can use in a sin",
+        "weight": "400"
+      },
+      {
+        "font": "inter, system-ui, sans-serif",
+        "size": "16px",
+        "text": "Am I charged for every generation?",
+        "weight": "400"
+      },
+      {
+        "font": "inter, system-ui, sans-serif",
+        "size": "16px",
+        "text": "How do I check how many credits I have remaining?",
+        "weight": "400"
+      },
+      {
+        "font": "inter, system-ui, sans-serif",
+        "size": "16px",
+        "text": "What happens if I upgrade, downgrade, or cancel my subs",
+        "weight": "400"
+      },
+      {
+        "font": "inter, system-ui, sans-serif",
+        "size": "16px",
+        "text": "When can I cancel my subscription?",
+        "weight": "400"
+      },
+      {
+        "font": "inter, system-ui, sans-serif",
+        "size": "16px",
+        "text": "What kind of payment do you accept?",
+        "weight": "400"
+      },
+      {
+        "font": "inter, system-ui, sans-serif",
+        "size": "16px",
+        "text": "How is tax handled for Alabama customers?",
+        "weight": "400"
+      }
+    ],
+    "layout": [
+      {
+        "padding": "0px 0px 32px",
+        "width": 1152
+      }
+    ],
+    "url": "/app/subscription/creative"
+  }
+]

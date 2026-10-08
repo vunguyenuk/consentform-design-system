@@ -1,0 +1,1102 @@
+[
+  {
+    "controls": [
+      {
+        "height": 32,
+        "label": "Search activity…",
+        "top": 202
+      },
+      {
+        "height": 32,
+        "label": "Channels",
+        "top": 202
+      },
+      {
+        "height": 32,
+        "label": "Purposes",
+        "top": 202
+      },
+      {
+        "height": 32,
+        "label": "Results",
+        "top": 202
+      },
+      {
+        "height": 32,
+        "label": "Facility",
+        "top": 202
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#activity",
+    "sameRow": true,
+    "ui": "figma",
+    "width": 1440
+  },
+  {
+    "controls": [
+      {
+        "height": 32,
+        "label": "Search residents or room…",
+        "top": 202
+      },
+      {
+        "height": 32,
+        "label": "Facility",
+        "top": 202
+      },
+      {
+        "height": 32,
+        "label": "Consent status",
+        "top": 202
+      },
+      {
+        "height": 32,
+        "label": "Sort",
+        "top": 202
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#residents",
+    "sameRow": true,
+    "ui": "figma",
+    "width": 1440
+  },
+  {
+    "controls": [
+      {
+        "height": 32,
+        "label": "Search facilities…",
+        "top": 280
+      },
+      {
+        "height": 32,
+        "label": "Facility status",
+        "top": 280
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#facilities",
+    "sameRow": true,
+    "ui": "figma",
+    "width": 1440
+  },
+  {
+    "controls": [
+      {
+        "height": 32,
+        "label": "Search name or room…",
+        "top": 337
+      },
+      {
+        "height": 32,
+        "label": "Patient match",
+        "top": 337
+      },
+      {
+        "height": 32,
+        "label": "Insurance",
+        "top": 337
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#census",
+    "sameRow": true,
+    "ui": "figma",
+    "width": 1440
+  },
+  {
+    "controls": [
+      {
+        "height": 32,
+        "label": "Search activity…",
+        "top": 202
+      },
+      {
+        "height": 32,
+        "label": "Channels",
+        "top": 202
+      },
+      {
+        "height": 32,
+        "label": "Purposes",
+        "top": 202
+      },
+      {
+        "height": 32,
+        "label": "Results",
+        "top": 202
+      },
+      {
+        "height": 32,
+        "label": "Facility",
+        "top": 202
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#activity",
+    "sameRow": true,
+    "ui": "figma",
+    "width": 1264
+  },
+  {
+    "controls": [
+      {
+        "height": 32,
+        "label": "Search residents or room…",
+        "top": 250
+      },
+      {
+        "height": 32,
+        "label": "Facility",
+        "top": 250
+      },
+      {
+        "height": 32,
+        "label": "Consent status",
+        "top": 250
+      },
+      {
+        "height": 32,
+        "label": "Sort",
+        "top": 250
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#residents",
+    "sameRow": true,
+    "ui": "figma",
+    "width": 1264
+  },
+  {
+    "controls": [
+      {
+        "height": 32,
+        "label": "Search facilities…",
+        "top": 280
+      },
+      {
+        "height": 32,
+        "label": "Facility status",
+        "top": 280
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#facilities",
+    "sameRow": true,
+    "ui": "figma",
+    "width": 1264
+  },
+  {
+    "controls": [
+      {
+        "height": 32,
+        "label": "Search name or room…",
+        "top": 337
+      },
+      {
+        "height": 32,
+        "label": "Patient match",
+        "top": 337
+      },
+      {
+        "height": 32,
+        "label": "Insurance",
+        "top": 337
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#census",
+    "sameRow": true,
+    "ui": "figma",
+    "width": 1264
+  },
+  {
+    "controls": [
+      {
+        "height": 32,
+        "label": "Search activity…",
+        "top": 202
+      },
+      {
+        "height": 32,
+        "label": "Channels",
+        "top": 202
+      },
+      {
+        "height": 32,
+        "label": "Purposes",
+        "top": 202
+      },
+      {
+        "height": 32,
+        "label": "Results",
+        "top": 202
+      },
+      {
+        "height": 32,
+        "label": "Facility",
+        "top": 202
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#activity",
+    "sameRow": true,
+    "ui": "figma",
+    "width": 1024
+  },
+  {
+    "controls": [
+      {
+        "height": 32,
+        "label": "Search residents or room…",
+        "top": 250
+      },
+      {
+        "height": 32,
+        "label": "Facility",
+        "top": 250
+      },
+      {
+        "height": 32,
+        "label": "Consent status",
+        "top": 250
+      },
+      {
+        "height": 32,
+        "label": "Sort",
+        "top": 250
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#residents",
+    "sameRow": true,
+    "ui": "figma",
+    "width": 1024
+  },
+  {
+    "controls": [
+      {
+        "height": 32,
+        "label": "Search facilities…",
+        "top": 280
+      },
+      {
+        "height": 32,
+        "label": "Facility status",
+        "top": 280
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#facilities",
+    "sameRow": true,
+    "ui": "figma",
+    "width": 1024
+  },
+  {
+    "controls": [
+      {
+        "height": 32,
+        "label": "Search name or room…",
+        "top": 381
+      },
+      {
+        "height": 32,
+        "label": "Patient match",
+        "top": 381
+      },
+      {
+        "height": 32,
+        "label": "Insurance",
+        "top": 381
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#census",
+    "sameRow": true,
+    "ui": "figma",
+    "width": 1024
+  },
+  {
+    "controls": [
+      {
+        "height": 32,
+        "label": "Search activity…",
+        "top": 180
+      },
+      {
+        "height": 32,
+        "label": "Channels",
+        "top": 246
+      },
+      {
+        "height": 32,
+        "label": "Purposes",
+        "top": 246
+      },
+      {
+        "height": 32,
+        "label": "Results",
+        "top": 246
+      },
+      {
+        "height": 32,
+        "label": "Facility",
+        "top": 312
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#activity",
+    "sameRow": false,
+    "ui": "figma",
+    "width": 820
+  },
+  {
+    "controls": [
+      {
+        "height": 32,
+        "label": "Search residents or room…",
+        "top": 228
+      },
+      {
+        "height": 32,
+        "label": "Facility",
+        "top": 294
+      },
+      {
+        "height": 32,
+        "label": "Consent status",
+        "top": 294
+      },
+      {
+        "height": 32,
+        "label": "Sort",
+        "top": 294
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#residents",
+    "sameRow": false,
+    "ui": "figma",
+    "width": 820
+  },
+  {
+    "controls": [
+      {
+        "height": 32,
+        "label": "Search facilities…",
+        "top": 280
+      },
+      {
+        "height": 32,
+        "label": "Facility status",
+        "top": 280
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#facilities",
+    "sameRow": true,
+    "ui": "figma",
+    "width": 820
+  },
+  {
+    "controls": [
+      {
+        "height": 32,
+        "label": "Search name or room…",
+        "top": 381
+      },
+      {
+        "height": 32,
+        "label": "Patient match",
+        "top": 381
+      },
+      {
+        "height": 32,
+        "label": "Insurance",
+        "top": 381
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#census",
+    "sameRow": true,
+    "ui": "figma",
+    "width": 820
+  },
+  {
+    "controls": [
+      {
+        "height": 32,
+        "label": "Search activity…",
+        "top": 209
+      },
+      {
+        "height": 32,
+        "label": "Channels",
+        "top": 275
+      },
+      {
+        "height": 32,
+        "label": "Purposes",
+        "top": 275
+      },
+      {
+        "height": 32,
+        "label": "Results",
+        "top": 341
+      },
+      {
+        "height": 32,
+        "label": "Facility",
+        "top": 341
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#activity",
+    "sameRow": false,
+    "ui": "figma",
+    "width": 375
+  },
+  {
+    "controls": [
+      {
+        "height": 32,
+        "label": "Search residents or room…",
+        "top": 297
+      },
+      {
+        "height": 32,
+        "label": "Facility",
+        "top": 363
+      },
+      {
+        "height": 32,
+        "label": "Consent status",
+        "top": 363
+      },
+      {
+        "height": 32,
+        "label": "Sort",
+        "top": 429
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#residents",
+    "sameRow": false,
+    "ui": "figma",
+    "width": 375
+  },
+  {
+    "controls": [
+      {
+        "height": 32,
+        "label": "Search facilities…",
+        "top": 535
+      },
+      {
+        "height": 32,
+        "label": "Facility status",
+        "top": 575
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#facilities",
+    "sameRow": false,
+    "ui": "figma",
+    "width": 375
+  },
+  {
+    "controls": [
+      {
+        "height": 32,
+        "label": "Search name or room…",
+        "top": 688
+      },
+      {
+        "height": 32,
+        "label": "Patient match",
+        "top": 732
+      },
+      {
+        "height": 32,
+        "label": "Insurance",
+        "top": 732
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#census",
+    "sameRow": false,
+    "ui": "figma",
+    "width": 375
+  },
+  {
+    "controls": [
+      {
+        "height": 36,
+        "label": "Search activity…",
+        "top": 300
+      },
+      {
+        "height": 36,
+        "label": "Channels",
+        "top": 300
+      },
+      {
+        "height": 36,
+        "label": "Purposes",
+        "top": 300
+      },
+      {
+        "height": 36,
+        "label": "Results",
+        "top": 300
+      },
+      {
+        "height": 36,
+        "label": "Facility",
+        "top": 300
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#activity",
+    "sameRow": true,
+    "ui": "v2",
+    "width": 1440
+  },
+  {
+    "controls": [
+      {
+        "height": 36,
+        "label": "Search residents or room…",
+        "top": 352
+      },
+      {
+        "height": 36,
+        "label": "Facility",
+        "top": 352
+      },
+      {
+        "height": 36,
+        "label": "Consent status",
+        "top": 352
+      },
+      {
+        "height": 36,
+        "label": "Sort",
+        "top": 352
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#residents",
+    "sameRow": true,
+    "ui": "v2",
+    "width": 1440
+  },
+  {
+    "controls": [
+      {
+        "height": 36,
+        "label": "Search facilities…",
+        "top": 386
+      },
+      {
+        "height": 36,
+        "label": "Facility status",
+        "top": 386
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#facilities",
+    "sameRow": true,
+    "ui": "v2",
+    "width": 1440
+  },
+  {
+    "controls": [
+      {
+        "height": 36,
+        "label": "Search name or room…",
+        "top": 446
+      },
+      {
+        "height": 36,
+        "label": "Patient match",
+        "top": 446
+      },
+      {
+        "height": 36,
+        "label": "Insurance",
+        "top": 446
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#census",
+    "sameRow": true,
+    "ui": "v2",
+    "width": 1440
+  },
+  {
+    "controls": [
+      {
+        "height": 36,
+        "label": "Search activity…",
+        "top": 300
+      },
+      {
+        "height": 36,
+        "label": "Channels",
+        "top": 300
+      },
+      {
+        "height": 36,
+        "label": "Purposes",
+        "top": 300
+      },
+      {
+        "height": 36,
+        "label": "Results",
+        "top": 300
+      },
+      {
+        "height": 36,
+        "label": "Facility",
+        "top": 300
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#activity",
+    "sameRow": true,
+    "ui": "v2",
+    "width": 1264
+  },
+  {
+    "controls": [
+      {
+        "height": 36,
+        "label": "Search residents or room…",
+        "top": 352
+      },
+      {
+        "height": 36,
+        "label": "Facility",
+        "top": 352
+      },
+      {
+        "height": 36,
+        "label": "Consent status",
+        "top": 352
+      },
+      {
+        "height": 36,
+        "label": "Sort",
+        "top": 352
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#residents",
+    "sameRow": true,
+    "ui": "v2",
+    "width": 1264
+  },
+  {
+    "controls": [
+      {
+        "height": 36,
+        "label": "Search facilities…",
+        "top": 386
+      },
+      {
+        "height": 36,
+        "label": "Facility status",
+        "top": 386
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#facilities",
+    "sameRow": true,
+    "ui": "v2",
+    "width": 1264
+  },
+  {
+    "controls": [
+      {
+        "height": 36,
+        "label": "Search name or room…",
+        "top": 446
+      },
+      {
+        "height": 36,
+        "label": "Patient match",
+        "top": 446
+      },
+      {
+        "height": 36,
+        "label": "Insurance",
+        "top": 446
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#census",
+    "sameRow": true,
+    "ui": "v2",
+    "width": 1264
+  },
+  {
+    "controls": [
+      {
+        "height": 36,
+        "label": "Search activity…",
+        "top": 300
+      },
+      {
+        "height": 36,
+        "label": "Channels",
+        "top": 300
+      },
+      {
+        "height": 36,
+        "label": "Purposes",
+        "top": 300
+      },
+      {
+        "height": 36,
+        "label": "Results",
+        "top": 300
+      },
+      {
+        "height": 36,
+        "label": "Facility",
+        "top": 300
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#activity",
+    "sameRow": true,
+    "ui": "v2",
+    "width": 1024
+  },
+  {
+    "controls": [
+      {
+        "height": 36,
+        "label": "Search residents or room…",
+        "top": 352
+      },
+      {
+        "height": 36,
+        "label": "Facility",
+        "top": 352
+      },
+      {
+        "height": 36,
+        "label": "Consent status",
+        "top": 352
+      },
+      {
+        "height": 36,
+        "label": "Sort",
+        "top": 352
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#residents",
+    "sameRow": true,
+    "ui": "v2",
+    "width": 1024
+  },
+  {
+    "controls": [
+      {
+        "height": 36,
+        "label": "Search facilities…",
+        "top": 386
+      },
+      {
+        "height": 36,
+        "label": "Facility status",
+        "top": 386
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#facilities",
+    "sameRow": true,
+    "ui": "v2",
+    "width": 1024
+  },
+  {
+    "controls": [
+      {
+        "height": 36,
+        "label": "Search name or room…",
+        "top": 494
+      },
+      {
+        "height": 36,
+        "label": "Patient match",
+        "top": 494
+      },
+      {
+        "height": 36,
+        "label": "Insurance",
+        "top": 494
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#census",
+    "sameRow": true,
+    "ui": "v2",
+    "width": 1024
+  },
+  {
+    "controls": [
+      {
+        "height": 36,
+        "label": "Search activity…",
+        "top": 271
+      },
+      {
+        "height": 36,
+        "label": "Channels",
+        "top": 345
+      },
+      {
+        "height": 36,
+        "label": "Purposes",
+        "top": 345
+      },
+      {
+        "height": 36,
+        "label": "Results",
+        "top": 345
+      },
+      {
+        "height": 36,
+        "label": "Facility",
+        "top": 419
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#activity",
+    "sameRow": false,
+    "ui": "v2",
+    "width": 820
+  },
+  {
+    "controls": [
+      {
+        "height": 36,
+        "label": "Search residents or room…",
+        "top": 303
+      },
+      {
+        "height": 36,
+        "label": "Facility",
+        "top": 377
+      },
+      {
+        "height": 36,
+        "label": "Consent status",
+        "top": 377
+      },
+      {
+        "height": 36,
+        "label": "Sort",
+        "top": 377
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#residents",
+    "sameRow": false,
+    "ui": "v2",
+    "width": 820
+  },
+  {
+    "controls": [
+      {
+        "height": 36,
+        "label": "Search facilities…",
+        "top": 363
+      },
+      {
+        "height": 36,
+        "label": "Facility status",
+        "top": 415
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#facilities",
+    "sameRow": false,
+    "ui": "v2",
+    "width": 820
+  },
+  {
+    "controls": [
+      {
+        "height": 36,
+        "label": "Search name or room…",
+        "top": 507
+      },
+      {
+        "height": 36,
+        "label": "Patient match",
+        "top": 507
+      },
+      {
+        "height": 36,
+        "label": "Insurance",
+        "top": 555
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#census",
+    "sameRow": false,
+    "ui": "v2",
+    "width": 820
+  },
+  {
+    "controls": [
+      {
+        "height": 36,
+        "label": "Search activity…",
+        "top": 301
+      },
+      {
+        "height": 36,
+        "label": "Channels",
+        "top": 301
+      },
+      {
+        "height": 36,
+        "label": "Purposes",
+        "top": 375
+      },
+      {
+        "height": 36,
+        "label": "Results",
+        "top": 375
+      },
+      {
+        "height": 36,
+        "label": "Facility",
+        "top": 449
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#activity",
+    "sameRow": false,
+    "ui": "v2",
+    "width": 375
+  },
+  {
+    "controls": [
+      {
+        "height": 36,
+        "label": "Search residents or room…",
+        "top": 397
+      },
+      {
+        "height": 36,
+        "label": "Facility",
+        "top": 397
+      },
+      {
+        "height": 36,
+        "label": "Consent status",
+        "top": 471
+      },
+      {
+        "height": 36,
+        "label": "Sort",
+        "top": 471
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#residents",
+    "sameRow": false,
+    "ui": "v2",
+    "width": 375
+  },
+  {
+    "controls": [
+      {
+        "height": 36,
+        "label": "Search facilities…",
+        "top": 452
+      },
+      {
+        "height": 36,
+        "label": "Facility status",
+        "top": 496
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#facilities",
+    "sameRow": false,
+    "ui": "v2",
+    "width": 375
+  },
+  {
+    "controls": [
+      {
+        "height": 36,
+        "label": "Search name or room…",
+        "top": 615
+      },
+      {
+        "height": 36,
+        "label": "Patient match",
+        "top": 615
+      },
+      {
+        "height": 36,
+        "label": "Insurance",
+        "top": 663
+      }
+    ],
+    "equalHeight": true,
+    "overflow": false,
+    "route": "#census",
+    "sameRow": false,
+    "ui": "v2",
+    "width": 375
+  }
+]

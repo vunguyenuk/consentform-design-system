@@ -78,7 +78,7 @@
 .kanban-column>header { display:flex; justify-content:space-between; align-items:center; gap:8px; }
 .kanban-column h2 { font-size:14px; font-weight:600; }
 .kanban-column>header .iconbtn { width:20px; height:20px; }
-.kit-task-card { display:flex; flex-direction:column; gap:8px; padding:16px; border-radius:10px; background:var(--card); border:1px solid var(--divider); }
+.kit-task-card { display:flex; flex-direction:column; gap:8px; padding:16px; border-radius:var(--card-radius); background:var(--card); border:1px solid var(--card-border); }
 .kit-task-card .task-title-button { font-weight:600; line-height:21px; min-height:42px; }
 .kit-task-card footer { display:flex; justify-content:space-between; align-items:center; gap:8px; padding-top:12px; margin-top:4px; border-top:1px solid var(--divider); }
 .kit-task-card footer>span { display:flex; align-items:center; gap:6px; font-size:12px; min-width:0; }
@@ -333,3 +333,39 @@
  :root[data-ui=figma] main>.page-actions>.kit-search{display:none}
  :root[data-ui=figma] .kanban-board{grid-template-columns:repeat(4,271px);padding:24px}
 }
+
+/* Page search moves below the tabs when header actions need more space. */
+@media(max-width:1180px){
+ :root[data-ui=figma] .topbar .kit-search{display:none}
+ :root[data-ui=figma] .kit-mobile-search{display:block;padding:16px var(--page-gutter) 0}
+ :root[data-ui=figma] .kit-mobile-search .search{width:100%}
+}
+
+/* V1 navigation owns its row; searches and filters follow below it. */
+:root[data-ui=figma] .kit-mobile-search{display:block;padding:16px var(--page-gutter) 0}
+:root[data-ui=figma] .kit-mobile-search .search{width:100%;max-width:320px}
+:root[data-ui=figma] .v1-mail-filters{display:flex;align-items:center;gap:12px;padding:16px 24px;border-bottom:1px solid var(--divider)}
+:root[data-ui=figma] .v1-mail-filters .search{flex:1;min-width:0}
+:root[data-ui=figma] .v1-mail-filters>.btn{flex:none}
+:root[data-ui=figma] .tasks-viewbar{display:flex;flex-direction:column;align-items:stretch;gap:0;border:0;padding-bottom:16px}
+:root[data-ui=figma] .tasks-viewbar>.under-tabs{border-bottom:1px solid var(--divider)}
+:root[data-ui=figma] .tasks-viewbar>.inline-actions{display:flex;gap:12px;padding-top:16px;margin-left:0;flex-wrap:wrap}
+:root[data-ui=figma] .tasks-viewbar .search{margin-right:auto;width:260px;max-width:100%}
+@media(max-width:760px){:root[data-ui=figma] .v1-mail-filters{padding-inline:16px}:root[data-ui=figma] .tasks-viewbar .search{flex-basis:100%;width:100%}}
+
+/* Align specialized editors to the shared dialog heading and footer. */
+:root[data-ui=figma] #dialog :is(.task-editor,.note-editor){padding:var(--dialog-inset);min-height:0}
+:root[data-ui] #dialog .note-editor label:has([name=favorite]){font-size:14px;line-height:22px}
+:root[data-ui] #dialog .task-checklist .checkline{line-height:22px}
+:root[data-ui] .kit-share-body .kit-note-card p{height:44px;line-height:22px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+:root[data-ui] .kit-share-body>.btn,:root[data-ui] .share-invite .btn{height:38px;min-height:38px;border-radius:var(--radius);font-size:14px;line-height:21px}
+:root[data-ui] .phone-field>span{top:50%;transform:translateY(-50%)}
+:root[data-ui] .profile-picture small{font-size:12px;line-height:18px}
+@media(max-width:650px){
+ :root[data-ui=figma] .kit-settings-nav{padding:0 16px;gap:0;scrollbar-width:none}
+ :root[data-ui=figma] .kit-settings-nav>.btn{position:relative;height:46px;min-height:46px;padding:0 16px;border-radius:0;background:transparent!important;font-size:14px;line-height:20px}
+ :root[data-ui=figma] .kit-settings-nav>.btn.active:after{content:'';position:absolute;inset-inline:0;bottom:0;height:3px;background:var(--ink)}
+ :root[data-ui=figma] .kit-settings-nav>.btn:focus-visible{outline-offset:-3px}
+}
+:root[data-ui] .settings-form{gap:var(--field-row-gap)}
+@media(max-width:650px){:root[data-ui] .settings-form .formgrid{gap:var(--field-row-gap)}}

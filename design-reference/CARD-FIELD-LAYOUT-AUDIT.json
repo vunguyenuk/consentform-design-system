@@ -1,0 +1,4901 @@
+{
+  "checkedAt": "2026-10-08",
+  "reference": {
+    "cards": "6155:20893",
+    "fields": "4006:178"
+  },
+  "examples": [
+    {
+      "label": "v1-password-desktop",
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 812
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 812
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "current",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 323
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "next",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 417
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "confirm",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 511
+        }
+      ],
+      "form": [
+        {
+          "width": 860,
+          "x": 420
+        }
+      ],
+      "main": [
+        260,
+        1180
+      ],
+      "pageWidth": 1440,
+      "theme": "light",
+      "ui": "figma",
+      "width": 1440
+    },
+    {
+      "label": "v1-date-toolbar",
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 1117
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "All channels",
+          "padding": "0px 12px",
+          "radius": "8px",
+          "y": 202
+        },
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "All purposes",
+          "padding": "0px 12px",
+          "radius": "8px",
+          "y": 202
+        },
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "All results",
+          "padding": "0px 12px",
+          "radius": "8px",
+          "y": 202
+        },
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "All facilities",
+          "padding": "0px 12px",
+          "radius": "8px",
+          "y": 202
+        },
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "from",
+          "padding": "0px 12px",
+          "radius": "8px",
+          "y": 272
+        },
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "to",
+          "padding": "0px 12px",
+          "radius": "8px",
+          "y": 272
+        },
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "Reset filters",
+          "padding": "0px 24px",
+          "radius": "8px",
+          "y": 272
+        }
+      ],
+      "form": [],
+      "main": [
+        260,
+        1165
+      ],
+      "pageWidth": 1425,
+      "theme": "light",
+      "ui": "figma",
+      "width": 1440
+    },
+    {
+      "label": "v1-matched-review",
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "detailbar",
+          "radius": "10px",
+          "width": 561
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "Verified eligible",
+          "padding": "0px 16px 0px 20px",
+          "radius": "10px",
+          "y": 534.125
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "Schedule",
+          "padding": "0px 16px 0px 20px",
+          "radius": "10px",
+          "y": 534.125
+        }
+      ],
+      "form": [],
+      "main": [
+        260,
+        1180
+      ],
+      "pageWidth": 1440,
+      "theme": "light",
+      "ui": "figma",
+      "width": 1440
+    },
+    {
+      "label": "v1-possible-review",
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "",
+          "radius": "10px",
+          "width": 272.5
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "",
+          "radius": "10px",
+          "width": 272.5
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "Choose a decision",
+          "padding": "0px 16px 0px 20px",
+          "radius": "10px",
+          "y": 548.5
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "Needs verification",
+          "padding": "0px 16px 0px 20px",
+          "radius": "10px",
+          "y": 642.5
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "Hold",
+          "padding": "0px 16px 0px 20px",
+          "radius": "10px",
+          "y": 642.5
+        }
+      ],
+      "form": [],
+      "main": [
+        260,
+        1180
+      ],
+      "pageWidth": 1440,
+      "theme": "light",
+      "ui": "figma",
+      "width": 1440
+    },
+    {
+      "label": "v1-password-dark",
+      "cards": [
+        {
+          "background": "rgb(37, 37, 40)",
+          "border": "rgb(37, 37, 40)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 812
+        },
+        {
+          "background": "rgb(37, 37, 40)",
+          "border": "rgb(37, 37, 40)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 812
+        },
+        {
+          "background": "rgb(37, 37, 40)",
+          "border": "rgb(37, 37, 40)",
+          "class": "",
+          "radius": "10px",
+          "width": 0
+        },
+        {
+          "background": "rgb(37, 37, 40)",
+          "border": "rgb(37, 37, 40)",
+          "class": "",
+          "radius": "10px",
+          "width": 0
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(68, 68, 74)",
+          "height": 48,
+          "name": "current",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 323
+        },
+        {
+          "border": "rgb(68, 68, 74)",
+          "height": 48,
+          "name": "next",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 417
+        },
+        {
+          "border": "rgb(68, 68, 74)",
+          "height": 48,
+          "name": "confirm",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 511
+        }
+      ],
+      "form": [
+        {
+          "width": 860,
+          "x": 420
+        }
+      ],
+      "main": [
+        260,
+        1180
+      ],
+      "pageWidth": 1440,
+      "theme": "dark",
+      "ui": "figma",
+      "width": 1440
+    },
+    {
+      "label": "v2-password-dark",
+      "cards": [
+        {
+          "background": "rgb(33, 33, 34)",
+          "border": "rgba(255, 255, 255, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 860
+        },
+        {
+          "background": "rgb(33, 33, 34)",
+          "border": "rgba(255, 255, 255, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 860
+        },
+        {
+          "background": "rgb(33, 33, 34)",
+          "border": "rgba(255, 255, 255, 0.075)",
+          "class": "",
+          "radius": "16px",
+          "width": 0
+        },
+        {
+          "background": "rgb(33, 33, 34)",
+          "border": "rgba(255, 255, 255, 0.075)",
+          "class": "",
+          "radius": "16px",
+          "width": 0
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgba(255, 255, 255, 0.16)",
+          "height": 40,
+          "name": "current",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 425
+        },
+        {
+          "border": "rgba(255, 255, 255, 0.16)",
+          "height": 40,
+          "name": "next",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 511
+        },
+        {
+          "border": "rgba(255, 255, 255, 0.16)",
+          "height": 40,
+          "name": "confirm",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 597
+        }
+      ],
+      "form": [
+        {
+          "width": 860,
+          "x": 410.5
+        }
+      ],
+      "main": [
+        256,
+        1169
+      ],
+      "pageWidth": 1425,
+      "theme": "dark",
+      "ui": "v2",
+      "width": 1440
+    },
+    {
+      "label": "v2-date-toolbar",
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 1105
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "",
+          "radius": "16px",
+          "width": 0
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "",
+          "radius": "16px",
+          "width": 0
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 36,
+          "name": "All channels",
+          "padding": "8px 8px 8px 12px",
+          "radius": "10px",
+          "y": 300
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 36,
+          "name": "All purposes",
+          "padding": "8px 8px 8px 12px",
+          "radius": "10px",
+          "y": 300
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 36,
+          "name": "All results",
+          "padding": "8px 8px 8px 12px",
+          "radius": "10px",
+          "y": 300
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 36,
+          "name": "All facilities",
+          "padding": "8px 8px 8px 12px",
+          "radius": "10px",
+          "y": 300
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 36,
+          "name": "from",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 378
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 36,
+          "name": "to",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 378
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.075)",
+          "height": 36,
+          "name": "Reset filters",
+          "padding": "0px 12px",
+          "radius": "10px",
+          "y": 378
+        }
+      ],
+      "form": [],
+      "main": [
+        256,
+        1169
+      ],
+      "pageWidth": 1425,
+      "theme": "light",
+      "ui": "v2",
+      "width": 1440
+    },
+    {
+      "label": "v2-preferences-dark-mobile",
+      "cards": [
+        {
+          "background": "rgb(33, 33, 34)",
+          "border": "rgba(255, 255, 255, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 343
+        },
+        {
+          "background": "rgb(33, 33, 34)",
+          "border": "rgba(255, 255, 255, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 343
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgba(255, 255, 255, 0.16)",
+          "height": 40,
+          "name": "America/Los Angeles",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 389
+        },
+        {
+          "border": "rgba(255, 255, 255, 0.16)",
+          "height": 40,
+          "name": "Dark",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 475
+        }
+      ],
+      "form": [
+        {
+          "width": 343,
+          "x": 16
+        }
+      ],
+      "main": [
+        0,
+        375
+      ],
+      "pageWidth": 375,
+      "theme": "dark",
+      "ui": "v2",
+      "width": 375
+    }
+  ],
+  "responsive": [
+    {
+      "route": "settings?tab=profile",
+      "testWidth": 1440,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 812
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 812
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "username",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 323
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "name",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 417
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "email",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 511
+        }
+      ],
+      "form": [
+        {
+          "width": 860,
+          "x": 420
+        }
+      ],
+      "main": [
+        260,
+        1180
+      ],
+      "pageWidth": 1440,
+      "theme": "light",
+      "ui": "figma",
+      "width": 1440
+    },
+    {
+      "route": "settings?tab=preferences",
+      "testWidth": 1440,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 812
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 812
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "America/Los Angeles",
+          "padding": "0px 16px 0px 20px",
+          "radius": "10px",
+          "y": 323
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "Light",
+          "padding": "0px 16px 0px 20px",
+          "radius": "10px",
+          "y": 417
+        }
+      ],
+      "form": [
+        {
+          "width": 860,
+          "x": 420
+        }
+      ],
+      "main": [
+        260,
+        1180
+      ],
+      "pageWidth": 1440,
+      "theme": "light",
+      "ui": "figma",
+      "width": 1440
+    },
+    {
+      "route": "settings?tab=password",
+      "testWidth": 1440,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 812
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 812
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "current",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 323
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "next",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 417
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "confirm",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 511
+        }
+      ],
+      "form": [
+        {
+          "width": 860,
+          "x": 420
+        }
+      ],
+      "main": [
+        260,
+        1180
+      ],
+      "pageWidth": 1440,
+      "theme": "light",
+      "ui": "figma",
+      "width": 1440
+    },
+    {
+      "route": "settings?tab=sessions",
+      "testWidth": 1440,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 812
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-session",
+          "radius": "10px",
+          "width": 762
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 812
+        }
+      ],
+      "fields": [],
+      "form": [
+        {
+          "width": 860,
+          "x": 420
+        }
+      ],
+      "main": [
+        260,
+        1180
+      ],
+      "pageWidth": 1440,
+      "theme": "light",
+      "ui": "figma",
+      "width": 1440
+    },
+    {
+      "route": "resident-new",
+      "testWidth": 1440,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 812
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 812
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card",
+          "radius": "10px",
+          "width": 0
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "Sunrise Villa Walnut Creek",
+          "padding": "0px 16px 0px 20px",
+          "radius": "10px",
+          "y": 250
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "name",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 250
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "dob",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 344
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "room",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 344
+        }
+      ],
+      "form": [
+        {
+          "width": 860,
+          "x": 420
+        }
+      ],
+      "main": [
+        260,
+        1180
+      ],
+      "pageWidth": 1440,
+      "theme": "light",
+      "ui": "figma",
+      "width": 1440
+    },
+    {
+      "route": "resident-edit?id=res-r4",
+      "testWidth": 1440,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 812
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 812
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card",
+          "radius": "10px",
+          "width": 0
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "Sunrise Villa Walnut Creek",
+          "padding": "0px 16px 0px 20px",
+          "radius": "10px",
+          "y": 250
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "name",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 250
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "dob",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 344
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "room",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 344
+        }
+      ],
+      "form": [
+        {
+          "width": 860,
+          "x": 420
+        }
+      ],
+      "main": [
+        260,
+        1180
+      ],
+      "pageWidth": 1440,
+      "theme": "light",
+      "ui": "figma",
+      "width": 1440
+    },
+    {
+      "route": "facility-new",
+      "testWidth": 1440,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 812
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "name",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 250
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "address",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 250
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "contact",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 344
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "email",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 344
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "phone",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 438
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "America/Los Angeles",
+          "padding": "0px 16px 0px 20px",
+          "radius": "10px",
+          "y": 438
+        }
+      ],
+      "form": [
+        {
+          "width": 860,
+          "x": 420
+        }
+      ],
+      "main": [
+        260,
+        1180
+      ],
+      "pageWidth": 1440,
+      "theme": "light",
+      "ui": "figma",
+      "width": 1440
+    },
+    {
+      "route": "facility?fid=f1",
+      "testWidth": 1440,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 361.65625
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 361.671875
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 361.65625
+        }
+      ],
+      "fields": [],
+      "form": [],
+      "main": [
+        260,
+        1165
+      ],
+      "pageWidth": 1425,
+      "theme": "light",
+      "ui": "figma",
+      "width": 1440
+    },
+    {
+      "route": "activity",
+      "testWidth": 1440,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 1117
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "All channels",
+          "padding": "0px 12px",
+          "radius": "8px",
+          "y": 202
+        },
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "All purposes",
+          "padding": "0px 12px",
+          "radius": "8px",
+          "y": 202
+        },
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "All results",
+          "padding": "0px 12px",
+          "radius": "8px",
+          "y": 202
+        },
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "All facilities",
+          "padding": "0px 12px",
+          "radius": "8px",
+          "y": 202
+        },
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "from",
+          "padding": "0px 12px",
+          "radius": "8px",
+          "y": 272
+        },
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "to",
+          "padding": "0px 12px",
+          "radius": "8px",
+          "y": 272
+        },
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "Reset filters",
+          "padding": "0px 24px",
+          "radius": "8px",
+          "y": 272
+        }
+      ],
+      "form": [],
+      "main": [
+        260,
+        1165
+      ],
+      "pageWidth": 1425,
+      "theme": "light",
+      "ui": "figma",
+      "width": 1440
+    },
+    {
+      "route": "kit?view=components",
+      "testWidth": 1440,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "universal-card note-card",
+          "radius": "10px",
+          "width": 366.65625
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "universal-card task-card",
+          "radius": "10px",
+          "width": 239
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "kit-name",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 565
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "kit-placeholder",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 565
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "kit-disabled",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 659
+        },
+        {
+          "border": "rgb(255, 73, 53)",
+          "height": 48,
+          "name": "kit-error",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 659
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "Matched",
+          "padding": "0px 16px 0px 20px",
+          "radius": "10px",
+          "y": 777
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "Unavailable",
+          "padding": "0px 16px 0px 20px",
+          "radius": "10px",
+          "y": 777
+        }
+      ],
+      "form": [],
+      "main": [
+        260,
+        1165
+      ],
+      "pageWidth": 1425,
+      "theme": "light",
+      "ui": "figma",
+      "width": 1440
+    },
+    {
+      "route": "settings?tab=profile",
+      "testWidth": 900,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 632
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 632
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "username",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 323
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "name",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 417
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "email",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 511
+        }
+      ],
+      "form": [
+        {
+          "width": 680,
+          "x": 220
+        }
+      ],
+      "main": [
+        220,
+        680
+      ],
+      "pageWidth": 900,
+      "theme": "light",
+      "ui": "figma",
+      "width": 900
+    },
+    {
+      "route": "settings?tab=preferences",
+      "testWidth": 900,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 632
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 632
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "America/Los Angeles",
+          "padding": "0px 16px 0px 20px",
+          "radius": "10px",
+          "y": 323
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "Light",
+          "padding": "0px 16px 0px 20px",
+          "radius": "10px",
+          "y": 417
+        }
+      ],
+      "form": [
+        {
+          "width": 680,
+          "x": 220
+        }
+      ],
+      "main": [
+        220,
+        680
+      ],
+      "pageWidth": 900,
+      "theme": "light",
+      "ui": "figma",
+      "width": 900
+    },
+    {
+      "route": "settings?tab=password",
+      "testWidth": 900,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 632
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 632
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "current",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 323
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "next",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 417
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "confirm",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 511
+        }
+      ],
+      "form": [
+        {
+          "width": 680,
+          "x": 220
+        }
+      ],
+      "main": [
+        220,
+        680
+      ],
+      "pageWidth": 900,
+      "theme": "light",
+      "ui": "figma",
+      "width": 900
+    },
+    {
+      "route": "settings?tab=sessions",
+      "testWidth": 900,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 632
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-session",
+          "radius": "10px",
+          "width": 582
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 632
+        }
+      ],
+      "fields": [],
+      "form": [
+        {
+          "width": 680,
+          "x": 220
+        }
+      ],
+      "main": [
+        220,
+        680
+      ],
+      "pageWidth": 900,
+      "theme": "light",
+      "ui": "figma",
+      "width": 900
+    },
+    {
+      "route": "resident-new",
+      "testWidth": 900,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 632
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 632
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card",
+          "radius": "10px",
+          "width": 0
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "Sunrise Villa Walnut Creek",
+          "padding": "0px 16px 0px 20px",
+          "radius": "10px",
+          "y": 250
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "name",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 250
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "dob",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 344
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "room",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 344
+        }
+      ],
+      "form": [
+        {
+          "width": 680,
+          "x": 220
+        }
+      ],
+      "main": [
+        220,
+        680
+      ],
+      "pageWidth": 900,
+      "theme": "light",
+      "ui": "figma",
+      "width": 900
+    },
+    {
+      "route": "resident-edit?id=res-r4",
+      "testWidth": 900,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 632
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 632
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card",
+          "radius": "10px",
+          "width": 0
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "Sunrise Villa Walnut Creek",
+          "padding": "0px 16px 0px 20px",
+          "radius": "10px",
+          "y": 250
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "name",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 250
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "dob",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 344
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "room",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 344
+        }
+      ],
+      "form": [
+        {
+          "width": 680,
+          "x": 220
+        }
+      ],
+      "main": [
+        220,
+        680
+      ],
+      "pageWidth": 900,
+      "theme": "light",
+      "ui": "figma",
+      "width": 900
+    },
+    {
+      "route": "facility-new",
+      "testWidth": 900,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 632
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "name",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 250
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "address",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 250
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "contact",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 344
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "email",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 344
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "phone",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 438
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "America/Los Angeles",
+          "padding": "0px 16px 0px 20px",
+          "radius": "10px",
+          "y": 438
+        }
+      ],
+      "form": [
+        {
+          "width": 680,
+          "x": 220
+        }
+      ],
+      "main": [
+        220,
+        680
+      ],
+      "pageWidth": 900,
+      "theme": "light",
+      "ui": "figma",
+      "width": 900
+    },
+    {
+      "route": "facility?fid=f1",
+      "testWidth": 900,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 300.5
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 300.5
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 617
+        }
+      ],
+      "fields": [],
+      "form": [],
+      "main": [
+        220,
+        665
+      ],
+      "pageWidth": 885,
+      "theme": "light",
+      "ui": "figma",
+      "width": 900
+    },
+    {
+      "route": "activity",
+      "testWidth": 900,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 617
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "All channels",
+          "padding": "0px 12px",
+          "radius": "8px",
+          "y": 202
+        },
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "All purposes",
+          "padding": "0px 12px",
+          "radius": "8px",
+          "y": 202
+        },
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "All results",
+          "padding": "0px 12px",
+          "radius": "8px",
+          "y": 268
+        },
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "All facilities",
+          "padding": "0px 12px",
+          "radius": "8px",
+          "y": 268
+        },
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "from",
+          "padding": "0px 12px",
+          "radius": "8px",
+          "y": 338
+        },
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "to",
+          "padding": "0px 12px",
+          "radius": "8px",
+          "y": 338
+        },
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "Reset filters",
+          "padding": "0px 24px",
+          "radius": "8px",
+          "y": 338
+        }
+      ],
+      "form": [],
+      "main": [
+        220,
+        665
+      ],
+      "pageWidth": 885,
+      "theme": "light",
+      "ui": "figma",
+      "width": 900
+    },
+    {
+      "route": "kit?view=components",
+      "testWidth": 900,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "universal-card note-card",
+          "radius": "10px",
+          "width": 366.65625
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "universal-card task-card",
+          "radius": "10px",
+          "width": 239
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "kit-name",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 626
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "kit-placeholder",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 626
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "kit-disabled",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 720
+        },
+        {
+          "border": "rgb(255, 73, 53)",
+          "height": 48,
+          "name": "kit-error",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 720
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "Matched",
+          "padding": "0px 16px 0px 20px",
+          "radius": "10px",
+          "y": 838
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "Unavailable",
+          "padding": "0px 16px 0px 20px",
+          "radius": "10px",
+          "y": 838
+        }
+      ],
+      "form": [],
+      "main": [
+        220,
+        665
+      ],
+      "pageWidth": 885,
+      "theme": "light",
+      "ui": "figma",
+      "width": 900
+    },
+    {
+      "route": "settings?tab=profile",
+      "testWidth": 375,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 327
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 327
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "username",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 334
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "name",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 428
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "email",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 522
+        }
+      ],
+      "form": [
+        {
+          "width": 375,
+          "x": 0
+        }
+      ],
+      "main": [
+        0,
+        375
+      ],
+      "pageWidth": 375,
+      "theme": "light",
+      "ui": "figma",
+      "width": 375
+    },
+    {
+      "route": "settings?tab=preferences",
+      "testWidth": 375,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 327
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 327
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "America/Los Angeles",
+          "padding": "0px 16px 0px 20px",
+          "radius": "10px",
+          "y": 334
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "Light",
+          "padding": "0px 16px 0px 20px",
+          "radius": "10px",
+          "y": 428
+        }
+      ],
+      "form": [
+        {
+          "width": 375,
+          "x": 0
+        }
+      ],
+      "main": [
+        0,
+        375
+      ],
+      "pageWidth": 375,
+      "theme": "light",
+      "ui": "figma",
+      "width": 375
+    },
+    {
+      "route": "settings?tab=password",
+      "testWidth": 375,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 327
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 327
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "current",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 334
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "next",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 428
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "confirm",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 522
+        }
+      ],
+      "form": [
+        {
+          "width": 375,
+          "x": 0
+        }
+      ],
+      "main": [
+        0,
+        375
+      ],
+      "pageWidth": 375,
+      "theme": "light",
+      "ui": "figma",
+      "width": 375
+    },
+    {
+      "route": "settings?tab=sessions",
+      "testWidth": 375,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 327
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-session",
+          "radius": "10px",
+          "width": 277
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 327
+        }
+      ],
+      "fields": [],
+      "form": [
+        {
+          "width": 375,
+          "x": 0
+        }
+      ],
+      "main": [
+        0,
+        375
+      ],
+      "pageWidth": 375,
+      "theme": "light",
+      "ui": "figma",
+      "width": 375
+    },
+    {
+      "route": "resident-new",
+      "testWidth": 375,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 327
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 327
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card",
+          "radius": "10px",
+          "width": 0
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "Sunrise Villa Walnut Creek",
+          "padding": "0px 16px 0px 20px",
+          "radius": "10px",
+          "y": 261
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "name",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 355
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "dob",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 449
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "room",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 543
+        }
+      ],
+      "form": [
+        {
+          "width": 375,
+          "x": 0
+        }
+      ],
+      "main": [
+        0,
+        375
+      ],
+      "pageWidth": 375,
+      "theme": "light",
+      "ui": "figma",
+      "width": 375
+    },
+    {
+      "route": "resident-edit?id=res-r4",
+      "testWidth": 375,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 327
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 327
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card",
+          "radius": "10px",
+          "width": 0
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "Sunrise Villa Walnut Creek",
+          "padding": "0px 16px 0px 20px",
+          "radius": "10px",
+          "y": 261
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "name",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 355
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "dob",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 449
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "room",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 543
+        }
+      ],
+      "form": [
+        {
+          "width": 375,
+          "x": 0
+        }
+      ],
+      "main": [
+        0,
+        375
+      ],
+      "pageWidth": 375,
+      "theme": "light",
+      "ui": "figma",
+      "width": 375
+    },
+    {
+      "route": "facility-new",
+      "testWidth": 375,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 327
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "name",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 261
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "address",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 355
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "contact",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 449
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "email",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 543
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "phone",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 637
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "America/Los Angeles",
+          "padding": "0px 16px 0px 20px",
+          "radius": "10px",
+          "y": 731
+        }
+      ],
+      "form": [
+        {
+          "width": 375,
+          "x": 0
+        }
+      ],
+      "main": [
+        0,
+        375
+      ],
+      "pageWidth": 375,
+      "theme": "light",
+      "ui": "figma",
+      "width": 375
+    },
+    {
+      "route": "facility?fid=f1",
+      "testWidth": 375,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 327
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 327
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 327
+        }
+      ],
+      "fields": [],
+      "form": [],
+      "main": [
+        0,
+        375
+      ],
+      "pageWidth": 375,
+      "theme": "light",
+      "ui": "figma",
+      "width": 375
+    },
+    {
+      "route": "activity",
+      "testWidth": 375,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "care-card ",
+          "radius": "10px",
+          "width": 327
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "All channels",
+          "padding": "0px 12px",
+          "radius": "8px",
+          "y": 275
+        },
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "All purposes",
+          "padding": "0px 12px",
+          "radius": "8px",
+          "y": 275
+        },
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "All results",
+          "padding": "0px 12px",
+          "radius": "8px",
+          "y": 341
+        },
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "All facilities",
+          "padding": "0px 12px",
+          "radius": "8px",
+          "y": 341
+        },
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "from",
+          "padding": "0px 12px",
+          "radius": "8px",
+          "y": 411
+        },
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "to",
+          "padding": "0px 12px",
+          "radius": "8px",
+          "y": 411
+        },
+        {
+          "border": "rgb(229, 229, 236)",
+          "height": 32,
+          "name": "Reset filters",
+          "padding": "0px 24px",
+          "radius": "8px",
+          "y": 451
+        }
+      ],
+      "form": [],
+      "main": [
+        0,
+        375
+      ],
+      "pageWidth": 375,
+      "theme": "light",
+      "ui": "figma",
+      "width": 375
+    },
+    {
+      "route": "kit?view=components",
+      "testWidth": 375,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "universal-card note-card",
+          "radius": "10px",
+          "width": 327
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgb(229, 229, 236)",
+          "class": "universal-card task-card",
+          "radius": "10px",
+          "width": 239
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "kit-name",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 1138
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "kit-placeholder",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 1232
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "kit-disabled",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 1326
+        },
+        {
+          "border": "rgb(255, 73, 53)",
+          "height": 48,
+          "name": "kit-error",
+          "padding": "10px 16px 10px 20px",
+          "radius": "10px",
+          "y": 1420
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "Matched",
+          "padding": "0px 16px 0px 20px",
+          "radius": "10px",
+          "y": 1538
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 48,
+          "name": "Unavailable",
+          "padding": "0px 16px 0px 20px",
+          "radius": "10px",
+          "y": 1632
+        }
+      ],
+      "form": [],
+      "main": [
+        0,
+        375
+      ],
+      "pageWidth": 375,
+      "theme": "light",
+      "ui": "figma",
+      "width": 375
+    },
+    {
+      "route": "settings?tab=profile",
+      "testWidth": 1440,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 860
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 860
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 40,
+          "name": "username",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 425
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "name",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 511
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "email",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 597
+        }
+      ],
+      "form": [
+        {
+          "width": 860,
+          "x": 418
+        }
+      ],
+      "main": [
+        256,
+        1184
+      ],
+      "pageWidth": 1440,
+      "theme": "light",
+      "ui": "v2",
+      "width": 1440
+    },
+    {
+      "route": "settings?tab=preferences",
+      "testWidth": 1440,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 860
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 860
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "America/Los Angeles",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 425
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "Light",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 511
+        }
+      ],
+      "form": [
+        {
+          "width": 860,
+          "x": 418
+        }
+      ],
+      "main": [
+        256,
+        1184
+      ],
+      "pageWidth": 1440,
+      "theme": "light",
+      "ui": "v2",
+      "width": 1440
+    },
+    {
+      "route": "settings?tab=password",
+      "testWidth": 1440,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 860
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 860
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "current",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 425
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "next",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 511
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "confirm",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 597
+        }
+      ],
+      "form": [
+        {
+          "width": 860,
+          "x": 410.5
+        }
+      ],
+      "main": [
+        256,
+        1169
+      ],
+      "pageWidth": 1425,
+      "theme": "light",
+      "ui": "v2",
+      "width": 1440
+    },
+    {
+      "route": "settings?tab=sessions",
+      "testWidth": 1440,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 860
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-session",
+          "radius": "16px",
+          "width": 810
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 860
+        }
+      ],
+      "fields": [],
+      "form": [
+        {
+          "width": 860,
+          "x": 418
+        }
+      ],
+      "main": [
+        256,
+        1184
+      ],
+      "pageWidth": 1440,
+      "theme": "light",
+      "ui": "v2",
+      "width": 1440
+    },
+    {
+      "route": "resident-new",
+      "testWidth": 1440,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 860
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 860
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card",
+          "radius": "16px",
+          "width": 0
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "Sunrise Villa Walnut Creek",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 348
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "name",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 348
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "dob",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 434
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "room",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 434
+        }
+      ],
+      "form": [
+        {
+          "width": 860,
+          "x": 410.5
+        }
+      ],
+      "main": [
+        256,
+        1169
+      ],
+      "pageWidth": 1425,
+      "theme": "light",
+      "ui": "v2",
+      "width": 1440
+    },
+    {
+      "route": "resident-edit?id=res-r4",
+      "testWidth": 1440,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 860
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 860
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card",
+          "radius": "16px",
+          "width": 0
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 40,
+          "name": "Sunrise Villa Walnut Creek",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 348
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "name",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 348
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "dob",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 434
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "room",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 434
+        }
+      ],
+      "form": [
+        {
+          "width": 860,
+          "x": 410.5
+        }
+      ],
+      "main": [
+        256,
+        1169
+      ],
+      "pageWidth": 1425,
+      "theme": "light",
+      "ui": "v2",
+      "width": 1440
+    },
+    {
+      "route": "facility-new",
+      "testWidth": 1440,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 860
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "name",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 348
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "address",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 348
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "contact",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 434
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "email",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 434
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "phone",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 520
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "America/Los Angeles",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 520
+        }
+      ],
+      "form": [
+        {
+          "width": 860,
+          "x": 418
+        }
+      ],
+      "main": [
+        256,
+        1184
+      ],
+      "pageWidth": 1440,
+      "theme": "light",
+      "ui": "v2",
+      "width": 1440
+    },
+    {
+      "route": "facility?fid=f1",
+      "testWidth": 1440,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 357.65625
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 357.671875
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 357.65625
+        }
+      ],
+      "fields": [],
+      "form": [],
+      "main": [
+        256,
+        1169
+      ],
+      "pageWidth": 1425,
+      "theme": "light",
+      "ui": "v2",
+      "width": 1440
+    },
+    {
+      "route": "activity",
+      "testWidth": 1440,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 1105
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 36,
+          "name": "All channels",
+          "padding": "8px 8px 8px 12px",
+          "radius": "10px",
+          "y": 300
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 36,
+          "name": "All purposes",
+          "padding": "8px 8px 8px 12px",
+          "radius": "10px",
+          "y": 300
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 36,
+          "name": "All results",
+          "padding": "8px 8px 8px 12px",
+          "radius": "10px",
+          "y": 300
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 36,
+          "name": "All facilities",
+          "padding": "8px 8px 8px 12px",
+          "radius": "10px",
+          "y": 300
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 36,
+          "name": "from",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 378
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 36,
+          "name": "to",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 378
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.075)",
+          "height": 36,
+          "name": "Reset filters",
+          "padding": "0px 12px",
+          "radius": "10px",
+          "y": 378
+        }
+      ],
+      "form": [],
+      "main": [
+        256,
+        1169
+      ],
+      "pageWidth": 1425,
+      "theme": "light",
+      "ui": "v2",
+      "width": 1440
+    },
+    {
+      "route": "kit?view=components",
+      "testWidth": 1440,
+      "cards": [],
+      "fields": [
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "v2-example-name",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 894
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "v2-placeholder",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 894
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "Matched",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 980
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 40,
+          "name": "v2-disabled",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 980
+        }
+      ],
+      "form": [],
+      "main": [
+        256,
+        1169
+      ],
+      "pageWidth": 1425,
+      "theme": "light",
+      "ui": "v2",
+      "width": 1440
+    },
+    {
+      "route": "settings?tab=profile",
+      "testWidth": 900,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 596
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 596
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 40,
+          "name": "username",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 385
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "name",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 471
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "email",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 557
+        }
+      ],
+      "form": [
+        {
+          "width": 596,
+          "x": 280
+        }
+      ],
+      "main": [
+        256,
+        644
+      ],
+      "pageWidth": 900,
+      "theme": "light",
+      "ui": "v2",
+      "width": 900
+    },
+    {
+      "route": "settings?tab=preferences",
+      "testWidth": 900,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 596
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 596
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "America/Los Angeles",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 385
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "Light",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 471
+        }
+      ],
+      "form": [
+        {
+          "width": 596,
+          "x": 280
+        }
+      ],
+      "main": [
+        256,
+        644
+      ],
+      "pageWidth": 900,
+      "theme": "light",
+      "ui": "v2",
+      "width": 900
+    },
+    {
+      "route": "settings?tab=password",
+      "testWidth": 900,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 596
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 596
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "current",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 385
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "next",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 471
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "confirm",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 557
+        }
+      ],
+      "form": [
+        {
+          "width": 596,
+          "x": 280
+        }
+      ],
+      "main": [
+        256,
+        644
+      ],
+      "pageWidth": 900,
+      "theme": "light",
+      "ui": "v2",
+      "width": 900
+    },
+    {
+      "route": "settings?tab=sessions",
+      "testWidth": 900,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 596
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-session",
+          "radius": "16px",
+          "width": 546
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 596
+        }
+      ],
+      "fields": [],
+      "form": [
+        {
+          "width": 596,
+          "x": 280
+        }
+      ],
+      "main": [
+        256,
+        644
+      ],
+      "pageWidth": 900,
+      "theme": "light",
+      "ui": "v2",
+      "width": 900
+    },
+    {
+      "route": "resident-new",
+      "testWidth": 900,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 596
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 596
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card",
+          "radius": "16px",
+          "width": 0
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "Sunrise Villa Walnut Creek",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 308
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "name",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 308
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "dob",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 394
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "room",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 394
+        }
+      ],
+      "form": [
+        {
+          "width": 596,
+          "x": 280
+        }
+      ],
+      "main": [
+        256,
+        644
+      ],
+      "pageWidth": 900,
+      "theme": "light",
+      "ui": "v2",
+      "width": 900
+    },
+    {
+      "route": "resident-edit?id=res-r4",
+      "testWidth": 900,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 596
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 596
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card",
+          "radius": "16px",
+          "width": 0
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 40,
+          "name": "Sunrise Villa Walnut Creek",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 308
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "name",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 308
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "dob",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 394
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "room",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 394
+        }
+      ],
+      "form": [
+        {
+          "width": 596,
+          "x": 280
+        }
+      ],
+      "main": [
+        256,
+        644
+      ],
+      "pageWidth": 900,
+      "theme": "light",
+      "ui": "v2",
+      "width": 900
+    },
+    {
+      "route": "facility-new",
+      "testWidth": 900,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 596
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "name",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 308
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "address",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 308
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "contact",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 394
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "email",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 394
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "phone",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 480
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "America/Los Angeles",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 480
+        }
+      ],
+      "form": [
+        {
+          "width": 596,
+          "x": 280
+        }
+      ],
+      "main": [
+        256,
+        644
+      ],
+      "pageWidth": 900,
+      "theme": "light",
+      "ui": "v2",
+      "width": 900
+    },
+    {
+      "route": "facility?fid=f1",
+      "testWidth": 900,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 282.5
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 282.5
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 581
+        }
+      ],
+      "fields": [],
+      "form": [],
+      "main": [
+        256,
+        629
+      ],
+      "pageWidth": 885,
+      "theme": "light",
+      "ui": "v2",
+      "width": 900
+    },
+    {
+      "route": "activity",
+      "testWidth": 900,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 581
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 36,
+          "name": "All channels",
+          "padding": "8px 8px 8px 12px",
+          "radius": "10px",
+          "y": 260
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 36,
+          "name": "All purposes",
+          "padding": "8px 8px 8px 12px",
+          "radius": "10px",
+          "y": 260
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 36,
+          "name": "All results",
+          "padding": "8px 8px 8px 12px",
+          "radius": "10px",
+          "y": 334
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 36,
+          "name": "All facilities",
+          "padding": "8px 8px 8px 12px",
+          "radius": "10px",
+          "y": 334
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 36,
+          "name": "from",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 412
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 36,
+          "name": "to",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 412
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.075)",
+          "height": 36,
+          "name": "Reset filters",
+          "padding": "0px 12px",
+          "radius": "10px",
+          "y": 412
+        }
+      ],
+      "form": [],
+      "main": [
+        256,
+        629
+      ],
+      "pageWidth": 885,
+      "theme": "light",
+      "ui": "v2",
+      "width": 900
+    },
+    {
+      "route": "kit?view=components",
+      "testWidth": 900,
+      "cards": [],
+      "fields": [
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "v2-example-name",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 875
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "v2-placeholder",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 875
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "Matched",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 961
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 40,
+          "name": "v2-disabled",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 961
+        }
+      ],
+      "form": [],
+      "main": [
+        256,
+        629
+      ],
+      "pageWidth": 885,
+      "theme": "light",
+      "ui": "v2",
+      "width": 900
+    },
+    {
+      "route": "settings?tab=profile",
+      "testWidth": 375,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 343
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 343
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 40,
+          "name": "username",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 389
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "name",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 475
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "email",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 561
+        }
+      ],
+      "form": [
+        {
+          "width": 343,
+          "x": 16
+        }
+      ],
+      "main": [
+        0,
+        375
+      ],
+      "pageWidth": 375,
+      "theme": "light",
+      "ui": "v2",
+      "width": 375
+    },
+    {
+      "route": "settings?tab=preferences",
+      "testWidth": 375,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 343
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 343
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "America/Los Angeles",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 389
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "Light",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 475
+        }
+      ],
+      "form": [
+        {
+          "width": 343,
+          "x": 16
+        }
+      ],
+      "main": [
+        0,
+        375
+      ],
+      "pageWidth": 375,
+      "theme": "light",
+      "ui": "v2",
+      "width": 375
+    },
+    {
+      "route": "settings?tab=password",
+      "testWidth": 375,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 343
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 343
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "current",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 389
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "next",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 475
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "confirm",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 561
+        }
+      ],
+      "form": [
+        {
+          "width": 343,
+          "x": 16
+        }
+      ],
+      "main": [
+        0,
+        375
+      ],
+      "pageWidth": 375,
+      "theme": "light",
+      "ui": "v2",
+      "width": 375
+    },
+    {
+      "route": "settings?tab=sessions",
+      "testWidth": 375,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 343
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-session",
+          "radius": "16px",
+          "width": 293
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 343
+        }
+      ],
+      "fields": [],
+      "form": [
+        {
+          "width": 343,
+          "x": 16
+        }
+      ],
+      "main": [
+        0,
+        375
+      ],
+      "pageWidth": 375,
+      "theme": "light",
+      "ui": "v2",
+      "width": 375
+    },
+    {
+      "route": "resident-new",
+      "testWidth": 375,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 343
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 343
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card",
+          "radius": "16px",
+          "width": 0
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "Sunrise Villa Walnut Creek",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 297
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "name",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 383
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "dob",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 469
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "room",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 555
+        }
+      ],
+      "form": [
+        {
+          "width": 343,
+          "x": 16
+        }
+      ],
+      "main": [
+        0,
+        375
+      ],
+      "pageWidth": 375,
+      "theme": "light",
+      "ui": "v2",
+      "width": 375
+    },
+    {
+      "route": "resident-edit?id=res-r4",
+      "testWidth": 375,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 343
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 343
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card",
+          "radius": "16px",
+          "width": 0
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 40,
+          "name": "Sunrise Villa Walnut Creek",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 297
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "name",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 383
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "dob",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 469
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "room",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 555
+        }
+      ],
+      "form": [
+        {
+          "width": 343,
+          "x": 16
+        }
+      ],
+      "main": [
+        0,
+        375
+      ],
+      "pageWidth": 375,
+      "theme": "light",
+      "ui": "v2",
+      "width": 375
+    },
+    {
+      "route": "facility-new",
+      "testWidth": 375,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 343
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "name",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 297
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "address",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 383
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "contact",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 469
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "email",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 555
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "phone",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 641
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "America/Los Angeles",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 727
+        }
+      ],
+      "form": [
+        {
+          "width": 343,
+          "x": 16
+        }
+      ],
+      "main": [
+        0,
+        375
+      ],
+      "pageWidth": 375,
+      "theme": "light",
+      "ui": "v2",
+      "width": 375
+    },
+    {
+      "route": "facility?fid=f1",
+      "testWidth": 375,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 343
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 343
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 343
+        }
+      ],
+      "fields": [],
+      "form": [],
+      "main": [
+        0,
+        375
+      ],
+      "pageWidth": 375,
+      "theme": "light",
+      "ui": "v2",
+      "width": 375
+    },
+    {
+      "route": "activity",
+      "testWidth": 375,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "care-card ",
+          "radius": "16px",
+          "width": 343
+        }
+      ],
+      "fields": [
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 36,
+          "name": "All channels",
+          "padding": "8px 8px 8px 12px",
+          "radius": "10px",
+          "y": 301
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 36,
+          "name": "All purposes",
+          "padding": "8px 8px 8px 12px",
+          "radius": "10px",
+          "y": 375
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 36,
+          "name": "All results",
+          "padding": "8px 8px 8px 12px",
+          "radius": "10px",
+          "y": 375
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 36,
+          "name": "All facilities",
+          "padding": "8px 8px 8px 12px",
+          "radius": "10px",
+          "y": 449
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 36,
+          "name": "from",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 527
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 36,
+          "name": "to",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 527
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.075)",
+          "height": 36,
+          "name": "Reset filters",
+          "padding": "0px 12px",
+          "radius": "10px",
+          "y": 571
+        }
+      ],
+      "form": [],
+      "main": [
+        0,
+        375
+      ],
+      "pageWidth": 375,
+      "theme": "light",
+      "ui": "v2",
+      "width": 375
+    },
+    {
+      "route": "kit?view=components",
+      "testWidth": 375,
+      "cards": [],
+      "fields": [
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "v2-example-name",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 1072
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "v2-placeholder",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 1158
+        },
+        {
+          "border": "rgba(0, 0, 0, 0.16)",
+          "height": 40,
+          "name": "Matched",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 1244
+        },
+        {
+          "border": "rgb(241, 241, 245)",
+          "height": 40,
+          "name": "v2-disabled",
+          "padding": "8px 12px",
+          "radius": "10px",
+          "y": 1330
+        }
+      ],
+      "form": [],
+      "main": [
+        0,
+        375
+      ],
+      "pageWidth": 375,
+      "theme": "light",
+      "ui": "v2",
+      "width": 375
+    }
+  ],
+  "headers": [
+    {
+      "edition": "figma",
+      "route": "settings?tab=password",
+      "width": 1440,
+      "blocks": [
+        {
+          "selector": ".pagehead",
+          "width": 860,
+          "x": 420
+        },
+        {
+          "selector": ".care-form-width",
+          "width": 860,
+          "x": 420
+        }
+      ],
+      "pageWidth": 1440
+    },
+    {
+      "edition": "figma",
+      "route": "resident-new",
+      "width": 1440,
+      "blocks": [
+        {
+          "selector": ".pagehead",
+          "width": 860,
+          "x": 420
+        },
+        {
+          "selector": ".care-form-width",
+          "width": 860,
+          "x": 420
+        }
+      ],
+      "pageWidth": 1440
+    },
+    {
+      "edition": "figma",
+      "route": "resident-edit?id=res-r4",
+      "width": 1440,
+      "blocks": [
+        {
+          "selector": ".pagehead",
+          "width": 860,
+          "x": 420
+        },
+        {
+          "selector": ".care-form-width",
+          "width": 860,
+          "x": 420
+        }
+      ],
+      "pageWidth": 1440
+    },
+    {
+      "edition": "figma",
+      "route": "facility-new",
+      "width": 1440,
+      "blocks": [
+        {
+          "selector": ".pagehead",
+          "width": 860,
+          "x": 420
+        },
+        {
+          "selector": ".care-form-width",
+          "width": 860,
+          "x": 420
+        }
+      ],
+      "pageWidth": 1440
+    },
+    {
+      "edition": "figma",
+      "route": "settings?tab=password",
+      "width": 900,
+      "blocks": [
+        {
+          "selector": ".pagehead",
+          "width": 680,
+          "x": 220
+        },
+        {
+          "selector": ".care-form-width",
+          "width": 680,
+          "x": 220
+        }
+      ],
+      "pageWidth": 900
+    },
+    {
+      "edition": "figma",
+      "route": "resident-new",
+      "width": 900,
+      "blocks": [
+        {
+          "selector": ".pagehead",
+          "width": 680,
+          "x": 220
+        },
+        {
+          "selector": ".care-form-width",
+          "width": 680,
+          "x": 220
+        }
+      ],
+      "pageWidth": 900
+    },
+    {
+      "edition": "figma",
+      "route": "resident-edit?id=res-r4",
+      "width": 900,
+      "blocks": [
+        {
+          "selector": ".pagehead",
+          "width": 680,
+          "x": 220
+        },
+        {
+          "selector": ".care-form-width",
+          "width": 680,
+          "x": 220
+        }
+      ],
+      "pageWidth": 900
+    },
+    {
+      "edition": "figma",
+      "route": "facility-new",
+      "width": 900,
+      "blocks": [
+        {
+          "selector": ".pagehead",
+          "width": 680,
+          "x": 220
+        },
+        {
+          "selector": ".care-form-width",
+          "width": 680,
+          "x": 220
+        }
+      ],
+      "pageWidth": 900
+    },
+    {
+      "edition": "figma",
+      "route": "settings?tab=password",
+      "width": 375,
+      "blocks": [
+        {
+          "selector": ".pagehead",
+          "width": 375,
+          "x": 0
+        },
+        {
+          "selector": ".care-form-width",
+          "width": 375,
+          "x": 0
+        }
+      ],
+      "pageWidth": 375
+    },
+    {
+      "edition": "figma",
+      "route": "resident-new",
+      "width": 375,
+      "blocks": [
+        {
+          "selector": ".pagehead",
+          "width": 375,
+          "x": 0
+        },
+        {
+          "selector": ".care-form-width",
+          "width": 375,
+          "x": 0
+        }
+      ],
+      "pageWidth": 375
+    },
+    {
+      "edition": "figma",
+      "route": "resident-edit?id=res-r4",
+      "width": 375,
+      "blocks": [
+        {
+          "selector": ".pagehead",
+          "width": 375,
+          "x": 0
+        },
+        {
+          "selector": ".care-form-width",
+          "width": 375,
+          "x": 0
+        }
+      ],
+      "pageWidth": 375
+    },
+    {
+      "edition": "figma",
+      "route": "facility-new",
+      "width": 375,
+      "blocks": [
+        {
+          "selector": ".pagehead",
+          "width": 375,
+          "x": 0
+        },
+        {
+          "selector": ".care-form-width",
+          "width": 375,
+          "x": 0
+        }
+      ],
+      "pageWidth": 375
+    },
+    {
+      "edition": "v2",
+      "route": "settings?tab=password",
+      "width": 1440,
+      "blocks": [
+        {
+          "selector": ".pagehead",
+          "width": 860,
+          "x": 410.5
+        },
+        {
+          "selector": ".care-form-width",
+          "width": 860,
+          "x": 410.5
+        }
+      ],
+      "pageWidth": 1425
+    },
+    {
+      "edition": "v2",
+      "route": "resident-new",
+      "width": 1440,
+      "blocks": [
+        {
+          "selector": ".pagehead",
+          "width": 860,
+          "x": 410.5
+        },
+        {
+          "selector": ".care-form-width",
+          "width": 860,
+          "x": 410.5
+        }
+      ],
+      "pageWidth": 1425
+    },
+    {
+      "edition": "v2",
+      "route": "resident-edit?id=res-r4",
+      "width": 1440,
+      "blocks": [
+        {
+          "selector": ".pagehead",
+          "width": 860,
+          "x": 410.5
+        },
+        {
+          "selector": ".care-form-width",
+          "width": 860,
+          "x": 410.5
+        }
+      ],
+      "pageWidth": 1425
+    },
+    {
+      "edition": "v2",
+      "route": "facility-new",
+      "width": 1440,
+      "blocks": [
+        {
+          "selector": ".pagehead",
+          "width": 860,
+          "x": 418
+        },
+        {
+          "selector": ".care-form-width",
+          "width": 860,
+          "x": 418
+        }
+      ],
+      "pageWidth": 1440
+    },
+    {
+      "edition": "v2",
+      "route": "settings?tab=password",
+      "width": 900,
+      "blocks": [
+        {
+          "selector": ".pagehead",
+          "width": 596,
+          "x": 280
+        },
+        {
+          "selector": ".care-form-width",
+          "width": 596,
+          "x": 280
+        }
+      ],
+      "pageWidth": 900
+    },
+    {
+      "edition": "v2",
+      "route": "resident-new",
+      "width": 900,
+      "blocks": [
+        {
+          "selector": ".pagehead",
+          "width": 596,
+          "x": 280
+        },
+        {
+          "selector": ".care-form-width",
+          "width": 596,
+          "x": 280
+        }
+      ],
+      "pageWidth": 900
+    },
+    {
+      "edition": "v2",
+      "route": "resident-edit?id=res-r4",
+      "width": 900,
+      "blocks": [
+        {
+          "selector": ".pagehead",
+          "width": 596,
+          "x": 280
+        },
+        {
+          "selector": ".care-form-width",
+          "width": 596,
+          "x": 280
+        }
+      ],
+      "pageWidth": 900
+    },
+    {
+      "edition": "v2",
+      "route": "facility-new",
+      "width": 900,
+      "blocks": [
+        {
+          "selector": ".pagehead",
+          "width": 596,
+          "x": 280
+        },
+        {
+          "selector": ".care-form-width",
+          "width": 596,
+          "x": 280
+        }
+      ],
+      "pageWidth": 900
+    },
+    {
+      "edition": "v2",
+      "route": "settings?tab=password",
+      "width": 375,
+      "blocks": [
+        {
+          "selector": ".pagehead",
+          "width": 343,
+          "x": 16
+        },
+        {
+          "selector": ".care-form-width",
+          "width": 343,
+          "x": 16
+        }
+      ],
+      "pageWidth": 375
+    },
+    {
+      "edition": "v2",
+      "route": "resident-new",
+      "width": 375,
+      "blocks": [
+        {
+          "selector": ".pagehead",
+          "width": 343,
+          "x": 16
+        },
+        {
+          "selector": ".care-form-width",
+          "width": 343,
+          "x": 16
+        }
+      ],
+      "pageWidth": 375
+    },
+    {
+      "edition": "v2",
+      "route": "resident-edit?id=res-r4",
+      "width": 375,
+      "blocks": [
+        {
+          "selector": ".pagehead",
+          "width": 343,
+          "x": 16
+        },
+        {
+          "selector": ".care-form-width",
+          "width": 343,
+          "x": 16
+        }
+      ],
+      "pageWidth": 375
+    },
+    {
+      "edition": "v2",
+      "route": "facility-new",
+      "width": 375,
+      "blocks": [
+        {
+          "selector": ".pagehead",
+          "width": 343,
+          "x": 16
+        },
+        {
+          "selector": ".care-form-width",
+          "width": 343,
+          "x": 16
+        }
+      ],
+      "pageWidth": 375
+    }
+  ],
+  "extraCards": [
+    {
+      "label": "v2-upload-dark",
+      "background": "rgb(33, 33, 34)",
+      "border": "rgba(255, 255, 255, 0.075)",
+      "pageWidth": 1425,
+      "radius": "20px",
+      "ui": "v2"
+    },
+    {
+      "label": "v1-gallery-dark",
+      "cards": [
+        {
+          "background": "rgb(22, 22, 24)",
+          "border": "rgb(37, 37, 40)",
+          "radius": "10px"
+        },
+        {
+          "background": "rgb(37, 37, 40)",
+          "border": "rgb(37, 37, 40)",
+          "radius": "10px"
+        },
+        {
+          "background": "rgb(37, 37, 40)",
+          "border": "rgb(37, 37, 40)",
+          "radius": "10px"
+        }
+      ],
+      "ui": "figma"
+    },
+    {
+      "label": "v1-upload-dark",
+      "background": "rgb(37, 37, 40)",
+      "border": "rgb(37, 37, 40)",
+      "radius": "10px"
+    },
+    {
+      "label": "v2-gallery-cards-dark",
+      "cards": [
+        {
+          "background": "rgb(33, 33, 34)",
+          "border": "rgba(255, 255, 255, 0.075)",
+          "class": "kit-note-card",
+          "radius": "16px"
+        },
+        {
+          "background": "rgb(15, 15, 16)",
+          "border": "rgb(255, 255, 255)",
+          "class": "kit-task-card",
+          "radius": "12px"
+        }
+      ],
+      "ui": "v2"
+    },
+    {
+      "label": "v2-gallery-cards-dark-after",
+      "cards": [
+        {
+          "background": "rgb(33, 33, 34)",
+          "border": "rgba(255, 255, 255, 0.075)",
+          "class": "kit-note-card",
+          "radius": "16px"
+        },
+        {
+          "background": "rgb(33, 33, 34)",
+          "border": "rgba(255, 255, 255, 0.075)",
+          "class": "kit-task-card",
+          "radius": "16px"
+        }
+      ]
+    }
+  ],
+  "taskCards": [
+    {
+      "width": 1440,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "radius": "16px",
+          "width": 238.25
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "radius": "16px",
+          "width": 238.25
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "radius": "16px",
+          "width": 238.25
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "radius": "16px",
+          "width": 238.25
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "radius": "16px",
+          "width": 238.25
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "radius": "16px",
+          "width": 238.25
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "radius": "16px",
+          "width": 238.25
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "radius": "16px",
+          "width": 238.25
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "radius": "16px",
+          "width": 238.25
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "radius": "16px",
+          "width": 238.25
+        }
+      ],
+      "pageWidth": 1425
+    },
+    {
+      "width": 375,
+      "cards": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "radius": "16px",
+          "width": 245
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "radius": "16px",
+          "width": 245
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "radius": "16px",
+          "width": 245
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "radius": "16px",
+          "width": 245
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "radius": "16px",
+          "width": 245
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "radius": "16px",
+          "width": 245
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "radius": "16px",
+          "width": 245
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "radius": "16px",
+          "width": 245
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "radius": "16px",
+          "width": 245
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "radius": "16px",
+          "width": 245
+        }
+      ],
+      "pageWidth": 375
+    }
+  ]
+}

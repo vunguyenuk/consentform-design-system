@@ -1,0 +1,30 @@
+[
+  {
+    "gap": "24px",
+    "overflow": false,
+    "phoneCenterDelta": 0,
+    "ui": "figma",
+    "width": 1440
+  },
+  {
+    "gap": "24px",
+    "overflow": false,
+    "phoneCenterDelta": 0,
+    "ui": "figma",
+    "width": 375
+  },
+  {
+    "gap": "20px",
+    "overflow": false,
+    "phoneCenterDelta": 0,
+    "ui": "v2",
+    "width": 1440
+  },
+  {
+    "gap": "20px",
+    "overflow": false,
+    "phoneCenterDelta": 0,
+    "ui": "v2",
+    "width": 375
+  }
+]

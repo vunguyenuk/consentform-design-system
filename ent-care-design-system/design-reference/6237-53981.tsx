@@ -1,0 +1,1003 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/cb4049f4-f176-4ba7-8966-7a41dfc6c864";
+const imgMinus = `${assetPathPrefix}/e452c.svg`;
+const imgProfile = `${assetPathPrefix}/fcd02.svg`;
+const imgVuesaxLinearCalendar = `${assetPathPrefix}/79f91.svg`;
+const imgStrongbox = `${assetPathPrefix}/53364.svg`;
+const imgVuesaxLinearPeople = `${assetPathPrefix}/b9114.svg`;
+const imgNotification = `${assetPathPrefix}/ca4e6.svg`;
+const imgBriefcase = `${assetPathPrefix}/5e1ed.svg`;
+const imgProfile2User = `${assetPathPrefix}/fa937.svg`;
+const imgWalletMinus = `${assetPathPrefix}/7dfd4.svg`;
+const imgCategory2 = `${assetPathPrefix}/165b9.svg`;
+const imgNotification1 = `${assetPathPrefix}/a31fd.svg`;
+const imgNote = `${assetPathPrefix}/46e76.svg`;
+const imgVuesaxLinearMessageQuestion = `${assetPathPrefix}/7a272.svg`;
+const imgProperty132Px = `${assetPathPrefix}/75dac.png`;
+const imgImage2 = `${assetPathPrefix}/5f792.png`;
+const imgImage3 = `${assetPathPrefix}/ebcf7.png`;
+const imgImage4 = `${assetPathPrefix}/23a74.png`;
+const imgImage5 = `${assetPathPrefix}/c8e77.png`;
+const imgImage6 = `${assetPathPrefix}/2bbf2.png`;
+const imgImage7 = `${assetPathPrefix}/d1418.png`;
+const imgImage9 = `${assetPathPrefix}/59100.png`;
+const imgImage8 = `${assetPathPrefix}/145c8.png`;
+const imgGroup1 = `${assetPathPrefix}/72053.svg`;
+const imgUserOctagon = `${assetPathPrefix}/deb54.svg`;
+const imgArrowDown = `${assetPathPrefix}/71b71.svg`;
+const imgSidebarLeft = `${assetPathPrefix}/9f2cf.svg`;
+const imgMessageText = `${assetPathPrefix}/925fe.svg`;
+const imgTaskSquare = `${assetPathPrefix}/85b6d.svg`;
+const imgAdd = `${assetPathPrefix}/509d0.svg`;
+const imgFolder2 = `${assetPathPrefix}/c4cc5.svg`;
+const imgSetting = `${assetPathPrefix}/a2177.svg`;
+const imgWalletMinus1 = `${assetPathPrefix}/f2f2e.svg`;
+const imgLine = `${assetPathPrefix}/5c2ea.svg`;
+const imgSearchNormal = `${assetPathPrefix}/939e0.svg`;
+const imgFilter = `${assetPathPrefix}/3dab3.svg`;
+const imgCensus1 = `${assetPathPrefix}/3ac4f.svg`;
+const imgMore = `${assetPathPrefix}/5bdc7.svg`;
+const imgMailchimpIcon1460541 = `${assetPathPrefix}/bd9ec.svg`;
+const imgIdpcAHoHxCLogos1 = `${assetPathPrefix}/eb4a8.svg`;
+const imgGroup = `${assetPathPrefix}/fa16e.svg`;
+const imgOutreachIoVectorLogo1 = `${assetPathPrefix}/269a8.svg`;
+const imgSegmentSvgrepoCom1 = `${assetPathPrefix}/a4f63.svg`;
+const imgGroup2 = `${assetPathPrefix}/e0154.svg`;
+const imgInfoCircle = `${assetPathPrefix}/08325.svg`;
+const imgLine1 = `${assetPathPrefix}/2d0e8.svg`;
+const imgTrash = `${assetPathPrefix}/c78c0.svg`;
+
+type ToggleProps = {
+  className?: string;
+  darkmode?: "On";
+  enable?: "No";
+};
+
+function Toggle({ className, darkmode = "On", enable = "No" }: ToggleProps) {
+  return (
+    <div className={className || "bg-[#44444a] content-stretch flex items-start pl-[2px] pr-[18px] py-[2px] relative rounded-[100px]"} data-node-id="6155:22606">
+      <div className="bg-[#bebec8] content-stretch flex items-center justify-center overflow-clip p-[4px] relative rounded-[100px] shrink-0 size-[14px]" data-node-id="6155:22607" data-name="switch">
+        <div className="relative shrink-0 size-[16px]" data-node-id="6155:22608" data-name="minus">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMinus} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+type NavMenuProps = {
+  className?: string;
+  active?: boolean;
+  darkmode?: "On";
+  menu?: "Profile" | "Workspace" | "Member" | "Email & Calendar" | "Storage" | "Refer Team" | "Tasks" | "Plans";
+};
+
+function NavMenu({ className, active = false, darkmode = "On", menu = "Profile" }: NavMenuProps) {
+  const isEmailCalendarAndFalseAndOn = menu === "Email & Calendar" && !active && darkmode === "On";
+  const isMemberAndFalseAndOn = menu === "Member" && !active && darkmode === "On";
+  const isPlansAndFalseAndOn = menu === "Plans" && !active && darkmode === "On";
+  const isProfileAndFalseAndOn = menu === "Profile" && !active && darkmode === "On";
+  const isReferTeamAndFalseAndOn = menu === "Refer Team" && !active && darkmode === "On";
+  const isStorageAndFalseAndOn = menu === "Storage" && !active && darkmode === "On";
+  const isTasksAndFalseAndOn = menu === "Tasks" && !active && darkmode === "On";
+  const isWorkspaceAndFalseAndOn = menu === "Workspace" && !active && darkmode === "On";
+  return (
+    <div className={className || "content-stretch flex gap-[12px] h-[33px] items-center px-[10px] py-[6px] relative rounded-[7px] w-[185px]"} id={isPlansAndFalseAndOn ? "node-6155_47969" : isMemberAndFalseAndOn ? "node-6155_47966" : isWorkspaceAndFalseAndOn ? "node-6155_47963" : isTasksAndFalseAndOn ? "node-6155_47960" : isReferTeamAndFalseAndOn ? "node-6155_47957" : isStorageAndFalseAndOn ? "node-6155_47954" : isEmailCalendarAndFalseAndOn ? "node-6155_47951" : "node-6155_47948"}>
+      {isProfileAndFalseAndOn && (
+        <>
+          <div className="relative shrink-0 size-[16px]" data-node-id="6155:47949" data-name="profile">
+            <div className="absolute contents inset-0" data-node-id="I6155:47949;3:13259" data-name="vuesax/linear/profile">
+              <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6155:47949;3:13260" data-name="profile">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgProfile} />
+              </div>
+            </div>
+          </div>
+          <div className="[word-break:break-word] flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#bebec8] text-[14px] tracking-[-0.28px] whitespace-nowrap" data-node-id="6155:47950">
+            <p className="leading-[1.5]">Profile</p>
+          </div>
+        </>
+      )}
+      {isEmailCalendarAndFalseAndOn && (
+        <>
+          <div className="relative shrink-0 size-[16px]" data-node-id="6155:47952" data-name="calendar">
+            <div className="absolute contents inset-0" data-node-id="I6155:47952;3:28112" data-name="vuesax/linear/calendar">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVuesaxLinearCalendar} />
+            </div>
+          </div>
+          <div className="[word-break:break-word] flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#bebec8] text-[14px] tracking-[-0.28px] whitespace-nowrap" data-node-id="6155:47953">
+            <p className="leading-[1.5]">{`Email & Calendar`}</p>
+          </div>
+        </>
+      )}
+      {isStorageAndFalseAndOn && (
+        <>
+          <div className="relative shrink-0 size-[16px]" data-node-id="6155:47955" data-name="strongbox">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStrongbox} />
+          </div>
+          <div className="[word-break:break-word] flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#bebec8] text-[14px] tracking-[-0.28px] whitespace-nowrap" data-node-id="6155:47956">
+            <p className="leading-[1.5]">Storage</p>
+          </div>
+        </>
+      )}
+      {isReferTeamAndFalseAndOn && (
+        <>
+          <div className="relative shrink-0 size-[16px]" data-node-id="6155:47958" data-name="people">
+            <div className="absolute contents inset-0" data-node-id="I6155:47958;3:13609" data-name="vuesax/linear/people">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVuesaxLinearPeople} />
+            </div>
+          </div>
+          <div className="[word-break:break-word] flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#bebec8] text-[14px] tracking-[-0.28px] whitespace-nowrap" data-node-id="6155:47959">
+            <p className="leading-[1.5]">Refer Team</p>
+          </div>
+        </>
+      )}
+      {isTasksAndFalseAndOn && (
+        <>
+          <div className="relative shrink-0 size-[16px]" data-node-id="6155:47961" data-name="notification">
+            <div className="absolute contents inset-0" data-node-id="I6155:47961;3:35975" data-name="vuesax/linear/notification">
+              <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6155:47961;3:35976" data-name="notification">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgNotification} />
+              </div>
+            </div>
+          </div>
+          <div className="[word-break:break-word] flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#bebec8] text-[14px] tracking-[-0.28px] whitespace-nowrap" data-node-id="6155:47962">
+            <p className="leading-[1.5]">Notification</p>
+          </div>
+        </>
+      )}
+      {isWorkspaceAndFalseAndOn && (
+        <>
+          <div className="relative shrink-0 size-[16px]" data-node-id="6155:47964" data-name="briefcase">
+            <div className="absolute contents inset-0" data-node-id="I6155:47964;3:42659" data-name="vuesax/linear/briefcase">
+              <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6155:47964;3:42660" data-name="briefcase">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBriefcase} />
+              </div>
+            </div>
+          </div>
+          <div className="[word-break:break-word] flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#bebec8] text-[14px] tracking-[-0.28px] whitespace-nowrap" data-node-id="6155:47965">
+            <p className="leading-[1.5]">Workspace</p>
+          </div>
+        </>
+      )}
+      {isMemberAndFalseAndOn && (
+        <>
+          <div className="relative shrink-0 size-[16px]" data-node-id="6155:47967" data-name="profile-2user">
+            <div className="absolute contents inset-0" data-node-id="I6155:47967;3:13296" data-name="vuesax/linear/profile-2user">
+              <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6155:47967;3:13297" data-name="profile-2user">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgProfile2User} />
+              </div>
+            </div>
+          </div>
+          <div className="[word-break:break-word] flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#bebec8] text-[14px] tracking-[-0.28px] whitespace-nowrap" data-node-id="6155:47968">
+            <p className="leading-[1.5]">Members</p>
+          </div>
+        </>
+      )}
+      {isPlansAndFalseAndOn && (
+        <>
+          <div className="relative shrink-0 size-[16px]" data-node-id="6155:47970" data-name="wallet-minus">
+            <div className="absolute contents inset-0" data-node-id="I6155:47970;3:6769" data-name="vuesax/linear/wallet-minus">
+              <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6155:47970;3:6770" data-name="wallet-minus">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgWalletMinus} />
+              </div>
+            </div>
+          </div>
+          <div className="[word-break:break-word] flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#bebec8] text-[14px] tracking-[-0.28px] whitespace-nowrap" data-node-id="6155:47971">
+            <p className="leading-[1.5]">Plans</p>
+          </div>
+        </>
+      )}
+    </div>
+  );
+}
+
+type NavMenu1Props = {
+  className?: string;
+  active?: boolean;
+  darkmode?: "On";
+  menu?: "Dashboard" | "Help & Center" | "Notifications" | "Notes";
+};
+
+function NavMenu1({ className, active = false, darkmode = "On", menu = "Dashboard" }: NavMenu1Props) {
+  const isDashboardAndFalseAndOn = menu === "Dashboard" && !active && darkmode === "On";
+  const isHelpCenterAndFalseAndOn = menu === "Help & Center" && !active && darkmode === "On";
+  const isNotesAndFalseAndOn = menu === "Notes" && !active && darkmode === "On";
+  const isNotificationsAndFalseAndOn = menu === "Notifications" && !active && darkmode === "On";
+  return (
+    <div className={className || "content-stretch flex gap-[12px] h-[33px] items-center px-[10px] py-[6px] relative rounded-[7px] w-[163px]"} id={isHelpCenterAndFalseAndOn ? "node-6155_47837" : isNotesAndFalseAndOn ? "node-6155_47831" : isNotificationsAndFalseAndOn ? "node-6155_47825" : "node-6155_47822"}>
+      {isDashboardAndFalseAndOn && (
+        <>
+          <div className="relative shrink-0 size-[16px]" data-node-id="6155:47823" data-name="category-2">
+            <div className="absolute contents inset-0" data-node-id="I6155:47823;3:33781" data-name="vuesax/linear/category-2">
+              <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6155:47823;3:33782" data-name="category-2">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCategory2} />
+              </div>
+            </div>
+          </div>
+          <div className="[word-break:break-word] flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#bebec8] text-[14px] tracking-[-0.28px] whitespace-nowrap" data-node-id="6155:47824">
+            <p className="leading-[1.5]">Dashboard</p>
+          </div>
+        </>
+      )}
+      {isNotificationsAndFalseAndOn && (
+        <>
+          <div className="relative shrink-0 size-[16px]" data-node-id="6155:47826" data-name="notification">
+            <div className="absolute contents inset-0" data-node-id="I6155:47826;3:36017" data-name="vuesax/linear/notification">
+              <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6155:47826;3:36018" data-name="notification">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgNotification1} />
+              </div>
+            </div>
+          </div>
+          <div className="[word-break:break-word] flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#bebec8] text-[14px] tracking-[-0.28px] whitespace-nowrap" data-node-id="6155:47827">
+            <p className="leading-[1.5]">Notifications</p>
+          </div>
+        </>
+      )}
+      {isNotesAndFalseAndOn && (
+        <>
+          <div className="relative shrink-0 size-[16px]" data-node-id="6155:47832" data-name="note">
+            <div className="absolute contents inset-0" data-node-id="I6155:47832;3:42197" data-name="vuesax/linear/note">
+              <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6155:47832;3:42198" data-name="note">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgNote} />
+              </div>
+            </div>
+          </div>
+          <div className="[word-break:break-word] flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#bebec8] text-[14px] tracking-[-0.28px] whitespace-nowrap" data-node-id="6155:47833">
+            <p className="leading-[1.5]">Notes</p>
+          </div>
+        </>
+      )}
+      {isHelpCenterAndFalseAndOn && (
+        <>
+          <div className="relative shrink-0 size-[16px]" data-node-id="6155:47838" data-name="message-question">
+            <div className="absolute contents inset-0" data-node-id="I6155:47838;3:27563" data-name="vuesax/linear/message-question">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVuesaxLinearMessageQuestion} />
+            </div>
+          </div>
+          <div className="[word-break:break-word] flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#bebec8] text-[14px] tracking-[-0.28px] whitespace-nowrap" data-node-id="6155:47839">
+            <p className="leading-[1.5]">{`Help & Center`}</p>
+          </div>
+        </>
+      )}
+    </div>
+  );
+}
+
+type AvatarMan1Props = {
+  className?: string;
+  property1?: "32px";
+};
+
+function AvatarMan1({ className, property1 = "32px" }: AvatarMan1Props) {
+  return (
+    <div className={className || "relative size-[32px]"} data-node-id="3:1842">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" height="32" src={imgProperty132Px} width="32" />
+    </div>
+  );
+}
+
+type DSettingsIntegrationProps = {
+  className?: string;
+  responsive?: "No";
+};
+
+function DSettingsIntegration({ className, responsive = "No" }: DSettingsIntegrationProps) {
+  return (
+    <div className={className || "bg-[#f1f1f5] content-stretch flex h-[900px] items-start overflow-clip relative w-[1440px]"} data-node-id="6237:53981">
+      <div className="bg-[#020408] border-[#252528] border-r border-solid content-stretch flex flex-col gap-[16px] h-full items-end overflow-clip p-[16px] relative shrink-0 w-[260px]" data-node-id="6231:43692" data-name="Navigation">
+        <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-node-id="I6231:43692;6155:48409" data-name="Logo">
+          <div className="content-stretch flex gap-[10px] items-center px-[10px] py-[5px] relative rounded-[6px] shrink-0" data-node-id="I6231:43692;6155:48410" data-name="Company">
+            <div className="content-stretch flex gap-[7px] items-center relative shrink-0" data-node-id="I6231:43692;6155:48411" data-name="logo">
+              <div className="border-[0.693px] border-[rgba(255,255,255,0.15)] border-solid overflow-clip relative rounded-[5px] shadow-[0px_4.85px_6.929px_-4.158px_black,0px_0px_0px_1.386px_rgba(190,202,234,0.03)] shrink-0 size-[27.717px]" data-node-id="I6231:43692;6155:48411;20:1732" data-name="Logo">
+                <div aria-hidden className="absolute bg-[#111113] inset-0 pointer-events-none rounded-[5px]" />
+                <div className="absolute flex h-[44.542px] items-center justify-center left-[-7.21px] top-[-17.87px] w-[44.176px]" data-node-id="I6231:43692;6155:48411;20:1733">
+                  <div className="-scale-y-100 flex-none rotate-30">
+                    <div className="h-[32.972px] relative w-[31.973px]">
+                      <div className="absolute inset-[-4.2%_-7.71%_-10.51%_-7.71%]">
+                        <img alt="" className="block max-w-none size-full" src={imgGroup1} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute left-[calc(50%+0.14px)] size-[20px] top-[calc(50%+0.14px)]" data-node-id="I6231:43692;6155:48411;6004:52006" data-name="user-octagon">
+                  <div className="absolute contents inset-0" data-node-id="I6231:43692;6155:48411;6004:52006;3:13119" data-name="vuesax/bold/user-octagon">
+                    <div className="absolute inset-[0_-20%_-20%_0]" data-node-id="I6231:43692;6155:48411;6004:52006;3:13120" data-name="user-octagon">
+                      <div className="absolute inset-[0_-6.38%_-84.17%_-43.33%]">
+                        <img alt="" className="block max-w-none size-full" src={imgUserOctagon} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0px_2.772px_6.929px_0px_rgba(255,255,255,0.11)]" />
+              </div>
+              <p className="[word-break:break-word] font-['Manrope:ExtraBold'] font-extrabold leading-[1.3] relative shrink-0 text-[16.212px] text-white tracking-[-0.6485px] whitespace-nowrap" data-node-id="I6231:43692;6155:48411;20:1850">
+                Cliently
+              </p>
+            </div>
+            <div className="relative shrink-0 size-[14px]" data-node-id="I6231:43692;6155:48412" data-name="arrow-down">
+              <div className="absolute contents inset-0" data-node-id="I6231:43692;6155:48412;3:11318" data-name="vuesax/linear/arrow-down">
+                <div className="absolute inset-[0_-71.43%_-71.43%_0]" data-node-id="I6231:43692;6155:48412;3:11319" data-name="arrow-down">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowDown} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="relative shrink-0 size-[20px]" data-node-id="I6231:43692;6155:48413" data-name="sidebar-left">
+            <div className="absolute contents inset-0" data-node-id="I6231:43692;6155:48413;3:34669" data-name="vuesax/linear/sidebar-left">
+              <div className="absolute inset-[0_-20%_-20%_0]" data-node-id="I6231:43692;6155:48413;3:34670" data-name="sidebar-left">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSidebarLeft} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[#252528] border border-[#44444a] border-solid content-stretch flex gap-[8px] items-center pl-[10px] pr-[12px] py-[12px] relative rounded-[10px] shrink-0 w-full" data-node-id="I6231:43692;6155:48414" data-name="Profile">
+          <AvatarMan1 className="relative shrink-0 size-[32px]" />
+          <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start justify-center leading-[0] min-w-px not-italic relative text-[12px] whitespace-nowrap" data-node-id="I6231:43692;6155:48416" data-name="Name">
+            <div className="flex flex-col font-['Inter:Semi_Bold'] font-semibold justify-center overflow-hidden relative shrink-0 text-ellipsis text-white tracking-[-0.24px]" data-node-id="I6231:43692;6155:48417">
+              <p className="leading-[normal] overflow-hidden text-ellipsis">John Cornor</p>
+            </div>
+            <div className="flex flex-col font-['Inter:Regular'] font-normal justify-center min-w-full overflow-hidden relative shrink-0 text-[#bebec8] text-ellipsis tracking-[-0.12px] w-[min-content]" data-node-id="I6231:43692;6155:48418">
+              <p className="leading-[normal] overflow-hidden text-ellipsis">Johncornor@mail.com</p>
+            </div>
+          </div>
+          <div className="relative shrink-0 size-[14px]" data-node-id="I6231:43692;6155:48419" data-name="arrow-down">
+            <div className="absolute contents inset-0" data-node-id="I6231:43692;6155:48419;3:11318" data-name="vuesax/linear/arrow-down">
+              <div className="absolute inset-[0_-71.43%_-71.43%_0]" data-node-id="I6231:43692;6155:48419;3:11319" data-name="arrow-down">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowDown} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-start justify-center min-h-px relative w-full" data-node-id="I6231:43692;6155:48420" data-name="Menu">
+          <div className="content-stretch flex flex-col gap-[8px] items-start justify-center relative shrink-0 w-full" data-node-id="I6231:43692;6155:48421" data-name="Main Menu">
+            <div className="[word-break:break-word] flex flex-col font-['Inter:Medium'] font-medium h-[16px] justify-center leading-[0] not-italic relative shrink-0 text-[#5b5a64] text-[12px] tracking-[-0.24px] w-[74px]" data-node-id="I6231:43692;6155:48422">
+              <p className="leading-[normal]">Main Menu</p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full" data-node-id="I6231:43692;6155:48423" data-name="Main Menu">
+              <div className="content-stretch flex gap-[12px] h-[33px] items-center px-[10px] py-[6px] relative rounded-[7px] shrink-0 w-full" data-node-id="I6231:43692;6155:48424" data-name="Nav Menu">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I6231:43692;6155:48424;6155:47823" data-name="category-2">
+                  <div className="absolute contents inset-0" data-node-id="I6231:43692;6155:48424;6155:47823;3:33781" data-name="vuesax/linear/category-2">
+                    <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6231:43692;6155:48424;6155:47823;3:33782" data-name="category-2">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCategory2} />
+                    </div>
+                  </div>
+                </div>
+                <div className="[word-break:break-word] flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#bebec8] text-[14px] tracking-[-0.28px] whitespace-nowrap" data-node-id="I6231:43692;6155:48424;6155:47824">
+                  <p className="leading-[1.5]">Dashboard</p>
+                </div>
+              </div>
+              <NavMenu1 className="content-stretch flex gap-[12px] h-[33px] items-center px-[10px] py-[6px] relative rounded-[7px] shrink-0 w-full" menu="Notifications" />
+              <div className="content-stretch flex gap-[12px] h-[33px] items-center px-[10px] py-[6px] relative rounded-[7px] shrink-0 w-full" data-node-id="I6231:43692;6155:48426" data-name="Nav Menu">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I6231:43692;6155:48426;6155:47829" data-name="message-text">
+                  <div className="absolute contents inset-0" data-node-id="I6231:43692;6155:48426;6155:47829;3:14650" data-name="vuesax/linear/message-text">
+                    <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6231:43692;6155:48426;6155:47829;3:14651" data-name="message-text">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMessageText} />
+                    </div>
+                  </div>
+                </div>
+                <div className="[word-break:break-word] flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#bebec8] text-[14px] tracking-[-0.28px] whitespace-nowrap" data-node-id="I6231:43692;6155:48426;6155:47830">
+                  <p className="leading-[1.5]">Emails</p>
+                </div>
+              </div>
+              <NavMenu1 className="content-stretch flex gap-[12px] h-[33px] items-center px-[10px] py-[6px] relative rounded-[7px] shrink-0 w-full" menu="Notes" />
+              <div className="content-stretch flex gap-[12px] h-[33px] items-center px-[10px] py-[6px] relative rounded-[7px] shrink-0 w-full" data-node-id="I6231:43692;6155:48428" data-name="Nav Menu">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I6231:43692;6155:48428;6155:47835" data-name="task-square">
+                  <div className="absolute contents inset-0" data-node-id="I6231:43692;6155:48428;6155:47835;3:36664" data-name="vuesax/linear/task-square">
+                    <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6231:43692;6155:48428;6155:47835;3:36665" data-name="task-square">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTaskSquare} />
+                    </div>
+                  </div>
+                </div>
+                <div className="[word-break:break-word] flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#bebec8] text-[14px] tracking-[-0.28px] whitespace-nowrap" data-node-id="I6231:43692;6155:48428;6155:47836">
+                  <p className="leading-[1.5]">Tasks</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-h-px relative w-full" data-node-id="I6231:43692;6155:48429" data-name="Favorite">
+            <div className="content-stretch flex gap-[8px] items-center justify-center relative shrink-0 w-full" data-node-id="I6231:43692;6155:48430">
+              <div className="relative shrink-0 size-[14px]" data-node-id="I6231:43692;6155:48431" data-name="arrow-down">
+                <div className="absolute contents inset-0" data-node-id="I6231:43692;6155:48431;3:11318" data-name="vuesax/linear/arrow-down">
+                  <div className="absolute inset-[0_-71.43%_-71.43%_0]" data-node-id="I6231:43692;6155:48431;3:11319" data-name="arrow-down">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowDown} />
+                  </div>
+                </div>
+              </div>
+              <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] min-w-px not-italic relative text-[#5b5a64] text-[12px] tracking-[-0.24px]" data-node-id="I6231:43692;6155:48432">
+                <p className="leading-[normal]">Favorites</p>
+              </div>
+              <div className="relative shrink-0 size-[14px]" data-node-id="I6231:43692;6155:48433" data-name="add">
+                <div className="absolute contents inset-0" data-node-id="I6231:43692;6155:48433;3:29466" data-name="vuesax/linear/add">
+                  <div className="absolute inset-[0_-71.43%_-71.43%_0]" data-node-id="I6231:43692;6155:48433;3:29467" data-name="add">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAdd} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full" data-node-id="I6231:43692;6155:48434">
+              <div className="content-stretch flex gap-[10px] h-[33px] items-center px-[10px] py-[6px] relative rounded-[7px] shrink-0 w-full" data-node-id="I6231:43692;6155:48435" data-name="Favorite">
+                <div className="bg-[#dba014] border border-[rgba(255,255,255,0.1)] border-solid content-stretch flex items-center justify-center overflow-clip px-[14px] py-[12px] relative rounded-[5px] shrink-0 size-[20px]" data-node-id="I6231:43692;6155:48436" data-name="btn">
+                  <div className="drop-shadow-[0px_4px_2px_rgba(0,0,0,0.15)] relative shrink-0 size-[12px]" data-node-id="I6231:43692;6155:48437" data-name="folder-2">
+                    <div className="absolute contents inset-0" data-node-id="I6231:43692;6155:48437;3:13883" data-name="vuesax/bold/folder-2">
+                      <div className="absolute inset-[0_-100%_-100%_0]" data-node-id="I6231:43692;6155:48437;3:13884" data-name="folder-2">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFolder2} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="[word-break:break-word] flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#bebec8] text-[14px] tracking-[-0.28px] whitespace-nowrap" data-node-id="I6231:43692;6155:48438">
+                  <p className="leading-[1.5]">Primor Project</p>
+                </div>
+              </div>
+              <div className="content-stretch flex gap-[10px] h-[33px] items-center px-[10px] py-[6px] relative rounded-[7px] shrink-0 w-full" data-node-id="I6231:43692;6155:48439" data-name="Favorite">
+                <div className="bg-[#3863c6] border border-[rgba(255,255,255,0.1)] border-solid content-stretch flex items-center justify-center overflow-clip px-[14px] py-[12px] relative rounded-[5px] shrink-0 size-[20px]" data-node-id="I6231:43692;6155:48440" data-name="btn">
+                  <div className="drop-shadow-[0px_4px_2px_rgba(0,0,0,0.15)] relative shrink-0 size-[12px]" data-node-id="I6231:43692;6155:48441" data-name="folder-2">
+                    <div className="absolute contents inset-0" data-node-id="I6231:43692;6155:48441;3:13883" data-name="vuesax/bold/folder-2">
+                      <div className="absolute inset-[0_-100%_-100%_0]" data-node-id="I6231:43692;6155:48441;3:13884" data-name="folder-2">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFolder2} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="[word-break:break-word] flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#bebec8] text-[14px] tracking-[-0.28px] whitespace-nowrap" data-node-id="I6231:43692;6155:48442">
+                  <p className="leading-[1.5]">Sulivan Project</p>
+                </div>
+              </div>
+              <div className="content-stretch flex gap-[10px] h-[33px] items-center px-[10px] py-[6px] relative rounded-[7px] shrink-0 w-full" data-node-id="I6231:43692;6155:48443" data-name="Favorite">
+                <div className="bg-[#392fd0] border border-[rgba(255,255,255,0.1)] border-solid content-stretch flex items-center justify-center overflow-clip px-[14px] py-[12px] relative rounded-[5px] shrink-0 size-[20px]" data-node-id="I6231:43692;6155:48444" data-name="btn">
+                  <div className="drop-shadow-[0px_4px_2px_rgba(0,0,0,0.15)] relative shrink-0 size-[12px]" data-node-id="I6231:43692;6155:48445" data-name="folder-2">
+                    <div className="absolute contents inset-0" data-node-id="I6231:43692;6155:48445;3:13883" data-name="vuesax/bold/folder-2">
+                      <div className="absolute inset-[0_-100%_-100%_0]" data-node-id="I6231:43692;6155:48445;3:13884" data-name="folder-2">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFolder2} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="[word-break:break-word] flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#bebec8] text-[14px] tracking-[-0.28px] whitespace-nowrap" data-node-id="I6231:43692;6155:48446">
+                  <p className="leading-[1.5]">Trustworth Project</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full" data-node-id="I6231:43692;6155:48447" data-name="Other">
+            <div className="[word-break:break-word] flex flex-col font-['Inter:Medium'] font-medium h-[16px] justify-center leading-[0] not-italic relative shrink-0 text-[#5b5a64] text-[12px] tracking-[-0.24px] w-[74px]" data-node-id="I6231:43692;6155:48448">
+              <p className="leading-[normal]">Other</p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full" data-node-id="I6231:43692;6155:48449" data-name="Menu">
+              <NavMenu1 className="content-stretch flex gap-[12px] h-[33px] items-center px-[10px] py-[6px] relative rounded-[7px] shrink-0 w-full" menu="Help & Center" />
+              <div className="bg-[#252528] content-stretch flex gap-[12px] h-[33px] items-center px-[10px] py-[6px] relative rounded-[7px] shrink-0 w-full" data-node-id="I6231:43692;6155:48451" data-name="Nav Menu">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I6231:43692;6155:48451;6155:47862" data-name="setting">
+                  <div className="absolute contents inset-0" data-node-id="I6231:43692;6155:48451;6155:47862;3:33830" data-name="vuesax/linear/setting">
+                    <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6231:43692;6155:48451;6155:47862;3:33831" data-name="setting">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSetting} />
+                    </div>
+                  </div>
+                </div>
+                <div className="[word-break:break-word] flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-white tracking-[-0.28px] whitespace-nowrap" data-node-id="I6231:43692;6155:48451;6155:47863">
+                  <p className="leading-[1.5]">Settings</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-white content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-[1180px]" data-node-id="6146:20284" data-name="Main">
+        <div className="bg-[#161618] border-[#252528] border-b border-solid content-stretch flex items-center justify-between overflow-clip px-[24px] py-[13px] relative shrink-0 w-full" data-node-id="6233:49539" data-name="Header">
+          <div className="[word-break:break-word] flex flex-col font-['Inter:Semi_Bold'] font-semibold justify-center leading-[0] not-italic relative shrink-0 text-[16px] text-white tracking-[-0.32px] whitespace-nowrap" data-node-id="6233:49540">
+            <p className="leading-[1.5]">Settings</p>
+          </div>
+          <div className="content-stretch flex gap-[16px] items-center relative shrink-0" data-node-id="6233:49541" data-name="Buttons">
+            <div className="border border-[#44444a] border-solid content-stretch flex gap-[8px] h-[32px] items-center justify-center overflow-clip px-[24px] py-[21px] relative rounded-[8px] shadow-[0px_1px_2px_0px_rgba(82,88,102,0.06)] shrink-0 w-[100px]" data-node-id="6233:49542" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(90deg, rgb(32, 32, 35) 0%, rgb(32, 32, 35) 100%)" }} data-name="Button">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[12px] text-center text-white tracking-[-0.24px] whitespace-nowrap" data-node-id="I6233:49542;6155:21045">
+                Set Default
+              </p>
+            </div>
+            <div className="border border-[#4d41f3] border-solid content-stretch flex gap-[8px] h-[32px] items-center justify-center overflow-clip px-[24px] py-[21px] relative rounded-[8px] shrink-0 w-[107px]" data-node-id="6233:49543" data-name="Button">
+              <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[8px]" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(90deg, rgb(77, 65, 243) 0%, rgb(77, 65, 243) 100%)" }} />
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[12px] text-center text-white tracking-[-0.24px] whitespace-nowrap" data-node-id="I6233:49543;6155:21037">
+                Save Changes
+              </p>
+              <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0px_0px_0px_1.8px_rgba(255,255,255,0.25)]" />
+            </div>
+          </div>
+        </div>
+        <div className="bg-[#161618] content-stretch flex h-[842px] items-center relative shrink-0 w-full" data-node-id="6146:20290" data-name="Main setting">
+          <div className="border-[#252528] border-r border-solid content-stretch flex flex-col h-full items-end overflow-clip p-[16px] relative shrink-0 w-[200px]" data-node-id="6146:20291" data-name="Setting Navigation">
+            <div className="content-stretch flex flex-col gap-[8px] items-start justify-center relative shrink-0 w-full" data-node-id="I6146:20291;6155:49568" data-name="Main Menu">
+              <div className="[word-break:break-word] flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#5b5a64] text-[12px] tracking-[-0.24px] whitespace-nowrap" data-node-id="I6146:20291;6155:49569">
+                <p className="leading-[normal]">Settings Menu</p>
+              </div>
+              <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full" data-node-id="I6146:20291;6155:49570" data-name="Main Menu">
+                <div className="content-stretch flex gap-[12px] h-[33px] items-center px-[10px] py-[6px] relative rounded-[7px] shrink-0 w-full" data-node-id="I6146:20291;6155:49887" data-name="Nav Menu">
+                  <div className="relative shrink-0 size-[16px]" data-node-id="I6146:20291;6155:49887;6155:47949" data-name="profile">
+                    <div className="absolute contents inset-0" data-node-id="I6146:20291;6155:49887;6155:47949;3:13259" data-name="vuesax/linear/profile">
+                      <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6146:20291;6155:49887;6155:47949;3:13260" data-name="profile">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgProfile} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="[word-break:break-word] flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[#bebec8] text-[14px] tracking-[-0.28px] whitespace-nowrap" data-node-id="I6146:20291;6155:49887;6155:47950">
+                    <p className="leading-[1.5]">Profile</p>
+                  </div>
+                </div>
+                <NavMenu className="content-stretch flex gap-[12px] h-[33px] items-center px-[10px] py-[6px] relative rounded-[7px] shrink-0 w-full" menu="Email & Calendar" />
+                <NavMenu className="content-stretch flex gap-[12px] h-[33px] items-center px-[10px] py-[6px] relative rounded-[7px] shrink-0 w-full" menu="Storage" />
+                <NavMenu className="content-stretch flex gap-[12px] h-[33px] items-center px-[10px] py-[6px] relative rounded-[7px] shrink-0 w-full" menu="Refer Team" />
+                <NavMenu className="content-stretch flex gap-[12px] h-[33px] items-center px-[10px] py-[6px] relative rounded-[7px] shrink-0 w-full" menu="Tasks" />
+                <NavMenu className="content-stretch flex gap-[12px] h-[33px] items-center px-[10px] py-[6px] relative rounded-[7px] shrink-0 w-full" menu="Workspace" />
+                <NavMenu className="content-stretch flex gap-[12px] h-[33px] items-center px-[10px] py-[6px] relative rounded-[7px] shrink-0 w-full" menu="Member" />
+                <NavMenu className="content-stretch flex gap-[12px] h-[33px] items-center px-[10px] py-[6px] relative rounded-[7px] shrink-0 w-full" menu="Plans" />
+                <div className="bg-[#252528] content-stretch flex gap-[12px] h-[33px] items-center px-[10px] py-[6px] relative rounded-[7px] shrink-0 w-full" data-node-id="I6146:20291;6155:49895" data-name="Nav Menu">
+                  <div className="relative shrink-0 size-[16px]" data-node-id="I6146:20291;6155:49895;6155:47997" data-name="wallet-minus">
+                    <div className="absolute contents inset-0" data-node-id="I6146:20291;6155:49895;6155:47997;3:6769" data-name="vuesax/linear/wallet-minus">
+                      <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6146:20291;6155:49895;6155:47997;3:6770" data-name="wallet-minus">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgWalletMinus1} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="[word-break:break-word] flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-white tracking-[-0.28px] whitespace-nowrap" data-node-id="I6146:20291;6155:49895;6155:47998">
+                    <p className="leading-[1.5]">Plans</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[16px] h-full items-start min-w-px px-[80px] py-[24px] relative" data-node-id="6146:20292" data-name="Main Settings">
+            <div className="[word-break:break-word] content-stretch flex flex-col gap-[8px] items-start not-italic relative shrink-0 w-full" data-node-id="6146:20293" data-name="Text">
+              <p className="font-['Inter:Semi_Bold'] font-semibold leading-[1.5] relative shrink-0 text-[20px] text-white tracking-[-0.4px] whitespace-nowrap" data-node-id="6146:20294">
+                Integrations
+              </p>
+              <p className="font-['Inter:Medium'] font-medium leading-[0] min-w-full overflow-hidden relative shrink-0 text-[#5b5a64] text-[14px] text-ellipsis tracking-[-0.28px] w-[min-content]" data-node-id="6146:20295">
+                <span className="leading-[1.5]">{`Connect Cliently to other tools that your team uses. Learn more about `}</span>
+                <span className="[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-from-font decoration-solid font-['Inter:Semi_Bold'] font-semibold leading-[1.5] text-white underline">integrations</span>
+                <span className="leading-[1.5]">.</span>
+              </p>
+            </div>
+            <div className="h-0 relative shrink-0 w-full" data-node-id="6146:20296" data-name="Line">
+              <div className="absolute inset-[-0.5px_0]">
+                <img alt="" className="block max-w-none size-full" src={imgLine} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[16px] text-white tracking-[-0.32px] whitespace-nowrap" data-node-id="6146:20297">
+              Discover Integrations
+            </p>
+            <div className="content-stretch flex gap-[16px] items-center relative shrink-0 w-full" data-node-id="6146:20298" data-name="Buttons">
+              <div className="bg-[#252528] border border-[#44444a] border-solid content-stretch flex flex-[1_0_0] gap-[16px] h-[32px] items-center min-w-px overflow-clip px-[16px] py-[21px] relative rounded-[8px] shadow-[0px_1px_2px_0px_rgba(82,88,102,0.06)]" data-node-id="6146:20299" data-name="Button">
+                <div className="relative shrink-0 size-[16px]" data-node-id="6146:20300" data-name="search-normal">
+                  <div className="absolute contents inset-0" data-node-id="I6146:20300;3:21503" data-name="vuesax/linear/search-normal">
+                    <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6146:20300;3:21504" data-name="search-normal">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSearchNormal} />
+                    </div>
+                  </div>
+                </div>
+                <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[#bebec8] text-[12px] text-center tracking-[-0.12px] whitespace-nowrap" data-node-id="6146:20301">
+                  Search integration here..
+                </p>
+              </div>
+              <div className="border border-[#44444a] border-solid content-stretch flex gap-[8px] h-[32px] items-center justify-center overflow-clip px-[24px] py-[21px] relative rounded-[8px] shadow-[0px_1px_2px_0px_rgba(82,88,102,0.06)] shrink-0 w-[92px]" data-node-id="6146:20302" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(90deg, rgb(32, 32, 35) 0%, rgb(32, 32, 35) 100%)" }} data-name="Button">
+                <div className="relative shrink-0 size-[16px]" data-node-id="I6146:20302;6155:21044" data-name="plus">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFilter} />
+                </div>
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[12px] text-center text-white tracking-[-0.24px] whitespace-nowrap" data-node-id="I6146:20302;6155:21045">
+                  Filter
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="6146:20303" data-name="List Integration">
+              <div className="content-stretch flex gap-[16px] items-start relative shrink-0 w-full" data-node-id="6146:20304" data-name="List integration">
+                <div className="bg-[#252528] border border-[#44444a] border-solid content-stretch flex flex-[1_0_0] gap-[16px] items-center min-w-px overflow-clip p-[16px] relative rounded-[8px] shadow-[0px_1px_2px_0px_rgba(82,88,102,0.06)]" data-node-id="6146:20305" data-name="Integration">
+                  <div className="h-[28px] relative shrink-0 w-[32px]" data-node-id="6146:20306" data-name="Census 1">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCensus1} />
+                  </div>
+                  <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px not-italic relative" data-node-id="6146:20308" data-name="Text">
+                    <div className="flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] overflow-hidden relative shrink-0 text-[16px] text-ellipsis text-white tracking-[-0.32px] w-full whitespace-nowrap" data-node-id="6146:20309">
+                      <p className="leading-[1.5] overflow-hidden text-ellipsis">Census</p>
+                    </div>
+                    <p className="font-['Inter:Regular'] font-normal leading-[normal] relative shrink-0 text-[#bebec8] text-[12px] tracking-[-0.12px] w-full" data-node-id="6146:20310">
+                      Automation
+                    </p>
+                  </div>
+                  <div className="flex items-center justify-center relative shrink-0 size-[16px]" data-node-id="6146:20311">
+                    <div className="-rotate-90 flex-none">
+                      <div className="relative size-[16px]" data-name="more">
+                        <div className="absolute contents inset-0" data-node-id="I6146:20311;3:34106" data-name="vuesax/linear/more">
+                          <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6146:20311;3:34107" data-name="more">
+                            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMore} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[#252528] border border-[#44444a] border-solid content-stretch flex flex-[1_0_0] gap-[16px] items-center min-w-px overflow-clip p-[16px] relative rounded-[8px] shadow-[0px_1px_2px_0px_rgba(82,88,102,0.06)]" data-node-id="6146:20312" data-name="Integration">
+                  <div className="h-[30px] relative shrink-0 w-[32px]" data-node-id="6146:20313" data-name="image 2">
+                    <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                      <img alt="" className="absolute h-full left-0 max-w-none top-0 w-[365.71%]" src={imgImage2} />
+                    </div>
+                  </div>
+                  <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px not-italic relative" data-node-id="6146:20314" data-name="Text">
+                    <div className="flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] overflow-hidden relative shrink-0 text-[16px] text-ellipsis text-white tracking-[-0.32px] w-full whitespace-nowrap" data-node-id="6146:20315">
+                      <p className="leading-[1.5] overflow-hidden text-ellipsis">Fillout</p>
+                    </div>
+                    <p className="font-['Inter:Regular'] font-normal leading-[normal] relative shrink-0 text-[#bebec8] text-[12px] tracking-[-0.12px] w-full" data-node-id="6146:20316">{`Forms & surveys`}</p>
+                  </div>
+                  <div className="flex items-center justify-center relative shrink-0 size-[16px]" data-node-id="6146:20317">
+                    <div className="-rotate-90 flex-none">
+                      <div className="relative size-[16px]" data-name="more">
+                        <div className="absolute contents inset-0" data-node-id="I6146:20317;3:34106" data-name="vuesax/linear/more">
+                          <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6146:20317;3:34107" data-name="more">
+                            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMore} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[#252528] border border-[#44444a] border-solid content-stretch flex flex-[1_0_0] gap-[16px] items-center min-w-px overflow-clip p-[16px] relative rounded-[8px] shadow-[0px_1px_2px_0px_rgba(82,88,102,0.06)]" data-node-id="6146:20318" data-name="Integration">
+                  <div className="overflow-clip relative shrink-0 size-[32px]" data-node-id="6146:20319" data-name="mailchimp_icon_146054 1">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMailchimpIcon1460541} />
+                  </div>
+                  <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px not-italic relative" data-node-id="6146:20324" data-name="Text">
+                    <div className="flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] overflow-hidden relative shrink-0 text-[16px] text-ellipsis text-white tracking-[-0.32px] w-full whitespace-nowrap" data-node-id="6146:20325">
+                      <p className="leading-[1.5] overflow-hidden text-ellipsis">Mailchimp</p>
+                    </div>
+                    <p className="font-['Inter:Regular'] font-normal leading-[normal] relative shrink-0 text-[#bebec8] text-[12px] tracking-[-0.12px] w-full" data-node-id="6146:20326">
+                      E-mail sequencing
+                    </p>
+                  </div>
+                  <div className="flex items-center justify-center relative shrink-0 size-[16px]" data-node-id="6146:20327">
+                    <div className="-rotate-90 flex-none">
+                      <div className="relative size-[16px]" data-name="more">
+                        <div className="absolute contents inset-0" data-node-id="I6146:20327;3:34106" data-name="vuesax/linear/more">
+                          <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6146:20327;3:34107" data-name="more">
+                            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMore} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex gap-[16px] items-start relative shrink-0 w-full" data-node-id="6146:20328" data-name="List integration">
+                <div className="bg-[#252528] border border-[#44444a] border-solid content-stretch flex flex-[1_0_0] gap-[16px] items-center min-w-px overflow-clip p-[16px] relative rounded-[8px] shadow-[0px_1px_2px_0px_rgba(82,88,102,0.06)]" data-node-id="6146:20329" data-name="Integration">
+                  <div className="relative shrink-0 size-[32px]" data-node-id="6146:20330" data-name="image 3">
+                    <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                      <img alt="" className="absolute h-full left-0 max-w-none top-0 w-[589.54%]" src={imgImage3} />
+                    </div>
+                  </div>
+                  <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px not-italic relative" data-node-id="6146:20331" data-name="Text">
+                    <div className="flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] overflow-hidden relative shrink-0 text-[16px] text-ellipsis text-white tracking-[-0.32px] w-full whitespace-nowrap" data-node-id="6146:20332">
+                      <p className="leading-[1.5] overflow-hidden text-ellipsis">Polytomic</p>
+                    </div>
+                    <p className="font-['Inter:Regular'] font-normal leading-[normal] relative shrink-0 text-[#bebec8] text-[12px] tracking-[-0.12px] w-full" data-node-id="6146:20333">
+                      Data
+                    </p>
+                  </div>
+                  <div className="flex items-center justify-center relative shrink-0 size-[16px]" data-node-id="6146:20334">
+                    <div className="-rotate-90 flex-none">
+                      <div className="relative size-[16px]" data-name="more">
+                        <div className="absolute contents inset-0" data-node-id="I6146:20334;3:34106" data-name="vuesax/linear/more">
+                          <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6146:20334;3:34107" data-name="more">
+                            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMore} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[#252528] border border-[#44444a] border-solid content-stretch flex flex-[1_0_0] gap-[16px] items-center min-w-px overflow-clip p-[16px] relative rounded-[8px] shadow-[0px_1px_2px_0px_rgba(82,88,102,0.06)]" data-node-id="6146:20335" data-name="Integration">
+                  <div className="relative rounded-[9px] shrink-0 size-[32px]" data-node-id="6146:20336" data-name="image 4">
+                    <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[9px] size-full" src={imgImage4} />
+                  </div>
+                  <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px not-italic relative" data-node-id="6146:20337" data-name="Text">
+                    <div className="flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] overflow-hidden relative shrink-0 text-[16px] text-ellipsis text-white tracking-[-0.32px] w-full whitespace-nowrap" data-node-id="6146:20338">
+                      <p className="leading-[1.5] overflow-hidden text-ellipsis">Relay</p>
+                    </div>
+                    <p className="font-['Inter:Regular'] font-normal leading-[normal] relative shrink-0 text-[#bebec8] text-[12px] tracking-[-0.12px] w-full" data-node-id="6146:20339">
+                      Automation
+                    </p>
+                  </div>
+                  <div className="flex items-center justify-center relative shrink-0 size-[16px]" data-node-id="6146:20340">
+                    <div className="-rotate-90 flex-none">
+                      <div className="relative size-[16px]" data-name="more">
+                        <div className="absolute contents inset-0" data-node-id="I6146:20340;3:34106" data-name="vuesax/linear/more">
+                          <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6146:20340;3:34107" data-name="more">
+                            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMore} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[#252528] border border-[#44444a] border-solid content-stretch flex flex-[1_0_0] gap-[16px] items-center min-w-px overflow-clip p-[16px] relative rounded-[8px] shadow-[0px_1px_2px_0px_rgba(82,88,102,0.06)]" data-node-id="6146:20341" data-name="Integration">
+                  <div className="h-[21px] overflow-clip relative shrink-0 w-[32px]" data-node-id="6146:20342" data-name="idpcAHoHxC_logos 1">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIdpcAHoHxCLogos1} />
+                  </div>
+                  <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px not-italic relative" data-node-id="6146:20345" data-name="Text">
+                    <div className="flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] overflow-hidden relative shrink-0 text-[16px] text-ellipsis text-white tracking-[-0.32px] w-full whitespace-nowrap" data-node-id="6146:20346">
+                      <p className="leading-[1.5] overflow-hidden text-ellipsis">Typeform</p>
+                    </div>
+                    <p className="font-['Inter:Regular'] font-normal leading-[normal] relative shrink-0 text-[#bebec8] text-[12px] tracking-[-0.12px] w-full" data-node-id="6146:20347">{`Forms & surveys`}</p>
+                  </div>
+                  <div className="flex items-center justify-center relative shrink-0 size-[16px]" data-node-id="6146:20348">
+                    <div className="-rotate-90 flex-none">
+                      <div className="relative size-[16px]" data-name="more">
+                        <div className="absolute contents inset-0" data-node-id="I6146:20348;3:34106" data-name="vuesax/linear/more">
+                          <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6146:20348;3:34107" data-name="more">
+                            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMore} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex gap-[16px] items-start relative shrink-0 w-full" data-node-id="6146:20349" data-name="List integration">
+                <div className="bg-[#252528] border border-[#44444a] border-solid content-stretch flex flex-[1_0_0] gap-[16px] items-center min-w-px overflow-clip p-[16px] relative rounded-[8px] shadow-[0px_1px_2px_0px_rgba(82,88,102,0.06)]" data-node-id="6146:20350" data-name="Integration">
+                  <div className="relative shrink-0 size-[32px]" data-node-id="6146:20351" data-name="image 5">
+                    <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage5} />
+                  </div>
+                  <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px not-italic relative" data-node-id="6146:20352" data-name="Text">
+                    <div className="flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] overflow-hidden relative shrink-0 text-[16px] text-ellipsis text-white tracking-[-0.32px] w-full whitespace-nowrap" data-node-id="6146:20353">
+                      <p className="leading-[1.5] overflow-hidden text-ellipsis">Circleback</p>
+                    </div>
+                    <p className="font-['Inter:Regular'] font-normal leading-[normal] relative shrink-0 text-[#bebec8] text-[12px] tracking-[-0.12px] w-full" data-node-id="6146:20354">
+                      Call recording
+                    </p>
+                  </div>
+                  <div className="flex items-center justify-center relative shrink-0 size-[16px]" data-node-id="6146:20355">
+                    <div className="-rotate-90 flex-none">
+                      <div className="relative size-[16px]" data-name="more">
+                        <div className="absolute contents inset-0" data-node-id="I6146:20355;3:34106" data-name="vuesax/linear/more">
+                          <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6146:20355;3:34107" data-name="more">
+                            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMore} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[#252528] border border-[#44444a] border-solid content-stretch flex flex-[1_0_0] gap-[16px] items-center min-w-px overflow-clip p-[16px] relative rounded-[8px] shadow-[0px_1px_2px_0px_rgba(82,88,102,0.06)]" data-node-id="6146:20356" data-name="Integration">
+                  <div className="relative rounded-[8px] shrink-0 size-[32px]" data-node-id="6146:20357" data-name="image 6">
+                    <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full" src={imgImage6} />
+                  </div>
+                  <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px not-italic relative" data-node-id="6146:20358" data-name="Text">
+                    <div className="flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] overflow-hidden relative shrink-0 text-[16px] text-ellipsis text-white tracking-[-0.32px] w-full whitespace-nowrap" data-node-id="6146:20359">
+                      <p className="leading-[1.5] overflow-hidden text-ellipsis">Claap</p>
+                    </div>
+                    <p className="font-['Inter:Regular'] font-normal leading-[normal] relative shrink-0 text-[#bebec8] text-[12px] tracking-[-0.12px] w-full" data-node-id="6146:20360">
+                      Call recording
+                    </p>
+                  </div>
+                  <div className="flex items-center justify-center relative shrink-0 size-[16px]" data-node-id="6146:20361">
+                    <div className="-rotate-90 flex-none">
+                      <div className="relative size-[16px]" data-name="more">
+                        <div className="absolute contents inset-0" data-node-id="I6146:20361;3:34106" data-name="vuesax/linear/more">
+                          <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6146:20361;3:34107" data-name="more">
+                            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMore} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[#252528] border border-[#44444a] border-solid content-stretch flex flex-[1_0_0] gap-[16px] items-center min-w-px overflow-clip p-[16px] relative rounded-[8px] shadow-[0px_1px_2px_0px_rgba(82,88,102,0.06)]" data-node-id="6146:20362" data-name="Integration">
+                  <div className="relative shrink-0 size-[32px]" data-node-id="6146:20363" data-name="image 7">
+                    <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage7} />
+                  </div>
+                  <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px not-italic relative" data-node-id="6146:20364" data-name="Text">
+                    <div className="flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] overflow-hidden relative shrink-0 text-[16px] text-ellipsis text-white tracking-[-0.32px] w-full whitespace-nowrap" data-node-id="6146:20365">
+                      <p className="leading-[1.5] overflow-hidden text-ellipsis">Hightouch</p>
+                    </div>
+                    <p className="font-['Inter:Regular'] font-normal leading-[normal] relative shrink-0 text-[#bebec8] text-[12px] tracking-[-0.12px] w-full" data-node-id="6146:20366">
+                      Automation
+                    </p>
+                  </div>
+                  <div className="flex items-center justify-center relative shrink-0 size-[16px]" data-node-id="6146:20367">
+                    <div className="-rotate-90 flex-none">
+                      <div className="relative size-[16px]" data-name="more">
+                        <div className="absolute contents inset-0" data-node-id="I6146:20367;3:34106" data-name="vuesax/linear/more">
+                          <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6146:20367;3:34107" data-name="more">
+                            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMore} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex gap-[16px] items-start relative shrink-0 w-full" data-node-id="6146:20368" data-name="List integration">
+                <div className="bg-[#252528] border border-[#44444a] border-solid content-stretch flex flex-[1_0_0] gap-[16px] items-center min-w-px overflow-clip p-[16px] relative rounded-[8px] shadow-[0px_1px_2px_0px_rgba(82,88,102,0.06)]" data-node-id="6146:20369" data-name="Integration">
+                  <div className="relative rounded-[8px] shrink-0 size-[32px]" data-node-id="6146:20370" data-name="image 9">
+                    <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full" src={imgImage9} />
+                  </div>
+                  <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px not-italic relative" data-node-id="6146:20371" data-name="Text">
+                    <div className="flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] overflow-hidden relative shrink-0 text-[16px] text-ellipsis text-white tracking-[-0.32px] w-full whitespace-nowrap" data-node-id="6146:20372">
+                      <p className="leading-[1.5] overflow-hidden text-ellipsis">June</p>
+                    </div>
+                    <p className="font-['Inter:Regular'] font-normal leading-[normal] relative shrink-0 text-[#bebec8] text-[12px] tracking-[-0.12px] w-full" data-node-id="6146:20373">
+                      Analytics
+                    </p>
+                  </div>
+                  <div className="flex items-center justify-center relative shrink-0 size-[16px]" data-node-id="6146:20374">
+                    <div className="-rotate-90 flex-none">
+                      <div className="relative size-[16px]" data-name="more">
+                        <div className="absolute contents inset-0" data-node-id="I6146:20374;3:34106" data-name="vuesax/linear/more">
+                          <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6146:20374;3:34107" data-name="more">
+                            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMore} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[#252528] border border-[#44444a] border-solid content-stretch flex flex-[1_0_0] gap-[16px] items-center min-w-px overflow-clip p-[16px] relative rounded-[8px] shadow-[0px_1px_2px_0px_rgba(82,88,102,0.06)]" data-node-id="6146:20375" data-name="Integration">
+                  <div className="overflow-clip relative shrink-0 size-[32px]" data-node-id="6146:20376" data-name="mixmax-svgrepo-com 1">
+                    <div className="absolute inset-[10.35%_0]" data-node-id="6146:20377" data-name="Group">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+                    </div>
+                  </div>
+                  <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px not-italic relative" data-node-id="6146:20383" data-name="Text">
+                    <div className="flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] overflow-hidden relative shrink-0 text-[16px] text-ellipsis text-white tracking-[-0.32px] w-full whitespace-nowrap" data-node-id="6146:20384">
+                      <p className="leading-[1.5] overflow-hidden text-ellipsis">Mixmax</p>
+                    </div>
+                    <p className="font-['Inter:Regular'] font-normal leading-[normal] relative shrink-0 text-[#bebec8] text-[12px] tracking-[-0.12px] w-full" data-node-id="6146:20385">
+                      E-mail sequencing
+                    </p>
+                  </div>
+                  <div className="flex items-center justify-center relative shrink-0 size-[16px]" data-node-id="6146:20386">
+                    <div className="-rotate-90 flex-none">
+                      <div className="relative size-[16px]" data-name="more">
+                        <div className="absolute contents inset-0" data-node-id="I6146:20386;3:34106" data-name="vuesax/linear/more">
+                          <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6146:20386;3:34107" data-name="more">
+                            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMore} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[#252528] border border-[#44444a] border-solid content-stretch flex flex-[1_0_0] gap-[16px] items-center min-w-px overflow-clip p-[16px] relative rounded-[8px] shadow-[0px_1px_2px_0px_rgba(82,88,102,0.06)]" data-node-id="6146:20387" data-name="Integration">
+                  <div className="relative shrink-0 size-[32px]" data-node-id="6146:20388" data-name="outreach-io-vector-logo 1">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgOutreachIoVectorLogo1} />
+                  </div>
+                  <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px not-italic relative" data-node-id="6146:20390" data-name="Text">
+                    <div className="flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] overflow-hidden relative shrink-0 text-[16px] text-ellipsis text-white tracking-[-0.32px] w-full whitespace-nowrap" data-node-id="6146:20391">
+                      <p className="leading-[1.5] overflow-hidden text-ellipsis">Outreach</p>
+                    </div>
+                    <p className="font-['Inter:Regular'] font-normal leading-[normal] relative shrink-0 text-[#bebec8] text-[12px] tracking-[-0.12px] w-full" data-node-id="6146:20392">
+                      E-mail sequencing
+                    </p>
+                  </div>
+                  <div className="flex items-center justify-center relative shrink-0 size-[16px]" data-node-id="6146:20393">
+                    <div className="-rotate-90 flex-none">
+                      <div className="relative size-[16px]" data-name="more">
+                        <div className="absolute contents inset-0" data-node-id="I6146:20393;3:34106" data-name="vuesax/linear/more">
+                          <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6146:20393;3:34107" data-name="more">
+                            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMore} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex gap-[16px] items-start relative shrink-0 w-full" data-node-id="6146:20394" data-name="List integration">
+                <div className="bg-[#252528] border border-[#44444a] border-solid content-stretch flex flex-[1_0_0] gap-[16px] items-center min-w-px overflow-clip p-[16px] relative rounded-[8px] shadow-[0px_1px_2px_0px_rgba(82,88,102,0.06)]" data-node-id="6146:20395" data-name="Integration">
+                  <div className="relative rounded-[8px] shrink-0 size-[32px]" data-node-id="6146:20396" data-name="image 8">
+                    <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full" src={imgImage8} />
+                  </div>
+                  <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px not-italic relative" data-node-id="6146:20397" data-name="Text">
+                    <div className="flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] overflow-hidden relative shrink-0 text-[16px] text-ellipsis text-white tracking-[-0.32px] w-full whitespace-nowrap" data-node-id="6146:20398">
+                      <p className="leading-[1.5] overflow-hidden text-ellipsis">Popsink</p>
+                    </div>
+                    <p className="font-['Inter:Regular'] font-normal leading-[normal] relative shrink-0 text-[#bebec8] text-[12px] tracking-[-0.12px] w-full" data-node-id="6146:20399">
+                      Data
+                    </p>
+                  </div>
+                  <div className="flex items-center justify-center relative shrink-0 size-[16px]" data-node-id="6146:20400">
+                    <div className="-rotate-90 flex-none">
+                      <div className="relative size-[16px]" data-name="more">
+                        <div className="absolute contents inset-0" data-node-id="I6146:20400;3:34106" data-name="vuesax/linear/more">
+                          <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6146:20400;3:34107" data-name="more">
+                            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMore} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[#252528] border border-[#44444a] border-solid content-stretch flex flex-[1_0_0] gap-[16px] items-center min-w-px overflow-clip p-[16px] relative rounded-[8px] shadow-[0px_1px_2px_0px_rgba(82,88,102,0.06)]" data-node-id="6146:20401" data-name="Integration">
+                  <div className="relative shrink-0 size-[32px]" data-node-id="6146:20402" data-name="segment-svgrepo-com 1">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSegmentSvgrepoCom1} />
+                  </div>
+                  <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px not-italic relative" data-node-id="6146:20405" data-name="Text">
+                    <div className="flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] overflow-hidden relative shrink-0 text-[16px] text-ellipsis text-white tracking-[-0.32px] w-full whitespace-nowrap" data-node-id="6146:20406">
+                      <p className="leading-[1.5] overflow-hidden text-ellipsis">Segment</p>
+                    </div>
+                    <p className="font-['Inter:Regular'] font-normal leading-[normal] relative shrink-0 text-[#bebec8] text-[12px] tracking-[-0.12px] w-full" data-node-id="6146:20407">
+                      Analytics
+                    </p>
+                  </div>
+                  <div className="flex items-center justify-center relative shrink-0 size-[16px]" data-node-id="6146:20408">
+                    <div className="-rotate-90 flex-none">
+                      <div className="relative size-[16px]" data-name="more">
+                        <div className="absolute contents inset-0" data-node-id="I6146:20408;3:34106" data-name="vuesax/linear/more">
+                          <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6146:20408;3:34107" data-name="more">
+                            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMore} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[#252528] border border-[#44444a] border-solid content-stretch flex flex-[1_0_0] gap-[16px] items-center min-w-px overflow-clip p-[16px] relative rounded-[8px] shadow-[0px_1px_2px_0px_rgba(82,88,102,0.06)]" data-node-id="6146:20409" data-name="Integration">
+                  <div className="overflow-clip relative shrink-0 size-[32px]" data-node-id="6146:20410" data-name="zapier-icon-svgrepo-com 1">
+                    <div className="absolute inset-[0_0_0.25%_0]" data-node-id="6146:20411" data-name="Group">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup2} />
+                    </div>
+                  </div>
+                  <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px not-italic relative" data-node-id="6146:20413" data-name="Text">
+                    <div className="flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] overflow-hidden relative shrink-0 text-[16px] text-ellipsis text-white tracking-[-0.32px] w-full whitespace-nowrap" data-node-id="6146:20414">
+                      <p className="leading-[1.5] overflow-hidden text-ellipsis">Zapier</p>
+                    </div>
+                    <p className="font-['Inter:Regular'] font-normal leading-[normal] relative shrink-0 text-[#bebec8] text-[12px] tracking-[-0.12px] w-full" data-node-id="6146:20415">
+                      Automation
+                    </p>
+                  </div>
+                  <div className="flex items-center justify-center relative shrink-0 size-[16px]" data-node-id="6146:20416">
+                    <div className="-rotate-90 flex-none">
+                      <div className="relative size-[16px]" data-name="more">
+                        <div className="absolute contents inset-0" data-node-id="I6146:20416;3:34106" data-name="vuesax/linear/more">
+                          <div className="absolute inset-[0_-50%_-50%_0]" data-node-id="I6146:20416;3:34107" data-name="more">
+                            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMore} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute bg-[#252528] border border-[#44444a] border-solid content-stretch flex flex-col gap-[8px] items-start justify-center overflow-clip p-[8px] right-[399px] rounded-[12px] shadow-[7px_24px_24px_-7px_rgba(0,0,0,0.25)] top-[321px] w-[141px]" data-node-id="6146:20417" data-name="Popup">
+              <div className="content-stretch flex gap-[10px] items-center p-[8px] relative shrink-0 w-full" data-node-id="6146:20418" data-name="Add New">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] min-w-px not-italic relative text-[14px] text-white tracking-[-0.28px]" data-node-id="6146:20419">
+                  On
+                </p>
+                <Toggle className="bg-[#44444a] content-stretch flex items-start pl-[2px] pr-[18px] py-[2px] relative rounded-[100px] shrink-0" />
+              </div>
+              <div className="content-stretch flex gap-[10px] items-center p-[8px] relative shrink-0 w-full" data-node-id="6146:20421" data-name="Add New">
+                <div className="relative shrink-0 size-[20px]" data-node-id="6146:20422" data-name="info-circle">
+                  <div className="absolute contents inset-0" data-node-id="I6146:20422;3:29384" data-name="vuesax/linear/info-circle">
+                    <div className="absolute inset-[0_-20%_-20%_0]" data-node-id="I6146:20422;3:29385" data-name="info-circle">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgInfoCircle} />
+                    </div>
+                  </div>
+                </div>
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[14px] text-white tracking-[-0.28px] whitespace-nowrap" data-node-id="6146:20423">
+                  Details
+                </p>
+              </div>
+              <div className="h-0 relative shrink-0 w-full" data-node-id="6146:20424" data-name="Line">
+                <div className="absolute inset-[-0.5px_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgLine1} />
+                </div>
+              </div>
+              <div className="content-stretch flex gap-[10px] items-center p-[8px] relative shrink-0 w-full" data-node-id="6146:20425" data-name="Add New">
+                <div className="relative shrink-0 size-[20px]" data-node-id="6146:20426" data-name="trash">
+                  <div className="absolute contents inset-0" data-node-id="I6146:20426;3:28733" data-name="vuesax/linear/trash">
+                    <div className="absolute inset-[0_-20%_-20%_0]" data-node-id="I6146:20426;3:28734" data-name="trash">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTrash} />
+                    </div>
+                  </div>
+                </div>
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[14px] text-white tracking-[-0.28px] whitespace-nowrap" data-node-id="6146:20427">
+                  Remove
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

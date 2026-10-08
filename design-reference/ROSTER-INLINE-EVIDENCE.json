@@ -1,0 +1,119 @@
+{
+  "desktop": {
+    "controls": [
+      {
+        "h": 36,
+        "text": "All residents63",
+        "w": 137.71875,
+        "y": 300
+      },
+      {
+        "h": 36,
+        "text": "Needs attention8",
+        "w": 153.625,
+        "y": 300
+      },
+      {
+        "h": 36,
+        "text": "Waiting11",
+        "w": 100.125,
+        "y": 300
+      },
+      {
+        "h": 36,
+        "text": "Done44",
+        "w": 90.96875,
+        "y": 300
+      },
+      {
+        "h": 36,
+        "text": "Search residents or room…",
+        "w": 156.5625,
+        "y": 300
+      },
+      {
+        "h": 36,
+        "text": "All facilities",
+        "w": 130,
+        "y": 300
+      },
+      {
+        "h": 36,
+        "text": "All statuses",
+        "w": 130,
+        "y": 300
+      },
+      {
+        "h": 36,
+        "text": "Name A–Z",
+        "w": 130,
+        "y": 300
+      }
+    ],
+    "overflow": false,
+    "selects": [
+      {
+        "clipped": false,
+        "text": "All facilities"
+      },
+      {
+        "clipped": false,
+        "text": "All statuses"
+      },
+      {
+        "clipped": false,
+        "text": "Name A–Z"
+      }
+    ],
+    "ui": "v2",
+    "width": 1425
+  },
+  "smallDesktop": {
+    "controls": [
+      {
+        "h": 36,
+        "y": 274
+      },
+      {
+        "h": 36,
+        "y": 274
+      },
+      {
+        "h": 36,
+        "y": 274
+      },
+      {
+        "h": 36,
+        "y": 274
+      },
+      {
+        "h": 36,
+        "y": 352
+      },
+      {
+        "h": 36,
+        "y": 352
+      },
+      {
+        "h": 36,
+        "y": 352
+      },
+      {
+        "h": 36,
+        "y": 352
+      }
+    ],
+    "overflow": false,
+    "width": 1265
+  },
+  "mobile": {
+    "overflow": false,
+    "width": 375
+  },
+  "v1": {
+    "searchY": 249,
+    "tabBorder": "0px",
+    "tabY": 164,
+    "ui": "figma"
+  }
+}
