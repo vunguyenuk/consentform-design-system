@@ -1,0 +1,142 @@
+[
+  {
+    "cellContentX": 284,
+    "expectedX": 284,
+    "headerTextX": 284,
+    "overflow": false,
+    "rightPadding": "24px",
+    "route": "route-facilities",
+    "ui": "figma",
+    "width": 1440
+  },
+  {
+    "cellContentX": 284,
+    "expectedX": 284,
+    "headerTextX": 284,
+    "overflow": false,
+    "rightPadding": "24px",
+    "route": "route-facility",
+    "ui": "figma",
+    "width": 1425
+  },
+  {
+    "cellContentX": 284,
+    "expectedX": 284,
+    "headerTextX": 284,
+    "overflow": false,
+    "rightPadding": "24px",
+    "route": "route-residents",
+    "ui": "figma",
+    "width": 1440
+  },
+  {
+    "cellContentX": 284,
+    "expectedX": 284,
+    "headerTextX": 284,
+    "overflow": false,
+    "rightPadding": "24px",
+    "route": "route-users",
+    "ui": "figma",
+    "width": 1440
+  },
+  {
+    "cellContentX": 284,
+    "expectedX": 284,
+    "headerTextX": 284,
+    "overflow": false,
+    "rightPadding": "24px",
+    "route": "route-activity",
+    "ui": "figma",
+    "width": 1425
+  },
+  {
+    "cellContentX": 284,
+    "expectedX": 284,
+    "headerTextX": 284,
+    "overflow": false,
+    "rightPadding": "24px",
+    "route": "route-census",
+    "ui": "figma",
+    "width": 1425
+  },
+  {
+    "cellContentX": 284,
+    "expectedX": 284,
+    "headerTextX": 284,
+    "overflow": false,
+    "rightPadding": "24px",
+    "route": "route-intake",
+    "ui": "figma",
+    "width": 1440
+  },
+  {
+    "cellContentX": 24,
+    "expectedX": 24,
+    "headerTextX": 24,
+    "overflow": false,
+    "rightPadding": "24px",
+    "route": "route-facilities",
+    "ui": "figma",
+    "width": 375
+  },
+  {
+    "cellContentX": 24,
+    "expectedX": 24,
+    "headerTextX": 24,
+    "overflow": false,
+    "rightPadding": "24px",
+    "route": "route-facility",
+    "ui": "figma",
+    "width": 375
+  },
+  {
+    "cellContentX": 24,
+    "expectedX": 24,
+    "headerTextX": 24,
+    "overflow": false,
+    "rightPadding": "24px",
+    "route": "route-residents",
+    "ui": "figma",
+    "width": 375
+  },
+  {
+    "cellContentX": 24,
+    "expectedX": 24,
+    "headerTextX": 24,
+    "overflow": false,
+    "rightPadding": "24px",
+    "route": "route-users",
+    "ui": "figma",
+    "width": 375
+  },
+  {
+    "cellContentX": 24,
+    "expectedX": 24,
+    "headerTextX": 24,
+    "overflow": false,
+    "rightPadding": "24px",
+    "route": "route-activity",
+    "ui": "figma",
+    "width": 375
+  },
+  {
+    "cellContentX": 24,
+    "expectedX": 24,
+    "headerTextX": 24,
+    "overflow": false,
+    "rightPadding": "24px",
+    "route": "route-census",
+    "ui": "figma",
+    "width": 375
+  },
+  {
+    "cellContentX": 24,
+    "expectedX": 24,
+    "headerTextX": 24,
+    "overflow": false,
+    "rightPadding": "24px",
+    "route": "route-intake",
+    "ui": "figma",
+    "width": 375
+  }
+]

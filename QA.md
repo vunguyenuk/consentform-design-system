@@ -299,3 +299,17 @@ Shared V1 roster/table toolbar tables now use the page gutter for first/last cel
 Removed the table header top border only when a roster toolbar directly precedes it; the toolbar retains the single 1px separator. Fixes V1 Residents and Staff accounts on desktop/mobile. Added the shared section gap between resident cards and the Next clinic day notice in both editions so their independent card borders no longer touch.
 
 Reviewed 16 routes/states × 2 editions × 2 viewport widths (1440/375) using DOM edge geometry, excluding internal collapsed-table borders; no remaining overlapping horizontal edges in the sampled states after fixes. Also checked the three affected routes in both editions/widths in dark mode (12 states), and directly confirmed the V1 dark header has 0px top border while the toolbar retains 1px bottom border. This check covers page borders, not all possible modal states. Evidence: design-reference/BORDER-AUDIT-EVIDENCE.json and BORDER-DARK-EVIDENCE.json. Screenshots: v1-residents-single-border.png and v2-resident-card-border-spacing.png.
+
+
+### V1 full-page table alignment — missed Facilities table corrected (8 Oct 2026, 14:18 feedback)
+
+The previous gutter rule depended on a preceding toolbar, so Facilities and Facility details were omitted. Replaced that rule with one covering every direct full-page table wrapper in V1, independently of its preceding section. All seven domain tables were verified at 1440px and 375px: Facilities, Facility details, Residents, Staff accounts, Activity, Census and Intake. Header text and first cell content match the page gutter exactly (x=284px desktop, x=24px mobile); final cells use a 24px right inset and none of these pages overflow horizontally. Facility directory heading, table heading and facility icon all start at x=284px. Evidence: design-reference/V1-FULL-PAGE-TABLE-ALIGNMENT.json; screenshots/v1-facility-directory-aligned.png.
+
+
+### V2 search focus and width — 8 Oct 2026, 14:22–14:23 feedback
+
+Search fields now recolor their existing 1px border on focus, using the edition's focus token, without an outer outline or box shadow. This includes Help search and shared form fields/custom select triggers. The Intake scroll container no longer clips the focused search's top edge. Intake search fills the remaining toolbar width; the Tasks, Messages and Notes page searches fill their content row. No V1 styles were changed.
+
+Verified nine search pages with actual UI focus on desktop: Tasks, Intake, Residents, Activity, Facilities, Census, Messages, Notes and Help. At 1440px, Tasks is 1105px wide and Intake is approximately 703px (previous caps 320px/420px). Tasks and Intake retain a single 1px border in dark mode; Tab then Shift+Tab returns keyboard focus to Tasks with the white focus border and no outer outline. At 375px, Tasks/Intake/Messages/Notes search widths are 343px, with no page overflow. The opened Channels dropdown has one dark border and no visible outline (computed outline-style none). V1 Residents still has a 676px search and underline tabs.
+
+Mobile verification also exposed a pre-existing sidebar shadow that dimmed the page while the drawer was closed; removed that closed-state shadow in V2, retaining the open-drawer backdrop rule. Evidence: design-reference/V2-SEARCH-FOCUS-EVIDENCE.json (15 actual focused search observations); screenshots/v2-tasks-search-single-border.png, v2-intake-search-single-border.png and v2-intake-search-mobile.png.

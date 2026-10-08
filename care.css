@@ -95,9 +95,9 @@
 /* V1 roster search fills the row, matching Census audit. */
 :root[data-ui=figma] .route-residents .care-roster-toolbar .filters .search{max-width:none}
 
-/* Align V1 table edges with the toolbar and page heading gutters. */
-:root[data-ui=figma] :is(.care-roster-toolbar,.table-controls)~.tablewrap>table> :is(thead,tbody)>tr>:is(th,td):first-child{padding-left:var(--page-gutter)}
-:root[data-ui=figma] :is(.care-roster-toolbar,.table-controls)~.tablewrap>table> :is(thead,tbody)>tr>:is(th,td):last-child{padding-right:var(--page-gutter)}
+/* All full-page V1 tables share the page heading and toolbar gutters. */
+:root[data-ui=figma] main>.tablewrap>table> :is(thead,tbody)>tr>:is(th,td):first-child{padding-left:var(--page-gutter)}
+:root[data-ui=figma] main>.tablewrap>table> :is(thead,tbody)>tr>:is(th,td):last-child{padding-right:var(--page-gutter)}
 
 /* The roster toolbar owns the separator where it touches the table. */
 :root[data-ui] .care-roster-toolbar+.tablewrap>table>thead>tr>th{border-top:0}
