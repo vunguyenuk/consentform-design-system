@@ -1,0 +1,74 @@
+[
+  {
+    "edition": "UI V1",
+    "route": "residents",
+    "width": 1440,
+    "pairs": []
+  },
+  {
+    "edition": "UI V1",
+    "route": "users",
+    "width": 1440,
+    "pairs": []
+  },
+  {
+    "edition": "UI V1",
+    "route": "resident?id=res-r27",
+    "width": 1440,
+    "pairs": []
+  },
+  {
+    "edition": "UI V2",
+    "route": "residents",
+    "width": 1440,
+    "pairs": []
+  },
+  {
+    "edition": "UI V2",
+    "route": "users",
+    "width": 1440,
+    "pairs": []
+  },
+  {
+    "edition": "UI V2",
+    "route": "resident?id=res-r27",
+    "width": 1440,
+    "pairs": []
+  },
+  {
+    "edition": "UI V1",
+    "route": "residents",
+    "width": 375,
+    "pairs": []
+  },
+  {
+    "edition": "UI V1",
+    "route": "users",
+    "width": 375,
+    "pairs": []
+  },
+  {
+    "edition": "UI V1",
+    "route": "resident?id=res-r27",
+    "width": 375,
+    "pairs": []
+  },
+  {
+    "edition": "UI V2",
+    "route": "residents",
+    "width": 375,
+    "pairs": []
+  },
+  {
+    "edition": "UI V2",
+    "route": "users",
+    "width": 375,
+    "pairs": []
+  },
+  {
+    "edition": "UI V2",
+    "route": "resident?id=res-r27",
+    "width": 375,
+    "pairs": []
+  }
+]

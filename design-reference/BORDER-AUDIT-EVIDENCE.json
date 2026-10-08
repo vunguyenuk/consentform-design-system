@@ -1,0 +1,1151 @@
+{
+  "method": "DOM horizontal border edges within 1.1px, overlapping at least 70px; collapsed table row borders excluded",
+  "beforeDesktop": [
+    {
+      "edition": "UI V1",
+      "route": "residents",
+      "pairs": [
+        {
+          "a": "DIV.care-roster-toolbar bottom",
+          "b": "TH. top",
+          "delta": 0.5,
+          "y": 298
+        },
+        {
+          "a": "DIV.care-roster-toolbar bottom",
+          "b": "TH. top",
+          "delta": 0.5,
+          "y": 298
+        },
+        {
+          "a": "DIV.care-roster-toolbar bottom",
+          "b": "TH. top",
+          "delta": 0.5,
+          "y": 298
+        },
+        {
+          "a": "DIV.care-roster-toolbar bottom",
+          "b": "TH. top",
+          "delta": 0.5,
+          "y": 298
+        },
+        {
+          "a": "DIV.care-roster-toolbar bottom",
+          "b": "TH. top",
+          "delta": 0.5,
+          "y": 298
+        },
+        {
+          "a": "DIV.care-roster-toolbar bottom",
+          "b": "TH. top",
+          "delta": 0.5,
+          "y": 298
+        },
+        {
+          "a": "DIV.care-roster-toolbar bottom",
+          "b": "TH. top",
+          "delta": 0.5,
+          "y": 298
+        }
+      ]
+    },
+    {
+      "edition": "UI V1",
+      "route": "users",
+      "pairs": [
+        {
+          "a": "DIV.care-roster-toolbar bottom",
+          "b": "TH. top",
+          "delta": 0.5,
+          "y": 276
+        },
+        {
+          "a": "DIV.care-roster-toolbar bottom",
+          "b": "TH. top",
+          "delta": 0.5,
+          "y": 276
+        },
+        {
+          "a": "DIV.care-roster-toolbar bottom",
+          "b": "TH. top",
+          "delta": 0.5,
+          "y": 276
+        },
+        {
+          "a": "DIV.care-roster-toolbar bottom",
+          "b": "TH. top",
+          "delta": 0.5,
+          "y": 276
+        },
+        {
+          "a": "DIV.care-roster-toolbar bottom",
+          "b": "TH. top",
+          "delta": 0.5,
+          "y": 276
+        }
+      ]
+    },
+    {
+      "edition": "UI V1",
+      "route": "activity",
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "census",
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "intake",
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "facilities",
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "settings",
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=tasks",
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=emails",
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=notes",
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=settings",
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "residents",
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "users",
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "activity",
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "census",
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "intake",
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "facilities",
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "settings",
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=tasks",
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=emails",
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=notes",
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=settings",
+      "pairs": []
+    }
+  ],
+  "beforeMobile": [
+    {
+      "edition": "UI V1",
+      "route": "residents",
+      "pairs": [
+        {
+          "a": "DIV.care-roster-toolbar bottom",
+          "b": "TH. top",
+          "delta": 0.5,
+          "y": 437
+        },
+        {
+          "a": "DIV.care-roster-toolbar bottom",
+          "b": "TH. top",
+          "delta": 0.5,
+          "y": 437
+        }
+      ]
+    },
+    {
+      "edition": "UI V1",
+      "route": "users",
+      "pairs": [
+        {
+          "a": "DIV.care-roster-toolbar bottom",
+          "b": "TH. top",
+          "delta": 0.5,
+          "y": 323
+        },
+        {
+          "a": "DIV.care-roster-toolbar bottom",
+          "b": "TH. top",
+          "delta": 0.5,
+          "y": 323
+        }
+      ]
+    },
+    {
+      "edition": "UI V1",
+      "route": "activity",
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "census",
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "intake",
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "facilities",
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "settings",
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=tasks",
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=emails",
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=notes",
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=settings",
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "residents",
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "users",
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "activity",
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "census",
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "intake",
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "facilities",
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "settings",
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=tasks",
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=emails",
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=notes",
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=settings",
+      "pairs": []
+    }
+  ],
+  "intermediate": [
+    {
+      "edition": "UI V1",
+      "route": "residents",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "users",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "activity",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "census",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "intake",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "facilities",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "settings",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=tasks",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=emails",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=notes",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=settings",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "facility?fid=f1",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "resident?id=res-r27",
+      "width": 1440,
+      "pairs": [
+        {
+          "a": "SECTION.care-card  bottom",
+          "b": "DIV.note top",
+          "delta": 0,
+          "y": 540
+        },
+        {
+          "a": "SECTION.care-card  bottom",
+          "b": "DIV.note top",
+          "delta": 0,
+          "y": 540
+        },
+        {
+          "a": "SECTION.care-card  bottom",
+          "b": "DIV.note top",
+          "delta": 0,
+          "y": 540
+        }
+      ]
+    },
+    {
+      "edition": "UI V1",
+      "route": "resident-new",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "facility-new",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=help",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "residents",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "users",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "activity",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "census",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "intake",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "facilities",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "settings",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=tasks",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=emails",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=notes",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=settings",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "facility?fid=f1",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "resident?id=res-r27",
+      "width": 1440,
+      "pairs": [
+        {
+          "a": "SECTION.care-card  bottom",
+          "b": "DIV.note top",
+          "delta": 0,
+          "y": 652
+        },
+        {
+          "a": "SECTION.care-card  bottom",
+          "b": "DIV.note top",
+          "delta": 0,
+          "y": 652
+        },
+        {
+          "a": "SECTION.care-card  bottom",
+          "b": "DIV.note top",
+          "delta": 0,
+          "y": 652
+        }
+      ]
+    },
+    {
+      "edition": "UI V2",
+      "route": "resident-new",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "facility-new",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=help",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "residents",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "users",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "activity",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "census",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "intake",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "facilities",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "settings",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=tasks",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=emails",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=notes",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=settings",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "facility?fid=f1",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "resident?id=res-r27",
+      "width": 375,
+      "pairs": [
+        {
+          "a": "SECTION.care-card  bottom",
+          "b": "DIV.note top",
+          "delta": 0,
+          "y": 989.25
+        }
+      ]
+    },
+    {
+      "edition": "UI V1",
+      "route": "resident-new",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "facility-new",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=help",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "residents",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "users",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "activity",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "census",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "intake",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "facilities",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "settings",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=tasks",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=emails",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=notes",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=settings",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "facility?fid=f1",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "resident?id=res-r27",
+      "width": 375,
+      "pairs": [
+        {
+          "a": "SECTION.care-card  bottom",
+          "b": "DIV.note top",
+          "delta": 0,
+          "y": 1037
+        }
+      ]
+    },
+    {
+      "edition": "UI V2",
+      "route": "resident-new",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "facility-new",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=help",
+      "width": 375,
+      "pairs": []
+    }
+  ],
+  "verified": [
+    {
+      "edition": "UI V1",
+      "route": "residents",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "users",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "activity",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "census",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "intake",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "facilities",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "settings",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=tasks",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=emails",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=notes",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=settings",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "facility?fid=f1",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "resident?id=res-r27",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "resident-new",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "facility-new",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=help",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "residents",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "users",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "activity",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "census",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "intake",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "facilities",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "settings",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=tasks",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=emails",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=notes",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=settings",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "facility?fid=f1",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "resident?id=res-r27",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "resident-new",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "facility-new",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=help",
+      "width": 1440,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "residents",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "users",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "activity",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "census",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "intake",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "facilities",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "settings",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=tasks",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=emails",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=notes",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=settings",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "facility?fid=f1",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "resident?id=res-r27",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "resident-new",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "facility-new",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V1",
+      "route": "kit?view=help",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "residents",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "users",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "activity",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "census",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "intake",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "facilities",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "settings",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=tasks",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=emails",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=notes",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=settings",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "facility?fid=f1",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "resident?id=res-r27",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "resident-new",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "facility-new",
+      "width": 375,
+      "pairs": []
+    },
+    {
+      "edition": "UI V2",
+      "route": "kit?view=help",
+      "width": 375,
+      "pairs": []
+    }
+  ]
+}

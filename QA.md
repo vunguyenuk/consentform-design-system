@@ -287,3 +287,15 @@ Tabs, search, Facility, Consent status and Sort share one desktop row when the t
 ### Residents V1 — full-width search (8 Oct 2026, 13:48 feedback)
 
 Removed the 320px maximum search width for the V1 Residents filters, matching Census audit's flexible search row. Verified at 1440px: search width 676px, all search/select controls share y=249px, final select flush with the filter row's right edge, no page overflow. At 375px the page remains without horizontal overflow. Screenshot: screenshots/v1-residents-expanded-search.png. V2 scope is unchanged by this rule.
+
+
+### V1 table edge alignment (8 Oct 2026, 14:01 feedback)
+
+Shared V1 roster/table toolbar tables now use the page gutter for first/last cell horizontal padding. Verified Residents: search, table header and resident name start at x=284px at 1440px viewport and x=24px at 375px, without horizontal page overflow. Census audit and Activity log header text also align with search at x=284px; Activity's intervening section header is covered. Both table edges use 24px gutters. Screenshot: screenshots/v1-residents-table-alignment.png.
+
+
+### Border overlap review (8 Oct 2026)
+
+Removed the table header top border only when a roster toolbar directly precedes it; the toolbar retains the single 1px separator. Fixes V1 Residents and Staff accounts on desktop/mobile. Added the shared section gap between resident cards and the Next clinic day notice in both editions so their independent card borders no longer touch.
+
+Reviewed 16 routes/states × 2 editions × 2 viewport widths (1440/375) using DOM edge geometry, excluding internal collapsed-table borders; no remaining overlapping horizontal edges in the sampled states after fixes. Also checked the three affected routes in both editions/widths in dark mode (12 states), and directly confirmed the V1 dark header has 0px top border while the toolbar retains 1px bottom border. This check covers page borders, not all possible modal states. Evidence: design-reference/BORDER-AUDIT-EVIDENCE.json and BORDER-DARK-EVIDENCE.json. Screenshots: v1-residents-single-border.png and v2-resident-card-border-spacing.png.
