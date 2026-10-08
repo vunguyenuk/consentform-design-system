@@ -1,0 +1,235 @@
+{
+  "figmaDesktop": [
+    {
+      "broken": 0,
+      "edition": "figma",
+      "overflow": false,
+      "theme": "light",
+      "url": "#kit?view=emails"
+    },
+    {
+      "broken": 0,
+      "edition": "figma",
+      "overflow": false,
+      "theme": "light",
+      "url": "#kit?view=tasks"
+    },
+    {
+      "broken": 0,
+      "edition": "figma",
+      "overflow": false,
+      "theme": "light",
+      "url": "#kit?view=settings"
+    },
+    {
+      "broken": 0,
+      "edition": "figma",
+      "overflow": false,
+      "theme": "light",
+      "url": "#kit?view=help"
+    },
+    {
+      "broken": 0,
+      "edition": "figma",
+      "overflow": false,
+      "theme": "light",
+      "url": "#kit?view=notes"
+    }
+  ],
+  "figmaMobile": [
+    {
+      "broken": [],
+      "overflow": false,
+      "url": "#kit?view=emails"
+    },
+    {
+      "broken": [],
+      "overflow": false,
+      "url": "#kit?view=tasks"
+    },
+    {
+      "broken": [],
+      "overflow": false,
+      "url": "#kit?view=settings"
+    },
+    {
+      "broken": [],
+      "overflow": false,
+      "url": "#kit?view=help"
+    },
+    {
+      "broken": [],
+      "overflow": false,
+      "url": "#kit?view=notes"
+    }
+  ],
+  "v2Desktop": [
+    {
+      "broken": 0,
+      "overflow": false,
+      "theme": "light",
+      "url": "#facilities"
+    },
+    {
+      "broken": 0,
+      "overflow": false,
+      "theme": "light",
+      "url": "#census"
+    },
+    {
+      "broken": 0,
+      "overflow": false,
+      "theme": "light",
+      "url": "#intake"
+    },
+    {
+      "broken": 0,
+      "overflow": false,
+      "theme": "light",
+      "url": "#kit?view=tasks"
+    },
+    {
+      "broken": 0,
+      "overflow": false,
+      "theme": "light",
+      "url": "#kit?view=emails"
+    },
+    {
+      "broken": 0,
+      "overflow": false,
+      "theme": "light",
+      "url": "#kit?view=notes"
+    },
+    {
+      "broken": 0,
+      "overflow": false,
+      "theme": "light",
+      "url": "#users"
+    },
+    {
+      "broken": 0,
+      "overflow": false,
+      "theme": "light",
+      "url": "#activity"
+    },
+    {
+      "broken": 0,
+      "overflow": false,
+      "theme": "light",
+      "url": "#kit?view=settings"
+    },
+    {
+      "broken": 0,
+      "overflow": false,
+      "theme": "light",
+      "url": "#kit?view=help"
+    },
+    {
+      "broken": 0,
+      "overflow": false,
+      "theme": "light",
+      "url": "#kit?view=components"
+    },
+    {
+      "broken": 0,
+      "overflow": false,
+      "theme": "light",
+      "url": "#cases"
+    }
+  ],
+  "v2Mobile": [
+    {
+      "broken": 0,
+      "overflow": false,
+      "scrollWidth": 375,
+      "url": "#facilities",
+      "width": 375
+    },
+    {
+      "broken": 0,
+      "overflow": false,
+      "scrollWidth": 375,
+      "url": "#census",
+      "width": 375
+    },
+    {
+      "broken": 0,
+      "overflow": false,
+      "scrollWidth": 375,
+      "url": "#intake",
+      "width": 375
+    },
+    {
+      "broken": 0,
+      "overflow": false,
+      "scrollWidth": 375,
+      "url": "#kit?view=tasks",
+      "width": 375
+    },
+    {
+      "broken": 0,
+      "overflow": false,
+      "scrollWidth": 375,
+      "url": "#kit?view=emails",
+      "width": 375
+    },
+    {
+      "broken": 0,
+      "overflow": false,
+      "scrollWidth": 375,
+      "url": "#kit?view=notes",
+      "width": 375
+    },
+    {
+      "broken": 0,
+      "overflow": true,
+      "scrollWidth": 377,
+      "url": "#users",
+      "width": 375
+    },
+    {
+      "broken": 0,
+      "overflow": false,
+      "scrollWidth": 375,
+      "url": "#activity",
+      "width": 375
+    },
+    {
+      "broken": 0,
+      "overflow": false,
+      "scrollWidth": 375,
+      "url": "#kit?view=settings",
+      "width": 375
+    },
+    {
+      "broken": 0,
+      "overflow": false,
+      "scrollWidth": 375,
+      "url": "#kit?view=help",
+      "width": 375
+    },
+    {
+      "broken": 0,
+      "overflow": false,
+      "scrollWidth": 375,
+      "url": "#cases",
+      "width": 375
+    }
+  ],
+  "finalCorrections": {
+    "usersMobileOverflow": false,
+    "menu": {
+      "width": 240,
+      "rowHeight": 32,
+      "border": 0
+    },
+    "filter": {
+      "desktopWidth": 500,
+      "padding": 24,
+      "fieldHeight": 40,
+      "mobileWidth": 343,
+      "mobileX": 16
+    },
+    "recentsTaskReopened": true
+  }
+}
