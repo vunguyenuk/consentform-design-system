@@ -164,3 +164,6 @@ Replaced only the feature banner orb cluster with original, theme-aware inline S
 ### Quickstarts workflow artwork
 
 Four theme-aware SVG illustrations replace Quickstarts orbs; Recents tasks use the calendar/task illustration. Light/Dark desktop checked at 1440px. No duplicate SVG resource IDs; Quickstarts and Recents contain zero source image elements. Dark mobile at 375px has document width 375px and illustration slots 147.5×108px; Recents also has no overflow or duplicate IDs. No captured console errors. V2 syntax passes. Viewport reset and theme returned to Light/Quickstarts. Screenshots: `ent-v2-workflows-light.png`, `ent-v2-workflows-dark.png`, `ent-v2-workflows-detail.png`.
+
+
+Header edition label changed from UI kit to UI V1. Clicking UI V1 or UI V2 updates the exclusive `aria-pressed` state and active border to rgb(0,0,0), verified in both Light/Dark editions. Dark active button has a light surface for visibility.

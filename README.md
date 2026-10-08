@@ -43,7 +43,7 @@ UI Kit có thêm 5 page preview hoạt động trên dữ liệu mẫu:
 
 ## UI V2 — ElevenLabs
 
-Nút **UI V2** nằm ngay trước **UI kit** trên header. UI V2 mở Home theo bố cục ElevenLabs, rồi áp dụng cùng font, icon, component, light/dark theme vào các workflow ENT. **UI kit** chuyển về bản Cliently Figma. Cả hai bản dùng chung dữ liệu mẫu trong phiên.
+Nút **UI V2** nằm ngay trước **UI V1** trên header. UI V2 mở Home theo bố cục ElevenLabs, rồi áp dụng cùng font, icon, component, light/dark theme vào các workflow ENT. **UI V1** chuyển về bản Cliently Figma. Cả hai bản dùng chung dữ liệu mẫu trong phiên.
 
 UI V2 có Home, Facilities, Census, Intake, Tasks, Messages, Notes, Users, Activity, Settings, Help, Components và Demo cases. Search workspace (nút header hoặc `Cmd/Ctrl K`) tìm workflow, facility, resident, task và note. Banner, quickstarts và recents mở workflow tương ứng.
 

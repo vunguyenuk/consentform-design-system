@@ -53,7 +53,6 @@
 :root[data-ui=v2] .btn.small{height:32px;min-height:32px;font-size:13px;padding:0 10px;border-radius:8px}
 :root[data-ui=v2] .btn.big{height:40px;min-height:40px;border-radius:12px;padding:0 16px}
 :root[data-ui=v2] .btn:disabled{background:var(--disabled-bg);color:var(--disabled-text);border-color:transparent;opacity:1}
-:root[data-ui=v2] .btn.v2-active{background:var(--wash)}
 :root[data-ui=v2] .btn.text-link{border:0;background:none;padding:0;height:auto;min-height:24px}
 :root[data-ui=v2] :is(.toolbar,.tabs,.sectionhead,.table-controls,.tasks-viewbar){padding-left:0;padding-right:0}
 :root[data-ui=v2] .metrics{padding:0 0 32px;border:0;gap:16px}
@@ -302,3 +301,7 @@
 
 .v2-quickstart>div>.v2-workflow-art{display:block;width:220px;max-width:calc(100% - 16px);height:140px}
 @media(max-width:760px){.v2-quickstart>div>.v2-workflow-art{width:180px;height:108px}}
+
+/* Shared edition selection state in both UI V1 and UI V2 headers. */
+:root[data-ui] .topbar .btn.edition-button[aria-pressed=true]{border-color:#000}
+:root[data-ui][data-theme=dark] .topbar .btn.edition-button[aria-pressed=true]{background:#f6f6f7;color:#0f0f10}
