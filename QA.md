@@ -135,3 +135,32 @@ Source frames and the logged-in ElevenLabs app were inspected before implementat
 Final screenshots: `eleven-v2-light-home.png`, `eleven-v2-dark-census.png`, `eleven-v2-dark-notes-menu.png`, `eleven-v2-dark-filter.png`, `eleven-v2-dark-filter-mobile.png`, `cliently-light-notes-pages.png`, `cliently-light-tasks-pages.png`. Temporary viewport override was reset and the preview left on UI V2 Home in Light.
 
 This is a local design/interaction prototype. Compose, invitations, integrations and plan actions simulate outcomes; no email, billing or production backend operation is performed. Demo task/note/email edits live in memory and reset on reload.
+
+
+## ENT gradient alternative — October 8, 2026
+
+- Replaced UI V2's source orb/banner artwork with four original SVG care-pathway ribbons, a shared E mark and teal/sage/sand gradients. Existing UI kit source design and V2 controls are retained.
+- Light and Dark desktop Home checked at 1440px: no broken images, no document overflow; no source orb images rendered.
+- Mobile checked at 375px. Fixed Quickstarts search min-width conflict; final document width is 375px, search width 148.23px and all images loaded.
+- `v2.js` syntax passes; no captured console errors. Temporary viewport reset and theme returned to Light.
+- Screenshots: `ent-v2-gradient-light.png`, `ent-v2-gradient-dark.png`, `ent-v2-gradient-mobile.png`.
+
+
+## Prism recolor revision — October 8, 2026
+
+Restored original prism geometry in feature cluster, Quickstarts, prompt and workspace marker. Six SVG presentation filters apply the ENT palette; the accepted header gradient is unchanged. Light/Dark Home visually checked at 1440px, no broken images or horizontal document overflow. Dark mobile document width 375px at viewport 375px, all assets loaded. V2 JavaScript syntax passes and no captured console errors. Temporary viewport reset and preview returned to Light. Screenshots: `ent-v2-prism-light.png` and `ent-v2-prism-dark.png`.
+
+
+### Header gradient refinement
+
+Replaced the flat bar gradient with the source grain/light texture, recolored through the dedicated `ent-banner-tone` filter. Text is layered separately over a darkened central region. Prism filters remain unchanged. Visual check at 1440px and geometry check at 2560px: 39px bar height and no document overflow. `v2.js` syntax passes. Temporary viewport reset. Preview: `ent-v2-banner-detail.png`.
+
+
+### Original ENT feature artwork
+
+Replaced only the feature banner orb cluster with original, theme-aware inline SVG clinic artwork. Visual check at 1440px in Light/Dark; feature now contains zero source images. At 900px illustration width is 232.4px and document width 885px; at 375px the existing mobile layout hides decorative artwork, retains the CTA and document width stays 375px. No broken images or captured console errors. `v2.js` syntax passes. Viewport reset and theme returned to Light. Screenshots: `ent-v2-clinic-art-light.png`, `ent-v2-clinic-art-dark.png`, `ent-v2-clinic-feature.png`.
+
+
+### Quickstarts workflow artwork
+
+Four theme-aware SVG illustrations replace Quickstarts orbs; Recents tasks use the calendar/task illustration. Light/Dark desktop checked at 1440px. No duplicate SVG resource IDs; Quickstarts and Recents contain zero source image elements. Dark mobile at 375px has document width 375px and illustration slots 147.5×108px; Recents also has no overflow or duplicate IDs. No captured console errors. V2 syntax passes. Viewport reset and theme returned to Light/Quickstarts. Screenshots: `ent-v2-workflows-light.png`, `ent-v2-workflows-dark.png`, `ent-v2-workflows-detail.png`.

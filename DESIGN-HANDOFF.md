@@ -114,3 +114,16 @@ Reference is the logged-in ElevenLabs app observed on October 8, 2026. `v2.js` s
 Original fonts/artwork: `assets/elevenlabs/`. Original inline SVGs: `eleven-assets.js`. Detailed source-to-ENT mapping and measured values: `design-reference/ELEVENLABS-AUDIT.md`.
 
 V2 follows the source visual system while the page labels, data and workflow behavior belong to ENT. This is a local prototype. Production OCR, eligibility, email, authentication, uploads and external integration behavior require separate backend work.
+
+
+### ENT prism recolor — October 8
+
+The user accepted the top teal/sage gradient and asked to retain the original prism/orb shapes instead of the proposed ribbon pattern. `v2PrismFilters()` defines six reusable SVG color filters. Source textures and geometry remain unchanged; prism presentation uses teal, sage, sand, mist and related tones. Feature cluster geometry and original card image sizes are restored. The top bar uses the source grain/light pattern recolored in teal/champagne, with a separate overlay to keep text readable. Older ribbon assets are unused design experiments.
+
+
+### ENT feature artwork
+
+`v2ClinicArtwork()` renders an original inline SVG showing clinic preparation: a source document, medical checklist, calendar and completion glyph. This replaces only the feature banner orb cluster. Illustration palette uses `--art-*` tokens with Light/Dark variants; SVG geometry adapts to the existing feature column. The textured announcement bar is retained; Quickstarts use workflow-specific ENT illustrations. Artwork is decorative (`aria-hidden`) and displays no invented patient data or progress counts.
+
+
+`v2WorkflowArtwork(kind,key)` supplies four original inline SVG illustrations: census review, face sheet intake, clinic tasks and facilities. All share the clinic banner material and Light/Dark palette. SVG resource IDs derive from each route to avoid collisions. Recents task cards use the clinic/task artwork consistently and retain their item links.

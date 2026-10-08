@@ -47,7 +47,7 @@ Nút **UI V2** nằm ngay trước **UI kit** trên header. UI V2 mở Home theo
 
 UI V2 có Home, Facilities, Census, Intake, Tasks, Messages, Notes, Users, Activity, Settings, Help, Components và Demo cases. Search workspace (nút header hoặc `Cmd/Ctrl K`) tìm workflow, facility, resident, task và note. Banner, quickstarts và recents mở workflow tương ứng.
 
-Heading dùng font Waldenburg lấy từ app nguồn; nội dung và controls dùng Inter. Icon SVG, bộ orb và nền banner là asset quan sát trực tiếp từ ElevenLabs. Tham chiếu chi tiết: `design-reference/ELEVENLABS-AUDIT.md`.
+Heading dùng font Waldenburg lấy từ app nguồn; nội dung và controls dùng Inter. Icon SVG lấy từ ElevenLabs. Thanh trên cùng dùng gradient teal riêng cho ENT. Hình prism giữ nguyên khối và ánh sáng của asset nguồn, đổi sang teal, sage, sand và mist bằng filter hiển thị. Tham chiếu chi tiết: `design-reference/ELEVENLABS-AUDIT.md`.
 
 Mở trực tiếp UI V2: `http://127.0.0.1:4173/#v2`. Lựa chọn phiên bản được giữ trong tab; theme được lưu trên thiết bị.
 
@@ -85,3 +85,5 @@ UI Kit tại `#kit` có đầy đủ các component được yêu cầu. Button 
 ## Bản demo đóng gói
 
 `ENT-care-design-system-demo.zip` chứa cả bản Cliently Figma và UI V2, asset local, hướng dẫn và ảnh QA. Giải nén rồi chạy HTTP server theo hướng dẫn phía trên.
+
+Banner Home dùng minh hoạ hồ sơ, checklist và lịch clinic riêng cho ENT. Quickstarts dùng bốn minh hoạ riêng cho Census, Intake, clinic và Facilities, đồng bộ với banner. Recents dùng minh hoạ công việc/lịch clinic.
