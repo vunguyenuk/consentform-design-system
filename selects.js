@@ -22,7 +22,7 @@ function enhanceSelects(root){
   const error=document.createElement('small');error.className='select-error';error.hidden=true;error.id=menu.id+'-error';error.textContent='Choose an option to continue.';wrapper.append(error);
   const state={select,button,menu,index:select.selectedIndex};
   const sync=()=>{
-   button.innerHTML=`<span class="select-value">${esc(select.selectedOptions[0]?.textContent||'Choose an option')}</span>${isV2()?elevenIcon('dropdown'):themedAsset('assets/cliently/6233-51363-30905.svg','assets/cliently/system/4b1b6.svg',16,16,'class="figma-icon"')}`;
+   button.innerHTML=`<span class="select-value">${esc(select.selectedOptions[0]?.textContent||'Choose an option')}</span>${isV2()?entIcon('dropdown'):themedAsset('assets/cliently/6233-51363-30905.svg','assets/cliently/system/4b1b6.svg',16,16,'class="figma-icon"')}`;
    button.removeAttribute('aria-invalid');
    button.removeAttribute('aria-describedby');error.hidden=true;syncThemeAssets();
    [...menu.children].forEach((option,i)=>option.setAttribute('aria-selected',String(i===select.selectedIndex)));
@@ -30,7 +30,7 @@ function enhanceSelects(root){
   [...select.options].forEach((option,i)=>{
    const item=document.createElement('button');item.type='button';item.className='select-option';item.tabIndex=-1;
    item.id=menu.id+'-'+i;item.setAttribute('role','option');item.disabled=option.disabled;
-   item.innerHTML=`<span>${esc(option.textContent)}</span><span class="select-check">${isV2()?elevenIcon('light'):'<img src="assets/cliently/export-check.svg" width="12" height="12" alt="">'}</span>`;
+   item.innerHTML=`<span>${esc(option.textContent)}</span><span class="select-check">${isV2()?entIcon('check'):'<img src="assets/cliently/export-check.svg" width="12" height="12" alt="">'}</span>`;
    item.addEventListener('click',()=>choose(i));menu.append(item);
   });
   function highlight(i){state.index=i;[...menu.children].forEach((e,j)=>e.classList.toggle('active',i===j));button.setAttribute('aria-activedescendant',menu.children[i].id);const item=menu.children[i];if(item.offsetTop<menu.scrollTop)menu.scrollTop=item.offsetTop;else if(item.offsetTop+item.offsetHeight>menu.scrollTop+menu.clientHeight)menu.scrollTop=item.offsetTop+item.offsetHeight-menu.clientHeight;}

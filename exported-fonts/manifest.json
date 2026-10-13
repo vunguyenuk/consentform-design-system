@@ -26,35 +26,5 @@
     "file": "Manrope/Manrope-ExtraBold.ttf",
     "source": "https://fonts.gstatic.com/s/manrope/v20/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk59E-_F.ttf",
     "sha256": "b8f802f05b322a7345805f5b89f8bb976604cc719a91530918d5ce3c47160950"
-  },
-  {
-    "family": "Waldenburg",
-    "weight": 400,
-    "file": "Waldenburg/Waldenburg_Regular.woff2",
-    "source": "assets/elevenlabs/Waldenburg_Regular.woff2",
-    "sha256": "8bb8203bcee49f8c975851561c4bba8fc9cf50ef1893d16e4f6ea6525eb07e31"
-  },
-  {
-    "family": "Waldenburg",
-    "weight": 500,
-    "file": "Waldenburg/Waldenburg_Medium.woff2",
-    "source": "assets/elevenlabs/Waldenburg_Medium.woff2",
-    "sha256": "76aeba8aa4933c2ef32e0d520c73a5eda0d4c075a7425ae7a4effd4d54e9b303"
-  },
-  {
-    "family": "Waldenburg",
-    "weight": 500,
-    "file": "Waldenburg/Waldenburg_Medium.otf",
-    "source": "Waldenburg/Waldenburg_Medium.woff2",
-    "sha256": "9515fba76b9bc4d2b286f44188f0e1ad9a1d8e7b012288c45e7fabe54ec503a7",
-    "conversion": "WOFF2 decompressed to OpenType; glyphs preserved"
-  },
-  {
-    "family": "Waldenburg",
-    "weight": 400,
-    "file": "Waldenburg/Waldenburg_Regular.otf",
-    "source": "Waldenburg/Waldenburg_Regular.woff2",
-    "sha256": "6c59618e7d0eabaf801185f898e368879f2279609e341f2e3c130197fb45afde",
-    "conversion": "WOFF2 decompressed to OpenType; glyphs preserved"
   }
 ]

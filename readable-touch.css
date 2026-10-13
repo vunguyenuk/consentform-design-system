@@ -1,0 +1,189 @@
+/* Larger reading type and touch controls for phones and iPad (both editions). */
+.touch-cell-label,.touch-table-hint,.touch-nav-close,.touch-filter-toggle,.touch-menu-label { display:none; }
+.tablewrap:focus-visible { outline:2px solid var(--focus); outline-offset:-2px; }
+
+@media (max-width:1024px), (any-pointer:coarse) and (max-width:1440px) {
+ :root[data-ui][data-theme] {
+  --text-reading:1.125rem; --text-label:1rem; --text-heading:1.75rem;
+  --compact-control-height:48px; --field-row-gap:24px; --action-gap:12px;
+  --muted:#505661; --subtle:#606773; --table-heading:var(--muted);
+  --field-border:#818897; --compact-field-border:var(--field-border);
+ }
+ :root[data-ui][data-theme=dark] { --muted:#C5CAD3; --subtle:#BCC3CE; --field-border:#808B9B; --compact-field-border:var(--field-border); }
+ :root[data-ui][data-theme] body { font-size:var(--text-reading); line-height:1.6; letter-spacing:0; }
+ :root[data-ui][data-theme] :is(main,.modal-body) :is(p,li,dd,.field,.note,.settings-description,.mail-body,.task-description) { font-size:var(--text-reading); line-height:1.6; letter-spacing:0; }
+ :root[data-ui][data-theme] :is(main,.modal-body,.sidebar,.select-menu) :is(small,time,.care-small,.eyebrow,.navlabel,.connection,.status,.task-deadline,.progress-label,.tab-count,.metric-label,.metric-note,.page-summary,.checkline,.demo-send-label,.share-demo,.mail-from,.mail-row p,.assignee,.related-facility) { font-size:var(--text-label); line-height:1.5; letter-spacing:0; }
+ :root[data-ui][data-theme] :is(.field>span,.field>small) { font-size:var(--text-label)!important; line-height:1.5; min-height:0; }
+ :root[data-ui][data-theme] :is(h1,.care-login-form h1,.care-sign-head h1,.help-hero h1,.help-article-main h1) { font-size:var(--text-heading); line-height:1.3; letter-spacing:0; }
+ :root[data-ui][data-theme] :is(h2,.care-card h2,.sectionhead h2,.modal-head h2) { font-size:1.375rem; line-height:1.4; }
+ :root[data-ui][data-theme] h3 { font-size:1.125rem; line-height:1.5; }
+ :root[data-ui][data-theme] :is(button,.btn,.navitem,.favorite,.cell-link,.rowaction,.kit-page-tabs a,.settings-nav a,.care-wordmark) { min-height:48px; min-width:48px; height:auto; font-size:var(--text-label); line-height:1.5; letter-spacing:0; }
+ :root[data-ui][data-theme] .btn { padding:12px 16px; white-space:normal; }
+ :root[data-ui][data-theme] .btn:is(.small,.big,.medium) { min-height:48px; height:auto; padding:12px 16px; font-size:var(--text-label); line-height:1.5; }
+ :root[data-ui][data-theme] :is(.iconbtn,.theme-switch,.page-number,.page-arrow,.v2-profile,.v2-send) { width:48px; height:48px; min-height:48px; padding:0; flex:none; }
+ :root[data-ui][data-theme] :is(.search input,.help-search input,.field input,.select-trigger,.select-compact .select-trigger,textarea,.compose-to input,.v2-command-input input) { min-height:48px; height:auto; padding:12px; font-size:var(--text-reading); line-height:1.4; border-color:var(--field-border); }
+ :root[data-ui][data-theme] input:not([type=checkbox]):not([type=radio]):not([type=hidden]) { min-height:48px; font-size:var(--text-reading); line-height:1.4; letter-spacing:0; }
+ :root[data-ui][data-theme] :is(.search input,.help-search input,.field input,.select-trigger,textarea):is(:focus-visible,[aria-expanded=true]) { border-color:var(--focus); outline:0; box-shadow:none; }
+ :root[data-ui][data-theme] :is(.care-roster-toolbar,.table-controls,.sectionhead) :is(.search input,.field .select-compact .select-trigger,.select-compact .select-trigger,.select-trigger) { min-height:48px; height:auto; }
+ :root[data-ui][data-theme] .select-value { white-space:normal; overflow-wrap:anywhere; overflow:visible; text-overflow:clip; }
+ :root[data-ui][data-theme] :is(.search input,.help-search input) { width:100%; }
+ :root[data-ui][data-theme] :is(.care-roster-toolbar,.table-controls,.sectionhead,.v2-page-search,.help-hero,.v2-library-bar,.v1-mail-filters,.tasks-viewbar) :is(.search input,.help-search input) { padding:12px 12px 12px 40px; }
+ :root[data-ui][data-theme] :is(input,textarea)::placeholder { color:var(--muted); opacity:1; }
+ :root[data-ui][data-theme] .select-option { min-height:48px; padding:12px; font-size:var(--text-reading); line-height:1.4; }
+ :root[data-ui][data-theme] .select-menu .select-option { font-size:var(--text-reading); }
+ :root[data-ui][data-theme] .btn.danger { background:#B4232C; border-color:#B4232C; color:white; }
+ :root[data-ui][data-theme] :is(input[type=checkbox],input[type=radio]) { width:28px; height:28px; min-height:28px; padding:0; margin:0; }
+ :root[data-ui][data-theme] :is(.checkline,.task-complete,.care-radio-options label) { min-height:48px; min-width:48px; align-items:center; padding-block:8px; cursor:pointer; }
+ :root[data-ui][data-theme] .touch-check { display:inline-flex; justify-content:center; align-items:center; min-width:48px; min-height:48px; cursor:pointer; }
+ :root[data-ui][data-theme] .care-certify { align-items:flex-start; }
+ :root[data-ui][data-theme] :is(.status,.task-status,.task-deadline) { height:auto; min-height:32px; padding:4px 10px; font-size:var(--text-label); line-height:1.5; white-space:normal; color:var(--ink); }
+ :root[data-ui][data-theme] :is(.care-breadcrumb,.care-menu-identity small,.care-menu .btn,.v2-shortcuts small) { font-size:var(--text-label); line-height:1.5; }
+ :root[data-ui][data-theme] :is(.care-info dt,.kit-note-card footer,.kit-note-card footer span,.kit-note-card footer time) { font-size:var(--text-label); line-height:1.5; }
+ :root[data-ui][data-theme] :is(.mail-row strong,.mail-sender strong) { font-size:var(--text-reading); line-height:1.5; }
+ :root[data-ui][data-theme] .care-breadcrumb { flex-wrap:wrap; }
+ :root[data-ui][data-theme] .care-timeline time { white-space:normal; overflow-wrap:anywhere; }
+ :root[data-ui][data-theme] .care-info { grid-template-columns:1fr; gap:8px; }
+ :root[data-ui][data-theme] .care-info dd { margin-bottom:12px; }
+ :root[data-ui][data-theme] .theme-track { width:42px; height:26px; padding:3px; border:1px solid var(--muted); background:var(--wash); border-radius:16px; }
+ :root[data-ui][data-theme] .theme-track>span { width:18px; height:18px; margin:0; background:var(--ink); }
+ :root[data-ui][data-theme] .theme-switch[aria-checked=true] .theme-track>span { transform:translateX(16px); background:var(--paper); }
+ :root[data-ui][data-theme] :is(.tabs>.tab,.under-tabs button,.care-signature-tabs>.btn) { min-height:52px; height:auto; padding:12px 16px; font-size:var(--text-label); white-space:nowrap; }
+ :root[data-ui][data-theme] .tabs { min-width:0; max-width:100%; }
+ :root[data-ui][data-theme] :is(th,td,td strong,.cell-link,.task-title-button,.note-title-button) { font-size:var(--text-reading); line-height:1.5; letter-spacing:0; }
+ :root[data-ui][data-theme] :is(th,td) { height:auto; padding:16px; }
+ :root[data-ui][data-theme] :is(td small,.tablefoot) { font-size:var(--text-label); line-height:1.5; }
+ :root[data-ui][data-theme] :is(.cell-link,.rowaction,.task-title-button,.note-title-button) { display:inline-flex; align-items:center; white-space:normal; text-align:left; }
+ :root[data-ui][data-theme] .assignee img { width:28px; height:28px; }
+ :root[data-ui][data-theme] .tablewrap { max-width:100%; overscroll-behavior-x:contain; }
+ :root[data-ui][data-theme] .touch-table-hint.is-needed { display:block; padding:12px var(--page-gutter); font-size:var(--text-label); color:var(--muted); }
+ :root[data-ui=v2][data-theme] .touch-table-hint { padding-inline:0; }
+ :root[data-ui][data-theme] :is(.main-shell,.sidebar-collapsed .main-shell) { margin-left:0; }
+ :root[data-ui][data-theme] .sidebar { display:none; width:min(340px,calc(100vw - 48px)); padding:16px; z-index:60; transform:none; box-shadow:none; }
+ :root[data-ui][data-theme] body.mobile-nav-open .sidebar { display:flex; transform:none; box-shadow:0 0 0 100vmax #0008; }
+ :root[data-ui][data-theme] .touch-nav-close { display:flex; flex:none; align-self:flex-end; }
+ :root[data-ui][data-theme] .mobile-menu { display:inline-flex; }
+ :root[data-ui][data-theme] .iconbtn.mobile-menu { width:auto; gap:8px; padding-inline:8px; }
+ :root[data-ui][data-theme] .touch-menu-label { display:inline; }
+ :root[data-ui][data-theme] :is(.v2-collapse,.brand-row>[data-action=toggle-sidebar],.team-avatars,.v2-header-search,.v2-header-help,.topbar .header-primary) { display:none; }
+ :root[data-ui][data-theme] .topbar { height:auto; min-height:72px; padding:12px var(--page-gutter); gap:12px; flex-wrap:wrap; }
+ :root[data-ui][data-theme] .header-title { flex:1; min-width:0; gap:12px; font-size:1.125rem; line-height:1.4; }
+ :root[data-ui][data-theme] .header-title>span { min-width:0; max-width:none; white-space:normal; overflow:visible; overflow-wrap:anywhere; }
+ :root[data-ui][data-theme] .header-buttons { gap:8px; flex-wrap:wrap; }
+ :root[data-ui][data-theme] .header-buttons .edition-button { font-size:var(--text-label); line-height:1.5; }
+ :root[data-ui][data-theme] .theme-label { display:none; }
+ :root[data-ui][data-theme] .v2-mobile-account { display:block; }
+ :root[data-ui][data-theme] .profile :is(strong,small) { font-size:var(--text-label); line-height:1.5; }
+ :root[data-ui][data-theme] .navitem { padding:12px; white-space:normal; }
+ :root[data-ui][data-theme] .pagehead { gap:20px; flex-wrap:wrap; }
+ :root[data-ui][data-theme] .page-actions { flex-wrap:wrap; }
+ :root[data-ui][data-theme] :is(.metrics,.care-grid.three,.notes-grid,.integration-grid) { grid-template-columns:repeat(2,minmax(0,1fr)); }
+ :root[data-ui][data-theme] .metric { height:auto; min-height:160px; gap:16px; }
+ :root[data-ui][data-theme] .metric-bottom { align-items:flex-start; flex-wrap:wrap; }
+ :root[data-ui][data-theme] .metric-value { height:auto; line-height:1.25; }
+ :root[data-ui][data-theme] :is(.metric-value,.care-number) { font-size:2rem; line-height:1.25; }
+ :root[data-ui][data-theme] .care-number span { font-size:var(--text-label); }
+ :root[data-ui][data-theme] .metric-note { max-width:none; text-align:left; }
+ :root[data-ui][data-theme] :is(.care-roster-toolbar,.table-controls) { flex-wrap:wrap; gap:16px; overflow:visible; }
+ :root[data-ui][data-theme] :is(.care-roster-toolbar,.table-controls)>.tabs { width:100%; overflow-x:auto; }
+ :root[data-ui][data-theme] .care-roster-toolbar>.filters { flex:1 1 100%; min-width:0; flex-wrap:wrap; gap:16px; }
+ :root[data-ui][data-theme] .care-roster-toolbar .care-date-filters { flex:1 1 100%; min-width:0; flex-wrap:wrap; }
+ :root[data-ui][data-theme] .care-roster-toolbar .care-date-filters .field { flex:1 1 16rem; min-width:0; width:auto; max-width:none; }
+ :root[data-ui][data-theme] .care-roster-toolbar .filters .search { flex:1 1 100%; min-width:0; max-width:none; }
+ :root[data-ui][data-theme] .care-roster-toolbar .filters .field { flex:1 1 180px; min-width:0; }
+ :root[data-ui][data-theme] .table-controls .filters { flex-wrap:wrap; flex-basis:100%; }
+ :root[data-ui][data-theme] .table-controls .search { min-width:0; }
+ :root[data-ui][data-theme] .sectionhead { flex-wrap:wrap; }
+ :root[data-ui=figma][data-theme] :is(.sectionhead,.toolbar,.metrics,.table-controls,.kit-page-tabs,.tasks-viewbar) { padding-inline:var(--page-gutter); }
+ :root[data-ui=figma][data-theme] main>.tabs { padding-inline:var(--page-gutter); }
+ :root[data-ui][data-theme] .facility-section .filters { flex-wrap:wrap; }
+ :root[data-ui][data-theme] .search { min-width:0; }
+ :root[data-ui][data-theme] :is(.page-summary,.tablefoot) { flex-wrap:wrap; gap:16px; }
+ :root[data-ui][data-theme] .pagination { gap:12px; }
+ :root[data-ui][data-theme] dialog { width:min(720px,calc(100vw - 32px)); max-height:calc(100dvh - 32px); overflow:auto; }
+ :root[data-ui][data-theme] .modal-head { height:auto; min-height:80px; gap:16px; }
+ :root[data-ui][data-theme] :is(.modal-body,.modal-body>p) { font-size:var(--text-reading); line-height:1.6; }
+ :root[data-ui][data-theme] .formfooter { gap:16px; flex-wrap:wrap; }
+ :root[data-ui][data-theme] .filter-popover { max-width:calc(100vw - 32px); }
+ :root[data-ui][data-theme] :is(.care-consent-text,.mail-body,.help-article-main) { max-width:65ch; }
+ :root[data-ui][data-theme] .care-public-head { padding:16px 24px; gap:16px; flex-wrap:wrap; }
+ :root[data-ui][data-theme] .care-public main { padding:32px 24px; }
+ :root[data-ui][data-theme] .care-public footer { font-size:var(--text-label); line-height:1.5; }
+ :root[data-ui][data-theme] .care-login { grid-template-columns:1fr; }
+ :root[data-ui][data-theme] .care-login-form { max-width:none; padding:32px; }
+ :root[data-ui][data-theme] .care-login-art { display:none; }
+ :root[data-ui][data-theme] .care-grid.signing { grid-template-columns:1fr; }
+ :root[data-ui][data-theme] .care-signature-pad { height:220px; }
+ :root[data-ui][data-theme] .care-signature-pad>span { font-size:var(--text-label); }
+ :root[data-ui][data-theme] .care-signature-tabs { flex-wrap:wrap; }
+ :root[data-ui][data-theme] .v2-library-bar { flex-wrap:wrap; }
+ :root[data-ui][data-theme] .v2-library-bar .search { flex:1 1 100%; width:100%; }
+ :root[data-ui][data-theme] .v2-banner-dots button { width:48px; height:48px; background:transparent; position:relative; }
+ :root[data-ui][data-theme] .v2-banner-dots button::after { content:''; position:absolute; width:8px; height:8px; inset:20px; border-radius:50%; background:var(--muted); }
+ :root[data-ui][data-theme] .v2-banner-dots button[aria-selected=true]::after { background:var(--ink); }
+ :root[data-ui][data-theme] .v2-prompt { flex-wrap:wrap; height:auto; }
+ :root[data-ui][data-theme] .v2-prompt input { font-size:var(--text-reading); line-height:1.5; min-width:120px; min-height:48px; }
+ :root[data-ui][data-theme] .v2-announcement { font-size:var(--text-label); line-height:1.5; }
+ :root[data-ui][data-theme] .v2-demo-pill { font-size:var(--text-label); line-height:1.5; padding:4px 8px; }
+}
+
+@media (max-width:600px) {
+ :root[data-ui][data-theme] { --page-gutter:20px; --dialog-inset:20px; --card-inset:20px; }
+ :root[data-ui][data-theme] :is(.metrics,.care-grid,.care-grid.three,.formgrid,.settings-form .formgrid,.notes-grid,.integration-grid,.contact-grid,.help-topics,.faq-grid,.v2-quickstarts) { grid-template-columns:minmax(0,1fr); }
+ :root[data-ui][data-theme] .topbar { gap:8px; }
+ :root[data-ui][data-theme] .header-title { flex-basis:100%; }
+ :root[data-ui][data-theme] .top-actions { margin-left:auto; }
+ :root[data-ui][data-theme] .top-actions { flex:1 1 100%; min-width:0; max-width:100%; justify-content:flex-end; }
+ :root[data-ui][data-theme] .header-buttons { min-width:0; max-width:100%; }
+ :root[data-ui][data-theme] .field input[type=date]:not([hidden]) { font-size:var(--text-label); max-width:100%; min-width:0; }
+ :root[data-ui][data-theme] .topbar .header-buttons { margin-left:auto; }
+ :root[data-ui][data-theme] .pagehead { padding-inline:var(--page-gutter); }
+ :root[data-ui=v2][data-theme] .pagehead { padding-inline:0; }
+ :root[data-ui][data-theme] .page-actions { width:100%; }
+ :root[data-ui][data-theme] .page-actions .btn { flex:1; }
+ :root[data-ui][data-theme] .care-roster-toolbar .filters .field { flex-basis:100%; }
+ :root[data-ui][data-theme] .care-roster-toolbar .filters>.touch-filter-toggle { display:flex; width:100%; justify-content:space-between; order:1; }
+ :root[data-ui][data-theme] .care-roster-toolbar .filters>.field { order:2; }
+ :root[data-ui][data-theme] .care-roster-toolbar .filters:not(.touch-filters-expanded)>.field { display:none; }
+ :root[data-ui][data-theme] .care-roster-toolbar .care-date-filters { flex-wrap:wrap; width:100%; }
+ :root[data-ui][data-theme] .care-roster-toolbar .care-date-filters .field { flex:1 1 100%; max-width:none; min-width:0; }
+ :root[data-ui][data-theme] .readable-table { display:block; min-width:0!important; white-space:normal; }
+ :root[data-ui][data-theme] .readable-table>thead { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0); clip-path:inset(50%); }
+ :root[data-ui][data-theme] .readable-table>tbody { display:block; }
+ :root[data-ui][data-theme] .readable-table .touch-record { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,9rem),1fr)); gap:16px; padding:24px var(--page-gutter); border-bottom:1px solid var(--line); }
+ :root[data-ui=v2][data-theme] .readable-table .touch-record { padding-inline:0; }
+ :root[data-ui][data-theme] .readable-table .touch-record>td { display:block; height:auto; padding:0; border:0; min-width:0; overflow-wrap:anywhere; white-space:normal; }
+ :root[data-ui][data-theme] .readable-table .touch-record>td:is(:first-child,:last-child) { padding:0; grid-column:1/-1; }
+ :root[data-ui][data-theme] .touch-cell-label { display:block; color:var(--muted); font-size:var(--text-label); line-height:1.5; margin-bottom:4px; }
+ :root[data-ui][data-theme] .readable-table .touch-record>td:first-child>.touch-cell-label { display:none; }
+ :root[data-ui][data-theme] .readable-table .touch-record>td .cell-link { font-size:1.25rem; }
+ :root[data-ui][data-theme] .readable-table .touch-record>td .btn { max-width:100%; }
+ :root[data-ui][data-theme] .readable-table .touch-record>td :is(.status,.task-status) { max-width:100%; overflow-wrap:anywhere; }
+ :root[data-ui][data-theme] .readable-table .touch-record>td:last-child :is(.btn,.rowaction) { width:100%; }
+ :root[data-ui][data-theme] .readable-table .identity-cell { align-items:flex-start; }
+ :root[data-ui][data-theme] .readable-table .identity-cell>div { min-width:0; }
+ :root[data-ui][data-theme] .readable-table tbody>tr:not(.touch-record) { display:block; }
+ :root[data-ui][data-theme] .readable-table tbody>tr:not(.touch-record)>:is(td,th) { display:block; white-space:normal; }
+ :root[data-ui][data-theme] .tablefoot { padding-inline:var(--page-gutter); }
+ :root[data-ui=v2][data-theme] .tablefoot { padding-inline:0; }
+ :root[data-ui][data-theme] .pagination { width:100%; min-width:0; gap:12px; }
+ :root[data-ui][data-theme] .page-list { flex:1; min-width:0; overflow-x:auto; gap:8px; }
+ :root[data-ui][data-theme] .page-number { flex:none; }
+ :root[data-ui][data-theme] .tasks-viewbar { flex-wrap:wrap; gap:16px; }
+ :root[data-ui][data-theme] .tasks-viewbar>.inline-actions { width:100%; margin:0; }
+ :root[data-ui][data-theme] .tasks-viewbar>.inline-actions>.btn { flex:1; }
+ :root[data-ui][data-theme] :is(.mail-list,.mail-detail) { width:100%; }
+ :root[data-ui][data-theme] .email-workspace { height:auto; min-height:0; }
+ :root[data-ui][data-theme] .mail-detail-head { flex-wrap:wrap; gap:16px; }
+ :root[data-ui][data-theme] .care-public main { padding:24px 16px; }
+ :root[data-ui][data-theme] .care-login-form { padding:24px 20px; }
+ :root[data-ui][data-theme] .care-info { grid-template-columns:1fr; gap:8px; }
+ :root[data-ui][data-theme] .care-info dd { margin-bottom:12px; }
+ :root[data-ui][data-theme] .care-signature-tabs>.btn { white-space:normal; flex:1 1 160px; }
+ :root[data-ui][data-theme] .care-public .header-buttons>.btn { display:inline-flex; }
+ :root[data-ui][data-theme] .care-public .header-buttons { justify-content:flex-end; width:100%; }
+ :root[data-ui][data-theme] .v2-shortcuts { grid-template-columns:repeat(auto-fit,minmax(min(100%,7rem),1fr)); }
+ :root[data-ui][data-theme] .v2-shortcuts>a { min-width:0; height:auto; }
+ :root[data-ui][data-theme] .v2-shortcuts small { max-width:100%; text-align:center; overflow-wrap:anywhere; }
+ :root[data-ui][data-theme] .v2-library-bar .under-tabs { flex-wrap:wrap; min-width:0; max-width:100%; }
+ :root[data-ui][data-theme] .v2-library-bar .under-tabs button { flex:1 1 auto; max-width:100%; white-space:normal; overflow-wrap:anywhere; }
+}

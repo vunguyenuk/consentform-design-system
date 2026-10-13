@@ -109,66 +109,6 @@ Compared against the Figma component library and Dark dashboard/review/Filter/Ex
 Original SVG assets downloaded locally; dimensions inspected without changing SVG payloads. Search and close overrides were corrected using individual instance context. New screenshots include `cliently-light-components.png`, `cliently-dark-components.png`, `cliently-dark-census.png`, `cliently-dark-review.png`, `cliently-dark-review-mobile.png`, `cliently-dark-mobile.png`, `cliently-dark-users.png`. Integration limits listed above still apply.
 
 
-## Functional Cliently pages & ElevenLabs UI V2 — October 8, 2026
-
-Source frames and the logged-in ElevenLabs app were inspected before implementation. The source page inventory, measured typography/geometry and ENT mapping are in `design-reference/ELEVENLABS-AUDIT.md`. Page-check observations are saved in `design-reference/final-page-checks.json`; earlier observations are supplemented by the final fixes below.
-
-| Check | Observed result |
-| --- | --- |
-| Cliently functional pages | Emails, Tasks List/Kanban, Notes, Settings and Help checked in Light desktop and Dark mobile; no broken images or document overflow |
-| Cliently Settings | All 9 sections render; profile save, local integration toggles and settings actions work |
-| Local page actions | Note edit/color/save, task create and complete, email compose, FAQ and help article navigation exercised |
-| UI V2 routes | Home plus 12 destinations checked on desktop; responsive routes checked at 375px |
-| Editions | UI V2 button sits directly before UI kit; switching preserves the shared fictional session data |
-| UI V2 source assets | Waldenburg fonts, original SVG icons, six orb images and announcement background bundled locally |
-| UI V2 search | Workspace query found facility/task/note; selecting a facility opened its detail page |
-| UI V2 task | Template creation, assignee and completion updated the task list and Completed count |
-| UI V2 note | Create/save/detail worked; Dark editor has readable text and neutral modal surface |
-| UI V2 action menu | 240px wide, 104px tall for 3 actions; 32px rows, 0px row borders |
-| UI V2 filter | Desktop 500px panel, 24px padding, 40px fields; mobile x=16px, width=343px, right=359px within 375px viewport |
-| UI V2 Recents | Same task successfully reopened after close and return to Home |
-| UI V2 pagination | Next page displayed sample residents 9–12 |
-| Mobile Users | Corrected small search-row overflow; document width is 375px |
-| Final static checks | All 9 JavaScript files pass syntax; literal local asset references exist and are non-empty |
-| Browser console | No captured error entries after final revision |
-
-Final screenshots: `eleven-v2-light-home.png`, `eleven-v2-dark-census.png`, `eleven-v2-dark-notes-menu.png`, `eleven-v2-dark-filter.png`, `eleven-v2-dark-filter-mobile.png`, `cliently-light-notes-pages.png`, `cliently-light-tasks-pages.png`. Temporary viewport override was reset and the preview left on UI V2 Home in Light.
-
-This is a local design/interaction prototype. Compose, invitations, integrations and plan actions simulate outcomes; no email, billing or production backend operation is performed. Demo task/note/email edits live in memory and reset on reload.
-
-
-## ENT gradient alternative — October 8, 2026
-
-- Replaced UI V2's source orb/banner artwork with four original SVG care-pathway ribbons, a shared E mark and teal/sage/sand gradients. Existing UI kit source design and V2 controls are retained.
-- Light and Dark desktop Home checked at 1440px: no broken images, no document overflow; no source orb images rendered.
-- Mobile checked at 375px. Fixed Quickstarts search min-width conflict; final document width is 375px, search width 148.23px and all images loaded.
-- `v2.js` syntax passes; no captured console errors. Temporary viewport reset and theme returned to Light.
-- Screenshots: `ent-v2-gradient-light.png`, `ent-v2-gradient-dark.png`, `ent-v2-gradient-mobile.png`.
-
-
-## Prism recolor revision — October 8, 2026
-
-Restored original prism geometry in feature cluster, Quickstarts, prompt and workspace marker. Six SVG presentation filters apply the ENT palette; the accepted header gradient is unchanged. Light/Dark Home visually checked at 1440px, no broken images or horizontal document overflow. Dark mobile document width 375px at viewport 375px, all assets loaded. V2 JavaScript syntax passes and no captured console errors. Temporary viewport reset and preview returned to Light. Screenshots: `ent-v2-prism-light.png` and `ent-v2-prism-dark.png`.
-
-
-### Header gradient refinement
-
-Replaced the flat bar gradient with the source grain/light texture, recolored through the dedicated `ent-banner-tone` filter. Text is layered separately over a darkened central region. Prism filters remain unchanged. Visual check at 1440px and geometry check at 2560px: 39px bar height and no document overflow. `v2.js` syntax passes. Temporary viewport reset. Preview: `ent-v2-banner-detail.png`.
-
-
-### Original ENT feature artwork
-
-Replaced only the feature banner orb cluster with original, theme-aware inline SVG clinic artwork. Visual check at 1440px in Light/Dark; feature now contains zero source images. At 900px illustration width is 232.4px and document width 885px; at 375px the existing mobile layout hides decorative artwork, retains the CTA and document width stays 375px. No broken images or captured console errors. `v2.js` syntax passes. Viewport reset and theme returned to Light. Screenshots: `ent-v2-clinic-art-light.png`, `ent-v2-clinic-art-dark.png`, `ent-v2-clinic-feature.png`.
-
-
-### Quickstarts workflow artwork
-
-Four theme-aware SVG illustrations replace Quickstarts orbs; Recents tasks use the calendar/task illustration. Light/Dark desktop checked at 1440px. No duplicate SVG resource IDs; Quickstarts and Recents contain zero source image elements. Dark mobile at 375px has document width 375px and illustration slots 147.5×108px; Recents also has no overflow or duplicate IDs. No captured console errors. V2 syntax passes. Viewport reset and theme returned to Light/Quickstarts. Screenshots: `ent-v2-workflows-light.png`, `ent-v2-workflows-dark.png`, `ent-v2-workflows-detail.png`.
-
-
-Header edition label changed from UI kit to UI V1. Clicking UI V1 or UI V2 updates the exclusive `aria-pressed` state and active border to rgb(0,0,0), verified in both Light/Dark editions. Dark active button has a light surface for visibility.
-
-
 ## Consentform functionality revision — October 8, 2026 (latest)
 
 This section supersedes earlier statements that all state is in memory, Users are read-only, or resident consent functionality is absent. Clinical OCR/eligibility/DrChrono and external delivery remain mocked.
@@ -313,3 +253,34 @@ Search fields now recolor their existing 1px border on focus, using the edition'
 Verified nine search pages with actual UI focus on desktop: Tasks, Intake, Residents, Activity, Facilities, Census, Messages, Notes and Help. At 1440px, Tasks is 1105px wide and Intake is approximately 703px (previous caps 320px/420px). Tasks and Intake retain a single 1px border in dark mode; Tab then Shift+Tab returns keyboard focus to Tasks with the white focus border and no outer outline. At 375px, Tasks/Intake/Messages/Notes search widths are 343px, with no page overflow. The opened Channels dropdown has one dark border and no visible outline (computed outline-style none). V1 Residents still has a 676px search and underline tabs.
 
 Mobile verification also exposed a pre-existing sidebar shadow that dimmed the page while the drawer was closed; removed that closed-state shadow in V2, retaining the open-drawer backdrop rule. Evidence: design-reference/V2-SEARCH-FOCUS-EVIDENCE.json (15 actual focused search observations); screenshots/v2-tasks-search-single-border.png, v2-intake-search-single-border.png and v2-intake-search-mobile.png.
+
+
+## Elderly users — phone and iPad readability (13 October 2026)
+
+Applied `adapt` and `typeset` to both editions. Reading text is 1.125rem (18px at default settings), secondary text/labels are at least 1rem (16px), headings are 1.75rem, and numeric summaries are 2rem. Fields and buttons have at least 48px touch targets, including checkbox labels; control height expands with enlarged text. Phone date controls use 1rem to keep the native date format readable. Secondary text, placeholder and field-edge contrast is stronger in both themes. Existing font families and wide desktop layouts are retained.
+
+The shared layer is `readable-touch.css` + `readable-touch.js`, loaded after the existing edition styles. The layout applies through 1024px and to devices with any coarse pointer through 1440px, covering iPad landscape and attached pointer use. Phones through 600px show labelled table records with adaptive columns; existing links, actions, native table semantics and pagination are retained. Phone filters can be expanded with Show filters, and selections survive filter re-renders. Tablet comparison tables retain all columns with a visible scrolling hint. Navigation uses a labelled Menu control, an explicit close action, focus containment, Escape dismissal, background inertness and focus restoration. Signing/login use a single reading column with readable text and larger signature controls.
+
+Verification: 112 final normal-size page observations across 320/390/820/1024px, both editions and selected light/dark states. No observed horizontal page overflow, text below 16px in the sampled rendered UI, or buttons below the 48px target. Initial failures and superseded checks remain labelled in the evidence, rather than counted as final passes. This is a geometry/readability sweep of the listed core pages, not every possible UI state.
+
+The enlarged-text fixture `tests/artifacts/readable-large-type.html` loads the production assets with a 200% root font size. All 28 final checks across both editions, 320/820px, and seven core routes have no page overflow. Fixed-height controls, long timeline dates, header controls and mobile record columns were adjusted to reflow. This fixture checks larger text preferences; it is not a physical Safari zoom test.
+
+Actual UI interactions verified: Pending filter shows the matching records and keeps filters open; reset returns all records; next/previous pagination changes the resident list; drawer background is inert, close/Escape restores focus; custom dropdown choices have larger text and targets; the Type signature option remains available. Task editor and do-not-contact confirmation were opened/cancelled, with 18px body text and 48–50px action targets. No consent was signed and no messages were sent. All 19 existing domain tests pass.
+
+220 solid-background text samples from V2 Residents, Intake, Login and public Consent, in light/dark, have a minimum computed contrast of 7.38:1. This sampling excludes image/gradient backgrounds and is not a complete WCAG conformance claim.
+
+Evidence: `design-reference/READABLE-TOUCH-EVIDENCE.json`, `READABLE-LARGE-TEXT-EVIDENCE.json`, `READABLE-TOUCH-CONTRAST.json`. Screenshots: `screenshots/readable-v2-phone-residents.png`, `readable-v1-ipad-intake.png`, `readable-v2-ipad-intake.png`, `readable-v2-phone-consent.png`, `readable-v2-phone-signature.png`.
+
+Validation used Chromium browser emulation. Physical iPad/iPhone Safari testing remains unverified. The accessibility approach references W3C guidance on [larger touch targets](https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html), [text resizing](https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html) and [reflow](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html).
+
+
+## ENT workspace assets and typography — 13 October 2026
+
+V2 now uses Inter and independently drawn ENT stroke icons, a medical care mark and a new SVG banner surface. Historical asset inventories, decorative experiments, old V2 screenshots and duplicate extracted demo files are outside the distributable project. The font export contains Inter 400/500/600 and Manrope 800 with original metadata and recorded checksums.
+
+- 31 final browser observations at desktop 1440px, iPad 820px, phone 390px and phone 320px with 200% root text: no document overflow, missing images or retired brand references in the sampled routes. An initial enlarged Home overflow was corrected by adaptive shortcut columns and wrapping tabs.
+- Both editions and Light/Dark themes verified; the local workspace search opened a facility result. Mobile Facility filters supported keyboard selection.
+- All 19 care domain tests pass; frontend syntax checks pass. The elderly readability layer, V1 underline tabs, aligned table gutters, single focus borders and compact resident action menus remain in place.
+- Current evidence: `design-reference/ENT-WORKSPACE-VERIFICATION.json`. Current previews: `screenshots/ent-workspace-home-desktop.png`, `screenshots/ent-workspace-home-dark.png`, `screenshots/ent-workspace-phone-residents.png`, `screenshots/ent-workspace-ipad-intake.png`.
+
+The existing Git history has not been rewritten. Earlier QA sections are historical observations; this section describes the current asset and font revision. No conclusion about automated authorship detection is implied by these checks.

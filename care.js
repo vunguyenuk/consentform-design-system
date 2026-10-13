@@ -12,7 +12,7 @@ const careTime=(at)=>at?new Intl.DateTimeFormat('en-US',{dateStyle:'medium',time
 function careCard(title,html,extra=''){return `<section class="care-card ${extra}"><h2>${esc(title)}</h2>${html}</section>`;}
 function careError(message){return `<div class="care-error" role="alert">${esc(message)}</div>`;}
 function careNavigate(route){careCloseMenu();screen.query='';screen.page=1;screen.tab='all';careState.group='all';careState.status='all';if(location.hash==='#'+route)render();else location.hash=route;}
-function carePublic(html){$('#app').innerHTML=`<div class="care-public"><header class="care-public-head"><a class="care-wordmark" href="#${careStore.user()?isV2()?'v2':'facilities':'login'}">ENT Care</a><div class="header-buttons">${themeSwitch()}${editionButtons()}${careB('Demo guide','guide')}</div></header><main id="main" tabindex="-1">${html}</main><footer>ENT Senior Care Group · Fictional demo · All changes stay in this browser.</footer></div>`;enhanceSelects($('#app'));syncThemeAssets();careInitCanvas();}
+function carePublic(html){$('#app').innerHTML=`<div class="care-public"><header class="care-public-head"><a class="care-wordmark" href="#${careStore.user()?isV2()?'v2':'facilities':'login'}">ENT Care</a><div class="header-buttons">${themeSwitch()}${editionButtons()}${careB('Demo guide','guide')}</div></header><main id="main" tabindex="-1">${html}</main><footer>ENT Senior Care Group · Fictional demo · All changes stay in this browser.</footer></div>`;enhanceSelects($('#app'));syncThemeAssets();prepareReadableTables($('#app'));careInitCanvas();}
 function carePrepareRoute(){
  const path=location.hash.slice(1).split('?')[0].replace(/^\//,'');
  const scenario=careParams().get('case');

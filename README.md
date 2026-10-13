@@ -1,6 +1,6 @@
 # ENT Senior Care — UI V1 & UI V2
 
-Prototype có hai hệ thiết kế dùng chung các chức năng Consentform được port từ file engineer gửi: `design-reference/engineer-reference.html`. UI V1 dùng Cliently Figma Light/Dark; UI V2 dùng hệ UI đã audit từ ElevenLabs, với minh họa ENT riêng.
+Prototype có hai hệ thiết kế dùng chung các chức năng Consentform được port từ file engineer gửi: `design-reference/engineer-reference.html`. UI V1 dùng Cliently Figma Light/Dark; UI V2 dùng Inter, icon ENT tự vẽ và minh họa workflow ENT.
 
 ## Mở demo
 
@@ -54,7 +54,7 @@ Toàn bộ là dữ liệu giả, không gọi backend Railway, không gửi ema
 
 Consentform facility, resident, signature, lịch khám, tài khoản, delivery history và session lưu trong localStorage; file upload lưu trong IndexedDB. Reload giữ dữ liệu và cả hai edition cùng đọc một store. Reset có snapshot khôi phục lần trước; file blob được giữ để phục hồi tài liệu.
 
-Census/Intake và Emails/Tasks/Notes/Workspace Settings cũ vẫn dùng dữ liệu sample trong bộ nhớ, mất khi reload. Theme lưu trên thiết bị; edition lưu trong tab. Font Inter tải từ Google Fonts; font và asset ElevenLabs/Cliently còn lại nằm trong `assets/`.
+Census/Intake và Emails/Tasks/Notes/Workspace Settings cũ vẫn dùng dữ liệu sample trong bộ nhớ, mất khi reload. Theme lưu trên thiết bị; edition lưu trong tab. Font Inter tải từ Google Fonts; asset Cliently và minh họa ENT nằm trong `assets/`. Inter 400/500/600 và Manrope 800 được xuất riêng trong `exported-fonts/`.
 
 Phân quyền/password ở đây chỉ mô phỏng trong browser; dữ liệu và password demo không được bảo mật như production. Bản tích hợp thật cần server authentication/authorization, storage, delivery providers, signed-document audit và API clinical riêng. PDF dùng font cơ bản, chuyển ký tự ngoài ASCII sang ký tự thay thế; đây là document demo.
 

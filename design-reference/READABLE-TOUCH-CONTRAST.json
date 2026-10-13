@@ -1,0 +1,4274 @@
+[
+  {
+    "route": "#residents",
+    "samples": [
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "18px",
+        "text": "Manage signing requests and resident documents.",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn primary",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Add resident",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(255, 255, 255, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "tab selected",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "All residents63",
+        "ratio": 17.51
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "tab ",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Needs attention8",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "tab ",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Waiting11",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "tab ",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Done44",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Facility",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "select-trigger",
+        "color": "rgb(255, 255, 255)",
+        "size": "18px",
+        "text": "All facilities",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Consent status",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "select-trigger",
+        "color": "rgb(255, 255, 255)",
+        "size": "18px",
+        "text": "All statuses",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Sort",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "select-trigger",
+        "color": "rgb(255, 255, 255)",
+        "size": "18px",
+        "text": "Name A\u2013Z",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "touch-table-hint is-needed",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Swipe sideways to see all columns.",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Jul 7, 1939",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(255, 255, 255, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "status clear",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Signed",
+        "ratio": 17.51
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Signed Sep 20, 2026",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "View PDF",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Open",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Apr 4, 1939",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(255, 255, 255, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "status clear",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Signed",
+        "ratio": 17.51
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Signed Sep 18, 2026",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "View PDF",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Open",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Jan 10, 1939",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(255, 255, 255, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "status clear",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Signed",
+        "ratio": 17.51
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Signed Sep 22, 2026",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "View PDF",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Open",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "May 23, 1933",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Daniel Novak",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(255, 255, 255, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "status pending",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Sent",
+        "ratio": 17.51
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Awaiting signature",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Resend link",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Open",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Feb 20, 1933",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Daniel Ortiz",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(255, 255, 255, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "status clear",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Signed",
+        "ratio": 17.51
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Signed Sep 20, 2026",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "View PDF",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Open",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Sep 18, 1936",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Karen Garcia",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(255, 255, 255, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "status clear",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Signed",
+        "ratio": 17.51
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Signed Sep 17, 2026",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "View PDF",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Open",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Mar 21, 1936",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Karen Reyes",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(255, 255, 255, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "status ",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Do not contact",
+        "ratio": 17.51
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Awaiting signature",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Open",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Jun 15, 1936",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Karen Thompson",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(255, 255, 255, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "status clear",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Signed",
+        "ratio": 17.51
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Signed Sep 15, 2026",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "View PDF",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Open",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "page-arrow",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(255, 255, 255, 0.075)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "page-number selected",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "1",
+        "ratio": 16.09
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "page-number ",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "2",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "page-number ",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "8",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "page-arrow",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "select-trigger",
+        "color": "rgb(255, 255, 255)",
+        "size": "18px",
+        "text": "Show 8",
+        "ratio": 19.16
+      }
+    ],
+    "theme": "dark",
+    "ui": "v2"
+  },
+  {
+    "route": "#intake",
+    "samples": [
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn primary",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "New intake",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(255, 255, 255, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "tab selected",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "All intakes5",
+        "ratio": 17.51
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "tab ",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Awaiting review2",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "tab ",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Completed2",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "touch-table-hint is-needed",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Swipe sideways to see all columns.",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Apr 18, 1948",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(255, 255, 255, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "status v2-task-status",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Draft",
+        "ratio": 17.51
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "rowaction",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Open",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Aug 12, 1942",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(255, 255, 255, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "status v2-task-status",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Draft",
+        "ratio": 17.51
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "rowaction",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Open",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Apr 18, 1948",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(255, 255, 255, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "status v2-task-status",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Complete",
+        "ratio": 17.51
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "rowaction",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Open",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Aug 12, 1942",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(255, 255, 255, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "status v2-task-status",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Complete",
+        "ratio": 17.51
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "rowaction",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Open",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Sep 22, 1944",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(255, 255, 255, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "status v2-task-status",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Retry attachment",
+        "ratio": 17.51
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "rowaction",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Open",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "page-arrow",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(255, 255, 255, 0.075)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "page-number selected",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "1",
+        "ratio": 16.09
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "page-arrow",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "select-trigger",
+        "color": "rgb(255, 255, 255)",
+        "size": "18px",
+        "text": "Show 8",
+        "ratio": 19.16
+      }
+    ],
+    "theme": "dark",
+    "ui": "v2"
+  },
+  {
+    "route": "#login",
+    "samples": [
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(255, 255, 255, 0.024)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "18px",
+        "text": "Use the account your ENT administrator gave you.",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(255, 255, 255, 0.024)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Username",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(255, 255, 255, 0.024)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Password",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(255, 255, 255, 0.024)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn primary large",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Sign in",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(255, 255, 255, 0.024)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "care-small",
+        "color": "rgb(197, 202, 211)",
+        "size": "16px",
+        "text": "Need access? Contact your administrator.",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(255, 255, 255, 0.024)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "18px",
+        "text": "Password: demo1234",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(255, 255, 255, 0.024)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn ",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "ENT admin",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(255, 255, 255, 0.024)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn ",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Facility staff",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(255, 255, 255, 0.024)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn ghost",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Deactivated account",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgb(15, 15, 16)",
+          "rgba(255, 255, 255, 0.024)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn ghost",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Non-ENT account",
+        "ratio": 19.16
+      }
+    ],
+    "theme": "dark",
+    "ui": "v2"
+  },
+  {
+    "route": "#sign",
+    "samples": [
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(255, 255, 255, 0.024)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "18px",
+        "text": "Arthur Novak \u00b7 Oak Terrace Assisted Living",
+        "ratio": 11.64
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgb(33, 33, 34)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(255, 255, 255, 0.024)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "18px",
+        "text": "ENT Senior Care Group (ENT SCG) provides ear, nose and ",
+        "ratio": 9.78
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgb(33, 33, 34)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(255, 255, 255, 0.024)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "18px",
+        "text": "By signing, I consent to these examinations and to rout",
+        "ratio": 9.78
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgb(33, 33, 34)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(255, 255, 255, 0.024)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "18px",
+        "text": "I authorize ENT SCG to bill the resident\u2019s insurance fo",
+        "ratio": 9.78
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgb(33, 33, 34)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(255, 255, 255, 0.024)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(197, 202, 211)",
+        "size": "18px",
+        "text": "This consent stays in effect for the current clinic rou",
+        "ratio": 9.78
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(33, 33, 34)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(255, 255, 255, 0.024)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Your full name *",
+        "ratio": 16.09
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(33, 33, 34)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(255, 255, 255, 0.024)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Relationship *",
+        "ratio": 16.09
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(33, 33, 34)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(255, 255, 255, 0.024)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "select-trigger",
+        "color": "rgb(255, 255, 255)",
+        "size": "18px",
+        "text": "Power of Attorney (POA)",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(33, 33, 34)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(255, 255, 255, 0.024)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn selected",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Draw signature",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(33, 33, 34)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(255, 255, 255, 0.024)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn ",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Type signature",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(33, 33, 34)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(255, 255, 255, 0.024)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn ghost small",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Clear signature",
+        "ratio": 16.09
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(33, 33, 34)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(255, 255, 255, 0.024)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "I confirm that I am the resident or authorized to sign ",
+        "ratio": 16.09
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(33, 33, 34)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(255, 255, 255, 0.024)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn primary large",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Sign demo consent",
+        "ratio": 19.16
+      }
+    ],
+    "theme": "dark",
+    "ui": "v2"
+  },
+  {
+    "route": "#residents",
+    "samples": [
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "18px",
+        "text": "Manage signing requests and resident documents.",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn primary",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Add resident",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "tab selected",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "All residents63",
+        "ratio": 17.42
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "tab ",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Needs attention8",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "tab ",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Waiting11",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "tab ",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Done44",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Facility",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "select-trigger",
+        "color": "rgb(15, 15, 16)",
+        "size": "18px",
+        "text": "All facilities",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Consent status",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "select-trigger",
+        "color": "rgb(15, 15, 16)",
+        "size": "18px",
+        "text": "All statuses",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Sort",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "select-trigger",
+        "color": "rgb(15, 15, 16)",
+        "size": "18px",
+        "text": "Name A\u2013Z",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "touch-table-hint is-needed",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Swipe sideways to see all columns.",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Jul 7, 1939",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "status clear",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Signed",
+        "ratio": 17.42
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Signed Sep 20, 2026",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "View PDF",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Open",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Apr 4, 1939",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "status clear",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Signed",
+        "ratio": 17.42
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Signed Sep 18, 2026",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "View PDF",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Open",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Jan 10, 1939",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "status clear",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Signed",
+        "ratio": 17.42
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Signed Sep 22, 2026",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "View PDF",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Open",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "May 23, 1933",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Daniel Novak",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "status pending",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Sent",
+        "ratio": 17.42
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Awaiting signature",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Resend link",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Open",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Feb 20, 1933",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Daniel Ortiz",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "status clear",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Signed",
+        "ratio": 17.42
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Signed Sep 20, 2026",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "View PDF",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Open",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Sep 18, 1936",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Karen Garcia",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "status clear",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Signed",
+        "ratio": 17.42
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Signed Sep 17, 2026",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "View PDF",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Open",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Mar 21, 1936",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Karen Reyes",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "status ",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Do not contact",
+        "ratio": 17.42
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Awaiting signature",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Open",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Jun 15, 1936",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Karen Thompson",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "status clear",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Signed",
+        "ratio": 17.42
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Signed Sep 15, 2026",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "View PDF",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn small",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Open",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "page-arrow",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0.075)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "page-number selected",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "1",
+        "ratio": 16.2
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "page-number ",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "2",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "page-number ",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "8",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "page-arrow",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "select-trigger",
+        "color": "rgb(15, 15, 16)",
+        "size": "18px",
+        "text": "Show 8",
+        "ratio": 19.16
+      }
+    ],
+    "theme": "light",
+    "ui": "v2"
+  },
+  {
+    "route": "#intake",
+    "samples": [
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn primary",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "New intake",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "tab selected",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "All intakes5",
+        "ratio": 17.42
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "tab ",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Awaiting review2",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "tab ",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Completed2",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "touch-table-hint is-needed",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Swipe sideways to see all columns.",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Apr 18, 1948",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "status v2-task-status",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Draft",
+        "ratio": 17.42
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "rowaction",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Open",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Aug 12, 1942",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "status v2-task-status",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Draft",
+        "ratio": 17.42
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "rowaction",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Open",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Apr 18, 1948",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "status v2-task-status",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Complete",
+        "ratio": 17.42
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "rowaction",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Open",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Aug 12, 1942",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "status v2-task-status",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Complete",
+        "ratio": 17.42
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "rowaction",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Open",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Sep 22, 1944",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0.043)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "status v2-task-status",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Retry attachment",
+        "ratio": 17.42
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "rowaction",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Open",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "page-arrow",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0.075)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "page-number selected",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "1",
+        "ratio": 16.2
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "page-arrow",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "select-trigger",
+        "color": "rgb(15, 15, 16)",
+        "size": "18px",
+        "text": "Show 8",
+        "ratio": 19.16
+      }
+    ],
+    "theme": "light",
+    "ui": "v2"
+  },
+  {
+    "route": "#login",
+    "samples": [
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0.02)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "18px",
+        "text": "Use the account your ENT administrator gave you.",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0.02)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Username",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0.02)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Password",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0.02)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn primary large",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Sign in",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0.02)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "care-small",
+        "color": "rgb(80, 86, 97)",
+        "size": "16px",
+        "text": "Need access? Contact your administrator.",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0.02)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "18px",
+        "text": "Password: demo1234",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0.02)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn ",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "ENT admin",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0.02)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn ",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Facility staff",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0.02)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn ghost",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Deactivated account",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0.02)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn ghost",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Non-ENT account",
+        "ratio": 19.16
+      }
+    ],
+    "theme": "light",
+    "ui": "v2"
+  },
+  {
+    "route": "#sign",
+    "samples": [
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0.02)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "18px",
+        "text": "Arthur Novak \u00b7 Oak Terrace Assisted Living",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0.02)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "18px",
+        "text": "ENT Senior Care Group (ENT SCG) provides ear, nose and ",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0.02)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "18px",
+        "text": "By signing, I consent to these examinations and to rout",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0.02)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "18px",
+        "text": "I authorize ENT SCG to bill the resident\u2019s insurance fo",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0.02)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(80, 86, 97)",
+        "size": "18px",
+        "text": "This consent stays in effect for the current clinic rou",
+        "ratio": 7.38
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0.02)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Your full name *",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0.02)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Relationship *",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0.02)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "select-trigger",
+        "color": "rgb(15, 15, 16)",
+        "size": "18px",
+        "text": "Power of Attorney (POA)",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0.02)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn selected",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Draw signature",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0.02)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn ",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Type signature",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0.02)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn ghost small",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "Clear signature",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0.02)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "",
+        "color": "rgb(15, 15, 16)",
+        "size": "16px",
+        "text": "I confirm that I am the resident or authorized to sign ",
+        "ratio": 19.16
+      },
+      {
+        "backgrounds": [
+          "rgb(15, 15, 16)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0.02)",
+          "rgba(0, 0, 0, 0)",
+          "rgb(255, 255, 255)",
+          "rgba(0, 0, 0, 0)"
+        ],
+        "class": "btn primary large",
+        "color": "rgb(255, 255, 255)",
+        "size": "16px",
+        "text": "Sign demo consent",
+        "ratio": 19.16
+      }
+    ],
+    "theme": "light",
+    "ui": "v2"
+  }
+]
