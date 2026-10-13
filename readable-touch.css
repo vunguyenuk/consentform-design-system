@@ -4,7 +4,7 @@
 
 @media (max-width:1024px), (any-pointer:coarse) and (max-width:1440px) {
  :root[data-ui][data-theme] {
-  --text-reading:1.125rem; --text-label:1rem; --text-heading:1.75rem;
+  --text-reading:1.125rem; --text-label:1.125rem; --text-heading:1.75rem;
   --compact-control-height:48px; --field-row-gap:24px; --action-gap:12px;
   --muted:#505661; --subtle:#606773; --table-heading:var(--muted);
   --field-border:#818897; --compact-field-border:var(--field-border);

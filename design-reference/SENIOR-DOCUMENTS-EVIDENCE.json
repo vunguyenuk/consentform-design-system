@@ -1,0 +1,527 @@
+{
+  "date": "2026-10-13",
+  "observations": [
+    {
+      "route": "residents",
+      "broken": [],
+      "documentWidth": 805,
+      "tableOverflow": false,
+      "theme": "light",
+      "tiny": [],
+      "ui": "v2",
+      "width": 820
+    },
+    {
+      "route": "facility?fid=f1",
+      "broken": [],
+      "documentWidth": 805,
+      "tableOverflow": false,
+      "theme": "light",
+      "tiny": [],
+      "ui": "v2",
+      "width": 820
+    },
+    {
+      "route": "intake",
+      "broken": [],
+      "documentWidth": 805,
+      "tableOverflow": false,
+      "theme": "light",
+      "tiny": [],
+      "ui": "v2",
+      "width": 820
+    },
+    {
+      "route": "census",
+      "broken": [],
+      "documentWidth": 805,
+      "tableOverflow": false,
+      "theme": "light",
+      "tiny": [],
+      "ui": "v2",
+      "width": 820
+    },
+    {
+      "route": "v2",
+      "broken": [],
+      "documentWidth": 805,
+      "tableOverflow": false,
+      "theme": "light",
+      "tiny": [],
+      "ui": "v2",
+      "width": 820
+    },
+    {
+      "route": "residents",
+      "broken": [],
+      "documentWidth": 805,
+      "tableOverflow": false,
+      "theme": "light",
+      "tiny": [],
+      "ui": "figma",
+      "width": 820
+    },
+    {
+      "route": "facility?fid=f1",
+      "broken": [],
+      "documentWidth": 805,
+      "tableOverflow": false,
+      "theme": "light",
+      "tiny": [],
+      "ui": "figma",
+      "width": 820
+    },
+    {
+      "route": "intake",
+      "broken": [],
+      "documentWidth": 805,
+      "tableOverflow": false,
+      "theme": "light",
+      "tiny": [],
+      "ui": "figma",
+      "width": 820
+    },
+    {
+      "route": "census",
+      "broken": [],
+      "documentWidth": 805,
+      "tableOverflow": false,
+      "theme": "light",
+      "tiny": [],
+      "ui": "figma",
+      "width": 820
+    },
+    {
+      "route": "residents",
+      "broken": [],
+      "documentWidth": 805,
+      "tableOverflow": false,
+      "theme": "dark",
+      "tiny": [],
+      "ui": "v2",
+      "width": 820
+    },
+    {
+      "route": "intake",
+      "broken": [],
+      "documentWidth": 805,
+      "tableOverflow": false,
+      "theme": "dark",
+      "tiny": [],
+      "ui": "v2",
+      "width": 820
+    },
+    {
+      "route": "residents",
+      "broken": [],
+      "documentWidth": 805,
+      "tableOverflow": false,
+      "theme": "dark",
+      "tiny": [],
+      "ui": "v2",
+      "width": 820
+    },
+    {
+      "route": "intake",
+      "broken": [],
+      "documentWidth": 805,
+      "tableOverflow": false,
+      "theme": "dark",
+      "tiny": [],
+      "ui": "v2",
+      "width": 820
+    },
+    {
+      "route": "v2",
+      "broken": [],
+      "documentWidth": 390,
+      "tableOverflow": false,
+      "theme": "light",
+      "tiny": [],
+      "ui": "v2",
+      "width": 390
+    },
+    {
+      "route": "residents",
+      "broken": [],
+      "documentWidth": 390,
+      "tableOverflow": false,
+      "theme": "light",
+      "tiny": [],
+      "ui": "v2",
+      "width": 390
+    },
+    {
+      "route": "intake",
+      "broken": [],
+      "documentWidth": 390,
+      "tableOverflow": false,
+      "theme": "light",
+      "tiny": [],
+      "ui": "v2",
+      "width": 390
+    },
+    {
+      "route": "census",
+      "broken": [],
+      "documentWidth": 390,
+      "tableOverflow": false,
+      "theme": "light",
+      "tiny": [],
+      "ui": "v2",
+      "width": 390
+    },
+    {
+      "route": "Intake source",
+      "broken": [],
+      "documentWidth": 390,
+      "tableOverflow": false,
+      "theme": "light",
+      "tiny": [
+        {
+          "cls": "step ",
+          "font": "11px",
+          "tag": "DIV",
+          "text": "1Upload"
+        },
+        {
+          "cls": "step-num",
+          "font": "11px",
+          "tag": "SPAN",
+          "text": "1"
+        },
+        {
+          "cls": "step active",
+          "font": "11px",
+          "tag": "DIV",
+          "text": "2Review & duplicate check"
+        },
+        {
+          "cls": "step-num",
+          "font": "11px",
+          "tag": "SPAN",
+          "text": "2"
+        },
+        {
+          "cls": "step ",
+          "font": "11px",
+          "tag": "DIV",
+          "text": "3Patient & attachments"
+        },
+        {
+          "cls": "step-num",
+          "font": "11px",
+          "tag": "SPAN",
+          "text": "3"
+        },
+        {
+          "cls": "",
+          "font": "11px",
+          "tag": "P",
+          "text": " Confirm the member ID against the sample source. Extracted "
+        },
+        {
+          "cls": "",
+          "font": "11px",
+          "tag": "P",
+          "text": "Check is simulated against the fictional dataset."
+        },
+        {
+          "cls": "",
+          "font": "12px",
+          "tag": "STRONG",
+          "text": "fictional-face-sheet.pdf"
+        },
+        {
+          "cls": "",
+          "font": "11px",
+          "tag": "SUMMARY",
+          "text": "Demo options"
+        }
+      ],
+      "ui": "v2",
+      "width": 390
+    },
+    {
+      "route": "200% v2",
+      "broken": [],
+      "documentWidth": 320,
+      "tableOverflow": false,
+      "theme": "light",
+      "tiny": [],
+      "ui": "v2",
+      "width": 320
+    },
+    {
+      "route": "200% residents",
+      "broken": [],
+      "documentWidth": 320,
+      "tableOverflow": false,
+      "theme": "light",
+      "tiny": [],
+      "ui": "v2",
+      "width": 320
+    },
+    {
+      "route": "200% intake",
+      "broken": [],
+      "documentWidth": 320,
+      "tableOverflow": false,
+      "theme": "light",
+      "tiny": [],
+      "ui": "v2",
+      "width": 320
+    },
+    {
+      "phase": "after inline font fix",
+      "route": "Intake source",
+      "broken": [],
+      "documentWidth": 390,
+      "tableOverflow": false,
+      "theme": "light",
+      "tiny": [],
+      "ui": "v2",
+      "width": 390
+    },
+    {
+      "route": "Landscape residents",
+      "broken": [],
+      "documentWidth": 1009,
+      "tableOverflow": false,
+      "theme": "light",
+      "tiny": [],
+      "ui": "v2",
+      "width": 1024
+    },
+    {
+      "route": "Landscape intake",
+      "broken": [],
+      "documentWidth": 1009,
+      "tableOverflow": false,
+      "theme": "light",
+      "tiny": [],
+      "ui": "v2",
+      "width": 1024
+    },
+    {
+      "route": "Landscape v2",
+      "broken": [],
+      "documentWidth": 1009,
+      "tableOverflow": false,
+      "theme": "light",
+      "tiny": [],
+      "ui": "v2",
+      "width": 1024
+    },
+    {
+      "phase": "final",
+      "route": "200% Intake source",
+      "broken": [],
+      "documentWidth": 330,
+      "tableOverflow": false,
+      "theme": "light",
+      "tiny": [],
+      "ui": "v2",
+      "width": 320
+    },
+    {
+      "phase": "after header wrapping fix",
+      "route": "200% Intake source",
+      "broken": [],
+      "documentWidth": 330,
+      "tableOverflow": false,
+      "theme": "light",
+      "tiny": [],
+      "ui": "v2",
+      "width": 320
+    },
+    {
+      "phase": "final word and flex-label wrapping fix",
+      "route": "200% Intake source",
+      "broken": [],
+      "documentWidth": 320,
+      "tableOverflow": false,
+      "theme": "light",
+      "tiny": [],
+      "ui": "v2",
+      "width": 320
+    }
+  ],
+  "contrast": [
+    {
+      "route": "v2",
+      "count": 28,
+      "low": [],
+      "min": 9.473693678212191
+    },
+    {
+      "route": "residents",
+      "count": 101,
+      "low": [],
+      "min": 9.473693678212191
+    },
+    {
+      "route": "facility?fid=f1",
+      "count": 96,
+      "low": [],
+      "min": 9.473693678212191
+    },
+    {
+      "route": "intake",
+      "count": 57,
+      "low": [],
+      "min": 9.473693678212191
+    },
+    {
+      "route": "census",
+      "count": 102,
+      "low": [],
+      "min": 9.06862198828862
+    },
+    {
+      "ui": "V1",
+      "route": "residents",
+      "count": 101,
+      "low": [],
+      "min": 9.473693678212191
+    },
+    {
+      "ui": "V1",
+      "route": "facility?fid=f1",
+      "count": 96,
+      "low": [],
+      "min": 9.473693678212191
+    },
+    {
+      "ui": "V1",
+      "route": "intake",
+      "count": 57,
+      "low": [],
+      "min": 9.473693678212191
+    },
+    {
+      "ui": "V1",
+      "route": "census",
+      "count": 102,
+      "low": [],
+      "min": 9.009585111050963
+    },
+    {
+      "ui": "V1 dark",
+      "route": "residents",
+      "count": 101,
+      "low": [],
+      "min": 14.051461297438465
+    },
+    {
+      "ui": "V1 dark",
+      "route": "intake",
+      "count": 57,
+      "low": [],
+      "min": 11.799617732299204
+    },
+    {
+      "ui": "Reader V1 dark",
+      "count": 30,
+      "low": [
+        {
+          "fg": "rgb(255, 255, 255)",
+          "ratio": 1,
+          "text": "Albert Castillo · Signed consent"
+        }
+      ],
+      "min": 1
+    },
+    {
+      "ui": "V2 dark",
+      "route": "residents",
+      "count": 101,
+      "low": [],
+      "min": 14.051461297438465
+    },
+    {
+      "ui": "V2 dark",
+      "route": "intake",
+      "count": 57,
+      "low": [],
+      "min": 11.799617732299204
+    },
+    {
+      "ui": "Source reader phone",
+      "count": 38,
+      "low": [],
+      "min": 8.784229123284012
+    },
+    {
+      "phase": "after heading fix",
+      "ui": "Reader V1 dark",
+      "count": 30,
+      "low": [],
+      "min": 8.784229123284012
+    },
+    {
+      "phase": "final",
+      "ui": "Confirmation V1 dark",
+      "count": 30,
+      "low": [],
+      "min": 8.784229123284012
+    },
+    {
+      "phase": "final top dialog",
+      "ui": "Close confirmation"
+    },
+    {
+      "phase": "final topmost",
+      "ui": "Close confirmation",
+      "count": 4,
+      "low": [],
+      "min": 16.098951261824404
+    }
+  ],
+  "readerTests": {
+    "pagination": "Three-page PDF advanced from page 1 to page 2; both views rendered.",
+    "image": "Image loaded and zoomed to 125%; text view correctly disabled.",
+    "scan": "No selectable text reported with Page view fallback.",
+    "closeCancel": {
+      "before": {
+        "scroll": 519.5,
+        "zoom": "125%"
+      },
+      "after": {
+        "scroll": 519.5,
+        "zoom": "125%"
+      }
+    },
+    "clearCancel": "A drawn test stroke remained after Cancel. No consent was submitted.",
+    "storedFile": "Previously uploaded demo-consent.pdf opened from IndexedDB.",
+    "shortcuts": {
+      "labelFont": 18,
+      "icon": 32,
+      "iconTile": 64,
+      "ipadItemHeight": 135
+    },
+    "backToTop": "Document scroll and window scroll returned to zero; list header stayed at y=0."
+  },
+  "limits": [
+    "Browser viewport checks, not physical iPad/Safari testing.",
+    "File-chooser automation was unavailable; uploaded-file reading used an existing IndexedDB file, and parser pagination used visible local fixtures.",
+    "Scans/images need OCR for text reflow; original pages retain source contrast and formatting."
+  ],
+  "finalScannedPDF": "Actual image-XObject PDF rendered in Page view; no selectable text was reported.",
+  "finalSummary": {
+    "sourceLargeType": {
+      "broken": [],
+      "documentWidth": 320,
+      "tableOverflow": false,
+      "theme": "light",
+      "tiny": [],
+      "ui": "v2",
+      "width": 320
+    },
+    "initialIssuesCorrected": [
+      "V1 Dark reader title inherited white text.",
+      "Inline intake labels were 11–12px.",
+      "Extracted-information header badge caused 10px overflow at 320px with 200% root text."
+    ]
+  }
+}

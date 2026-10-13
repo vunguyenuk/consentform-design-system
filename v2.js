@@ -50,7 +50,7 @@ function v2Search(query=''){
  const result=items.filter(x=>(x.label+' '+x.detail).toLowerCase().includes(query.toLowerCase()));
  return result.slice(0,16).map(x=>`<button type="button" class="v2-search-result" data-v2-action="search-go" data-route="${x.route}" ${x.facility?`data-facility="${x.facility}"`:''}>${entIcon(x.glyph)}<span>${esc(x.label)}<small>${x.detail}</small></span>${entIcon('arrow')}</button>`).join('')||'<p class="v2-no-results">No results. Try a different name or workflow.</p>';
 }
-function openV2Search(query=''){modal(`<h2>Search workspace</h2><label class="v2-command-input">${entIcon('search')}<input id="v2-command-query" aria-label="Search workspace" placeholder="Search facilities, residents, tasks and notes..." value="${esc(query)}" autocomplete="off"></label><div id="v2-command-results">${v2Search(query)}</div>`);$('#dialog').classList.add('v2-command');requestAnimationFrame(()=>$('#v2-command-query').focus());}
+function openV2Search(query=''){if(seniorReader){seniorRequestReaderClose();return;}modal(`<h2>Search workspace</h2><label class="v2-command-input">${entIcon('search')}<input id="v2-command-query" aria-label="Search workspace" placeholder="Search facilities, residents, tasks and notes..." value="${esc(query)}" autocomplete="off"></label><div id="v2-command-results">${v2Search(query)}</div>`);$('#dialog').classList.add('v2-command');requestAnimationFrame(()=>$('#v2-command-query').focus());}
 document.addEventListener('click',e=>{
  const target=e.target.closest('[data-v2-action]');if(!target)return;
  switch(target.dataset.v2Action){

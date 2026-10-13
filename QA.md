@@ -284,3 +284,21 @@ V2 now uses Inter and independently drawn ENT stroke icons, a medical care mark 
 - Current evidence: `design-reference/ENT-WORKSPACE-VERIFICATION.json`. Current previews: `screenshots/ent-workspace-home-desktop.png`, `screenshots/ent-workspace-home-dark.png`, `screenshots/ent-workspace-phone-residents.png`, `screenshots/ent-workspace-ipad-intake.png`.
 
 The existing Git history has not been rewritten. Earlier QA sections are historical observations; this section describes the current asset and font revision. No conclusion about automated authorship detection is implied by these checks.
+
+
+## Senior document lists and reader — 13 October 2026
+
+- Document reader and file list implemented in `senior-documents.js` / `senior-documents.css`, with integration in `app.js` and `care.js`. Vanilla JavaScript matches the existing application. PDF.js 6.4.299 is bundled locally, loaded on demand, and retains its Apache license. No file content is sent to a service.
+- 18px minimum reader body and control labels, 22px+ headings, 48px targets. Home shortcuts have 18px labels, 32px icons and 64px icon tiles. Search, profile and theme controls have visible labels. Decorative metric ellipses are hidden on touch layouts.
+- iPad/mobile document-related tables render labelled records and retain table semantics. Source documents and intake step labels reflow. Fixed inline 11–12px intake captions were overridden to 18px.
+- Searchable facility file list opens generated samples, previously uploaded files from IndexedDB and signed consent copies in the reader. Returning preserves the file query and list position. Public signed-consent receipts also offer Read signed consent.
+- PDF Text view wraps selectable text; Page view preserves source geometry. Visible zoom controls support text at 100–200% and original pages/images at 100–400%. Three-page local PDF pagination and raster-image zoom were exercised. Image-only PDFs honestly report that OCR is needed for reflow; no text is invented.
+- Reader header/footer stay available in normal portrait use. Enlarged text/short landscape layouts switch to one vertical reading flow with a sticky Reader/Close bar and Back to top. Long lists retain the site header and a Back to top control.
+- Closing through Close, Escape or workspace-search shortcut asks for confirmation. Keep reading preserved 125% zoom and scrollTop 519.5 in the browser check. Clear signature asks for confirmation; Cancel preserved a drawn test stroke, with no consent submission. Replacement asks before altering stored documents. Existing delete confirmations remain.
+- Light and Dark sampled list text exceeded 9:1 contrast. Reader text/control samples reached a minimum 8.78:1; the topmost close confirmation sample reached 16.09:1. These are solid-background text checks toward WCAG 1.4.6, not certification of every AAA criterion or of the source PDF/image colors. An initial V1 Dark reader-heading contrast failure was fixed and retested.
+- Browser viewport checks covered 320px with 200% root text, 390px phone, 820px iPad, 1024px landscape and 844×390 landscape reading. Source 11px captions were caught and fixed. No missing images or document/table horizontal overflow in the final sampled Text/list views. Original Page view intentionally permits horizontal scrolling when enlarged.
+- 23 automated checks pass: the existing 19 care-domain tests plus 4 PDF text-line tests. Frontend JavaScript syntax checks pass. No captured browser errors/warnings in the final reader/list checks.
+
+Evidence: `design-reference/SENIOR-DOCUMENTS-EVIDENCE.json`. Reader fixtures: `tests/artifacts/document-reader.html` (visible local PDF, scan and image buttons). Current previews: `screenshots/senior-shortcuts-ipad.png`, `screenshots/senior-shortcuts-phone.png`, `screenshots/senior-reader-phone.png`, `screenshots/senior-reader-large-text.png`, `screenshots/senior-document-list-ipad.png`.
+
+Limits: physical iPad/iOS Safari was not tested. File-chooser automation was unavailable in the in-app browser; uploaded-file reading was verified using a previously uploaded IndexedDB file. Parser pagination/reflow used visible local fixtures. Scanned/image-only content needs OCR to become responsive text, and complex PDF reading order should be verified against Page view.

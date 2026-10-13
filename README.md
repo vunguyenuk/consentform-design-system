@@ -67,3 +67,10 @@ node --test tests/care-domain.test.cjs
 19 domain tests đã pass. UI được kiểm tra theo role, Light/Dark, chuyển edition, public signing, retry, file persistence, scheduling và mobile controls. Chi tiết: `QA.md` và `FUNCTIONAL-COVERAGE.md`; design tokens/provenance: `DESIGN-HANDOFF.md`.
 
 `ENT-care-design-system-demo.zip` chứa code, asset local, source engineer, tài liệu và ảnh QA. Giải nén rồi chạy HTTP server như trên.
+
+
+## Senior document reader
+
+Document lists and files have larger text and labelled controls on iPad/mobile. Open a saved file or signed consent to use Text view, Page view, visible zoom, Back to top and close confirmation. PDF.js runs locally; uploaded file bytes remain unchanged. Text reflow uses selectable PDF text. Scans/images retain original layout and need OCR for text reflow. Generated demo placeholders use PDF content even if their legacy sample filename ends in JPG; the reader downloads these generated samples with a PDF extension.
+
+Code: `senior-documents.js` and `senior-documents.css`. Integration: `app.js`, `care.js`. Local QA: `tests/artifacts/document-reader.html#v2`. Run checks with `node --test tests/care-domain.test.cjs tests/senior-documents.test.cjs`.
