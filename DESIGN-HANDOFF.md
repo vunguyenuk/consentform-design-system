@@ -148,3 +148,13 @@ The user's latest instruction replaces V1 pill-style horizontal tabs with the Cl
 ### Final feedback reconciliation
 
 Review `design-reference/COMPLETE-NOTES-AUDIT.md` for the note-to-surface mapping and verification limits. The latest source adds consistent specialized dialog insets and descriptive typography, V1 mobile library Settings underline tabs, edition field-row spacing in Settings, aligned phone prefixes, V2 dark general card tokens across Help/Integrations/Plans/Rewards, accessible dialog naming and keyboard menu dismissal. V2 staff roster uses a smaller filter flex basis to keep tabs and controls on one desktop row; V1 retains filters below tabs. Source compact status/field/button variants and PDF document typography are intentional.
+
+### Touch list hierarchy — 14 October 2026
+
+`care-records.js` contains the shared domain list templates; `care-records.css` is the final responsive layer. Use `recordTable(headers, desktopRows, responsiveRecords, minWidth)` to keep filtering and pagination synchronized. Preserve the reading order: identity → state/clinic date → supporting data → action → optional details. At wide touch widths the action sits alongside the state; at narrow widths it follows supporting data. All original delegated actions remain available. Keep the desktop table hidden from both sight and accessibility in touch layouts, and hide the responsive list on desktop. Avoid equal-weight label/value grids for these records.
+
+Current verification screenshots: `screenshots/hierarchy-v2-ipad.png` and `screenshots/hierarchy-v2-mobile.png`. Appearance controls are in the touch navigation drawer and return to the desktop header automatically.
+
+## Reference 2 workflow additions — October 14
+
+The new persistent clinical adapters reuse shared V1/V2 form, select, tab, table/record and document reader components. Review sections open at the next required decision; optional source/extra columns are disclosed. Phone census progress shows the current step, and filters expose an in-use state. Intake uses a next-action line rather than two competing step counts. Headings and form labels share the left gutter; expansion icons sit at the right. The source reader can open the relevant original PDF page. Functional mapping and external integration boundaries are in `design-reference/REFERENCE-2-FEATURE-COVERAGE.md`.

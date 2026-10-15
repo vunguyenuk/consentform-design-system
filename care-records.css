@@ -1,0 +1,99 @@
+/* Small screens use a reading order, rather than equal-weight desktop columns. */
+.care-record-list { display:none; }
+.touch-page-count { display:none; }
+:root[data-ui][data-theme] .skip { top:0; transform:translateY(-100%); background:#202124; color:#fff; }
+:root[data-ui][data-theme] .skip:focus { transform:none; }
+@media (max-width:1024px), (any-pointer:coarse) and (max-width:1440px) {
+ :root[data-ui][data-theme] .record-desktop { display:none; }
+ :root[data-ui][data-theme] .topbar { transform:translateZ(0); }
+ :root[data-ui][data-theme] .care-record-list { display:block; container-type:inline-size; padding-inline:var(--page-gutter); background:var(--paper); }
+ :root[data-ui=v2][data-theme] .care-record-list { padding-inline:0; }
+ :root[data-ui][data-theme] .care-record { display:grid; grid-template-columns:minmax(0,1fr); gap:12px; padding:20px 0; border-bottom:1px solid var(--line); color:var(--ink); min-width:0; }
+ :root[data-ui][data-theme] .care-record:last-child { border-bottom:0; }
+ :root[data-ui][data-theme] .record-heading { display:flex; flex-direction:column; gap:4px; }
+ :root[data-ui][data-theme] .record-heading h3 { margin:0; font:600 var(--ui-title)/1.4 Inter,sans-serif; letter-spacing:0; }
+ :root[data-ui][data-theme] .record-heading h3>a { display:inline-flex; align-items:center; color:var(--ink); min-height:48px; text-decoration:none; overflow-wrap:anywhere; }
+ :root[data-ui][data-theme] .record-heading h3>a:hover { text-decoration:underline; }
+ :root[data-ui][data-theme] .care-record p { margin:0; font-size:var(--ui-body); line-height:1.5; color:var(--muted); max-width:60ch; }
+ :root[data-ui][data-theme] .record-state { flex:1 1 24rem; min-width:0; display:flex; flex-direction:column; align-items:flex-start; gap:4px; }
+ :root[data-ui][data-theme] .record-state>.status { padding:0; margin:0; background:none; border:0; color:var(--ink); font:600 var(--ui-body)/1.5 Inter,sans-serif; }
+ :root[data-ui][data-theme] .record-state p>strong { color:var(--ink); font-weight:600; }
+ :root[data-ui][data-theme] .record-actions { display:flex; flex-wrap:wrap; align-items:center; gap:12px; min-width:0; }
+ :root[data-ui][data-theme] .record-actions>.btn { max-width:100%; min-height:48px; font-size:var(--ui-body); white-space:normal; }
+ :root[data-ui][data-theme] .record-actions>.btn.primary { color:#fff; background:#202124; background-image:none; border-color:#202124; box-shadow:none; }
+ :root[data-ui][data-theme] main:has(.care-record-list) .btn.primary { color:#fff; background:#202124; background-image:none!important; border-color:#202124; box-shadow:none; }
+ :root[data-ui][data-theme=dark] main:has(.care-record-list) .btn.primary { color:#202124; background:#f3f4f6; border-color:#f3f4f6; }
+ :root[data-ui][data-theme] .record-actions>.record-secondary { border-color:transparent; color:var(--ink); background:none; text-decoration:underline; text-underline-offset:4px; padding-inline:0; box-shadow:none; }
+ :root[data-ui][data-theme] .record-support { color:var(--muted); font:400 var(--ui-body)/1.5 Inter,sans-serif; }
+ :root[data-ui][data-theme] .record-facts { display:flex; flex-wrap:wrap; gap:4px 24px; list-style:none; padding:0; margin:0; }
+ :root[data-ui][data-theme] .record-facts li { margin:0; font-size:var(--ui-body); line-height:1.5; }
+ :root[data-ui][data-theme] .record-facts strong { font-weight:600; color:var(--ink); }
+ :root[data-ui][data-theme] .record-results { display:flex; flex-direction:column; gap:8px; padding:0; margin:0; }
+ :root[data-ui][data-theme] .record-results :is(dt,dd) { display:inline; font-size:var(--ui-body); margin:0; line-height:1.5; }
+ :root[data-ui][data-theme] .record-results dt::after { content:': '; }
+ :root[data-ui][data-theme] .record-results dd { color:var(--ink); font-weight:500; }
+ :root[data-ui][data-theme] .record-details { margin-top:-4px; font-size:var(--ui-body); min-width:0; }
+ :root[data-ui][data-theme] .record-details summary { width:100%; min-height:48px; padding:8px 0; line-height:1.6; color:var(--ink); cursor:pointer; list-style-position:inside; text-decoration:underline; text-underline-offset:4px; overflow-wrap:anywhere; }
+ :root[data-ui][data-theme] .record-details dl { display:flex; flex-direction:column; gap:16px; margin:8px 0 0; padding:16px; background:var(--wash); border-radius:8px; }
+ :root[data-ui][data-theme] .record-details dl>div { display:flex; flex-wrap:wrap; gap:4px 24px; }
+ :root[data-ui][data-theme] .record-details dt { flex:1 1 14rem; font:400 var(--ui-body)/1.5 Inter,sans-serif; color:var(--muted); }
+ :root[data-ui][data-theme] .record-details dd { flex:2 1 14rem; min-width:0; margin:0; font:500 var(--ui-body)/1.5 Inter,sans-serif; color:var(--ink); overflow-wrap:anywhere; }
+ :root[data-ui][data-theme] .care-record :is(a,button,summary):focus-visible { outline:0; box-shadow:none; text-decoration:underline; text-decoration-thickness:2px; text-underline-offset:4px; }
+ :root[data-ui][data-theme] .care-record :is(p,h3,li,code,dd) { overflow-wrap:anywhere; }
+ /* A short overview leaves room for the actual list. */
+ :root[data-ui][data-theme] :is(.route-facilities,.route-census,.route-intake)>.metrics { display:flex; flex-wrap:wrap; gap:12px 24px; padding-block:0 24px; border:0; }
+ :root[data-ui][data-theme] :is(.route-facilities,.route-census,.route-intake)>.metrics>.metric { display:flex; align-items:baseline; gap:8px; padding:0; min-height:0; border:0; box-shadow:none; background:none; }
+ :root[data-ui][data-theme] :is(.route-facilities,.route-census,.route-intake)>.metrics .metric-bottom { order:-1; }
+ :root[data-ui][data-theme] :is(.route-facilities,.route-census,.route-intake)>.metrics .metric-value { font:600 var(--ui-title)/1.4 Inter,sans-serif; color:var(--ink); }
+ :root[data-ui][data-theme] :is(.route-facilities,.route-census,.route-intake)>.metrics .metric-note { display:none; }
+ :root[data-ui][data-theme] :is(.route-facilities,.route-census,.route-intake)>.metrics .metric-label { font-size:var(--ui-body); color:var(--muted); }
+ :root[data-ui][data-theme] :is(.route-facilities,.route-facility) .sectionhead { align-items:flex-start; flex-direction:column; gap:16px; }
+ :root[data-ui][data-theme] :is(.route-facilities,.route-facility) .sectionhead>.filters { width:100%; align-items:flex-end; }
+ :root[data-ui][data-theme] :is(.route-facilities,.route-facility) .sectionhead .search { flex:1 1 20rem; min-width:0; width:auto; }
+ /* Forms and miscellaneous tables retain their controls, with a linear reading order. */
+ :root[data-ui][data-theme] .senior-record-table .touch-record { grid-template-columns:1fr; gap:16px; }
+ :root[data-ui][data-theme] .readable-table .touch-record { grid-template-columns:1fr; }
+ :root[data-ui][data-theme] .senior-file-item>div>strong { display:block; font:600 var(--ui-title)/1.4 Inter,sans-serif; color:var(--document-ink); }
+ :root[data-ui][data-theme] .senior-list-top:not(.is-needed) { display:none; }
+ :root[data-ui][data-theme] .touch-nav-preferences { display:flex; flex-wrap:wrap; gap:12px; padding-top:24px; }
+ :root[data-ui][data-theme] .touch-nav-preferences h2 { width:100%; margin:0; font:600 var(--ui-title)/1.4 Inter,sans-serif; color:var(--ink); }
+ :root[data-ui][data-theme] .touch-nav-preferences .theme-switch { width:100%; height:auto; padding:12px; justify-content:flex-start; white-space:normal; }
+ :root[data-ui][data-theme] .touch-nav-preferences .theme-label { min-width:0; overflow-wrap:anywhere; white-space:normal; }
+ :root[data-ui][data-theme] .touch-nav-preferences .theme-track { flex:none; }
+ :root[data-ui][data-theme] .touch-nav-close { position:sticky; top:0; z-index:1; background:var(--paper); }
+ :root[data-ui][data-theme] .sidebar { overflow-y:auto; overscroll-behavior:contain; }
+ :root[data-ui][data-theme] .sidebar>* { flex-shrink:0; }
+ :root[data-ui][data-theme] .sidebar nav { flex:0 0 auto; overflow:visible; }
+ :root[data-ui][data-theme] .sidebar-bottom { flex:none; margin-top:0; }
+ :root[data-ui][data-theme] .sidebar .profile { height:auto; align-items:flex-start; flex-wrap:wrap; position:relative; padding-right:28px; }
+ :root[data-ui][data-theme] .sidebar .profile-name { flex:1 1 8rem; }
+ :root[data-ui][data-theme] .sidebar .profile>:is(.figma-icon,.ent-icon):last-child { position:absolute; top:12px; right:8px; }
+ :root[data-ui][data-theme] .sidebar .profile-name :is(strong,small) { white-space:normal; overflow:visible; text-overflow:clip; overflow-wrap:anywhere; }
+ :root[data-ui][data-theme] .sidebar .avatar-initials { width:2.5rem; height:2.5rem; flex:none; }
+ :root[data-ui][data-theme] .sidebar .favorite>span:last-child { white-space:normal; overflow:visible; text-overflow:clip; overflow-wrap:anywhere; }
+ :root[data-ui][data-theme] .pagination { flex-wrap:wrap; }
+ :root[data-ui][data-theme] .pagination .page-list { display:none; }
+ :root[data-ui][data-theme] .pagination.touch-single-page { display:none; }
+ :root[data-ui][data-theme] .touch-page-count { display:block; width:100%; order:-1; font-size:var(--ui-body); line-height:1.5; color:var(--ink); }
+ :root[data-ui][data-theme] .pagination .page-arrow { display:inline-flex; flex:1 1 8rem; width:auto; height:auto; padding:10px 12px; gap:8px; align-items:center; justify-content:center; white-space:normal; }
+ :root[data-ui][data-theme] .pagination .page-arrow:focus-visible { outline:0; box-shadow:none; border-color:var(--focus); text-decoration:underline; text-underline-offset:4px; }
+ @container (min-width:40rem) {
+  :root[data-ui][data-theme] .care-record { grid-template-columns:minmax(0,1fr) auto; column-gap:24px; }
+  :root[data-ui][data-theme] .care-record>* { grid-column:1/-1; }
+  :root[data-ui][data-theme] .care-record>.record-state { grid-column:1; grid-row:2; }
+  :root[data-ui][data-theme] .care-record>.record-actions { grid-column:2; grid-row:2; align-self:start; justify-self:end; max-width:20rem; }
+ }
+}
+@media (max-width:600px) {
+ :root[data-ui][data-theme] .record-actions { width:100%; }
+ :root[data-ui][data-theme] .record-actions>.btn.primary { width:100%; }
+ :root[data-ui][data-theme] .record-actions>.record-secondary { width:auto; }
+ :root[data-ui][data-theme] .record-heading h3 { font-size:var(--ui-title); }
+ :root[data-ui][data-theme] .care-record { padding-block:20px; }
+ :root[data-ui][data-theme] .record-facts { flex-direction:column; gap:4px; }
+}
+
+@media (max-width:1024px), (any-pointer:coarse) and (max-width:1440px) {
+ :root[data-ui][data-theme] .record-heading > p,:root[data-ui][data-theme] .record-facts li,:root[data-ui][data-theme] .record-details :is(dt,dd) { font-size:var(--ui-caption); line-height:1.5; }
+ .record-heading > p { max-width:65ch; }
+}

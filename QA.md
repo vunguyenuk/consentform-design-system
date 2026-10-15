@@ -302,3 +302,97 @@ The existing Git history has not been rewritten. Earlier QA sections are histori
 Evidence: `design-reference/SENIOR-DOCUMENTS-EVIDENCE.json`. Reader fixtures: `tests/artifacts/document-reader.html` (visible local PDF, scan and image buttons). Current previews: `screenshots/senior-shortcuts-ipad.png`, `screenshots/senior-shortcuts-phone.png`, `screenshots/senior-reader-phone.png`, `screenshots/senior-reader-large-text.png`, `screenshots/senior-document-list-ipad.png`.
 
 Limits: physical iPad/iOS Safari was not tested. File-chooser automation was unavailable in the in-app browser; uploaded-file reading was verified using a previously uploaded IndexedDB file. Parser pagination/reflow used visible local fixtures. Scanned/image-only content needs OCR to become responsive text, and complex PDF reading order should be verified against Page view.
+
+## Information hierarchy on touch screens — 14 October 2026
+
+Replaced the equal-weight table-column blocks with task-first list templates in `care-records.js` and `care-records.css`. These templates cover the facility directory, resident roster, facility resident list, census, intake, staff accounts and delivery history in both editions. Desktop tables remain visible at wide pointer layouts. The shared `recordTable` slices responsive records with the original table's pagination; filters and actions still use the existing data and event handlers.
+
+Names use 22px semibold, with room/DOB/facility visible where relevant. Status and clinic date precede supporting counts. Each item has a clearly named primary action; ready facilities can open Schedule clinic directly, and empty facilities offer Add resident. Thresholds, representatives, account usernames and recipients are grouped under labelled native details sections. Missing dates use meaningful text in details, and empty facilities do not repeat three zero counts. Census matching, insurance and staff decisions remain independent. File names in the document folder now use 22px semibold with 18px metadata.
+
+The touch header keeps Menu and page context. Theme and edition controls moved into the drawer; their original nodes return to the header on desktop. The drawer scrolls as a whole, with no shrinking profile/navigation blocks at 200% text. Opening and closing Menu via native touch preserves the list scroll position (384.5px in the sampled flow). A compositor layer keeps the sticky header labels painted while scrolling in the current browser. Back to top appears after substantial scrolling rather than covering the first record.
+
+Validation:
+- Seven lists checked in V1 and V2 at 390×844; 820×1180 iPad checks and 1024×768 / 844×390 landscape checks.
+- Seven V1 lists and an expanded V2 facility checked at 320px with 200% root text; no horizontal document overflow, missing assets or sampled reading text below 18px. Native details expanded with keyboard Enter.
+- Record controls in the phone checks met 48×48 CSS px. Solid-background text contrast in the sampled views was at least 7.09:1; this is not a full WCAG certification.
+- Schedule clinic opened the correct facility form and was cancelled without saving. Resident View PDF opened the correct signed consent and retained Close confirmation. Page 2 matched the original desktop table rows. Clear filters recovered all 63 current demo residents after a Signed filter plus unmatched search.
+- A 1280px desktop check restored the original table and all three header appearance controls. Document folder names measured 22px.
+- Existing domain/PDF text tests: 23 passed. JavaScript syntax checked.
+
+Evidence: `design-reference/RECORD-HIERARCHY-EVIDENCE.json`, `screenshots/hierarchy-v2-ipad.png`, `screenshots/hierarchy-v2-mobile.png`, `screenshots/hierarchy-v1-mobile.png`, `screenshots/hierarchy-large-text.png`. Physical iPad/iOS Safari testing remains unverified; these are browser viewport checks.
+
+The final touch pagination shows Previous / Next text and a Page n of m indicator, with 49px-high controls in the 390px sample. A single-page list hides the disabled pagination controls. The final 320px/200% pager reflowed without overflow. Navigation scroll preservation was verified with native taps as well as DOM state.
+
+## Filter row alignment — 14 October 2026
+
+The shared `.filters` row now aligns to the bottom of each field wrapper, so a visible Search label no longer pushes the search box below adjacent selects. Touch toolbars, Messages search/filter and Tasks action rows follow the same rule; buttons in these rows use the input line-height. Values, wrapping, 18px reading text and 48px targets are preserved.
+
+Measured Census search and both selects at identical top/bottom positions and 51.195px height in V1 and V2 at 820px. Messages Search and Filter also matched. The 390px layout wraps fields without overflow, 320px with 200% root text remains readable, and the 1280px V1 desktop controls stay aligned at 32px height. Other filters checked: Facilities, Residents and Activity. Evidence: `design-reference/FILTER-ALIGNMENT-EVIDENCE.json`; preview: `screenshots/filter-alignment-ipad.png`.
+
+## Shared alignment audit — 14 October 2026
+
+Reviewed page gutters, control rows, forms and representative dialogs across Census, Facilities, Residents, facility/resident details, Add resident, Staff accounts, Activity, Settings, Intake, workspace Settings and Tasks. Page gutters were consistent; intentional card insets and centered form widths were retained.
+
+Fixed additional measured drift in the shared touch layer:
+- Breadcrumb link text no longer inherits the generic button's horizontal padding, so its x position matches the page heading (24px on tablet).
+- Native date inputs use the same scalable single-line control height as text/select fields. From, To and Reset have matching top/bottom edges and 51.195px height at standard touch text size; inputs and Reset are 76.398px at 200% root text.
+- Tasks' native tablet table leading cell and group-header gutters align with the toolbar: 24px in V1 on tablet and 20px for phone group headings; V2 follows the already inset content edge.
+
+Staff account dialogs in both editions and the Tasks editor were checked: header, field and footer inner gutters match. Date filter entry and Reset were exercised without modifying stored records. The final 390px and 320px/200% samples had no horizontal overflow or text below 18px. Wide desktop layouts retained their original sizes. Evidence: `design-reference/ALIGNMENT-AUDIT-EVIDENCE.json`; screenshots: `screenshots/alignment-activity-ipad.png`, `screenshots/alignment-breadcrumb-ipad.png`. Physical iPad/iOS testing remains unverified.
+
+## October 14 — updated engineer reference / clinical workflows
+
+- 48 tests passed: 19 existing consent-domain tests, 4 PDF text/reflow tests and 25 new workflow tests. JavaScript syntax checks and `git diff --check` passed.
+- Browser uploaded `workflow-census.pdf` through the native chooser: two actual named rows, original page, payer, DOB and printed total were read. Both rows were confirmed before the census could continue to audit; an identity decision and report snapshot were saved.
+- Multiple intake upload accepted `workflow-face.pdf` and `reader-image.png` together. The PDF populated actual labelled fields; the image remained blank for manual entry with an OCR-unavailable explanation.
+- Per-field confirmations, patient identity, Mark reviewed and the explicitly local EMR connection were exercised. Simulated attachment failure created `DEMO-f82ef4ed`; retry reused that same ID and attached the document. Reload preserved the status, ID and original PDF, which the shared reader displayed with all its original QA text. No real consent was signed, clinic booked or message sent.
+- Unsaved form navigation opened a confirmation; cancel retained the draft. Continuing without saving discarded the edit. Imported `<b>Demo</b>` was displayed literally in both list and page heading, with no interpreted markup.
+- Source reader fixture opened page 3 of a three-page PDF directly in Page view and showed `Page 3 of 3`; close confirmation retained its behavior.
+- V1/V2 iPad/mobile measurements: visible reading text at least 18px, headings at least 22px and controls at least 48px. 320px with root text at 200% measured 36px body, 44px section headings and 56px page title without horizontal overflow. 1440px desktop also had no horizontal overflow.
+- V1 iPad search and three select controls shared y=410.89, height=51.20 and bottom=462.09. Intake page title, source title and review headings shared x=24 after placing expansion icons at the right.
+- Browser screenshots and structured measurements: `design-reference/REFERENCE-2-UI-EVIDENCE.json`, `screenshots/workflow-census-ipad.png`, `workflow-census-v1-ipad.png`, `workflow-census-mobile.png`, `workflow-intake-ipad.png`, `workflow-intake-mobile.png`, `workflow-large-text.png`, `workflow-source-page3.png`.
+
+Limits: responsive browser testing, not physical iPad/iOS Safari testing. The CSV click requested a Blob download, but this in-app browser did not produce an observable download event/path; CSV serialization, every source column and formula escaping were verified by tests. Native print/save-PDF output was not physically produced. Real Drive/EMR/OCR/eligibility services are unconfigured; scan/image fields require manual entry. Unfinished uploads do not resume after the browser tab is closed/reloaded. Legacy demo cases retain their prior separate sample workflows.
+
+## Corrected Census detail scope — 14 October 2026
+
+Restored the original V1/V2 main entry and prior clinical functions. Only Census Audit detail adopts the new reference layout and full-page resident review. 48 tests pass; V1/V2 stage and row navigation, no-popup review, preserved Intake, desktop source/form layout and mobile source disclosure verified. See `design-reference/CENSUS-DETAIL-SCOPE.md`.
+
+## Census comparison refinement — 14 October
+
+Review/resident detail now prioritize a compact header and independently scrolling list/form and original-PDF panes on iPad. Optional metadata lives in Audit info; page/zoom controls stay at the bottom. Mobile and enlarged text have labelled view switches. The new renderer uses local PDF.js and does not alter source bytes. Evidence and limits: `design-reference/CENSUS-COMPARISON-UX.md` (from the project root).
+
+
+Census detail polish (October 14 evening): Audit details uses a separate sheet in V1/V2; sheet and File options leave comparison/PDF geometry unchanged. Verified 390px mobile, iPad portrait/landscape, desktop and 200% text, draft retention, keyboard focus boundaries, nested unsaved confirmation, and invalid DOB rendering. 48 existing care/workflow/document tests pass. Evidence: `design-reference/CENSUS-COMPARISON-UX.md`.
+
+Census designer refinement: verified consistent V1/V2 comparison hierarchy, focused/all-column sample views and mode retention across selection, labelled phone source records, no-match recovery, adaptive real-PDF focus controls, draft retention and 200% text. All 48 domain/document tests pass. See `design-reference/CENSUS-DESIGNER-REVIEW.md`.
+
+Census To check refinement: side editor verified in V1/V2 iPad/mobile viewports and at 200% text. Required evidence, successful save/retained panel, cancel/discard guards, mobile draft retention and missing-row/exclusion dialogs checked with fictional data. PDF column focus crops adjacent values and Full page restores the original page. Details and limits: `design-reference/CENSUS-TO-CHECK-PANEL.md`.
+
+Cross-tab review drafts: data updates now keep dirty review forms in place. The known total draft 7 was restored without saving and survived a subsequent save in another tab. Session/access changes still refresh. 51 tests pass, including three production-listener regression tests.
+
+
+## Census unified correction popup — October 15
+
+The latest user request supersedes the prior side-panel/full-page row layout. All Census resident review entry points now use the same reference-style popup, with original source above the nine fields and separate identity/visit/coverage tasks. Audit results uses the compact comparison context. V1/V2 iPad/mobile, short-height, enlarged text, legacy row links, filtered navigation, draft cancel/discard, source disclosure, section switching, nested exclusion confirmation and positive fixture saves were verified. 51 tests pass; no user clinical records changed. See `design-reference/CENSUS-ROW-POPUP.md`.
+
+## October 15 — shared UI consistency
+
+54 automated tests pass. Final responsive matrix: 60 states (15 routes, V1/V2, 768×1024 and 390×844), with no page overflow or visible main action below 44px. Product body now 16px, metadata 14px, names 18px, headings 20–24px; reader paragraphs remain 18px. See design-reference/SENIOR-UI-CONSISTENCY-AUDIT.md and its JSON evidence for scope and limitations.
+
+October 15 follow-up: corrected 36px desktop toolbar tabs versus 48px search/select and center alignment. Verified control rectangles across 30 V1/V2 desktop/iPad/mobile toolbar states; evidence: design-reference/TOOLBAR-ALIGNMENT-REGRESSION.json.
+
+October 15 Census architecture correction: three shared stages (review/results/report), shared button sizing, inline iPad filters, themed/consistent popup table. 58 tests pass; 18 responsive stage states checked. Details and limitations: design-reference/CENSUS-SYSTEM-CONSISTENCY.md.
+
+October 15 15:23 refinement: desktop 38px/14px controls, aligned SVG chevrons, Census breadcrumb and single title, one explicit row confirmation with invalidation on edits. 61 tests pass. Evidence and scope: design-reference/CENSUS-CLARITY-FIXES.md. Earlier desktop 40/48px and per-field Census confirmation notes are superseded.
+
+
+### Census results — unified filters, October 15
+
+One aligned Search / Show residents / Identity / Coverage toolbar replaces the duplicate pills, resident-list selector and Actions menu. Clear is conditional; matches refresh lives in Audit details. Mobile keeps full-width Search and expandable filters; desktop/touch shared sizes remain 38/48px. 63 tests pass. Scope and evidence: design-reference/CENSUS-UNIFIED-FILTERS.md.
+
+
+October 15 V2 row tabs: Residents / To check now use shared pill tabs. Verified both selected states, empty To check recovery, 38px desktop and 48px iPad/mobile controls without page overflow; V1 retains underline styling. Four existing Census navigation tests pass. Evidence: design-reference/CENSUS-V2-PILL-TABS-EVIDENCE.json.
+
+
+October 15 header refinement: Census audit detail breadcrumb replaces the topbar context label in V1/V2 and is removed from main content. Verified three desktop stages, mobile editions, iPad and return to Census audit list; no page overflow. Full suite: 63 pass. Evidence: design-reference/CENSUS-HEADER-BREADCRUMB-EVIDENCE.json.

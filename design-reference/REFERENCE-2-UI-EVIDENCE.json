@@ -1,0 +1,178 @@
+[
+  {
+    "page": "V2 census audit mobile",
+    "result": {
+      "documentWidth": 390,
+      "headings": [
+        {
+          "size": "28px",
+          "text": "Census audit"
+        },
+        {
+          "size": "22px",
+          "text": "Sunrise Villa Walnut Creek"
+        },
+        {
+          "size": "22px",
+          "text": "Census records"
+        },
+        {
+          "size": "22px",
+          "text": "Demo Person"
+        },
+        {
+          "size": "22px",
+          "text": "Demo Reader"
+        }
+      ],
+      "minFont": 18,
+      "smallTargets": [],
+      "smallText": [],
+      "width": 390
+    }
+  },
+  {
+    "page": "V2 census mobile reset filters",
+    "result": {
+      "documentWidth": 390,
+      "headings": [
+        {
+          "size": "28px",
+          "text": "Census audit"
+        },
+        {
+          "size": "22px",
+          "text": "Sunrise Villa Walnut Creek"
+        },
+        {
+          "size": "22px",
+          "text": "Census records"
+        },
+        {
+          "size": "22px",
+          "text": "Demo Person"
+        },
+        {
+          "size": "22px",
+          "text": "Demo Reader"
+        }
+      ],
+      "minFont": 18,
+      "smallTargets": [],
+      "smallText": [],
+      "width": 390
+    }
+  },
+  {
+    "page": "V1 census audit iPad",
+    "result": {
+      "documentWidth": 805,
+      "headings": [
+        {
+          "size": "28px",
+          "text": "Census audit"
+        },
+        {
+          "size": "22px",
+          "text": "Sunrise Villa Walnut Creek"
+        },
+        {
+          "size": "22px",
+          "text": "Census records"
+        },
+        {
+          "size": "22px",
+          "text": "Demo Person"
+        },
+        {
+          "size": "22px",
+          "text": "Demo Reader"
+        }
+      ],
+      "minFont": 18,
+      "smallTargets": [],
+      "smallText": [],
+      "width": 820
+    }
+  },
+  {
+    "page": "V1 intake review iPad",
+    "result": {
+      "documentWidth": 805,
+      "headings": [
+        {
+          "size": "28px",
+          "text": "<b>Demo</b> Person"
+        },
+        {
+          "size": "22px",
+          "text": "1. Confirm patient details"
+        }
+      ],
+      "minFont": 18,
+      "smallTargets": [],
+      "smallText": [],
+      "width": 820
+    }
+  },
+  {
+    "page": "V2 completed intake iPad",
+    "result": {
+      "documentWidth": 820,
+      "headings": [
+        {
+          "size": "28px",
+          "text": "Demo Person"
+        },
+        {
+          "size": "22px",
+          "text": "3. Review & send"
+        }
+      ],
+      "minFont": 18,
+      "smallTargets": [],
+      "smallText": [],
+      "width": 820
+    }
+  },
+  {
+    "page": "V2 completed intake mobile",
+    "result": {
+      "documentWidth": 390,
+      "headings": [
+        {
+          "size": "28px",
+          "text": "Demo Person"
+        },
+        {
+          "size": "22px",
+          "text": "3. Review & send"
+        }
+      ],
+      "minFont": 18,
+      "smallTargets": [],
+      "smallText": [],
+      "width": 390
+    }
+  },
+  {
+    "page": "Completed intake 320px with 200% text",
+    "result": {
+      "documentWidth": 320,
+      "headings": [
+        {
+          "size": "56px",
+          "text": "Demo Person"
+        },
+        {
+          "size": "44px",
+          "text": "3. Review & send"
+        }
+      ],
+      "minFont": 36,
+      "smallTargets": [],
+      "smallText": [],
+      "width": 320
+    }
+  }
+]

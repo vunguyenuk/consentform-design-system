@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-15",
+  "scope": "Census resident correction popup and compact Audit results in existing V1/V2",
+  "reference": "design-reference/engineer-index-2.html: x4e/v4e; user screenshot 3",
+  "viewports": {
+    "ipad": [
+      820,
+      1180
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "short_mobile": [
+      320,
+      568
+    ],
+    "large_text": {
+      "viewport": [
+        820,
+        1180
+      ],
+      "root_percent": 200,
+      "body_px": 36,
+      "heading_px": 44,
+      "columns": 1
+    }
+  },
+  "normal_text": {
+    "body_labels_px": 18,
+    "heading_px": 22,
+    "input_height_px": 56,
+    "tap_target_min_px": 48,
+    "ipad_columns": 2,
+    "desktop_columns": 3
+  },
+  "audit_filter_alignment": {
+    "search_and_three_selects_height_px": 52,
+    "same_top": true
+  },
+  "checks_passed": [
+    "All resident review entry points open native popup",
+    "Old row URLs preserve review/audit return context",
+    "Next then save on old URL keeps next resident open",
+    "Nine fields retain existing workflow validation",
+    "Section and source disclosure keep draft values",
+    "Cancel retains unsaved draft; Discard closes or navigates",
+    "Successful fictional fixture save retains dialog",
+    "Filtered Audit popup navigation stays in filtered results",
+    "Close retains search and returns focus",
+    "Escape closes clean popup and returns focus",
+    "Nested exclusion requires reason; cancelled without exclusion",
+    "Known user total draft 7 remains unsaved; saved default still 8"
+  ],
+  "tests": {
+    "pass": 51,
+    "fail": 0
+  },
+  "screenshots": [
+    "census-popup-v2-desktop.png",
+    "census-popup-v1-ipad.png",
+    "census-popup-v2-ipad.png",
+    "census-popup-v1-mobile.png",
+    "census-popup-v2-mobile.png",
+    "census-popup-large-text.png",
+    "census-audit-compact-v2.png"
+  ],
+  "limits": [
+    "Browser viewport checks, not physical iPad/iOS Safari certification",
+    "No real clinical fields or decisions saved; only unchanged fictional QA row saves"
+  ],
+  "assets": {
+    "census-detail.js": "0bf0e767fcf1954f683d2e51df30ce37c5be64d249e1f0d1ffc3595446c774c0",
+    "census-detail.css": "ea751a7e5a2e3b5c474a2c4470ea3c8877d12beebc7e55aebc4d1321688e8006"
+  }
+}

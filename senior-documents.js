@@ -39,13 +39,13 @@ function seniorDocumentTextLines(items) {
 function seniorReaderButton(action, label, extra = '') {
  return `<button type="button" class="btn" data-senior-action="${action}" ${extra}>${label}</button>`;
 }
-function seniorConfirm({title, message, confirmLabel, onConfirm, onCancel}) {
+function seniorConfirm({title, message, confirmLabel, cancelLabel, onConfirm, onCancel}) {
  if (seniorConfirmation) return;
  const opener = document.activeElement;
  const dialog = document.createElement('dialog');
  dialog.className = 'senior-confirm'; dialog.setAttribute('aria-labelledby','senior-confirm-title');dialog.setAttribute('aria-describedby','senior-confirm-copy');
  dialog.innerHTML = `<h2 id="senior-confirm-title">${seniorEscape(title)}</h2><p id="senior-confirm-copy">${seniorEscape(message)}</p><div class="senior-confirm-actions"><button type="button" class="btn" data-confirm="cancel" autofocus>Keep reading</button><button type="button" class="btn primary" data-confirm="yes">${seniorEscape(confirmLabel)}</button></div>`;
- if (confirmLabel !== 'Close document') dialog.querySelector('[data-confirm="cancel"]').textContent = 'Cancel';
+ dialog.querySelector('[data-confirm="cancel"]').textContent=cancelLabel||(confirmLabel==='Close document'?'Keep reading':title==='Leave without saving?'?'Keep editing':'Cancel');
  const finish = confirmed => {
   dialog.close(); dialog.remove(); seniorConfirmation = null;
   if (confirmed) onConfirm(); else {onCancel?.();if (opener?.isConnected) opener.focus();}
@@ -84,7 +84,7 @@ function seniorReaderMarkup() {
  <div class="senior-flow-top">${seniorReaderButton('top','Back to top')}</div>
  </section>`;
 }
-async function seniorOpenReader({blob,title,filename,textHTML = ''}) {
+async function seniorOpenReader({blob,title,filename,textHTML = '',initialPage=1,initialMode='text'}) {
  if (seniorReader) return;
  const opener = document.activeElement;
  const folder = document.querySelector('.senior-folder');
@@ -92,7 +92,7 @@ async function seniorOpenReader({blob,title,filename,textHTML = ''}) {
  modal(`<h2>${seniorEscape(title || filename)}</h2>${seniorReaderMarkup()}`);
  const dialog = document.querySelector('#dialog'); dialog.classList.add('senior-reader-dialog');
  const close = dialog.querySelector('.modal-head .close'); close.classList.add('senior-labelled-control'); close.innerHTML = `${entIcon('close')}<span>Close</span>`;close.setAttribute('aria-label','Close document');
- const reader = seniorReader = {blob,filename,opener,returnTo:folderContext?()=>seniorOpenFolder(folderContext.id,folderContext):null,root:dialog.querySelector('.senior-reader'),page:1,count:1,zoom:1,mode:'text',textHTML,pdf:null,textCache:new Map(),generation:0,renderTask:null,loadingTask:null,imageURL:null};
+ const reader = seniorReader = {blob,filename,opener,returnTo:folderContext?()=>seniorOpenFolder(folderContext.id,folderContext):null,root:dialog.querySelector('.senior-reader'),page:1,count:1,zoom:1,mode:initialMode==='page'?'page':'text',textHTML,pdf:null,textCache:new Map(),generation:0,renderTask:null,loadingTask:null,imageURL:null};
  reader.layoutObserver=new ResizeObserver(()=>seniorAdjustReaderLayout(reader));
  dialog.querySelectorAll('.modal-head,.senior-reader-toolbar,.senior-reader-status,.senior-reader-pages,.senior-reader-footer').forEach(element=>reader.layoutObserver.observe(element));
  seniorAdjustReaderLayout(reader);
@@ -111,6 +111,7 @@ async function seniorOpenReader({blob,title,filename,textHTML = ''}) {
   reader.pdf = await reader.loadingTask.promise;
   if(seniorReader !== reader) return;
   reader.count = reader.pdf.numPages;
+  reader.page=Math.max(1,Math.min(reader.count,Math.trunc(Number(initialPage))||1));
   await seniorRenderReader();
  } catch(error) {
   if(seniorReader !== reader) return;
@@ -188,7 +189,7 @@ function seniorOpenFolder(facilityId, context = {}) {
   ...r.documents.map(doc=>({id:r.id,kind:doc.kind,title:doc.name,detail:(doc.kind==='face'?'Face sheet':'Insurance card')+' · '+r.name,action:'document'})),
   ...(r.pdf?[{id:r.id,title:'Signed consent · '+r.name+'.pdf',detail:'Consent PDF · '+r.name,action:'pdf'}]:[])
  ]);
- modal(`<h2>${seniorEscape(facility.name)} · Documents</h2><section class="senior-folder" data-facility="${facilityId}"><p>Files saved locally in this demo. Select Open document to read a file.</p><label class="senior-file-search"><span>Search documents</span><input type="search" data-senior-folder-query placeholder="File name or resident" value="${seniorEscape(context.query||'')}"></label><p class="senior-file-count" role="status"></p><p class="senior-folder-error" role="alert" hidden></p><ul class="senior-file-list" aria-label="Documents">${files.map(file=>`<li class="senior-file-item" data-file-query="${seniorEscape((file.title+' '+file.detail).toLowerCase())}"><div><strong>${seniorEscape(file.title)}</strong><p>${seniorEscape(file.detail)}</p></div><button class="btn" type="button" aria-label="Open ${seniorEscape(file.title)}" data-care="${file.action}" data-id="${file.id}" ${file.kind?`data-kind="${file.kind}"`:''}>${icon('file')}<span>Open document</span></button></li>`).join('')}</ul><div class="senior-folder-footer">${seniorReaderButton('folder-top','Back to top')}${seniorReaderButton('folder-close','Close list')}</div></section>`);
+ modal(`<h2>${seniorEscape(facility.name)} · Documents</h2><section class="senior-folder" data-facility="${facilityId}"><p>Demo files saved on this device.</p><label class="senior-file-search"><span>Search documents</span><input type="search" data-senior-folder-query placeholder="File name or resident" value="${seniorEscape(context.query||'')}"></label><p class="senior-file-count" role="status"></p><p class="senior-folder-error" role="alert" hidden></p><ul class="senior-file-list" aria-label="Documents">${files.map(file=>`<li class="senior-file-item" data-file-query="${seniorEscape((file.title+' '+file.detail).toLowerCase())}"><div><strong>${seniorEscape(file.title)}</strong><p>${seniorEscape(file.detail)}</p></div><button class="btn" type="button" aria-label="Open ${seniorEscape(file.title)}" data-care="${file.action}" data-id="${file.id}" ${file.kind?`data-kind="${file.kind}"`:''}>${icon('file')}<span>Open document</span></button></li>`).join('')}</ul><div class="senior-folder-footer">${seniorReaderButton('folder-top','Back to top')}${seniorReaderButton('folder-close','Close list')}</div></section>`);
  document.querySelector('#dialog').classList.add('senior-folder-dialog');
  const close=document.querySelector('#dialog .modal-head .close');close.innerHTML=entIcon('close')+'<span>Close</span>';close.classList.add('senior-labelled-control');
  seniorFilterFolder(context.query||'');document.querySelector('.senior-folder').closest('.modal-body').scrollTop=context.scroll||0;
@@ -208,9 +209,9 @@ function prepareSeniorUI(root = document) {
  root.querySelectorAll('.step,label.checkline').forEach(item=>{
   [...item.childNodes].filter(node=>node.nodeType===3&&node.textContent.trim()).forEach(node=>{const span=document.createElement('span');span.className='senior-wrap-label';node.replaceWith(span);span.append(node);});
  });
- root.querySelectorAll('.iconbtn[aria-label],.v2-send[aria-label]').forEach(button=>{
+ root.querySelectorAll('.iconbtn[aria-label],.rowaction[aria-label],.v2-send[aria-label],.page-arrow[aria-label]').forEach(button=>{
   if(button.querySelector('.senior-icon-label,.touch-menu-label')||(button.textContent.trim()&&!button.classList.contains('v2-profile')))return;
-  const label=document.createElement('span');label.className='senior-icon-label';label.textContent=button.getAttribute('aria-label').replace(/^Actions for .+$/,'Actions').replace(/^More options for .+$/,'More options').replace('Your profile','Profile').replace('Close dialog','Close').replace('Toggle sidebar','Sidebar').replace('Collapse sidebar','Sidebar').replace('Search workspace','Search').replace('Choose a workflow','Workflows');button.append(label);button.classList.add('senior-labelled-control');
+  const label=document.createElement('span');label.className='senior-icon-label';label.textContent=button.getAttribute('aria-label').replace(/^Actions for .+$/,'Actions').replace(/^More options for .+$/,'More options').replace('Your profile','Profile').replace('Close dialog','Close').replace('Toggle sidebar','Sidebar').replace('Collapse sidebar','Sidebar').replace('Search workspace','Search').replace('Choose a workflow','Workflows').replace('Previous page','Previous').replace('Next page','Next').replace(/^Open .+$/,'Open').replace(/^View .+$/,'View');button.append(label);button.classList.add('senior-labelled-control');
  });
  root.querySelectorAll('label.search').forEach(search=>{
   if(search.querySelector('.senior-search-label'))return;
@@ -219,11 +220,16 @@ function prepareSeniorUI(root = document) {
  const main=root.querySelector?.('main');
  if(main && /residents|resident|facility|facilities|census|intake/.test(main.className)) main.querySelectorAll('.readable-table').forEach(table=>table.classList.add('senior-record-table'));
  updateReadableTableOverflow();
- if(main && /residents|resident|facility|facilities|census|intake/.test(main.className) && !main.querySelector('.senior-list-top')) {
+ if(main && /residents|resident|facility|facilities|census|intake|users|activity/.test(main.className) && !main.querySelector('.senior-list-top')) {
   const back=document.createElement('button');back.type='button';back.className='btn senior-list-top';back.dataset.seniorAction='list-top';back.textContent='Back to top';main.append(back);
  }
+ syncSeniorListTop();
+}
+function syncSeniorListTop() {
+ document.querySelector('.senior-list-top')?.classList.toggle('is-needed',window.scrollY>Math.max(240,window.innerHeight*.75));
 }
 if(typeof document !== 'undefined') {
+ window.addEventListener('scroll',syncSeniorListTop,{passive:true});
  document.addEventListener('click',e=>{
   const button=e.target.closest('[data-senior-action]');if(!button)return;e.preventDefault();
   const action=button.dataset.seniorAction;

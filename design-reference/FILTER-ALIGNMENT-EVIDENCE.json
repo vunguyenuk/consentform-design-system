@@ -1,0 +1,298 @@
+{
+  "date": "2026-10-14",
+  "ipadV2": [
+    {
+      "align": "flex-end",
+      "controls": [
+        {
+          "bottom": 593.5859375,
+          "font": "18px",
+          "h": 51.1953125,
+          "line": "25.2px",
+          "name": "Search name or room…",
+          "pad": "12px 12px 12px 40px",
+          "x": 24,
+          "y": 542.390625
+        },
+        {
+          "bottom": 593.5859375,
+          "font": "18px",
+          "h": 51.1953125,
+          "line": "25.2px",
+          "name": "Patient match",
+          "pad": "12px",
+          "x": 464.34375,
+          "y": 542.390625
+        },
+        {
+          "bottom": 593.5859375,
+          "font": "18px",
+          "h": 51.1953125,
+          "line": "25.2px",
+          "name": "Insurance",
+          "pad": "12px",
+          "x": 630.609375,
+          "y": 542.390625
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "path": "census",
+      "ui": "v2",
+      "filters": [
+        {
+          "align": "flex-end",
+          "controls": [
+            {
+              "bottom": 524.0859375,
+              "font": "18px",
+              "h": 51.1953125,
+              "line": "25.2px",
+              "name": "Search name or room…",
+              "pad": "12px 12px 12px 40px",
+              "x": 24,
+              "y": 472.890625
+            },
+            {
+              "bottom": 524.0859375,
+              "font": "18px",
+              "h": 51.1953125,
+              "line": "25.2px",
+              "name": "Patient match",
+              "pad": "12px",
+              "x": 449.34375,
+              "y": 472.890625
+            },
+            {
+              "bottom": 524.0859375,
+              "font": "18px",
+              "h": 51.1953125,
+              "line": "25.2px",
+              "name": "Insurance",
+              "pad": "12px",
+              "x": 615.609375,
+              "y": 472.890625
+            }
+          ]
+        }
+      ],
+      "layout": {
+        "broken": [],
+        "documentWidth": 805,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "v2",
+        "width": 820
+      }
+    },
+    {
+      "path": "facilities",
+      "ui": "v2",
+      "filters": [
+        {
+          "align": "flex-end",
+          "controls": [
+            {
+              "bottom": 491.7890625,
+              "font": "18px",
+              "h": 51.1953125,
+              "line": "25.2px",
+              "name": "Search facilities…",
+              "pad": "12px 12px 12px 40px",
+              "x": 24,
+              "y": 440.59375
+            },
+            {
+              "bottom": 491.7890625,
+              "font": "18px",
+              "h": 51.1953125,
+              "line": "25.2px",
+              "name": "Facility status",
+              "pad": "12px",
+              "x": 628.71875,
+              "y": 440.59375
+            }
+          ]
+        }
+      ],
+      "layout": {
+        "broken": [],
+        "documentWidth": 805,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "v2",
+        "width": 820
+      }
+    },
+    {
+      "path": "residents",
+      "ui": "v2",
+      "filters": [
+        {
+          "align": "flex-end",
+          "controls": [
+            {
+              "bottom": 443.390625,
+              "font": "18px",
+              "h": 51.1953125,
+              "line": "25.2px",
+              "name": "Search residents or room…",
+              "pad": "12px 12px 12px 40px",
+              "x": 24,
+              "y": 392.1953125
+            },
+            {
+              "bottom": 543.5859375,
+              "font": "18px",
+              "h": 51.1953125,
+              "line": "25.2px",
+              "name": "Facility",
+              "pad": "12px",
+              "x": 24,
+              "y": 492.390625
+            },
+            {
+              "bottom": 543.5859375,
+              "font": "18px",
+              "h": 51.1953125,
+              "line": "25.2px",
+              "name": "Consent status",
+              "pad": "12px",
+              "x": 281.6640625,
+              "y": 492.390625
+            },
+            {
+              "bottom": 543.5859375,
+              "font": "18px",
+              "h": 51.1953125,
+              "line": "25.2px",
+              "name": "Sort",
+              "pad": "12px",
+              "x": 539.3359375,
+              "y": 492.390625
+            }
+          ]
+        }
+      ],
+      "layout": {
+        "broken": [],
+        "documentWidth": 805,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "v2",
+        "width": 820
+      }
+    },
+    {
+      "path": "activity",
+      "ui": "v2",
+      "filters": [
+        {
+          "align": "flex-end",
+          "controls": [
+            {
+              "bottom": 374.390625,
+              "font": "18px",
+              "h": 51.1953125,
+              "line": "25.2px",
+              "name": "Search activity…",
+              "pad": "12px 12px 12px 40px",
+              "x": 24,
+              "y": 323.1953125
+            },
+            {
+              "bottom": 474.5859375,
+              "font": "18px",
+              "h": 51.1953125,
+              "line": "25.2px",
+              "name": "Channels",
+              "pad": "12px",
+              "x": 24,
+              "y": 423.390625
+            },
+            {
+              "bottom": 474.5859375,
+              "font": "18px",
+              "h": 51.1953125,
+              "line": "25.2px",
+              "name": "Purposes",
+              "pad": "12px",
+              "x": 281.6640625,
+              "y": 423.390625
+            },
+            {
+              "bottom": 474.5859375,
+              "font": "18px",
+              "h": 51.1953125,
+              "line": "25.2px",
+              "name": "Results",
+              "pad": "12px",
+              "x": 539.3359375,
+              "y": 423.390625
+            },
+            {
+              "bottom": 574.78125,
+              "font": "18px",
+              "h": 51.1953125,
+              "line": "25.2px",
+              "name": "Facility",
+              "pad": "12px",
+              "x": 24,
+              "y": 523.5859375
+            }
+          ]
+        }
+      ],
+      "layout": {
+        "broken": [],
+        "documentWidth": 805,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "v2",
+        "width": 820
+      }
+    },
+    {
+      "path": "kit?view=emails",
+      "ui": "v2",
+      "filters": [],
+      "layout": {
+        "broken": [],
+        "documentWidth": 820,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "v2",
+        "width": 820
+      }
+    },
+    {
+      "path": "kit?view=tasks",
+      "ui": "v2",
+      "filters": [],
+      "layout": {
+        "broken": [],
+        "documentWidth": 805,
+        "tableOverflow": true,
+        "theme": "light",
+        "tiny": [],
+        "ui": "v2",
+        "width": 820
+      }
+    }
+  ],
+  "verified": [
+    "V1 Census: same input/select top, bottom and 51.195px height",
+    "V1 Messages: Search and Filter same top, bottom and 51.195px height",
+    "390px mobile: same-height controls reflow without overflow",
+    "320px with 200% root text: no overflow or clipped fields",
+    "1280px V1 desktop: search/select top 400px, bottom 432px, height 32px"
+  ],
+  "scope": "Shared filter alignment; search/field values and business actions unchanged"
+}

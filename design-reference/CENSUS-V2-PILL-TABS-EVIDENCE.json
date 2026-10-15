@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-15",
+  "scope": "Only V2 Census review Residents / To check filters",
+  "checks": [
+    {
+      "edition": "figma",
+      "navBorder": "1px",
+      "overflow": false,
+      "tabs": [
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "rgb(22, 22, 24)",
+          "class": "",
+          "current": "page",
+          "height": 50,
+          "radius": "0px",
+          "text": "Residents 8"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "border": "rgba(0, 0, 0, 0)",
+          "class": "",
+          "current": null,
+          "height": 50,
+          "radius": "0px",
+          "text": "To check 0"
+        }
+      ],
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "edition": "v2",
+      "navBorder": "0px",
+      "overflow": false,
+      "tabs": [
+        {
+          "background": "rgba(0, 0, 0, 0.043)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "tab selected",
+          "current": "page",
+          "height": 38,
+          "radius": "10px",
+          "text": "Residents 8"
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "tab",
+          "current": null,
+          "height": 38,
+          "radius": "10px",
+          "text": "To check 0"
+        }
+      ],
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "edition": "v2",
+      "navBorder": "0px",
+      "overflow": false,
+      "tabs": [
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "tab",
+          "current": null,
+          "height": 38,
+          "radius": "10px",
+          "text": "Residents 8"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0.043)",
+          "border": "rgb(15, 15, 16)",
+          "class": "tab selected",
+          "current": "page",
+          "height": 38,
+          "radius": "10px",
+          "text": "To check 0"
+        }
+      ],
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "edition": "v2",
+      "navBorder": "0px",
+      "overflow": false,
+      "tabs": [
+        {
+          "background": "rgba(0, 0, 0, 0.043)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "tab selected",
+          "current": "page",
+          "height": 48,
+          "radius": "10px",
+          "text": "Residents 8"
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "tab",
+          "current": null,
+          "height": 48,
+          "radius": "10px",
+          "text": "To check 0"
+        }
+      ],
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "edition": "v2",
+      "navBorder": "0px",
+      "overflow": false,
+      "tabs": [
+        {
+          "background": "rgba(0, 0, 0, 0.043)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "tab selected",
+          "current": "page",
+          "height": 48,
+          "radius": "10px",
+          "text": "Residents 8"
+        },
+        {
+          "background": "rgb(255, 255, 255)",
+          "border": "rgba(0, 0, 0, 0.075)",
+          "class": "tab",
+          "current": null,
+          "height": 48,
+          "radius": "10px",
+          "text": "To check 0"
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  ],
+  "interaction": "To check 0 showed No rows need review; Residents restored eight rows.",
+  "limitations": "Responsive in-app browser, not physical iOS device verification."
+}

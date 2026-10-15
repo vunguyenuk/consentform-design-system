@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-15",
+  "desktopChecks": [
+    {
+      "buttonHeights": [
+        38,
+        38,
+        38
+      ],
+      "edition": "v2",
+      "headings": [
+        "Census audits"
+      ],
+      "iconOffsets": [],
+      "overflow": false,
+      "route": "#census",
+      "viewport": [
+        1280,
+        900
+      ]
+    },
+    {
+      "buttonHeights": [
+        38,
+        38,
+        38
+      ],
+      "edition": "v2",
+      "headings": [
+        "Facilities",
+        "Facility directory"
+      ],
+      "iconOffsets": [],
+      "overflow": false,
+      "route": "#facilities",
+      "viewport": [
+        1280,
+        900
+      ]
+    },
+    {
+      "buttonHeights": [
+        38,
+        36
+      ],
+      "edition": "v2",
+      "headings": [
+        "Activity log",
+        "Activity history"
+      ],
+      "iconOffsets": [
+        0,
+        0
+      ],
+      "overflow": false,
+      "route": "#activity",
+      "viewport": [
+        1280,
+        900
+      ]
+    },
+    {
+      "buttonHeights": [
+        38,
+        38,
+        38
+      ],
+      "edition": "v2",
+      "headings": [
+        "Residents"
+      ],
+      "iconOffsets": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "overflow": false,
+      "route": "#residents",
+      "viewport": [
+        1280,
+        900
+      ]
+    }
+  ],
+  "confirmation": {
+    "printedFields": 9,
+    "checkboxes": 1,
+    "required": true,
+    "clearedAfterNameEdit": true,
+    "reasonRequired": true,
+    "temporaryDraftDiscarded": true
+  },
+  "touch": {
+    "ipad": [
+      768,
+      1024
+    ],
+    "phone": [
+      390,
+      844
+    ],
+    "inputFont": "16px",
+    "inputHeight": 48,
+    "pageOverflow": false
+  },
+  "largeText": {
+    "body": "32px",
+    "pageOverflow": false,
+    "popupFooterBottom": 992.2734375
+  },
+  "fileOptionsIconTextCenterDelta": 0,
+  "tests": {
+    "pass": 61,
+    "fail": 0
+  },
+  "domainWrites": 0
+}

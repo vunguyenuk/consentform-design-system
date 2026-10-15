@@ -1,0 +1,114 @@
+{
+  "checks": [
+    {
+      "currentStage": "Census review",
+      "edition": "v2",
+      "headerBreadcrumbs": 1,
+      "headerText": "SidebarMenuCensus auditsOct 7, 2026",
+      "mainBreadcrumbs": 0,
+      "overflow": false,
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "currentStage": "Audit results",
+      "edition": "v2",
+      "headerBreadcrumbs": 1,
+      "headerText": "SidebarMenuCensus auditsOct 7, 2026",
+      "mainBreadcrumbs": 0,
+      "overflow": false,
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "currentStage": "Report",
+      "edition": "v2",
+      "headerBreadcrumbs": 1,
+      "headerText": "SidebarMenuCensus auditsOct 7, 2026",
+      "mainBreadcrumbs": 0,
+      "overflow": false,
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "currentStage": "Census review",
+      "edition": "figma",
+      "headerBreadcrumbs": 1,
+      "headerText": "MenuCensus auditsOct 7, 2026",
+      "mainBreadcrumbs": 0,
+      "overflow": false,
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "currentStage": "Audit results",
+      "edition": "figma",
+      "headerBreadcrumbs": 1,
+      "headerText": "MenuCensus auditsOct 7, 2026",
+      "mainBreadcrumbs": 0,
+      "overflow": false,
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "currentStage": "Report",
+      "edition": "figma",
+      "headerBreadcrumbs": 1,
+      "headerText": "MenuCensus auditsOct 7, 2026",
+      "mainBreadcrumbs": 0,
+      "overflow": false,
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "currentStage": "Report",
+      "edition": "figma",
+      "headerBreadcrumbs": 1,
+      "headerText": "MenuCensus auditsOct 7, 2026",
+      "mainBreadcrumbs": 0,
+      "overflow": false,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "currentStage": "Report",
+      "edition": "v2",
+      "headerBreadcrumbs": 1,
+      "headerText": "SidebarMenuCensus auditsOct 7, 2026",
+      "mainBreadcrumbs": 0,
+      "overflow": false,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "currentStage": "Report",
+      "edition": "v2",
+      "headerBreadcrumbs": 1,
+      "headerText": "SidebarMenuCensus auditsOct 7, 2026",
+      "mainBreadcrumbs": 0,
+      "overflow": false,
+      "viewport": [
+        768,
+        1024
+      ]
+    }
+  ],
+  "returnLink": "Census audits returns to list with its ordinary header restored",
+  "domainWrites": 0
+}

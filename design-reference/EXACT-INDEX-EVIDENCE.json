@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-14",
+  "source": "engineer-index-2.html",
+  "method": "same browser tab, same stored demo state and viewport; loaded fonts/images; RGB pixel comparison",
+  "comparisons": [
+    {
+      "screen": "home",
+      "reference_size": [
+        1440,
+        1000
+      ],
+      "implementation_size": [
+        1440,
+        1000
+      ],
+      "different_pixels": 0,
+      "bbox": null
+    },
+    {
+      "screen": "census-review",
+      "reference_size": [
+        1425,
+        990
+      ],
+      "implementation_size": [
+        1425,
+        990
+      ],
+      "different_pixels": 0,
+      "bbox": null
+    },
+    {
+      "screen": "resident-dialog",
+      "reference_size": [
+        1440,
+        1000
+      ],
+      "implementation_size": [
+        1440,
+        1000
+      ],
+      "different_pixels": 0,
+      "bbox": null
+    },
+    {
+      "screen": "facilities-ipad",
+      "reference_size": [
+        820,
+        1180
+      ],
+      "implementation_size": [
+        820,
+        1180
+      ],
+      "different_pixels": 0,
+      "bbox": null
+    },
+    {
+      "screen": "home-mobile",
+      "reference_size": [
+        375,
+        812
+      ],
+      "implementation_size": [
+        375,
+        812
+      ],
+      "different_pixels": 0,
+      "bbox": null
+    }
+  ],
+  "status": "Superseded whole-app replacement; current scope is Census detail only"
+}

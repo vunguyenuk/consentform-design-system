@@ -17,6 +17,7 @@ const ENT_ICON_PATHS={
   "left": "<path d=\"M21 12H4m6-6-6 6 6 6\"/>",
   "chevron": "<path d=\"m9 6 6 6-6 6\"/>",
   "down": "<path d=\"m6 9 6 6 6-6\"/>",
+  "download": "<path d=\"M12 3v13m-5-5 5 5 5-5M3 17v4h18v-4\"/>",
   "upload": "<path d=\"M12 16V3m-5 5 5-5 5 5M3 16v5h18v-5\"/>",
   "close": "<path d=\"m6 6 12 12M18 6 6 18\"/>",
   "check": "<path d=\"m4 12 5 5L20 6\"/>",
@@ -44,3 +45,8 @@ const ENT_ICON_PATHS={
 };
 const ENT_ICON_ALIASES={"kit": "components", "metricMore": "more", "dropdown": "chevron", "theme": "chevron", "storage": "folder", "unread": "mail", "reply": "left", "workspace": "building", "members": "users", "email": "mail", "chat": "chat"};
 function entIcon(name){const key=ENT_ICON_ALIASES[name]||name;const paths=ENT_ICON_PATHS[key]||ENT_ICON_PATHS.file;return `<span class="ent-icon" aria-hidden="true" data-ent-icon="${ENT_ICON_PATHS[key]?key:'file'}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" focusable="false">${paths}</svg></span>`;}
+
+function entActionIcon(action) {
+ const symbol={send:'send',resend:'send',remind:'clock','copy-link':'copy','replace-link':'refer','edit-resident':'edit','account-edit':'edit',source:'file',document:'file',pdf:'file','retry-pdf':'file',download:'download','activity-export':'download','report-export':'download','filters-clear':'filter',reread:'refer','add-row':'plus','remove-visit':'trash'}[action];
+ return symbol?entIcon(symbol):'';
+}

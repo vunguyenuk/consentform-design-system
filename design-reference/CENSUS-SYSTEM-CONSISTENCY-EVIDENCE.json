@@ -1,0 +1,1508 @@
+{
+  "date": "2026-10-15",
+  "states": [
+    {
+      "buttons": [
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 6px",
+          "text": "All audits"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Audit details"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Start audit"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Residents"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Original PDF"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        }
+      ],
+      "edition": "figma",
+      "filters": [],
+      "overflow": false,
+      "reportEmpty": false,
+      "route": "#census?audit=6977b5e7-0023-44a8-a0bd-eec25d0abfea&view=review",
+      "size": [
+        390,
+        844
+      ],
+      "stages": [
+        {
+          "current": "page",
+          "font": "16px",
+          "height": 48,
+          "text": "Census review"
+        },
+        {
+          "current": null,
+          "font": "16px",
+          "height": 48,
+          "text": "Audit results"
+        },
+        {
+          "current": null,
+          "font": "16px",
+          "height": 48,
+          "text": "Report"
+        }
+      ],
+      "title": "Census audit"
+    },
+    {
+      "buttons": [
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 6px",
+          "text": "All audits"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Audit details"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Actions"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Filters"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        }
+      ],
+      "edition": "figma",
+      "filters": [
+        {
+          "bottom": 701.9765625,
+          "height": 48,
+          "text": "Search name or room…",
+          "top": 653.9765625,
+          "width": 310
+        }
+      ],
+      "overflow": false,
+      "reportEmpty": false,
+      "route": "#census?audit=6977b5e7-0023-44a8-a0bd-eec25d0abfea&view=audit",
+      "size": [
+        390,
+        844
+      ],
+      "stages": [
+        {
+          "current": null,
+          "font": "16px",
+          "height": 48,
+          "text": "Census review"
+        },
+        {
+          "current": "page",
+          "font": "16px",
+          "height": 48,
+          "text": "Audit results"
+        },
+        {
+          "current": null,
+          "font": "16px",
+          "height": 48,
+          "text": "Report"
+        }
+      ],
+      "title": "Census audit"
+    },
+    {
+      "buttons": [
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 6px",
+          "text": "All audits"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Audit details"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Create report"
+        }
+      ],
+      "edition": "figma",
+      "filters": [],
+      "overflow": false,
+      "reportEmpty": true,
+      "route": "#census?audit=6977b5e7-0023-44a8-a0bd-eec25d0abfea&view=report",
+      "size": [
+        390,
+        844
+      ],
+      "stages": [
+        {
+          "current": null,
+          "font": "16px",
+          "height": 48,
+          "text": "Census review"
+        },
+        {
+          "current": null,
+          "font": "16px",
+          "height": 48,
+          "text": "Audit results"
+        },
+        {
+          "current": "page",
+          "font": "16px",
+          "height": 48,
+          "text": "Report"
+        }
+      ],
+      "title": "Census audit"
+    },
+    {
+      "buttons": [
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 6px",
+          "text": "All audits"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Audit details"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Start audit"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Residents"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Original PDF"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        }
+      ],
+      "edition": "v2",
+      "filters": [],
+      "overflow": false,
+      "reportEmpty": false,
+      "route": "#census?audit=6977b5e7-0023-44a8-a0bd-eec25d0abfea&view=review",
+      "size": [
+        390,
+        844
+      ],
+      "stages": [
+        {
+          "current": "page",
+          "font": "16px",
+          "height": 48,
+          "text": "Census review"
+        },
+        {
+          "current": null,
+          "font": "16px",
+          "height": 48,
+          "text": "Audit results"
+        },
+        {
+          "current": null,
+          "font": "16px",
+          "height": 48,
+          "text": "Report"
+        }
+      ],
+      "title": "Census audit"
+    },
+    {
+      "buttons": [
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 6px",
+          "text": "All audits"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Audit details"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Actions"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Filters"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        }
+      ],
+      "edition": "v2",
+      "filters": [
+        {
+          "bottom": 649.7890625,
+          "height": 48,
+          "text": "Search name or room…",
+          "top": 601.7890625,
+          "width": 350
+        }
+      ],
+      "overflow": false,
+      "reportEmpty": false,
+      "route": "#census?audit=6977b5e7-0023-44a8-a0bd-eec25d0abfea&view=audit",
+      "size": [
+        390,
+        844
+      ],
+      "stages": [
+        {
+          "current": null,
+          "font": "16px",
+          "height": 48,
+          "text": "Census review"
+        },
+        {
+          "current": "page",
+          "font": "16px",
+          "height": 48,
+          "text": "Audit results"
+        },
+        {
+          "current": null,
+          "font": "16px",
+          "height": 48,
+          "text": "Report"
+        }
+      ],
+      "title": "Census audit"
+    },
+    {
+      "buttons": [
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 6px",
+          "text": "All audits"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Audit details"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Create report"
+        }
+      ],
+      "edition": "v2",
+      "filters": [],
+      "overflow": false,
+      "reportEmpty": true,
+      "route": "#census?audit=6977b5e7-0023-44a8-a0bd-eec25d0abfea&view=report",
+      "size": [
+        390,
+        844
+      ],
+      "stages": [
+        {
+          "current": null,
+          "font": "16px",
+          "height": 48,
+          "text": "Census review"
+        },
+        {
+          "current": null,
+          "font": "16px",
+          "height": 48,
+          "text": "Audit results"
+        },
+        {
+          "current": "page",
+          "font": "16px",
+          "height": 48,
+          "text": "Report"
+        }
+      ],
+      "title": "Census audit"
+    },
+    {
+      "buttons": [
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "All audits"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Audit details"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Start audit"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "File options"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Download file"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Name & date of birth"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "All columns"
+        }
+      ],
+      "edition": "v2",
+      "filters": [],
+      "overflow": false,
+      "reportEmpty": false,
+      "route": "#census?audit=6977b5e7-0023-44a8-a0bd-eec25d0abfea&view=review",
+      "size": [
+        1280,
+        900
+      ],
+      "stages": [
+        {
+          "current": "page",
+          "font": "16px",
+          "height": 46,
+          "text": "Census review"
+        },
+        {
+          "current": null,
+          "font": "16px",
+          "height": 46,
+          "text": "Audit results"
+        },
+        {
+          "current": null,
+          "font": "16px",
+          "height": 46,
+          "text": "Report"
+        }
+      ],
+      "title": "Census audit"
+    },
+    {
+      "buttons": [
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "All audits"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Audit details"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Actions"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Review resident"
+        }
+      ],
+      "edition": "v2",
+      "filters": [
+        {
+          "bottom": 408.1953125,
+          "height": 48,
+          "text": "Search name or room…",
+          "top": 360.1953125,
+          "width": 429
+        },
+        {
+          "bottom": 408.1953125,
+          "height": 48,
+          "text": "All lists",
+          "top": 360.1953125,
+          "width": 160
+        },
+        {
+          "bottom": 408.1953125,
+          "height": 48,
+          "text": "All matches",
+          "top": 360.1953125,
+          "width": 160
+        },
+        {
+          "bottom": 408.1953125,
+          "height": 48,
+          "text": "All coverage",
+          "top": 360.1953125,
+          "width": 160
+        }
+      ],
+      "overflow": false,
+      "reportEmpty": false,
+      "route": "#census?audit=6977b5e7-0023-44a8-a0bd-eec25d0abfea&view=audit",
+      "size": [
+        1280,
+        900
+      ],
+      "stages": [
+        {
+          "current": null,
+          "font": "16px",
+          "height": 46,
+          "text": "Census review"
+        },
+        {
+          "current": "page",
+          "font": "16px",
+          "height": 46,
+          "text": "Audit results"
+        },
+        {
+          "current": null,
+          "font": "16px",
+          "height": 46,
+          "text": "Report"
+        }
+      ],
+      "title": "Census audit"
+    },
+    {
+      "buttons": [
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "All audits"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Audit details"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Create report"
+        }
+      ],
+      "edition": "v2",
+      "filters": [],
+      "overflow": false,
+      "reportEmpty": true,
+      "route": "#census?audit=6977b5e7-0023-44a8-a0bd-eec25d0abfea&view=report",
+      "size": [
+        1280,
+        900
+      ],
+      "stages": [
+        {
+          "current": null,
+          "font": "16px",
+          "height": 46,
+          "text": "Census review"
+        },
+        {
+          "current": null,
+          "font": "16px",
+          "height": 46,
+          "text": "Audit results"
+        },
+        {
+          "current": "page",
+          "font": "16px",
+          "height": 46,
+          "text": "Report"
+        }
+      ],
+      "title": "Census audit"
+    },
+    {
+      "buttons": [
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "All audits"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Audit details"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Start audit"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "File options"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Download file"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Name & date of birth"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "All columns"
+        }
+      ],
+      "edition": "figma",
+      "filters": [],
+      "overflow": false,
+      "reportEmpty": false,
+      "route": "#census?audit=6977b5e7-0023-44a8-a0bd-eec25d0abfea&view=review",
+      "size": [
+        1280,
+        900
+      ],
+      "stages": [
+        {
+          "current": "page",
+          "font": "16px",
+          "height": 46,
+          "text": "Census review"
+        },
+        {
+          "current": null,
+          "font": "16px",
+          "height": 46,
+          "text": "Audit results"
+        },
+        {
+          "current": null,
+          "font": "16px",
+          "height": 46,
+          "text": "Report"
+        }
+      ],
+      "title": "Census audit"
+    },
+    {
+      "buttons": [
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "All audits"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Audit details"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Actions"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Review resident"
+        }
+      ],
+      "edition": "figma",
+      "filters": [
+        {
+          "bottom": 412.1953125,
+          "height": 48,
+          "text": "Search name or room…",
+          "top": 364.1953125,
+          "width": 441
+        },
+        {
+          "bottom": 412.1953125,
+          "height": 48,
+          "text": "All lists",
+          "top": 364.1953125,
+          "width": 160
+        },
+        {
+          "bottom": 412.1953125,
+          "height": 48,
+          "text": "All matches",
+          "top": 364.1953125,
+          "width": 160
+        },
+        {
+          "bottom": 412.1953125,
+          "height": 48,
+          "text": "All coverage",
+          "top": 364.1953125,
+          "width": 160
+        }
+      ],
+      "overflow": false,
+      "reportEmpty": false,
+      "route": "#census?audit=6977b5e7-0023-44a8-a0bd-eec25d0abfea&view=audit",
+      "size": [
+        1280,
+        900
+      ],
+      "stages": [
+        {
+          "current": null,
+          "font": "16px",
+          "height": 46,
+          "text": "Census review"
+        },
+        {
+          "current": "page",
+          "font": "16px",
+          "height": 46,
+          "text": "Audit results"
+        },
+        {
+          "current": null,
+          "font": "16px",
+          "height": 46,
+          "text": "Report"
+        }
+      ],
+      "title": "Census audit"
+    },
+    {
+      "buttons": [
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "All audits"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Audit details"
+        },
+        {
+          "font": "16px",
+          "height": 40.3984375,
+          "padding": "8px 12px",
+          "text": "Create report"
+        }
+      ],
+      "edition": "figma",
+      "filters": [],
+      "overflow": false,
+      "reportEmpty": true,
+      "route": "#census?audit=6977b5e7-0023-44a8-a0bd-eec25d0abfea&view=report",
+      "size": [
+        1280,
+        900
+      ],
+      "stages": [
+        {
+          "current": null,
+          "font": "16px",
+          "height": 46,
+          "text": "Census review"
+        },
+        {
+          "current": null,
+          "font": "16px",
+          "height": 46,
+          "text": "Audit results"
+        },
+        {
+          "current": "page",
+          "font": "16px",
+          "height": 46,
+          "text": "Report"
+        }
+      ],
+      "title": "Census audit"
+    },
+    {
+      "buttons": [
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "All audits"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Audit details"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Start audit"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "File options"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Download file"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Name & date of birth"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "All columns"
+        }
+      ],
+      "edition": "figma",
+      "filters": [],
+      "overflow": false,
+      "reportEmpty": false,
+      "route": "#census?audit=6977b5e7-0023-44a8-a0bd-eec25d0abfea&view=review",
+      "size": [
+        768,
+        1024
+      ],
+      "stages": [
+        {
+          "current": "page",
+          "font": "16px",
+          "height": 48,
+          "text": "Census review"
+        },
+        {
+          "current": null,
+          "font": "16px",
+          "height": 48,
+          "text": "Audit results"
+        },
+        {
+          "current": null,
+          "font": "16px",
+          "height": 48,
+          "text": "Report"
+        }
+      ],
+      "title": "Census audit"
+    },
+    {
+      "buttons": [
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "All audits"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Audit details"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Actions"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        }
+      ],
+      "edition": "figma",
+      "filters": [
+        {
+          "bottom": 445.7890625,
+          "height": 48,
+          "text": "Search name or room…",
+          "top": 397.7890625,
+          "width": 189
+        },
+        {
+          "bottom": 445.7890625,
+          "height": 48,
+          "text": "All lists",
+          "top": 397.7890625,
+          "width": 160
+        },
+        {
+          "bottom": 445.7890625,
+          "height": 48,
+          "text": "All matches",
+          "top": 397.7890625,
+          "width": 160
+        },
+        {
+          "bottom": 445.7890625,
+          "height": 48,
+          "text": "All coverage",
+          "top": 397.7890625,
+          "width": 160
+        }
+      ],
+      "overflow": false,
+      "reportEmpty": false,
+      "route": "#census?audit=6977b5e7-0023-44a8-a0bd-eec25d0abfea&view=audit",
+      "size": [
+        768,
+        1024
+      ],
+      "stages": [
+        {
+          "current": null,
+          "font": "16px",
+          "height": 48,
+          "text": "Census review"
+        },
+        {
+          "current": "page",
+          "font": "16px",
+          "height": 48,
+          "text": "Audit results"
+        },
+        {
+          "current": null,
+          "font": "16px",
+          "height": 48,
+          "text": "Report"
+        }
+      ],
+      "title": "Census audit"
+    },
+    {
+      "buttons": [
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "All audits"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Audit details"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Create report"
+        }
+      ],
+      "edition": "figma",
+      "filters": [],
+      "overflow": false,
+      "reportEmpty": true,
+      "route": "#census?audit=6977b5e7-0023-44a8-a0bd-eec25d0abfea&view=report",
+      "size": [
+        768,
+        1024
+      ],
+      "stages": [
+        {
+          "current": null,
+          "font": "16px",
+          "height": 48,
+          "text": "Census review"
+        },
+        {
+          "current": null,
+          "font": "16px",
+          "height": 48,
+          "text": "Audit results"
+        },
+        {
+          "current": "page",
+          "font": "16px",
+          "height": 48,
+          "text": "Report"
+        }
+      ],
+      "title": "Census audit"
+    },
+    {
+      "buttons": [
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "All audits"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Audit details"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Start audit"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "File options"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Download file"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Name & date of birth"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "All columns"
+        }
+      ],
+      "edition": "v2",
+      "filters": [],
+      "overflow": false,
+      "reportEmpty": false,
+      "route": "#census?audit=6977b5e7-0023-44a8-a0bd-eec25d0abfea&view=review",
+      "size": [
+        768,
+        1024
+      ],
+      "stages": [
+        {
+          "current": "page",
+          "font": "16px",
+          "height": 48,
+          "text": "Census review"
+        },
+        {
+          "current": null,
+          "font": "16px",
+          "height": 48,
+          "text": "Audit results"
+        },
+        {
+          "current": null,
+          "font": "16px",
+          "height": 48,
+          "text": "Report"
+        }
+      ],
+      "title": "Census audit"
+    },
+    {
+      "buttons": [
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "All audits"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Audit details"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Actions"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Review resident"
+        }
+      ],
+      "edition": "v2",
+      "filters": [
+        {
+          "bottom": 456.7890625,
+          "height": 48,
+          "text": "Search name or room…",
+          "top": 408.7890625,
+          "width": 189
+        },
+        {
+          "bottom": 456.7890625,
+          "height": 48,
+          "text": "All lists",
+          "top": 408.7890625,
+          "width": 160
+        },
+        {
+          "bottom": 456.7890625,
+          "height": 48,
+          "text": "All matches",
+          "top": 408.7890625,
+          "width": 160
+        },
+        {
+          "bottom": 456.7890625,
+          "height": 48,
+          "text": "All coverage",
+          "top": 408.7890625,
+          "width": 160
+        }
+      ],
+      "overflow": false,
+      "reportEmpty": false,
+      "route": "#census?audit=6977b5e7-0023-44a8-a0bd-eec25d0abfea&view=audit",
+      "size": [
+        768,
+        1024
+      ],
+      "stages": [
+        {
+          "current": null,
+          "font": "16px",
+          "height": 48,
+          "text": "Census review"
+        },
+        {
+          "current": "page",
+          "font": "16px",
+          "height": 48,
+          "text": "Audit results"
+        },
+        {
+          "current": null,
+          "font": "16px",
+          "height": 48,
+          "text": "Report"
+        }
+      ],
+      "title": "Census audit"
+    },
+    {
+      "buttons": [
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "All audits"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Audit details"
+        },
+        {
+          "font": "16px",
+          "height": 48,
+          "padding": "10px 14px",
+          "text": "Create report"
+        }
+      ],
+      "edition": "v2",
+      "filters": [],
+      "overflow": false,
+      "reportEmpty": true,
+      "route": "#census?audit=6977b5e7-0023-44a8-a0bd-eec25d0abfea&view=report",
+      "size": [
+        768,
+        1024
+      ],
+      "stages": [
+        {
+          "current": null,
+          "font": "16px",
+          "height": 48,
+          "text": "Census review"
+        },
+        {
+          "current": null,
+          "font": "16px",
+          "height": 48,
+          "text": "Audit results"
+        },
+        {
+          "current": "page",
+          "font": "16px",
+          "height": 48,
+          "text": "Report"
+        }
+      ],
+      "title": "Census audit"
+    }
+  ],
+  "tests": {
+    "pass": 58,
+    "fail": 0
+  },
+  "browserInteractions": {
+    "reportTabReadOnly": true,
+    "emptyReport": true,
+    "keepEditingRetainsDraft": true,
+    "discardRestoresOriginal": true,
+    "closeReturnsToAuditResults": true,
+    "allColumnsScrollContained": true
+  },
+  "largeText": {
+    "root": "200%",
+    "viewport": [
+      768,
+      1024
+    ],
+    "pageOverflow": false,
+    "popupFooterBottom": 992.2734375
+  },
+  "domainWritesThisPass": 0,
+  "limitations": [
+    "Responsive browser viewports, no physical iPad/Safari test",
+    "Saved report selection/immutability checked in automated tests, browser used empty Report",
+    "Print output not tested this pass"
+  ]
+}

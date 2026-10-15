@@ -1,5 +1,7 @@
 /* Cliently Light Mode: measured from Figma 6233:50954, 6233:51363, 6233:52203, 6233:50953. */
 :root {
+  --ui-body:1rem; --ui-caption:.875rem; --ui-title:1.125rem; --ui-section:1.25rem; --ui-heading:1.5rem;
+  --ui-control-height:max(48px,3rem);
   --ink:#161618; --muted:#5B5A64; --subtle:#BEBEC8;
   --line:#E5E5EC; --canvas:#F9F9FB; --paper:#FFFFFF; --wash:#F1F1F5;
   --dark:#252528; --primary:#4D41F3; --primary-hover:#392FD0;
@@ -95,7 +97,7 @@ main { padding:0; margin:0; max-width:none; background:white; }
 .tab.selected { background:var(--line); color:var(--ink); }
 .tab-count { padding:0 3px; font-size:12px; }
 .toolbar { display:flex; justify-content:space-between; align-items:center; gap:16px; padding:0 24px 16px; }
-.filters { display:flex; gap:16px; align-items:center; flex-wrap:wrap; }
+.filters { display:flex; gap:16px; align-items:flex-end; flex-wrap:wrap; }
 .search { position:relative; display:flex; align-items:center; min-width:260px; }
 .search .figma-icon { position:absolute; left:16px; }
 .search input { padding-left:40px; width:100%; height:32px; border:1px solid var(--line); border-radius:7px; font-size:12px; }

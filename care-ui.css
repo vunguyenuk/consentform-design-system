@@ -1,0 +1,209 @@
+/* Shared product hierarchy. Document text retains its own adjustable reading scale. */
+:root[data-ui][data-theme] {
+ --ui-body:1rem; --ui-caption:.875rem; --ui-title:1.125rem; --ui-section:1.25rem; --ui-heading:1.5rem;
+ --text-reading:var(--ui-body); --text-label:var(--ui-body); --text-heading:var(--ui-heading);
+ --muted:#414650; --subtle:#505661; --table-heading:var(--muted);
+ --field-border:#818897; --compact-field-border:var(--field-border);
+}
+:root[data-ui][data-theme=dark] { --muted:#D9DDE3; --subtle:#C5CAD3; --field-border:#808B9B; --compact-field-border:var(--field-border); }
+:root[data-ui][data-theme] body { font-size:var(--ui-body); line-height:1.5; letter-spacing:0; }
+:root[data-ui][data-theme] :is(.pagehead h1,.v2-page-title h1,.notes-page > h1,.mail-list-title h1,.help-hero h1,.census-compare-title h1,.care-login-form h1) { font-size:var(--ui-heading); line-height:1.3; letter-spacing:0; }
+:root[data-ui][data-theme] :is(.care-card h2,.sectionhead h2,.modal-head h2,.wf-section h2,.wf-review-section h2,.wf-source-title,.census-panel-heading h2,.census-panel-section h3,.touch-nav-preferences h2) { font-size:var(--ui-section); line-height:1.4; }
+:root[data-ui][data-theme] :is(.record-heading h3,.census-list-name,.census-source-heading h2,.notes-page section > h2,.senior-file-item > div > strong) { font-size:var(--ui-title); line-height:1.4; }
+:root[data-ui][data-theme] :is(.pagehead p,.record-heading p,.census-compare-context,.census-list-location,.census-list-dob,.census-editor-heading p,.census-source-heading p,.care-breadcrumb,.tablefoot,.wf-context p,.wf-intake-status p) { font-size:var(--ui-caption); line-height:1.5; }
+:root[data-ui][data-theme] :is(.btn,.select-trigger,.select-option,.navitem,.favorite,.tab,.cell-link,.rowaction,.under-tabs button,.kit-page-tabs a,.senior-icon-label) { font-size:var(--ui-body); line-height:1.4; letter-spacing:0; }
+:root[data-ui][data-theme] .field > span { font-size:var(--ui-caption)!important; line-height:1.5; }
+:root[data-ui][data-theme] :is(.field input:not([type=checkbox]):not([type=radio]),.field select,.select-trigger,.search input) { font-size:var(--ui-body); line-height:1.5; min-height:var(--ui-control-height); height:var(--ui-control-height); border-color:var(--field-border); }
+/* Align the controls themselves, excluding the label above a filter. */
+:root[data-ui][data-theme] .table-controls { align-items:flex-end; }
+:root[data-ui] .route-residents .care-roster-toolbar { border-top:0; }
+:root[data-ui][data-theme] :is(.table-controls,.care-roster-toolbar) > .tabs > .tab { min-height:var(--ui-control-height); height:auto; }
+:root[data-ui][data-theme] textarea { font-size:var(--ui-body); line-height:1.5; border-color:var(--field-border); }
+:root[data-ui][data-theme] :is(.btn,.select-trigger,input,textarea):focus-visible { outline:0; border-color:var(--focus,var(--ink)); box-shadow:none; }
+:root[data-ui][data-theme] :is(.btn,.navitem,.rowaction):focus-visible { text-decoration:underline; text-decoration-thickness:2px; text-underline-offset:4px; }
+:root[data-ui][data-theme] .btn { box-shadow:none; }
+:root[data-ui][data-theme] :is(.btn,.rowaction) > .ent-icon { width:20px; height:20px; flex:none; }
+:root[data-ui][data-theme] :is(.btn,.rowaction) > .ent-icon svg { width:20px; height:20px; }
+:root[data-ui][data-theme] .wf-verify { gap:8px; }
+:root[data-ui][data-theme] .wf-verify span { font-size:var(--ui-caption); }
+:root[data-ui][data-theme] .record-details > summary { text-decoration:none; display:flex; align-items:center; justify-content:space-between; gap:12px; list-style:none; }
+.record-details > summary::-webkit-details-marker { display:none; }
+.record-details > summary::after { content:'+'; font-size:var(--ui-title); flex:none; }
+.record-details[open] > summary::after { content:'−'; }
+.record-details > summary:focus-visible { outline:1px solid var(--ink); outline-offset:2px; }
+:root[data-ui][data-theme] .census-row-modal .checkline { font-size:var(--ui-caption); }
+:root[data-ui][data-theme] .census-row-modal .census-editor-heading h2 { font-size:var(--ui-section); }
+:root[data-ui][data-theme] .census-row-modal h3 { font-size:var(--ui-title); }
+:root[data-ui][data-theme] .census-row-modal .formgrid { gap:16px 20px; }
+:root[data-ui][data-theme] .census-row-modal .field { gap:6px; }
+:root[data-ui][data-theme] .census-row-modal .census-date-help { font-size:var(--ui-caption); }
+:root[data-ui][data-theme] .senior-confirm { font-size:var(--ui-body); line-height:1.5; }
+:root[data-ui][data-theme] .senior-reader-content { font-size:calc(1.125rem * var(--reader-scale,1)); }
+:root[data-ui][data-theme] .v2-home-hero h1 { font-size:var(--ui-heading); }
+:root[data-ui][data-theme] .v2-shortcuts small { font-size:var(--ui-body); line-height:1.4; }
+:root[data-ui][data-theme] .v2-feature-copy p { font-size:var(--ui-caption); }
+:root[data-ui][data-theme] .demo-tools > summary { min-height:48px; display:flex; align-items:center; gap:8px; cursor:pointer; font-size:var(--ui-caption); }
+.demo-tools { min-width:0; }
+.demo-tools > .navitem { margin-top:4px; }
+@media (max-width:1024px), (any-pointer:coarse) and (max-width:1440px) {
+ :root[data-ui][data-theme] :is(.btn,.rowaction,.iconbtn,.select-trigger,.tab,.navitem,.favorite,.under-tabs button) { min-height:48px; }
+ :root[data-ui][data-theme] .care-record { gap:12px; padding-block:20px; }
+ :root[data-ui][data-theme] .record-state > .status { font-size:var(--ui-body); }
+ :root[data-ui][data-theme] :is(.record-state > p,.record-support,.record-facts li,.record-details,.record-details dt,.record-details dd,.metric-label,.metric-note,.touch-cell-label,.task-deadline,.status,.field small,.wf-original) { font-size:var(--ui-caption); line-height:1.5; }
+ :root[data-ui][data-theme] :is(.search > .senior-search-label,.senior-labelled-control .senior-icon-label) { font-size:var(--ui-caption); }
+ :root[data-ui][data-theme] .v2-shortcuts { grid-template-columns:repeat(auto-fit,minmax(min(100%,8rem),1fr)); gap:12px; }
+ :root[data-ui][data-theme] .v2-shortcuts > a { min-height:104px; padding:12px 8px; gap:8px; }
+ :root[data-ui][data-theme] .v2-shortcuts > a > span { width:56px; height:56px; }
+ :root[data-ui][data-theme] .v2-shortcuts .ent-icon,:root[data-ui][data-theme] .v2-shortcuts .ent-icon svg { width:28px; height:28px; }
+ :root[data-ui][data-theme] .v2-feature-compact { height:auto; min-height:0; padding-block:16px; }
+ :root[data-ui][data-theme] .v2-feature-copy { padding-inline:20px; gap:16px; }
+ :root[data-ui][data-theme] .v2-feature-copy h2 { font-size:var(--ui-section); }
+ :root[data-ui][data-theme] .v2-home-hero { padding-top:24px; }
+ :root[data-ui][data-theme] .v2-shortcuts { margin-top:24px; }
+ :root[data-ui][data-theme] .wf-review-section > summary { padding-block:16px; }
+ :root[data-ui][data-theme] :is(.care-document,.fileline) { padding-block:16px; }
+ :root[data-ui][data-theme] .care-card { padding:20px; }
+}
+@media(max-width:600px) {
+ :root[data-ui][data-theme] .care-roster-toolbar:has(>.filters:not(.touch-filters-expanded)) > .care-date-filters { display:none; }
+ :root[data-ui][data-theme] .care-roster-toolbar > .care-date-filters { gap:12px; }
+ :root[data-ui][data-theme] .v2-announcement { display:none; }
+ :root[data-ui][data-theme] .census-row-modal .census-editor-heading { gap:8px; }
+}
+
+:root[data-ui][data-theme] .care-record .record-details > summary::after { content:'+'; font-size:var(--ui-title); }
+:root[data-ui][data-theme] .care-record .record-details[open] > summary::after { content:'−'; }
+:root[data-ui][data-theme] .care-record .record-heading > p { font-size:var(--ui-caption); }
+:root[data-ui][data-theme] .care-record .record-facts li { font-size:var(--ui-caption); }
+
+/* Home search is one action; workflow names remain visible below it. */
+:root[data-ui][data-theme] .v2-prompt { display:flex; flex-wrap:nowrap; gap:12px; height:auto; min-height:56px; padding:4px 8px 4px 12px; border:1px solid var(--field-border); border-radius:10px; box-shadow:none; }
+:root[data-ui][data-theme] .v2-prompt input { flex:1; width:0; min-width:0; border:0; background:transparent; padding:0; font-size:var(--ui-body); min-height:48px; height:auto; }
+:root[data-ui][data-theme] .v2-prompt:focus-within { border-color:var(--ink); }
+:root[data-ui][data-theme] .v2-prompt > .v2-send { width:auto; min-width:48px; padding:10px 12px; gap:8px; }
+:root[data-ui][data-theme] .v2-feature-compact .v2-feature-copy { display:flex; flex-direction:row; align-items:center; justify-content:space-between; gap:20px; text-align:left; }
+:root[data-ui][data-theme] .v2-feature-compact .v2-feature-text { display:block; min-width:0; }
+:root[data-ui][data-theme] .v2-feature-compact h2 { font-size:var(--ui-section); }
+:root[data-ui][data-theme] .v2-feature-compact .v2-feature-actions { flex:none; }
+:root[data-ui][data-theme] .v2-library-bar .search { position:relative; }
+:root[data-ui][data-theme] .v2-library-bar .search > :is(.ent-icon,.figma-icon,svg) { position:absolute; left:12px; bottom:14px; top:auto; }
+:root[data-ui][data-theme] .v2-quickstart > p { font-size:var(--ui-caption); line-height:1.5; }
+@media (max-width:1024px), (any-pointer:coarse) and (max-width:1440px) {
+ :root[data-ui][data-theme] .route-v2 { padding-inline:var(--page-gutter); }
+ :root[data-ui][data-theme] .v2-library-bar { flex-direction:column; align-items:stretch; gap:12px; padding-bottom:16px; }
+ :root[data-ui][data-theme] .v2-library-bar > .search { width:100%; flex:auto; }
+}
+@media(max-width:600px) {
+ :root[data-ui][data-theme] .v2-feature-compact,:root[data-ui][data-theme] .v2-banner-dots { display:none; }
+ :root[data-ui][data-theme] .v2-home-library { margin-top:24px; }
+}
+
+@media(max-width:1024px) {
+ :root[data-ui][data-theme] .v2-announcement { display:none; }
+}
+
+:root[data-ui][data-theme] .v2-primary-shortcuts { grid-template-columns:repeat(4,minmax(0,1fr)); max-width:52rem; margin-inline:auto; }
+.v2-more-tools { max-width:52rem; margin:12px auto 24px; text-align:left; }
+.v2-more-tools > summary { display:flex; justify-content:center; align-items:center; gap:8px; min-height:48px; list-style:none; cursor:pointer; font-size:var(--ui-body); }
+.v2-more-tools > summary::-webkit-details-marker { display:none; }
+.v2-more-tools > summary::after { content:'+'; }
+.v2-more-tools[open] > summary::after { content:'−'; }
+.v2-more-tools > .v2-shortcuts { margin-top:12px; }
+:root[data-ui][data-theme] .btn > .figma-icon { width:20px; height:20px; object-fit:contain; }
+:root[data-ui][data-theme] :is(.tablewrap th,.tablewrap td) { font-size:var(--ui-body); line-height:1.5; }
+@media(max-width:600px) {
+ :root[data-ui][data-theme] .v2-primary-shortcuts { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+@media(min-width:761px) and (max-width:1024px) {
+ :root[data-ui][data-theme] .route-residents .care-roster-toolbar .filters .search { flex:1 1 15rem; }
+ :root[data-ui][data-theme] .route-residents .care-roster-toolbar .filters .field { flex:0 1 9rem; min-width:8rem; }
+}
+:root[data-ui][data-theme] .btn { min-height:40px; height:auto; padding:8px 12px; }
+:root[data-ui][data-theme] :is(.status,.task-status,.task-deadline,.tablewrap td small) { font-size:var(--ui-caption); line-height:1.5; }
+:root[data-ui][data-theme] .tablewrap td strong { font-size:var(--ui-body); }
+:root[data-ui][data-theme] .care-consent-text p { font-size:1.125rem; line-height:1.7; }
+@media (max-width:1024px), (any-pointer:coarse) and (max-width:1440px) {
+ :root[data-ui][data-theme] .btn { min-height:48px; padding:10px 14px; }
+}
+
+@media(max-width:600px) {
+ :root[data-ui][data-theme] :is(.care-roster-toolbar,.table-controls) > .tabs { display:flex; flex-wrap:wrap; overflow:visible; }
+ :root[data-ui][data-theme] :is(.care-roster-toolbar,.table-controls) > .tabs > .tab { flex:1 1 8rem; min-width:0; max-width:100%; white-space:normal; }
+ :root[data-ui][data-theme] .tab-count { flex:none; }
+}
+
+/* Census uses shared product controls in every stage and dialog. */
+:root[data-ui][data-theme] .census-audit-detail > :is(.table-controls,.sectionhead,.care-record-list,.tablefoot,.wf-report,.wf-context) { padding-inline:0; }
+:root[data-ui][data-theme] .census-detail-tabs { gap:0; margin-bottom:16px; }
+:root[data-ui][data-theme] .census-detail-tabs > a { font-size:var(--ui-body); line-height:1.4; min-height:46px; padding:0 16px; }
+.census-report-controls { display:flex; flex-wrap:wrap; align-items:end; gap:12px; margin-bottom:16px; }
+.census-report-controls .field { margin:0; flex:0 1 20rem; min-width:0; }
+:root[data-ui][data-theme] .census-report-controls:has(>.field) > .btn { min-height:var(--ui-control-height); height:var(--ui-control-height); }
+.census-report .wf-context { padding:0 0 16px; border-bottom:0; flex-wrap:wrap; }
+.census-report .wf-context p { font-size:var(--ui-caption); }
+.census-report-empty { margin-bottom:16px; }
+.census-detail-breadcrumb { padding:0; margin:0 0 12px; font-size:var(--ui-caption); }
+.census-detail-breadcrumb ol { display:flex; flex-wrap:wrap; align-items:center; gap:8px; list-style:none; margin:0; padding:0; }
+.census-detail-breadcrumb li { display:flex; align-items:center; gap:8px; }
+.census-detail-breadcrumb li + li::before { content:'/'; color:var(--muted); }
+.census-detail-breadcrumb a { color:var(--muted); text-decoration:none; }
+.census-detail-breadcrumb a:hover { color:var(--ink); text-decoration:underline; }
+:root[data-ui][data-theme] .census-detail-topbar .header-title { flex:1; min-width:0; }
+:root[data-ui][data-theme] .census-detail-topbar .census-detail-breadcrumb { margin:0; padding:0; min-width:0; font-size:var(--ui-body); }
+.census-detail-topbar .census-detail-breadcrumb ol { row-gap:0; }
+.census-detail-topbar .census-detail-breadcrumb li { min-height:48px; }
+.census-detail-topbar .census-detail-breadcrumb a { display:flex; align-items:center; min-height:48px; }
+@media(max-width:600px) {
+ :root[data-ui][data-theme] .census-detail-topbar .census-detail-breadcrumb { font-size:var(--ui-caption); }
+}
+.census-confirm-readings { margin-top:16px; }
+:is(.sectionhead h2,.panelhead h2,.care-card h2):has(>.ent-icon,>.figma-icon,>svg) { display:flex; align-items:center; gap:8px; }
+:is(.btn,.rowaction) > :is(.ent-icon,.figma-icon,svg) { align-self:center; flex:none; }
+.btn > .ent-icon { line-height:0; }
+.census-document-options > summary > .ent-icon { width:16px; height:16px; }
+.census-document-options > summary > .ent-icon svg { width:16px; height:16px; }
+:root[data-ui][data-theme] .census-sample-original :is(th,td) { font-size:var(--ui-body); line-height:1.5; }
+.census-source-table th { background:var(--canvas); color:var(--muted); font-weight:500; }
+.census-source-table td { font-weight:500; }
+.census-source-selected td:first-child { box-shadow:inset 2px 0 var(--ink); }
+:root[data-ui][data-theme] .census-sample-original caption { font-size:var(--ui-caption); }
+/* V2 census row filters use the same pill tabs as its other resident lists. */
+:root[data-ui=v2] .census-row-tabs { border-bottom:0; }
+:root[data-ui=v2] .census-row-tabs > .tab { height:var(--ui-control-height); min-height:var(--ui-control-height); padding:0 12px; margin-bottom:0; border:1px solid var(--line); }
+:root[data-ui=v2] .census-row-tabs > .tab:is(:hover,:focus-visible) { border-color:var(--ink); outline:0; }
+@media(min-width:601px) {
+ :root[data-ui][data-theme] .census-results .census-filter-bar { flex-wrap:wrap; gap:8px; }
+ :root[data-ui][data-theme] .census-results .census-filter-bar > .search { flex:1 1 7.5rem; min-width:7.5rem; max-width:none; }
+ :root[data-ui][data-theme] .census-results .census-filter-bar > .wf-filter { flex:0 1 9rem; min-width:7rem; }
+ :root[data-ui][data-theme] .census-results .census-filter-bar > .wf-filter:has([data-work-filter=filter]) { flex-basis:12rem; }
+}
+.census-filter-bar > [data-work=filters-clear] { flex:none; min-width:4.5rem; }
+.census-filter-bar > [data-work=filters-clear] > .ent-icon { display:none; }
+:root[data-ui][data-theme] .census-results .census-filter-bar :is(.search input,.select-trigger) { height:var(--ui-control-height); min-height:var(--ui-control-height); box-sizing:border-box; padding-block:10px; }
+:root[data-ui][data-theme] .census-results .census-filter-bar .select-value { white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+@media (max-width:1024px), (any-pointer:coarse) and (max-width:1440px) {
+ :root[data-ui][data-theme] .census-detail-tabs > a { min-height:48px; }
+}
+
+.census-stage-bar { display:flex; align-items:center; flex-wrap:wrap; gap:8px 12px; margin-bottom:16px; }
+:root[data-ui][data-theme] .census-stage-bar > .census-detail-tabs { flex:1; min-width:0; margin-bottom:0; }
+@media(max-width:600px) {
+ :root[data-ui][data-theme] .census-stage-bar > .census-detail-tabs { flex-basis:100%; }
+ :root[data-ui][data-theme] .census-detail-tabs > a { padding-inline:10px; }
+ :root[data-ui][data-theme] .census-results .census-filter-bar > .search { flex:1 1 100%; width:100%; min-width:0; max-width:none; order:0; }
+ :root[data-ui][data-theme] .census-results .census-filter-bar > .touch-filter-toggle { flex:1; width:auto; order:1; }
+ :root[data-ui][data-theme] .census-results .census-filter-bar > [data-work=filters-clear] { order:1; }
+}
+
+/* Mouse/desktop controls use the library's compact size; touch stays 48px. */
+@media(min-width:1025px) and (any-pointer:fine) {
+ :root[data-ui][data-theme] { --ui-control-height:max(38px,2.375rem); }
+ :root[data-ui][data-theme] :is(.btn,.rowaction,.tab,.select-trigger,.search input,.field input:not([type=checkbox]):not([type=radio]),.field select) { font-size:.875rem; line-height:1.4; }
+ :root[data-ui][data-theme] .btn { min-height:38px; padding:8px 12px; }
+ :root[data-ui][data-theme] :is(.table-controls>.btn.small,.care-roster-toolbar .care-date-filters>.btn) { min-height:var(--ui-control-height); height:var(--ui-control-height); }
+ :root[data-ui][data-theme] :is(.field input:not([type=checkbox]):not([type=radio]),.field select,.select-trigger,.search input) { height:var(--ui-control-height); min-height:var(--ui-control-height); padding-block:8px; }
+ :root[data-ui][data-theme] :is(.btn,.rowaction) > .ent-icon,:root[data-ui][data-theme] :is(.btn,.rowaction) > .ent-icon svg { width:18px; height:18px; }
+ :root[data-ui][data-theme] .census-row-modal :is(input:not([type=checkbox]),select,.select-trigger) { height:var(--ui-control-height); min-height:var(--ui-control-height); font-size:.875rem; line-height:1.4; padding-block:8px; }
+ :root[data-ui][data-theme] .census-audit-dialog input { height:var(--ui-control-height); min-height:var(--ui-control-height); font-size:.875rem; line-height:1.4; padding-block:8px; }
+ :root[data-ui][data-theme] .census-results .census-filter-bar :is(.search input,.select-trigger) { padding-block:8px; }
+}

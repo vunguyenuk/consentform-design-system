@@ -5,23 +5,28 @@ let readableNavOpener = null;
 const readableFilterState = new Map();
 
 function prepareReadableFilters(root = document) {
- root.querySelectorAll('.care-roster-toolbar > .filters').forEach((filters, index) => {
+ root.querySelectorAll('.care-roster-toolbar > .filters,.wf-filters').forEach((filters, index) => {
   if (!filters.querySelector(':scope > .field') || filters.querySelector('.touch-filter-toggle')) return;
   const key = location.hash.split('?')[0] + '-' + index;
   const open = readableFilterState.get(key) || false;
+  const dateFilters=filters.parentElement.querySelector(':scope > .care-date-filters');
+  const activeCount=[...filters.querySelectorAll(':scope > .field select')].filter(select=>select.selectedIndex>0).length+[...dateFilters?.querySelectorAll('input')||[]].filter(input=>input.value).length;
+  const inUse=activeCount>0;
   filters.id = 'readable-filters-' + index;
   filters.classList.toggle('touch-filters-expanded', open);
   const button = document.createElement('button');
   button.type = 'button';
   button.className = 'btn touch-filter-toggle';
-  button.textContent = open ? 'Hide filters' : 'Show filters';
+  const content=expanded=>entIcon('filter')+'<span>'+(expanded?'Hide filters':'Filters')+(inUse?' · '+activeCount:'')+'</span>';
+  button.innerHTML=content(open);
   button.setAttribute('aria-expanded', String(open));
-  button.setAttribute('aria-controls', filters.id);
+  if(dateFilters)dateFilters.id='readable-date-filters-'+index;
+  button.setAttribute('aria-controls',filters.id+(dateFilters?' '+dateFilters.id:''));
   button.addEventListener('click', () => {
    const expanded = !filters.classList.contains('touch-filters-expanded');
    filters.classList.toggle('touch-filters-expanded', expanded);
    readableFilterState.set(key, expanded);
-   button.textContent = expanded ? 'Hide filters' : 'Show filters';
+   button.innerHTML=content(expanded);
    button.setAttribute('aria-expanded', String(expanded));
   });
   filters.append(button);
@@ -90,6 +95,23 @@ function syncReadableNavigation() {
  const shell = document.querySelector('.main-shell');
  if (!sidebar || !shell) return;
  sidebar.id = 'main-navigation';
+ // Keep page context on the top bar; appearance controls live in the touch menu.
+ let preferences=sidebar.querySelector('.touch-nav-preferences');
+ const headerControls=document.querySelector('.topbar .header-buttons');
+ if(isReadableTouchLayout() && headerControls) {
+  if(!preferences) {
+   preferences=document.createElement('section');
+   preferences.className='touch-nav-preferences';
+   preferences.setAttribute('aria-label','Display options');
+   preferences.innerHTML='<h2>Display options</h2>';
+   (sidebar.querySelector('.sidebar-bottom')||sidebar).append(preferences);
+  }
+  headerControls.querySelectorAll('.theme-switch,.edition-button').forEach(control=>preferences.append(control));
+ } else if(preferences && headerControls) {
+  const anchor=headerControls.firstChild;
+  preferences.querySelectorAll('.theme-switch,.edition-button').forEach(control=>headerControls.insertBefore(control,anchor));
+  preferences.remove();
+ }
  if (!sidebar.querySelector('.touch-nav-close')) {
   const close = document.createElement('button');
   close.type = 'button';
@@ -114,9 +136,9 @@ function syncReadableNavigation() {
  shell.inert = open;
  if (isReadableTouchLayout()) sidebar.setAttribute('aria-hidden', String(!open));
  else sidebar.removeAttribute('aria-hidden');
- if (open && !sidebar.contains(document.activeElement)) sidebar.querySelector('.touch-nav-close').focus();
+ if (open && !sidebar.contains(document.activeElement)) sidebar.querySelector('.touch-nav-close').focus({preventScroll:true});
  if (!open && readableNavOpener) {
-  if (readableNavOpener.isConnected) readableNavOpener.focus();
+  if (readableNavOpener.isConnected) readableNavOpener.focus({preventScroll:true});
   readableNavOpener = null;
  }
 }

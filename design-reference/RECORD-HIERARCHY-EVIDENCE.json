@@ -1,0 +1,494 @@
+{
+  "checkedAt": "2026-10-14",
+  "mobile": [
+    {
+      "path": "facilities",
+      "measure": {
+        "broken": [],
+        "documentWidth": 390,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "v2",
+        "width": 390
+      },
+      "targets": [],
+      "contrast": {
+        "count": 89,
+        "low": [],
+        "min": 8.616150397143505
+      }
+    },
+    {
+      "path": "residents",
+      "measure": {
+        "broken": [],
+        "documentWidth": 390,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "v2",
+        "width": 390
+      },
+      "targets": [],
+      "contrast": {
+        "count": 129,
+        "low": [],
+        "min": 8.616150397143505
+      }
+    },
+    {
+      "path": "census",
+      "measure": {
+        "broken": [],
+        "documentWidth": 390,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "v2",
+        "width": 390
+      },
+      "targets": [],
+      "contrast": {
+        "count": 153,
+        "low": [],
+        "min": 8.616150397143505
+      }
+    },
+    {
+      "path": "intake",
+      "measure": {
+        "broken": [],
+        "documentWidth": 390,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "v2",
+        "width": 390
+      },
+      "targets": [],
+      "contrast": {
+        "count": 83,
+        "low": [],
+        "min": 8.616150397143505
+      }
+    },
+    {
+      "path": "users",
+      "measure": {
+        "broken": [],
+        "documentWidth": 390,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "v2",
+        "width": 390
+      },
+      "targets": [],
+      "contrast": {
+        "count": 54,
+        "low": [],
+        "min": 8.616150397143505
+      }
+    },
+    {
+      "path": "activity",
+      "measure": {
+        "broken": [],
+        "documentWidth": 390,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "v2",
+        "width": 390
+      },
+      "targets": [],
+      "contrast": {
+        "count": 113,
+        "low": [],
+        "min": 8.616150397143505
+      }
+    },
+    {
+      "path": "facility?fid=f2",
+      "measure": {
+        "broken": [],
+        "documentWidth": 390,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "v2",
+        "width": 390
+      },
+      "targets": [],
+      "contrast": {
+        "count": 157,
+        "low": [],
+        "min": 8.616150397143505
+      }
+    },
+    {
+      "path": "facilities",
+      "measure": {
+        "broken": [],
+        "documentWidth": 390,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "figma",
+        "width": 390
+      },
+      "contrast": {
+        "count": 88,
+        "low": [],
+        "min": 8.409386291199429
+      }
+    },
+    {
+      "path": "residents",
+      "measure": {
+        "broken": [],
+        "documentWidth": 390,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "figma",
+        "width": 390
+      },
+      "contrast": {
+        "count": 129,
+        "low": [],
+        "min": 8.409386291199429
+      }
+    },
+    {
+      "path": "census",
+      "measure": {
+        "broken": [],
+        "documentWidth": 390,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "figma",
+        "width": 390
+      },
+      "contrast": {
+        "count": 153,
+        "low": [],
+        "min": 8.409386291199429
+      }
+    },
+    {
+      "path": "intake",
+      "measure": {
+        "broken": [],
+        "documentWidth": 390,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "figma",
+        "width": 390
+      },
+      "contrast": {
+        "count": 83,
+        "low": [],
+        "min": 8.409386291199429
+      }
+    },
+    {
+      "path": "users",
+      "measure": {
+        "broken": [],
+        "documentWidth": 390,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "figma",
+        "width": 390
+      },
+      "contrast": {
+        "count": 53,
+        "low": [],
+        "min": 8.409386291199429
+      }
+    },
+    {
+      "path": "activity",
+      "measure": {
+        "broken": [],
+        "documentWidth": 390,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "figma",
+        "width": 390
+      },
+      "contrast": {
+        "count": 113,
+        "low": [],
+        "min": 8.409386291199429
+      }
+    },
+    {
+      "path": "facility?fid=f2",
+      "measure": {
+        "broken": [],
+        "documentWidth": 390,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "figma",
+        "width": 390
+      },
+      "contrast": {
+        "count": 157,
+        "low": [],
+        "min": 8.409386291199429
+      }
+    }
+  ],
+  "largeText": [
+    {
+      "path": "facilities",
+      "measure": {
+        "broken": [],
+        "documentWidth": 320,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "figma",
+        "width": 320
+      },
+      "root": "32px"
+    },
+    {
+      "path": "residents",
+      "measure": {
+        "broken": [],
+        "documentWidth": 320,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "figma",
+        "width": 320
+      },
+      "root": "32px"
+    },
+    {
+      "path": "census",
+      "measure": {
+        "broken": [],
+        "documentWidth": 320,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "figma",
+        "width": 320
+      },
+      "root": "32px"
+    },
+    {
+      "path": "intake",
+      "measure": {
+        "broken": [],
+        "documentWidth": 320,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "figma",
+        "width": 320
+      },
+      "root": "32px"
+    },
+    {
+      "path": "users",
+      "measure": {
+        "broken": [],
+        "documentWidth": 320,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "figma",
+        "width": 320
+      },
+      "root": "32px"
+    },
+    {
+      "path": "activity",
+      "measure": {
+        "broken": [],
+        "documentWidth": 320,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "figma",
+        "width": 320
+      },
+      "root": "32px"
+    },
+    {
+      "path": "facility?fid=f2",
+      "measure": {
+        "broken": [],
+        "documentWidth": 320,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "figma",
+        "width": 320
+      },
+      "root": "32px"
+    },
+    {
+      "path": "facilities-expanded-v2",
+      "measure": {
+        "broken": [],
+        "documentWidth": 320,
+        "tableOverflow": false,
+        "theme": "light",
+        "tiny": [],
+        "ui": "v2",
+        "width": 320
+      }
+    }
+  ],
+  "dark": [
+    {
+      "path": "facilities",
+      "measure": {
+        "broken": [],
+        "documentWidth": 390,
+        "tableOverflow": false,
+        "theme": "dark",
+        "tiny": [],
+        "ui": "v2",
+        "width": 390
+      },
+      "contrast": {
+        "count": 83,
+        "low": [],
+        "min": 12.844503990743926
+      }
+    },
+    {
+      "path": "census",
+      "measure": {
+        "broken": [],
+        "documentWidth": 390,
+        "tableOverflow": false,
+        "theme": "dark",
+        "tiny": [],
+        "ui": "v2",
+        "width": 390
+      },
+      "contrast": {
+        "count": 153,
+        "low": [],
+        "min": 12.844503990743926
+      }
+    },
+    {
+      "path": "intake",
+      "measure": {
+        "broken": [],
+        "documentWidth": 390,
+        "tableOverflow": false,
+        "theme": "dark",
+        "tiny": [],
+        "ui": "v2",
+        "width": 390
+      },
+      "contrast": {
+        "count": 78,
+        "low": [],
+        "min": 12.844503990743926
+      }
+    },
+    {
+      "path": "users",
+      "measure": {
+        "broken": [],
+        "documentWidth": 390,
+        "tableOverflow": false,
+        "theme": "dark",
+        "tiny": [],
+        "ui": "v2",
+        "width": 390
+      },
+      "contrast": {
+        "count": 54,
+        "low": [],
+        "min": 12.844503990743926
+      }
+    },
+    {
+      "path": "activity",
+      "measure": {
+        "broken": [],
+        "documentWidth": 390,
+        "tableOverflow": false,
+        "theme": "dark",
+        "tiny": [],
+        "ui": "v2",
+        "width": 390
+      },
+      "contrast": {
+        "count": 113,
+        "low": [],
+        "min": 11.799617732299204
+      }
+    },
+    {
+      "path": "facility?fid=f2",
+      "measure": {
+        "broken": [],
+        "documentWidth": 390,
+        "tableOverflow": false,
+        "theme": "dark",
+        "tiny": [],
+        "ui": "v2",
+        "width": 390
+      },
+      "contrast": {
+        "count": 141,
+        "low": [],
+        "min": 11.799617732299204
+      }
+    }
+  ],
+  "interactions": [
+    "Consent details expanded with keyboard Enter",
+    "Schedule clinic opened the correct facility form; cancelled without saving",
+    "Resident View PDF opened Albert Castillo signed consent",
+    "Reader close confirmation remained active",
+    "Pagination page 2 matched the underlying table rows",
+    "Clear filters reset Signed + unmatched query to all 63 residents",
+    "Appearance controls moved into touch menu and restored on desktop",
+    "File folder names rendered at 22px"
+  ],
+  "limits": [
+    "Browser viewport checks; physical iPad and iOS Safari not tested",
+    "Contrast measured on sampled solid-background text; no full WCAG certification"
+  ],
+  "navigationScroll": {
+    "before": 384.5,
+    "open": 384.5,
+    "closed": 384.5
+  },
+  "pagination": {
+    "normal": {
+      "width": 390,
+      "page": 2,
+      "firstResident": "Carl Murphy",
+      "controlWidth": 169,
+      "controlHeight": 49,
+      "overflow": false
+    },
+    "large": {
+      "width": 320,
+      "rootFont": 32,
+      "overflow": false
+    },
+    "singlePage": "Pagination controls hidden on touch; record summary retained"
+  }
+}

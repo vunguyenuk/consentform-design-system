@@ -35,8 +35,12 @@ Clinic dates use each facility’s timezone; display timestamps use the profile 
 
 localStorage: `ent-consent-workflows.v1` and `ent-care-session.v1`; reset backup: `ent-care-recovery.v1`. IndexedDB: `ent-care-files` / `files`. Storage events synchronize core data/session changes across same-origin tabs; edition remains tab-specific.
 
-Old Census/Intake and UI library datasets are sample sandboxes, not integrated clinical records. Messages/Notes/Tasks in the library do not inherit the source account’s persistent dataset. Source delivery/Drive/auth behavior remains mocked. No Railway deployment or external account changes were made.
+Legacy Census/Intake `#cases` and UI library datasets are sample sandboxes, not integrated clinical records. Ordinary Census/Intake routes now use the persistent local adapters described below. Messages/Notes/Tasks in the library do not inherit the source account’s persistent dataset. Source delivery/Drive/auth behavior remains mocked. No Railway deployment or external account changes were made.
 
 ## Verification
 
 19 domain tests cover source seed, role scope, blocked login, contact failures/retry, signature validation/idempotence, token replacement, DNC, PDF failure, scheduling/cycle, persistence, staff accounts, session invalidation, profile privilege preservation and reset recovery. Browser evidence and limits are recorded in `QA.md`.
+
+## October 14 — updated engineer reference
+
+The new Census and Face-sheet Intake flows are mapped in `design-reference/REFERENCE-2-FEATURE-COVERAGE.md`. Ordinary routes now persist sources and completed reviews, support source correction/comparison, visit evidence, independent coverage, report snapshots and idempotent demo EMR attachment retries. Source images/scans remain manual until an OCR adapter is connected. Legacy `#cases` exercises remain isolated sample sandboxes.

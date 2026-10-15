@@ -1,0 +1,57 @@
+{
+  "scope": "Census comparison and resident review, V1/V2",
+  "skills": [
+    "impeccable",
+    "layout",
+    "distill"
+  ],
+  "named_skill_available": false,
+  "checks": {
+    "viewport_sizes": [
+      [
+        1440,
+        900
+      ],
+      [
+        1024,
+        768
+      ],
+      [
+        820,
+        1180
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "source_text_px": 18,
+    "search_label_px": 18,
+    "mobile_source_name_px": 22,
+    "enlarged_source_text_px": 36,
+    "enlarged_total_control_heights_px": [
+      104,
+      104
+    ],
+    "page_horizontal_overflow": false,
+    "focused_sample_horizontal_overflow": false,
+    "all_columns_retained": 8,
+    "column_mode_retained_on_selection": true,
+    "no_match_recovery": true,
+    "draft_close_reopen_and_cancel": "retained 9, discarded via guard without saving",
+    "keyboard_loop": "Close / last history summary",
+    "pdf_fixture_page": 3,
+    "ipad_pdf_pane_px": 478,
+    "pdf_focus_adapts_to_pane": true,
+    "dark_sample_colors": {
+      "paper": "rgb(255,255,255)",
+      "text": "rgb(32,33,36)"
+    },
+    "node_tests_passed": 48,
+    "new_browser_errors_or_warnings": []
+  },
+  "limits": [
+    "Viewport verification, not physical-device or screen-reader certification",
+    "Fictional fixture data; no clinical/source values saved during UI QA"
+  ]
+}

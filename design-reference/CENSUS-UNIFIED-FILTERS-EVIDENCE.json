@@ -1,0 +1,579 @@
+{
+  "date": "2026-10-15",
+  "scope": "Census Audit results filter simplification",
+  "states": [
+    {
+      "actions": 0,
+      "controls": [
+        {
+          "bottom": 372.7890625,
+          "height": 48,
+          "text": "Name or room…",
+          "top": 324.7890625
+        },
+        {
+          "bottom": 372.7890625,
+          "height": 48,
+          "text": "All residents (8)",
+          "top": 324.7890625
+        },
+        {
+          "bottom": 372.7890625,
+          "height": 48,
+          "text": "All",
+          "top": 324.7890625
+        },
+        {
+          "bottom": 372.7890625,
+          "height": 48,
+          "text": "All",
+          "top": 324.7890625
+        }
+      ],
+      "edition": "v2",
+      "overflow": false,
+      "pills": 0,
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "actions": 0,
+      "controls": [
+        {
+          "bottom": 372.7890625,
+          "height": 48,
+          "text": "Name or room…",
+          "top": 324.7890625
+        },
+        {
+          "bottom": 372.7890625,
+          "height": 48,
+          "text": "Follow-up due (1)",
+          "top": 324.7890625
+        },
+        {
+          "bottom": 372.7890625,
+          "height": 48,
+          "text": "All",
+          "top": 324.7890625
+        },
+        {
+          "bottom": 372.7890625,
+          "height": 48,
+          "text": "All",
+          "top": 324.7890625
+        },
+        {
+          "bottom": 372.7890625,
+          "height": 48,
+          "text": "Clear",
+          "top": 324.7890625
+        }
+      ],
+      "edition": "v2",
+      "overflow": false,
+      "pills": 0,
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "actions": 0,
+      "controls": [
+        {
+          "bottom": 344.7890625,
+          "height": 48,
+          "text": "Name or room…",
+          "top": 296.7890625
+        },
+        {
+          "bottom": 344.7890625,
+          "height": 48,
+          "text": "All residents (8)",
+          "top": 296.7890625
+        },
+        {
+          "bottom": 344.7890625,
+          "height": 48,
+          "text": "All",
+          "top": 296.7890625
+        },
+        {
+          "bottom": 344.7890625,
+          "height": 48,
+          "text": "All",
+          "top": 296.7890625
+        }
+      ],
+      "edition": "figma",
+      "overflow": false,
+      "pills": 0,
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "actions": 0,
+      "controls": [
+        {
+          "bottom": 344.7890625,
+          "height": 48,
+          "text": "Name or room…",
+          "top": 296.7890625
+        },
+        {
+          "bottom": 344.7890625,
+          "height": 48,
+          "text": "Follow-up due (1)",
+          "top": 296.7890625
+        },
+        {
+          "bottom": 344.7890625,
+          "height": 48,
+          "text": "All",
+          "top": 296.7890625
+        },
+        {
+          "bottom": 344.7890625,
+          "height": 48,
+          "text": "All",
+          "top": 296.7890625
+        },
+        {
+          "bottom": 344.7890625,
+          "height": 48,
+          "text": "Clear",
+          "top": 296.7890625
+        }
+      ],
+      "edition": "figma",
+      "overflow": false,
+      "pills": 0,
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "state": "mobile-default",
+      "actions": 0,
+      "controls": [
+        {
+          "bottom": 428.7890625,
+          "height": 48,
+          "text": "Name or room…",
+          "top": 380.7890625
+        }
+      ],
+      "edition": "v2",
+      "overflow": false,
+      "pills": 0,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "state": "mobile-expanded-active",
+      "actions": 0,
+      "controls": [
+        {
+          "bottom": 298.7890625,
+          "height": 48,
+          "text": "Name or room…",
+          "top": 250.7890625
+        },
+        {
+          "bottom": 445.7890625,
+          "height": 48,
+          "text": "Follow-up due (1)",
+          "top": 397.7890625
+        },
+        {
+          "bottom": 532.7890625,
+          "height": 48,
+          "text": "All",
+          "top": 484.7890625
+        },
+        {
+          "bottom": 619.7890625,
+          "height": 48,
+          "text": "All",
+          "top": 571.7890625
+        },
+        {
+          "bottom": 358.7890625,
+          "height": 48,
+          "text": "Clear",
+          "top": 310.7890625
+        }
+      ],
+      "edition": "v2",
+      "overflow": false,
+      "pills": 0,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "state": "mobile-collapsed-active",
+      "actions": 0,
+      "controls": [
+        {
+          "bottom": 385.7890625,
+          "height": 48,
+          "text": "Name or room…",
+          "top": 337.7890625
+        },
+        {
+          "bottom": 445.7890625,
+          "height": 48,
+          "text": "Clear",
+          "top": 397.7890625
+        }
+      ],
+      "edition": "v2",
+      "overflow": false,
+      "pills": 0,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "state": "mobile-default",
+      "actions": 0,
+      "controls": [
+        {
+          "bottom": 412.7890625,
+          "height": 48,
+          "text": "Name or room…",
+          "top": 364.7890625
+        }
+      ],
+      "edition": "figma",
+      "overflow": false,
+      "pills": 0,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "state": "mobile-expanded-active",
+      "actions": 0,
+      "controls": [
+        {
+          "bottom": 304.7890625,
+          "height": 48,
+          "text": "Name or room…",
+          "top": 256.7890625
+        },
+        {
+          "bottom": 445.7890625,
+          "height": 48,
+          "text": "Follow-up due (1)",
+          "top": 397.7890625
+        },
+        {
+          "bottom": 526.7890625,
+          "height": 48,
+          "text": "All",
+          "top": 478.7890625
+        },
+        {
+          "bottom": 607.7890625,
+          "height": 48,
+          "text": "All",
+          "top": 559.7890625
+        },
+        {
+          "bottom": 364.7890625,
+          "height": 48,
+          "text": "Clear",
+          "top": 316.7890625
+        }
+      ],
+      "edition": "figma",
+      "overflow": false,
+      "pills": 0,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "state": "mobile-collapsed-active",
+      "actions": 0,
+      "controls": [
+        {
+          "bottom": 385.7890625,
+          "height": 48,
+          "text": "Name or room…",
+          "top": 337.7890625
+        },
+        {
+          "bottom": 445.7890625,
+          "height": 48,
+          "text": "Clear",
+          "top": 397.7890625
+        }
+      ],
+      "edition": "figma",
+      "overflow": false,
+      "pills": 0,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "state": "desktop-default",
+      "actions": 0,
+      "controls": [
+        {
+          "bottom": 279.1953125,
+          "height": 38,
+          "text": "Name or room…",
+          "top": 241.1953125
+        },
+        {
+          "bottom": 279.1953125,
+          "height": 38,
+          "text": "All residents (8)",
+          "top": 241.1953125
+        },
+        {
+          "bottom": 279.1953125,
+          "height": 38,
+          "text": "All",
+          "top": 241.1953125
+        },
+        {
+          "bottom": 279.1953125,
+          "height": 38,
+          "text": "All",
+          "top": 241.1953125
+        }
+      ],
+      "edition": "figma",
+      "overflow": false,
+      "pills": 0,
+      "viewport": [
+        1280,
+        900
+      ]
+    },
+    {
+      "state": "desktop-active",
+      "actions": 0,
+      "controls": [
+        {
+          "bottom": 306.1953125,
+          "height": 38,
+          "text": "Name or room…",
+          "top": 268.1953125
+        },
+        {
+          "bottom": 306.1953125,
+          "height": 38,
+          "text": "Follow-up due (1)",
+          "top": 268.1953125
+        },
+        {
+          "bottom": 306.1953125,
+          "height": 38,
+          "text": "All",
+          "top": 268.1953125
+        },
+        {
+          "bottom": 306.1953125,
+          "height": 38,
+          "text": "All",
+          "top": 268.1953125
+        },
+        {
+          "bottom": 306.1953125,
+          "height": 38,
+          "text": "Clear",
+          "top": 268.1953125
+        }
+      ],
+      "edition": "figma",
+      "overflow": false,
+      "pills": 0,
+      "viewport": [
+        1280,
+        900
+      ]
+    },
+    {
+      "state": "desktop-default",
+      "actions": 0,
+      "controls": [
+        {
+          "bottom": 319.1953125,
+          "height": 38,
+          "text": "Name or room…",
+          "top": 281.1953125
+        },
+        {
+          "bottom": 319.1953125,
+          "height": 38,
+          "text": "All residents (8)",
+          "top": 281.1953125
+        },
+        {
+          "bottom": 319.1953125,
+          "height": 38,
+          "text": "All",
+          "top": 281.1953125
+        },
+        {
+          "bottom": 319.1953125,
+          "height": 38,
+          "text": "All",
+          "top": 281.1953125
+        }
+      ],
+      "edition": "v2",
+      "overflow": false,
+      "pills": 0,
+      "viewport": [
+        1280,
+        900
+      ]
+    },
+    {
+      "state": "desktop-active",
+      "actions": 0,
+      "controls": [
+        {
+          "bottom": 319.1953125,
+          "height": 38,
+          "text": "Name or room…",
+          "top": 281.1953125
+        },
+        {
+          "bottom": 319.1953125,
+          "height": 38,
+          "text": "Follow-up due (1)",
+          "top": 281.1953125
+        },
+        {
+          "bottom": 319.1953125,
+          "height": 38,
+          "text": "All",
+          "top": 281.1953125
+        },
+        {
+          "bottom": 319.1953125,
+          "height": 38,
+          "text": "All",
+          "top": 281.1953125
+        },
+        {
+          "bottom": 319.1953125,
+          "height": 38,
+          "text": "Clear",
+          "top": 281.1953125
+        }
+      ],
+      "edition": "v2",
+      "overflow": false,
+      "pills": 0,
+      "viewport": [
+        1280,
+        900
+      ]
+    },
+    {
+      "state": "text-200-percent",
+      "actions": 0,
+      "controls": [
+        {
+          "bottom": 574.390625,
+          "height": 70,
+          "text": "Name or room…",
+          "top": 504.390625
+        },
+        {
+          "bottom": 574.390625,
+          "height": 70,
+          "text": "All residents (8)",
+          "top": 504.390625
+        },
+        {
+          "bottom": 700.390625,
+          "height": 70,
+          "text": "All",
+          "top": 630.390625
+        },
+        {
+          "bottom": 700.390625,
+          "height": 70,
+          "text": "All",
+          "top": 630.390625
+        }
+      ],
+      "edition": "v2",
+      "overflow": false,
+      "pills": 0,
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "state": "text-200-percent",
+      "actions": 0,
+      "controls": [
+        {
+          "bottom": 544.390625,
+          "height": 70,
+          "text": "Name or room…",
+          "top": 474.390625
+        },
+        {
+          "bottom": 544.390625,
+          "height": 70,
+          "text": "All residents (8)",
+          "top": 474.390625
+        },
+        {
+          "bottom": 664.390625,
+          "height": 70,
+          "text": "All",
+          "top": 594.390625
+        },
+        {
+          "bottom": 664.390625,
+          "height": 70,
+          "text": "All",
+          "top": 594.390625
+        }
+      ],
+      "edition": "figma",
+      "overflow": false,
+      "pills": 0,
+      "viewport": [
+        768,
+        1024
+      ]
+    }
+  ],
+  "interactions": [
+    "Follow-up due returns one resident; Clear restores eight",
+    "Search Arthur returns one resident",
+    "New residents empty state Clear filters restores eight",
+    "Resident popup close retains active resident group",
+    "Check matches again visible inside Audit details > More review tools"
+  ],
+  "domainWrites": 0,
+  "limitations": "Responsive in-app browser emulation, not physical iPad or iOS Safari testing."
+}

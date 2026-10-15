@@ -1,0 +1,68 @@
+{
+  "scope": "Census review and resident detail only, both existing editions",
+  "checks": {
+    "viewport_sizes": [
+      [
+        1440,
+        900
+      ],
+      [
+        1024,
+        768
+      ],
+      [
+        820,
+        1180
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "enlarged_text_percent": 200,
+    "body_font_px": [
+      18,
+      36
+    ],
+    "enlarged_heading_px": 44,
+    "printed_total_control_height_px": {
+      "normal": [
+        52,
+        52
+      ],
+      "enlarged": [
+        104,
+        104
+      ]
+    },
+    "workspace_geometry_change_on_details_open_px": {
+      "top": 0,
+      "height": 0
+    },
+    "pdf_geometry_change_on_file_options_open_px": 0,
+    "document_horizontal_overflow": false,
+    "sheet_horizontal_overflow": false,
+    "draft_preserved_after": [
+      "Close",
+      "Escape",
+      "cancel leave confirmation"
+    ],
+    "focus_loop": [
+      "Shift+Tab from Close to Back to comparison",
+      "Tab from Back to comparison to Close"
+    ],
+    "nested_confirmation_focus": "Continue without saving",
+    "invalid_source_dob": "01/01/1940 remains Check date of birth, no exception",
+    "pdf_fixture_selected_page": 3,
+    "new_browser_errors_or_warnings": [],
+    "node_tests": {
+      "passed": 48,
+      "failed": 0
+    }
+  },
+  "limits": [
+    "Browser viewport testing, not physical-device or screen-reader certification",
+    "Fictional fixture data only; no source or clinical values saved in panel QA",
+    "User original tab and total draft 7 preserved"
+  ]
+}

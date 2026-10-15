@@ -1,0 +1,749 @@
+{
+  "date": "2026-10-15",
+  "method": "Rendered DOM inspection and browser UI; synthetic screenshots",
+  "states": [
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#facilities",
+      "smallTargets": [],
+      "title": "Facilities",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#residents",
+      "smallTargets": [],
+      "title": "Residents",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#facility?fid=f2",
+      "smallTargets": [],
+      "title": "Oak Terrace Assisted Living",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#resident?id=res-r27",
+      "smallTargets": [],
+      "title": "Albert Castillo",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#resident-new",
+      "smallTargets": [],
+      "title": "Add resident",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#users",
+      "smallTargets": [],
+      "title": "Staff accounts",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#activity",
+      "smallTargets": [],
+      "title": "Activity log",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#settings",
+      "smallTargets": [],
+      "title": "Settings",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#intake",
+      "smallTargets": [],
+      "title": "Face-sheet intake",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#census",
+      "smallTargets": [],
+      "title": "Census audits",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#kit?view=tasks",
+      "smallTargets": [],
+      "title": "Tasks",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#kit?view=notes",
+      "smallTargets": [],
+      "title": "Notes",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#kit?view=emails",
+      "smallTargets": [],
+      "title": "Messages",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#kit?view=help",
+      "smallTargets": [],
+      "title": "Help & Center",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#v2",
+      "smallTargets": [],
+      "title": "Your care workspace",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#facilities",
+      "smallTargets": [],
+      "title": "Facilities",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#residents",
+      "smallTargets": [],
+      "title": "Residents",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#facility?fid=f2",
+      "smallTargets": [],
+      "title": "Oak Terrace Assisted Living",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#resident?id=res-r27",
+      "smallTargets": [],
+      "title": "Albert Castillo",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#resident-new",
+      "smallTargets": [],
+      "title": "Add resident",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#users",
+      "smallTargets": [],
+      "title": "Staff accounts",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#activity",
+      "smallTargets": [],
+      "title": "Activity log",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#settings",
+      "smallTargets": [],
+      "title": "Settings",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#intake",
+      "smallTargets": [],
+      "title": "Face-sheet intake",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#census",
+      "smallTargets": [],
+      "title": "Census audits",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#kit?view=tasks",
+      "smallTargets": [],
+      "title": "Tasks",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#kit?view=notes",
+      "smallTargets": [],
+      "title": "Notes",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#kit?view=emails",
+      "smallTargets": [],
+      "title": "Messages",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#kit?view=help",
+      "smallTargets": [],
+      "title": "How can we help you succeed?",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#v2",
+      "smallTargets": [],
+      "title": "Your care workspace",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#facilities",
+      "smallTargets": [],
+      "title": "Facilities",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#residents",
+      "smallTargets": [],
+      "title": "Residents",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#facility?fid=f2",
+      "smallTargets": [],
+      "title": "Oak Terrace Assisted Living",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#resident?id=res-r27",
+      "smallTargets": [],
+      "title": "Albert Castillo",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#resident-new",
+      "smallTargets": [],
+      "title": "Add resident",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#users",
+      "smallTargets": [],
+      "title": "Staff accounts",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#activity",
+      "smallTargets": [],
+      "title": "Activity log",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#settings",
+      "smallTargets": [],
+      "title": "Settings",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#intake",
+      "smallTargets": [],
+      "title": "Face-sheet intake",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#census",
+      "smallTargets": [],
+      "title": "Census audits",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#kit?view=tasks",
+      "smallTargets": [],
+      "title": "Tasks",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#kit?view=notes",
+      "smallTargets": [],
+      "title": "Notes",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#kit?view=emails",
+      "smallTargets": [],
+      "title": "Messages",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#kit?view=help",
+      "smallTargets": [],
+      "title": "How can we help you succeed?",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "figma",
+      "overflow": false,
+      "route": "#v2",
+      "smallTargets": [],
+      "title": "Your care workspace",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#facilities",
+      "smallTargets": [],
+      "title": "Facilities",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#residents",
+      "smallTargets": [],
+      "title": "Residents",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#facility?fid=f2",
+      "smallTargets": [],
+      "title": "Oak Terrace Assisted Living",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#resident?id=res-r27",
+      "smallTargets": [],
+      "title": "Albert Castillo",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#resident-new",
+      "smallTargets": [],
+      "title": "Add resident",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#users",
+      "smallTargets": [],
+      "title": "Staff accounts",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#activity",
+      "smallTargets": [],
+      "title": "Activity log",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#settings",
+      "smallTargets": [],
+      "title": "Settings",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#intake",
+      "smallTargets": [],
+      "title": "Face-sheet intake",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#census",
+      "smallTargets": [],
+      "title": "Census audits",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#kit?view=tasks",
+      "smallTargets": [],
+      "title": "Tasks",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#kit?view=notes",
+      "smallTargets": [],
+      "title": "Notes",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#kit?view=emails",
+      "smallTargets": [],
+      "title": "Messages",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#kit?view=help",
+      "smallTargets": [],
+      "title": "Help & Center",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "body": "16px",
+      "edition": "v2",
+      "overflow": false,
+      "route": "#v2",
+      "smallTargets": [],
+      "title": "Your care workspace",
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  ],
+  "tests": {
+    "pass": 54,
+    "fail": 0
+  },
+  "reader": {
+    "body": "18px",
+    "controls": "16px",
+    "closeConfirmation": true
+  },
+  "intake": {
+    "editedFieldClearsVerification": true,
+    "keepEditingRetainsDraft": true,
+    "temporaryDraftDiscarded": true
+  },
+  "largeText": {
+    "root": "200%",
+    "widths": [
+      320,
+      768
+    ],
+    "pageOverflow": false
+  },
+  "domainWritesThisPass": 0
+}

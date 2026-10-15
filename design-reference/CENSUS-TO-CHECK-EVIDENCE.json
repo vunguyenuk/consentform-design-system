@@ -1,0 +1,81 @@
+{
+  "scope": "Census To check correction panel, V1/V2",
+  "reference": "design-reference/engineer-index-2.html (x4e / v4e correction popup)",
+  "fixture": "tests/artifacts/census-landscape.pdf (fictional, four pages)",
+  "viewports": [
+    [
+      820,
+      1180
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      320,
+      568
+    ],
+    [
+      844,
+      390
+    ]
+  ],
+  "typography": {
+    "body_px": 18,
+    "editor_heading_px": 22,
+    "field_height_px": 56,
+    "minimum_target_px": 48
+  },
+  "enlarged_text": {
+    "scale": 2,
+    "body_px": 36,
+    "heading_px": 44,
+    "field_height_px": 112,
+    "footer_bottom": 1164,
+    "viewport_height": 1180,
+    "horizontal_overflow": false
+  },
+  "checks": [
+    "Required reason prevents save",
+    "Cancel retains correction draft",
+    "Next/Close require explicit discard",
+    "Successful existing-handler save retains editor and confirmation/history",
+    "Mobile pane switches preserve field text and checkboxes",
+    "Editing a confirmed field clears its visible confirmation",
+    "Closing returns focus to Review resident",
+    "Missing-row and exclusion confirmation dialogs remain accessible",
+    "Focused PDF columns crop adjacent values; Full page clears crop",
+    "Short landscape keeps readable form/PDF scroll areas",
+    "No new browser errors or warnings",
+    "Production cross-tab data listeners keep dirty review DOM; saved-model updates do not replace draft inputs"
+  ],
+  "automated_tests": {
+    "total": 51,
+    "passed": 51
+  },
+  "limits": [
+    "Browser viewport checks, not physical iPad/iOS Safari or screen-reader certification",
+    "Only an unchanged room confirmation and unchanged printed total on the fictional fixture were persisted; no current sample-audit or private patient records were saved.",
+    "Original PDF bytes and clinical model/permissions unchanged"
+  ],
+  "screenshots": [
+    "screenshots/census-to-check-ipad-landscape.png",
+    "screenshots/census-to-check-large-text.png",
+    "screenshots/census-to-check-mobile-pdf.png",
+    "screenshots/census-to-check-small-mobile.png",
+    "screenshots/census-to-check-v1-ipad.png",
+    "screenshots/census-to-check-v1-mobile.png",
+    "screenshots/census-to-check-v2-ipad.png",
+    "screenshots/census-to-check-v2-mobile.png"
+  ],
+  "draft_recovery": {
+    "known_total_draft": "7",
+    "stored_default": "8",
+    "restored_as": "unsaved",
+    "verified_after_other_tab_save": true
+  }
+}
