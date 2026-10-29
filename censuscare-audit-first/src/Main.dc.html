@@ -594,6 +594,46 @@ textarea.msgedit{min-height:150px;line-height:1.6;font-size:13px;resize:vertical
 .drow,.dconf,.stale,.chgnote,.hist{animation:rise-in .2s var(--ease-out) both}
 .drow{animation:none}
 
+/* v35: request face sheets, two columns */
+.drawer-wide{width:min(940px,calc(100% - 20px))}
+.rq{flex:1;min-height:0;display:grid;grid-template-columns:minmax(280px,340px) 1fr}
+.rq-l{display:flex;flex-direction:column;min-height:0;border-right:1px solid #F0F0EE;background:#FCFCFB}
+.rq-lh{display:flex;flex-direction:column;gap:10px;padding:16px 16px 12px;border-bottom:1px solid #F0F0EE}
+.rq-lh .scope b{font-size:13px;font-weight:600;color:#0F0F10}
+.rq-lh .scope span{font-size:12px;color:#8A8A8F}
+.rq-search{position:relative;display:flex;align-items:center}
+.rq-search svg{position:absolute;left:11px;color:#A1A1A6;pointer-events:none}
+.rq-search .inp{padding-left:34px;width:100%}
+.rq-list{flex:1;overflow:auto;padding:6px}
+.rq-item{display:flex;align-items:flex-start;gap:10px;padding:10px;border-radius:10px;cursor:pointer;font-size:13px}
+.rq-item:hover{background:#F4F4F2}
+.rq-item input{width:16px;height:16px;margin:2px 0 0;accent-color:#0F0F10;flex:none}
+.rq-item .dtx{flex:1;min-width:0}
+.rq-item .dtx b{font-weight:500}
+.rq-item .tag{margin:0;flex:none}
+.rq-off{opacity:.7}
+.rq-empty{padding:16px;font-size:13px;color:#8A8A8F}
+.rq-r{overflow:auto;padding:20px 24px 24px;display:flex;flex-direction:column;gap:20px}
+.rq-r>*{animation:rise-in .22s var(--ease-out) both}
+@media (max-width:760px){.rq{grid-template-columns:1fr}.rq-l{border-right:0;border-bottom:1px solid #F0F0EE;max-height:260px}}
+
+/* v36: resident panel with section menu */
+.drawer-res{width:min(900px,calc(100% - 20px))}
+.rp{flex:1;min-height:0;display:grid;grid-template-columns:184px 1fr}
+.rp-nav{display:flex;flex-direction:column;gap:2px;padding:14px 10px;border-right:1px solid #F0F0EE;background:#FCFCFB;overflow:auto}
+.rp-tab{appearance:none;border:0;background:transparent;font:inherit;font-size:13px;font-weight:500;color:#5B5B60;text-align:left;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:34px;padding:0 10px;border-radius:8px}
+.rp-tab:hover{background:#F2F2EF;color:#0F0F10}
+.rp-tab:focus-visible{outline:2px solid #3F6B2E;outline-offset:-2px}
+.rp-on{background:#fff;color:#0F0F10;box-shadow:0 1px 2px rgba(15,15,16,.06),0 0 0 1px rgba(15,15,16,.06)}
+.rp-on:hover{background:#fff}
+.rp-badge{font-size:11px;font-weight:600;min-width:18px;height:18px;padding:0 6px;border-radius:999px;display:inline-flex;align-items:center;justify-content:center;background:#F2F2EF;color:#8A8A8F;box-sizing:border-box}
+.rp-badge.warn{background:#FFF1D6;color:#92400E}
+.rp-badge.alert{background:#FFE4E6;color:#BE123C}
+.rp-body{padding:20px 24px 24px!important}
+.rp-body .hgroup{border-top:0;padding-top:0}
+.hist-tab{border-top:0;padding:0}
+@media (max-width:760px){.rp{grid-template-columns:1fr;grid-template-rows:auto 1fr}.rp-nav{flex-direction:row;overflow-x:auto;border-right:0;border-bottom:1px solid #F0F0EE;padding:8px}.rp-tab{flex:none}}
+
 /* v32: motion — short, eased, interruptible; nothing longer than 280ms */
 :root{--ease-out:cubic-bezier(.2,.8,.2,1);--ease-in:cubic-bezier(.4,0,1,1)}
 @keyframes fade-in{from{opacity:0}to{opacity:1}}
@@ -1053,7 +1093,7 @@ textarea.msgedit{min-height:150px;line-height:1.6;font-size:13px;resize:vertical
 <sc-if value="{{drawerOpen}}" hint-placeholder-val="{{ false }}">
   <div class="{{drawerWrapCls}}" style="display: contents">
   <div class="overlay" onClick="{{closeDrawer}}"></div>
-  <div class="drawer" role="dialog" aria-modal="true" aria-label="{{drawerTitle}}">
+  <div class="drawer {{drawerCls}}" role="dialog" aria-modal="true" aria-label="{{drawerTitle}}">
 
     <!-- Upload (wizard: 1 Facility → 2 Files → 3 Review) -->
     <sc-if value="{{isUpload}}" hint-placeholder-val="{{ true }}">
@@ -1170,7 +1210,20 @@ textarea.msgedit{min-height:150px;line-height:1.6;font-size:13px;resize:vertical
     <!-- Request face sheets -->
     <sc-if value="{{isRequest}}" hint-placeholder-val="{{ false }}">
       <div class="dh"><div><h2>Request face sheets</h2><p>{{au.facName}} · census {{au.date}}</p></div><button class="x" onClick="{{closeDrawer}}" aria-label="Close"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg></button></div>
-      <div class="db" data-key="k13">
+      <div class="rq">
+        <section class="rq-l" aria-label="Residents">
+          <div class="rq-lh">
+            <div class="scope"><b>{{rq.pickedLabel}}</b><button class="link" onClick="{{rq.toggleAll}}">{{rq.allLabel}}</button></div>
+            <div class="rq-search"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg><input class="inp" type="search" placeholder="Search name or room" aria-label="Search residents" value="{{rq.q}}" onChange="{{rq.onQ}}"></div>
+          </div>
+          <div class="rq-list">
+            <sc-for list="{{rq.list}}" as="p" hint-placeholder-count="3">
+              <label class="rq-item {{p.cls}}"><input type="checkbox" checked="{{p.picked}}" onChange="{{p.toggle}}"><span class="dtx"><b>{{p.name}}</b><span>{{p.meta}}</span></span><sc-if value="{{p.hasTag}}" hint-placeholder-val="{{ false }}"><span class="tag {{p.tagCls}}">{{p.tag}}</span></sc-if></label>
+            </sc-for>
+            <sc-if value="{{rq.noMatch}}" hint-placeholder-val="{{ false }}"><p class="rq-empty">No resident matches.</p></sc-if>
+          </div>
+        </section>
+        <div class="rq-r">
         <sc-if value="{{rq.needsEmail}}" hint-placeholder-val="{{ true }}">
           <label class="field">To
             <input class="inp" type="email" placeholder="admissions@facility.example" value="{{rq.draft}}" onChange="{{rq.onDraft}}">
@@ -1180,16 +1233,7 @@ textarea.msgedit{min-height:150px;line-height:1.6;font-size:13px;resize:vertical
         <sc-if value="{{rq.hasEmail}}" hint-placeholder-val="{{ false }}">
           <div class="field">To<div class="src"><div><b>{{rq.email}}</b><span>Facility contact</span></div><button class="link" onClick="{{openEditFac}}">Change</button></div></div>
         </sc-if>
-        <div class="field">
-          <div class="scope"><span>Residents · {{rq.picked}} of {{rq.total}} without a face sheet</span><sc-if value="{{rq.notAll}}" hint-placeholder-val="{{ true }}"><button class="link" onClick="{{rq.selectAll}}">Select all</button></sc-if></div>
-          <div class="picks">
-            <sc-for list="{{rq.list}}" as="p" hint-placeholder-count="2">
-              <label class="pick"><input type="checkbox" checked="{{p.picked}}" onChange="{{p.toggle}}"><span class="pick-name">{{p.name}}</span><span class="pick-room">{{p.room}}</span></label>
-            </sc-for>
-          </div>
-        </div>
         <label class="field"><span>Cc<span class="opt-l">Optional</span></span><input class="inp" type="text" inputmode="email" autocomplete="off" placeholder="don@facility.example, social.services@facility.example" value="{{rq.cc}}" onChange="{{rq.onCc}}"><span class="hint {{rq.ccCls}}">{{rq.ccHint}}</span></label>
-        <label class="chk"><input type="checkbox" checked="{{rq.remind}}" onChange="{{rq.toggleRemind}}"><span><b>Remind the facility in 3 days</b><span class="hint">If no face sheet arrives by 10/29/2026, the request is sent again automatically.</span></span></label>
         <label class="field">Message<textarea class="inp msgedit" value="{{rq.msg}}" onChange="{{rq.onMsg}}"></textarea><span class="hint">Replies go to {{rq.replyTo}} · set in Settings → Contact</span></label>
         <div class="field">Attachments
           <div class="atts">
@@ -1197,14 +1241,19 @@ textarea.msgedit{min-height:150px;line-height:1.6;font-size:13px;resize:vertical
           </div>
           <span class="hint">The list of picked residents with room, resident id and date of birth.</span>
         </div>
+        <label class="chk"><input type="checkbox" checked="{{rq.remind}}" onChange="{{rq.toggleRemind}}"><span><b>Remind the facility in 3 days</b><span class="hint">If no face sheet arrives by 10/29/2026, the request is sent again automatically.</span></span></label>
+        </div>
       </div>
-      <div class="df"><span class="why">{{rq.why}}</span><div class="btns"><button class="btn btn-ghost" onClick="{{closeDrawer}}">Cancel</button><button class="btn btn-pri" disabled="{{rq.disabled}}" onClick="{{rq.send}}">Send request</button></div></div>
+      <div class="df"><span class="why">{{rq.why}}</span><div class="btns"><button class="btn btn-ghost" onClick="{{closeDrawer}}">Cancel</button><button class="btn btn-pri" disabled="{{rq.disabled}}" onClick="{{rq.send}}"><span>{{rq.sendLabel}}</span></button></div></div>
     </sc-if>
 
     <!-- Resident -->
     <sc-if value="{{isResident}}" hint-placeholder-val="{{ false }}">
       <div class="dh"><div class="who" style="align-items: flex-start"><span class="pav" style="width: 40px; height: 40px; font-size: 13px; margin-top: 2px">{{rs.ini}}</span><div><p class="eyebrow">{{rs.headLine}}</p><h2>{{rs.name}}</h2><p>{{rs.idDob}}</p></div></div><button class="x" onClick="{{closeDrawer}}" aria-label="Close"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg></button></div>
-      <div class="db" data-key="k14">
+      <div class="rp">
+      <nav class="rp-nav" aria-label="Resident sections"><sc-for list="{{rs.tabs}}" as="t" hint-placeholder-count="6"><button class="rp-tab {{t.cls}}" aria-current="{{t.cur}}" onClick="{{t.go}}"><span>{{t.label}}</span><sc-if value="{{t.hasBadge}}" hint-placeholder-val="{{ false }}"><b class="rp-badge {{t.badgeCls}}">{{t.badge}}</b></sc-if></button></sc-for></nav>
+      <div class="db rp-body" data-key="{{rs.tabKey}}">
+        <sc-if value="{{rs.tabSummary}}" hint-placeholder-val="{{ true }}">
         <div class="rtop">
           <div class="chips"><span class="chip {{rs.stCls}}">{{rs.stLabel}}</span><span class="chip {{rs.covCls}}">{{rs.covLabel}}</span></div>
           <div class="btns"><sc-if value="{{rs.fromSearch}}" hint-placeholder-val="{{ false }}"><button class="btn btn-sm btn-ghost" onClick="{{rs.openFac}}"><span>Open facility</span></button></sc-if><button class="btn btn-sm" onClick="{{rs.toggleEdit}}">Edit details</button></div>
@@ -1245,14 +1294,13 @@ textarea.msgedit{min-height:150px;line-height:1.6;font-size:13px;resize:vertical
               </sc-if>
             </div>
           </sc-for>
-          <div class="dfoot"><button class="link" onClick="{{rs.toggleHist}}">{{rs.histLabel}}</button><span class="hint">{{rs.histCount}}</span></div>
-          <sc-if value="{{rs.histOpen}}" hint-placeholder-val="{{ false }}">
-            <ol class="hist"><sc-for list="{{rs.hist}}" as="h" hint-placeholder-count="3"><li><span class="src-chip src-{{h.k}}">{{h.src}}</span><div><b>{{h.text}}</b><span class="m">{{h.meta}}</span></div><sc-if value="{{h.canUndo}}" hint-placeholder-val="{{ false }}"><button class="link" onClick="{{h.undo}}">Undo</button></sc-if></li></sc-for></ol>
-          </sc-if>
+          <div class="dfoot"><button class="link" onClick="{{rs.goHist}}">Show history</button><span class="hint">{{rs.histCount}}</span></div>
         </section>
         </sc-if>
         <dl class="kv" style="border-top: 0; padding-top: 0"><dt>On census</dt><dd>{{rs.onCensus}}</dd><dt>Last seen</dt><dd>{{rs.lastSeen}}</dd><dt>Admitted</dt><dd>{{rs.admitted}}</dd><dt>Sex</dt><dd>{{rs.sex}}</dd><dt>Contact</dt><dd>{{rs.contact}}</dd></dl>
+        </sc-if>
 
+        <sc-if value="{{rs.tabCens}}" hint-placeholder-val="{{ false }}">
         <div class="hgroup">
           <div class="hhead"><b>On censuses</b><span>{{rs.censCountLabel}}</span></div>
           <sc-if value="{{rs.hasCens}}" hint-placeholder-val="{{ true }}"><div class="hlist">
@@ -1267,7 +1315,9 @@ textarea.msgedit{min-height:150px;line-height:1.6;font-size:13px;resize:vertical
           </div></sc-if>
           <sc-if value="{{rs.noCens}}" hint-placeholder-val="{{ false }}"><p class="empty-s">{{rs.censEmpty}}</p></sc-if>
         </div>
+        </sc-if>
 
+        <sc-if value="{{rs.tabFs}}" hint-placeholder-val="{{ false }}">
         <div class="hgroup">
           <div class="hhead"><b>Face sheet</b><span>{{rs.fsCountLabel}}</span></div>
           <sc-if value="{{rs.hasFs}}" hint-placeholder-val="{{ true }}"><div class="tl">
@@ -1281,7 +1331,9 @@ textarea.msgedit{min-height:150px;line-height:1.6;font-size:13px;resize:vertical
           </div></sc-if>
           <sc-if value="{{rs.noFs}}" hint-placeholder-val="{{ false }}"><div class="empty-s empty-row"><span>{{rs.fsEmpty}}</span><sc-if value="{{rs.canRequest}}" hint-placeholder-val="{{ false }}"><button class="btn btn-sm btn-accent" onClick="{{rs.request}}"><span>{{rs.reqLabel}}</span></button></sc-if></div></sc-if>
         </div>
+        </sc-if>
 
+        <sc-if value="{{rs.tabIns}}" hint-placeholder-val="{{ false }}">
         <div class="hgroup">
           <div class="hhead"><b>Insurance card</b><span>{{rs.insCountLabel}}</span></div>
           <sc-if value="{{rs.hasIns}}" hint-placeholder-val="{{ true }}"><div class="tl">
@@ -1295,7 +1347,9 @@ textarea.msgedit{min-height:150px;line-height:1.6;font-size:13px;resize:vertical
           </div></sc-if>
           <sc-if value="{{rs.noIns}}" hint-placeholder-val="{{ false }}"><p class="empty-s">No insurance card on file.</p></sc-if>
         </div>
+        </sc-if>
 
+        <sc-if value="{{rs.tabDr}}" hint-placeholder-val="{{ false }}">
         <div class="hgroup">
           <div class="hhead"><b>DrChrono</b><span class="{{rs.drFreshCls}}">{{rs.drFresh}}</span></div>
           <div class="drbox">
@@ -1305,13 +1359,23 @@ textarea.msgedit{min-height:150px;line-height:1.6;font-size:13px;resize:vertical
             <div class="btns"><button class="btn btn-sm" disabled="{{rs.drBusy}}" onClick="{{rs.drRefresh}}"><sc-if value="{{rs.drBusy}}" hint-placeholder-val="{{ false }}"><span class="spin spin-sm"></span></sc-if><sc-if value="{{rs.drIdle}}" hint-placeholder-val="{{ true }}"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11a8 8 0 0 0-14.9-3.5M4 4v4h4M4 13a8 8 0 0 0 14.9 3.5M20 20v-4h-4"></path></svg></sc-if><span>{{rs.drRefreshLabel}}</span></button><button class="btn btn-sm btn-ghost" onClick="{{rs.drChangeLink}}">Change link</button></div>
           </div>
         </div>
+        </sc-if>
 
+        <sc-if value="{{rs.tabNotes}}" hint-placeholder-val="{{ false }}">
         <div class="hgroup">
           <div class="hhead"><b>Notes</b><span>Shared with your team</span></div>
           <sc-for list="{{rs.notes}}" as="n" hint-placeholder-count="0"><div class="note-item"><p>{{n.text}}</p><span>{{n.by}} · {{n.at}}</span></div></sc-for>
           <textarea class="inp" rows="3" aria-label="Note for the team" placeholder="e.g. visit timing or who to call first" value="{{rs.noteDraft}}" onChange="{{rs.onNote}}"></textarea>
           <div class="btns" style="justify-content: space-between"><span class="hint">Also shown on audits.</span><button class="btn btn-sm" disabled="{{rs.noteDisabled}}" onClick="{{rs.addNote}}">Add note</button></div>
         </div>
+        </sc-if>
+        <sc-if value="{{rs.tabHist}}" hint-placeholder-val="{{ false }}">
+          <div class="hgroup">
+            <div class="hhead"><b>History</b><span>{{rs.histCount}}</span></div>
+            <ol class="hist hist-tab"><sc-for list="{{rs.hist}}" as="h" hint-placeholder-count="3"><li><span class="src-chip src-{{h.k}}">{{h.src}}</span><div><b>{{h.text}}</b><span class="m">{{h.meta}}</span></div><sc-if value="{{h.canUndo}}" hint-placeholder-val="{{ false }}"><button class="link" onClick="{{h.undo}}">Undo</button></sc-if></li></sc-for></ol>
+          </div>
+        </sc-if>
+      </div>
       </div>
     </sc-if>
 
@@ -1471,11 +1535,11 @@ class Component extends DCLogic {
       { id: 'r1', rid: '2049', room: '101-A', name: 'Lucio, Humberto', dob: '09/28/1956', last: 'N/A', status: 'new', cov: 'covered', fs: 'onfile', src: 'Page 1 · row 1', page: 'p3', sex: 'M', contact: 'Emergency Contact # 1 · son · (•••) •••-0103' },
       { id: 'r2', rid: '2061', room: '101-B', name: 'Francis Parsons, Eloy', dob: '09/28/1963', last: '04/05/2026', provider: R, drId: 'DC-60021', status: 'due', cov: 'covered', fs: 'onfile', src: 'Page 1 · row 2', page: 'p7', sex: 'M', ins: [{ type: 'MEDICAID', plan: 'Medi-Cal', page: 8, scanned: '10/02/2026' }] },
       { id: 'r3', rid: '2067', room: '104-A', name: 'Carney, Connor', dob: '09/16/1943', last: '10/18/2025', provider: N, drId: 'DC-60014', status: 'due', cov: 'covered', fs: 'onfile', src: 'Page 1 · row 3', page: 'p63', admitted: '12/06/2025', sex: 'M', contact: 'Emergency Contact # 1; POA - Care (Activated); POA - Financial · son · (•••) •••-0106' },
-      { id: 'r4', rid: '2090', room: '105-A', name: 'Melgar Saiz, Miguel', dob: '05/05/1945', last: 'N/A', status: 'new', cov: 'covered', fs: 'onfile', src: 'Page 1 · row 4', page: 'p11', sex: 'M' },
+      { id: 'r4', rid: '2090', room: '105-A', name: 'Melgar Saiz, Miguel', dob: '05/05/1945', last: 'N/A', status: 'new', cov: 'unknown', fs: 'missing', src: 'Page 1 · row 4', page: '', sex: 'M', ins: [] },
       { id: 'r5', rid: '2084', room: '106-A', name: 'Frias, Nathaniel', dob: '07/15/1994', last: 'N/A', status: 'new', cov: 'notcovered', fs: 'onfile', src: 'Page 1 · row 6', page: 'p15', sex: 'M', contact: 'Responsible Party; Resident · self', ins: [] },
       { id: 'r6', rid: '2087', room: '106-B', name: 'Zamora, Angel', dob: '01/27/1953', last: '10/31/2025', provider: K, drId: 'DC-60031', status: 'due', cov: 'covered', fs: 'onfile', src: 'Page 1 · row 7', page: 'p19', sex: 'M' },
-      { id: 'r7', rid: '2082', room: '107-A', name: 'Rhodes, Albert', dob: '01/07/1942', last: '02/17/2026', provider: R, drId: 'DC-60037', status: 'due', cov: 'covered', fs: 'onfile', src: 'Page 1 · row 8', page: 'p23', sex: 'M' },
-      { id: 'r8', rid: '2073', room: '107-B', name: 'Kerr, Ian', dob: '08/12/1958', last: 'N/A', status: 'new', cov: 'covered', fs: 'onfile', src: 'Page 1 · row 9', page: 'p27', sex: 'M' },
+      { id: 'r7', rid: '2082', room: '107-A', name: 'Rhodes, Albert', dob: '01/07/1942', last: '02/17/2026', provider: R, drId: 'DC-60037', status: 'due', cov: 'unknown', fs: 'missing', src: 'Page 1 · row 8', page: '', sex: 'M', ins: [] },
+      { id: 'r8', rid: '2073', room: '107-B', name: 'Kerr, Ian', dob: '08/12/1958', last: 'N/A', status: 'new', cov: 'unknown', fs: 'missing', src: 'Page 1 · row 9', page: '', sex: 'M', ins: [] },
       { id: 'r9', rid: '2094', room: '108-A', name: 'Hale, Pam', dob: '04/21/1936', last: '09/12/2026', provider: K, drId: 'DC-60042', status: 'notdue', cov: 'covered', fs: 'onfile', src: 'Page 1 · row 10', page: 'p31', sex: 'F' },
       { id: 'r10', rid: '2066', room: '108-B', name: 'Parrish, Diamond', dob: '02/15/1942', last: '01/21/2026', provider: N, drId: 'DC-60019', status: 'due', cov: 'covered', fs: 'onfile', src: 'Page 1 · row 11', page: 'p35', sex: 'F' },
       { id: 'r13', rid: '2088', room: '109-B', name: 'Costa, Gerardo', dob: '12/21/1959', last: '09/12/2026', provider: K, drId: 'DC-60028', status: 'notdue', cov: 'covered', fs: 'onfile', src: 'Page 1 · row 12', page: 'p2', admitted: '09/29/2026', sex: 'M', contact: 'Emergency Contact # 1; Responsible Party · daughter · (•••) •••-0145', prevRoom: '105-B', prevSrc: 'Page 1 · row 5',
@@ -1538,7 +1602,7 @@ class Component extends DCLogic {
     };
     this.state = {
       view: 'audits', auditId: 'a1', facId: 'linden', ftab: 'audits', listTab: 'review', facFilter: 'all', filter: 'all',
-      drawer: null, rid: null, ovr: {}, requested: {}, reviewed: { a6: true }, emails: {}, cities: {}, names: {}, extra: [],
+      drawer: null, rid: null, ovr: {}, requested: { r7: true }, reqAt: { r7: '10/17/2026' }, reviewed: { a6: true }, emails: {}, cities: {}, names: {}, extra: [],
       up: { target: '', file: null, ack: false, detected: false, step: 'files', from: null },
       rq: { picked: {}, draft: '', remind: true }, ff: { mode: 'edit', name: '', city: '', email: '' }, toast: '',
       reminders: {}, dueAfter: 6, q: '', qFac: 'all', rfStatus: 'all', rfCov: 'all', rfac: 'linden',
@@ -1708,7 +1772,7 @@ class Component extends DCLogic {
       lastCls: r.last === 'N/A' ? 'dim' : 'num',
       covLabel: r.cov === 'covered' ? 'Covered' : r.cov === 'notcovered' ? 'Not covered' : 'Unknown', covCls: r.cov === 'covered' ? 'q' : 'q-warn',
       fsLabel: r.fs === 'onfile' ? 'On file' : r.requested ? 'Requested' : 'Missing', fsCls: r.fs === 'onfile' ? 'q' : r.requested ? 'chip c-req' : 'chip c-miss',
-      open: () => this.setState({ drawer: 'resident', rid: r.id, rfrom: 'audit', redit: false })
+      open: () => this.setState({ drawer: 'resident', rid: r.id, rfrom: 'audit', redit: false, rtab: 'summary' })
     });
     const filt = (r) => s.filter === 'all' || (!r.notRes && (s.filter === 'missing' ? r.fs === 'missing' : s.filter === 'notcov' ? r.cov === 'notcovered' : r.status === s.filter));
     const SK = { room: (r) => r.room, name: (r) => r.name, last: (r) => { if (r.last === 'N/A') return '0'; const p = r.last.split('/'); return p[2] + p[0] + p[1]; }, status: (r) => ({ due: 0, new: 1, notdue: 2 })[r.status], cov: (r) => ({ notcovered: 0, unknown: 1, covered: 2 })[r.cov], fs: (r) => (r.fs === 'missing' ? (r.requested ? 1 : 0) : 2) };
@@ -1756,6 +1820,8 @@ class Component extends DCLogic {
     const ccBad = ccList.filter((x) => !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(x));
     const defMsg = 'Hello,\n\nCould you send the face sheets and insurance cards for the residents in the attached list? They are on your census of ' + a.date + ' and we do not have their face sheets yet.\n\nThank you,\nENT Spartan';
     const attOff = s.rq.attOff || {};
+    const rqQ = (s.rq.q || '').toLowerCase();
+    const rqShown = missingAll.filter((r) => !rqQ || r.name.toLowerCase().includes(rqQ) || r.room.toLowerCase().includes(rqQ));
     const rq = {
       cc: s.rq.cc || '', onCc: (e) => this.setState({ rq: { ...s.rq, cc: e.target.value } }),
       ccHint: ccBad.length ? 'Check ' + ccBad[0] + ' · separate addresses with commas' : 'Separate addresses with commas', ccCls: ccBad.length ? 'hint-bad' : '',
@@ -1767,16 +1833,25 @@ class Component extends DCLogic {
       onDraft: (e) => this.setState({ rq: { ...s.rq, draft: e.target.value } }),
       picked: pickedN, total: missingAll.length, notAll: pickedN < missingAll.length,
       selectAll: () => { const p = {}; missingAll.forEach((r) => { p[r.id] = true; }); this.setState({ rq: { ...s.rq, picked: p } }); },
-      list: missingAll.map((r) => ({ name: r.name, room: r.room, picked: !!picked[r.id], toggle: () => this.setState({ rq: { ...s.rq, picked: { ...picked, [r.id]: !picked[r.id] } } }) })),
+      q: s.rq.q || '', onQ: (e) => this.setState({ rq: { ...s.rq, q: e.target.value } }),
+      list: rqShown.map((r) => ({ name: r.name, meta: 'Room ' + r.room + ' · DOB ' + r.dob, picked: !!picked[r.id], cls: picked[r.id] ? '' : 'rq-off',
+        hasTag: !!(r.requested || r.newAdmit), tag: r.requested ? 'Requested ' + ((s.reqAt || {})[r.id] || 'today') : 'New admission', tagCls: r.requested ? 'c-req' : '',
+        toggle: () => this.setState({ rq: { ...s.rq, picked: { ...picked, [r.id]: !picked[r.id] } } }) })),
+      noMatch: rqShown.length === 0,
+      pickedLabel: pickedN + ' of ' + missingAll.length + ' picked',
+      allLabel: pickedN === missingAll.length ? 'Clear all' : 'Select all',
+      toggleAll: () => { if (pickedN === missingAll.length) { this.setState({ rq: { ...s.rq, picked: {} } }); return; } const p = {}; missingAll.forEach((r) => { p[r.id] = true; }); this.setState({ rq: { ...s.rq, picked: p } }); },
+      sendLabel: pickedN > 0 ? 'Send for ' + pickedN + ' resident' + (pickedN > 1 ? 's' : '') : 'Send request',
       disabled: !emailOk || pickedN === 0 || ccBad.length > 0 || (attOff.csv && attOff.pdf),
       why: !emailOk ? 'Add the facility email to send.' : pickedN === 0 ? 'Pick at least one resident.' : ccBad.length ? 'Fix the Cc address.' : (attOff.csv && attOff.pdf) ? 'Attach the list as CSV or PDF.' : '',
       send: () => {
         const req = { ...s.requested };
-        missingAll.forEach((r) => { if (picked[r.id]) req[r.id] = true; });
+        const ra = { ...(s.reqAt || {}) };
+        missingAll.forEach((r) => { if (picked[r.id]) { req[r.id] = true; ra[r.id] = '10/29/2026'; } });
         const to = email || s.rq.draft;
         const rem = { ...s.reminders };
         if (s.rq.remind !== false) missingAll.forEach((r) => { if (picked[r.id]) rem[r.id] = true; });
-        this.setState({ requested: req, reminders: rem, emails: email ? s.emails : { ...s.emails, [a.fac]: s.rq.draft }, drawer: null });
+        this.setState({ requested: req, reqAt: ra, reminders: rem, emails: email ? s.emails : { ...s.emails, [a.fac]: s.rq.draft }, drawer: null });
         this.say('Request sent to ' + to + (ccList.length ? ' + ' + ccList.length + ' cc' : '') + ' · ' + pickedN + ' resident' + (pickedN > 1 ? 's' : '') + (s.rq.remind !== false ? ' · auto-reminder 10/29' : ''));
       }
     };
@@ -1884,8 +1959,25 @@ class Component extends DCLogic {
       drNext: drChangedNow && drm.refresh ? drm.refresh.next : drm.next, drIns: drm.ins, drVisits: String(drChangedNow && drm.refresh ? drm.refresh.visits : drm.visits),
       drChangeLink: () => this.say('Pick another DrChrono patient · demo only')
     };
+    const rTab = s.rtab || 'summary';
+    const notesN = ((s.notes || {})[rr.id] || []).length;
+    const needsCall = rr.left || rr.fsOnly ? false : (stConflict || covConflict);
+    const tabDefs = [
+      ['summary', 'Summary', needsCall ? '!' : '', needsCall ? 'alert' : ''],
+      ['cens', 'Censuses', String(rr.censList.length), ''],
+      ['fs', 'Face sheet', rr.fs === 'onfile' ? '' : 'Missing', rr.fs === 'onfile' ? '' : 'alert'],
+      ['ins', 'Insurance card', rr.ins.length ? String(rr.ins.length) : '', ''],
+      ['dr', 'DrChrono', drStale ? 'Old' : '', drStale ? 'warn' : ''],
+      ['notes', 'Notes', notesN ? String(notesN) : '', ''],
+      ['hist', 'History', String(histAll.length), '']
+    ];
+    const rsTabs = {
+      tabs: tabDefs.map(([k, label, badge, bc]) => ({ label, badge, hasBadge: !!badge, badgeCls: bc, cls: rTab === k ? 'rp-on' : '', cur: rTab === k ? 'page' : 'false', go: () => this.setState({ rtab: k }) })),
+      tabKey: 'rp-' + rTab, tabSummary: rTab === 'summary', tabCens: rTab === 'cens', tabFs: rTab === 'fs', tabIns: rTab === 'ins', tabDr: rTab === 'dr', tabNotes: rTab === 'notes', tabHist: rTab === 'hist',
+      goHist: () => this.setState({ rtab: 'hist' })
+    };
     const rsv = {
-      ...rsDec,
+      ...rsDec, ...rsTabs,
       headLine: rfacName + ' · room ' + rr.room, name: rr.name, ini: this.ini(rr.name), idDob: rr.rid + ' · DOB ' + rr.dob, room: rr.room, dob: rr.dob, rid: rr.rid, status: rr.status,
       facName: rfacName, fromSearch: s.rfrom === 'search', openFac: () => this.setState({ drawer: null, view: 'facility', facId: s.rfac || 'linden', ftab: 'residents' }),
       stLabel: curSt[0], stCls: curSt[1],
@@ -2079,7 +2171,7 @@ class Component extends DCLogic {
     });
     const fAudits = sorted.filter((x) => x.fac === f0.id);
     const isLinden = f0.id === 'linden';
-    const openRes = (id, fac) => () => this.setState({ drawer: 'resident', rid: id, rfac: fac || 'linden', rfrom: s.view, redit: false });
+    const openRes = (id, fac) => () => this.setState({ drawer: 'resident', rid: id, rfac: fac || 'linden', rfrom: s.view, redit: false, rtab: 'summary' });
     const extraRows = this.LEFT.map((l) => ({ ...l, ini: this.ini(l.name), subline: l.rid + ' · left after ' + l.lastListed, lastCls: 'num', stLabel: 'Left', stCls: 'c-notdue', covLabel: 'Unknown', covCls: 'q-warn', fsLabel: 'None', fsCls: 'q', open: openRes(l.id) }))
       .concat(this.FSONLY.map((f) => ({ ...f, ini: this.ini(f.name), subline: 'Added from a face sheet · DOB ' + f.dob, lastCls: 'dim', stLabel: 'Not on census', stCls: 'c-out', covLabel: 'Covered', covCls: 'q', fsLabel: 'On file', fsCls: 'q', open: openRes(f.id) })));
     const facResAll = isLinden ? rs.map(decorate).map((r) => ({ ...r, subline: r.rid + ' · DOB ' + r.dob, open: openRes(r.id) })).concat(extraRows) : [];
@@ -2110,7 +2202,7 @@ class Component extends DCLogic {
     const qShown = s.qFac === 'all' ? hits : hits.filter((h) => h.fac === s.qFac);
     const qRows = qShown.map((r) => {
       const d = r.left ? { ...r, ini: this.ini(r.name), stLabel: 'Left', stCls: 'c-notdue', lastCls: 'num' } : r.fsOnly ? { ...r, ini: this.ini(r.name), stLabel: 'Not on census', stCls: 'c-out', lastCls: 'dim' } : decorate(r);
-      return { ...d, facName: nameOf(r.fac), latest: r.latest, censLabel: r.censLabel, open: () => this.setState({ drawer: 'resident', rid: r.id, rfac: r.fac, rfrom: 'search', redit: false }) };
+      return { ...d, facName: nameOf(r.fac), latest: r.latest, censLabel: r.censLabel, open: () => this.setState({ rtab: 'summary', drawer: 'resident', rid: r.id, rfac: r.fac, rfrom: 'search', redit: false }) };
     });
     const qFacets = [{ id: 'all', name: 'All results', n: hits.length }].concat(hitFacs.map((id) => ({ id, name: nameOf(id), n: hits.filter((h) => h.fac === id).length })))
       .map((f) => ({ ...f, cls: s.qFac === f.id ? 'fbtn-on' : '', pick: () => this.setState({ qFac: f.id }) }));
@@ -2232,6 +2324,7 @@ class Component extends DCLogic {
       facResEmptyText: fAudits.length ? 'Prototype: resident rows are mocked for Linden Healthcare Center only.' : 'Residents appear after the first census is uploaded and applied.',
       openEditFac: () => openEditFor(s.view === 'audit' ? a.fac : f0.id),
       openUploadFac: () => this.setState({ drawer: 'upload', up: { target: f0.id, file: null, ack: false, detected: false, step: 'files', from: f0.id } }),
+      drawerCls: s.drawer === 'request' ? 'drawer-wide' : s.drawer === 'resident' ? 'drawer-res' : '',
       drawerOpen: !!s.drawer, drawerTitle: drawerTitles[s.drawer] || '',
       isUpload: s.drawer === 'upload', isRequest: s.drawer === 'request', isResident: s.drawer === 'resident', isFacForm: s.drawer === 'facform',
       closeDrawer: () => this.closeDrawerAnimated(),

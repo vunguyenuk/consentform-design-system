@@ -21,8 +21,8 @@ Sau đó mở `http://127.0.0.1:4173/censuscare-audit-first/`. Font Geist tải 
    - Edit để sửa ngày census và ghi chú của audit.
    - Badge Added / Moved trên từng resident; footer tóm tắt thay đổi so với census trước.
    - Phân trang: chọn 5 / 10 / 25 dòng mỗi trang. Ô chọn tất cả chỉ chọn các dòng của trang đang xem.
-   - Request face sheets: thêm Cc (kiểm tra địa chỉ), sửa nội dung email, bật/tắt file CSV và PDF đính kèm.
-3. **Resident panel** (hai nguồn dữ liệu: tài liệu facility trong CensusCare và DrChrono):
+   - Request face sheets: panel rộng hai cột. Trái: danh sách resident thiếu face sheet (tìm theo tên/phòng, Select all, tag Requested / New admission). Phải: To, Cc (kiểm tra địa chỉ), nội dung email, file CSV/PDF đính kèm, tự nhắc sau 3 ngày. Nút gửi ghi số resident ("Send for 3 residents").
+3. **Resident panel** — menu bên trái (Summary · Censuses · Face sheet · Insurance card · DrChrono · Notes · History), bên phải chỉ hiện mục đang chọn; badge báo mục cần chú ý (! cần quyết định, Old dữ liệu DrChrono cũ, Missing thiếu face sheet). Hai nguồn dữ liệu: tài liệu facility trong CensusCare và DrChrono:
    - **Sources**: chip Census / Face sheet / DrChrono kèm thời điểm đọc; DrChrono đọc trước census mới nhất thì chip chuyển màu cảnh báo.
    - **Decision** (Status · Coverage · Visit policy): mỗi dòng ghi giá trị gợi ý, nguồn gợi ý và lý do; ghi rõ phạm vi (This audit only / This resident, from now on). Đổi bằng tay thì hiện "You" và nút Use suggestion.
    - **Hai nguồn lệch nhau**: hiện hai giá trị cạnh nhau, người dùng chọn một (ví dụ Frias: face sheet không coverage, DrChrono có Medi-Cal). Refresh DrChrono sau khi đã quyết định mà gợi ý đổi (ví dụ Carney: có visit mới 10/22) thì hỏi Keep / Use.
