@@ -113,3 +113,7 @@ Wide mouse desktops use 38px controls / 14px control text; iPad/mobile keeps 48p
 ### Census results — unified filters, October 15
 
 One aligned Search / Show residents / Identity / Coverage toolbar replaces the duplicate pills, resident-list selector and Actions menu. Clear is conditional; matches refresh lives in Audit details. Mobile keeps full-width Search and expandable filters; desktop/touch shared sizes remain 38/48px. 63 tests pass. Scope and evidence: design-reference/CENSUS-UNIFIED-FILTERS.md.
+
+## CensusCare — audit-first prototype
+
+Prototype đề xuất cho CensusCare nằm trong `censuscare-audit-first/`: mở `censuscare-audit-first/index.html` (file độc lập, dữ liệu giả). Luồng demo và cách build lại: `censuscare-audit-first/README.md`.
